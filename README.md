@@ -1,20 +1,12 @@
-# We Painting & Siding
+# We Paint Siding
+Next.js responsive homepage rebuilt from the supplied We Paint Siding New Demo PDF.
 
-Responsive Next.js starter, ready for Vercel. Requires Node.js 24.
+Run npm ci, npm run dev. Production: npm run build, npm start. Deploy the main branch on Vercel with the Next.js preset and default settings.
 
-## Local development
-Run npm ci, then npm run dev.
+All imagery is cropped from the supplied mockup. Text remains live HTML. Includes responsive navigation, native accessible FAQ accordions, local project request draft download, and security headers. Images in the project section are labeled as design inspiration; no invented client counts or testimonials.
 
-## Production
-Run npm run build, then npm start.
+Quote delivery is not configured because no business destination or email service credentials have been supplied. The form explicitly prepares a local downloadable draft and does not claim to send it. Add a validated, rate-limited delivery endpoint before enabling online lead submission. No newsletter subscription is advertised without a delivery provider.
 
-## Vercel
-After the owner explicitly approves a GitHub push, place the project files at the root of WAJAHATSAL33M/we-painting-siding. In Vercel choose Add New Project, connect GitHub, and import the repository. Use the Next.js preset, root directory ., and default build settings. No environment variables are required.
+Homepage navigation currently points to sections; dedicated pages will be added in subsequent work. CSS font stacks approximate the PDF, which has no embedded font resources.
 
-## Content
-Contact details have not been provided; the contact section clearly says they are coming soon. There is no form or data collection. Palette concepts and the original CSS house illustration are illustrative, not client projects. Replace with approved business content before promoting the site.
-
-## Security
-Includes CSP, HSTS, nosniff, frame protection, permissions policy, and referrer policy. Inline scripts/styles are allowed for the Next.js runtime. No secrets, database, accounts, uploads or submission endpoints. Additional security controls will be required for future backend features.
-
-Always wait for explicit GitHub owner confirmation before pushing.
+GitHub pushes require owner authorization for each requested publishing step.
