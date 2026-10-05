@@ -204,3 +204,71 @@ main>.hero{margin-top:0}
 .form-grid{grid-template-columns:1fr}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+/* Marked screenshot corrections: connected content groups, unchanged outer spacing. */
+.hero{align-items:start}
+.hero-copy{grid-column:1;grid-row:1}
+.hero-media{grid-column:2;grid-row:1;display:flex;flex-direction:column;gap:24px;min-width:0}
+.hero-media .scene-photo{height:440px}
+.hero-media .glass-band{margin:0;padding:20px 0 0;border-top:1px solid var(--line)}
+.hero-media .glass-band .benefits{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.hero-media .glass-band .benefits>div{padding:0;border:0;gap:12px;align-items:center}
+.hero-media .glass-band .benefits strong{font-size:10px;letter-spacing:.6px}
+.feature{align-items:start}
+.feature-copy,.cabinets .feature-copy{grid-column:1;grid-row:1}
+.feature-media{grid-column:2;grid-row:1;display:flex;flex-direction:column;gap:24px;min-width:0}
+.feature-media .scene-photo{height:360px}
+.feature-media .feature-center{margin:0;padding:20px 0 0;border-top:1px solid var(--line)}
+.feature-media .benefits.vertical{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.cabinets .feature-media .benefits.vertical{grid-template-columns:repeat(3,minmax(0,1fr))}
+.cabinets .feature-media .benefits.vertical>div{flex-direction:column;align-items:flex-start;gap:12px}
+.service-icons>a{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:14px;padding:18px 12px;background:#ffffff70;border:1px solid #dce5ee;min-width:0}
+.service-icons svg{display:block;flex-shrink:0;margin:0;width:30px;height:30px}
+.service-icons span{display:block;max-width:210px;line-height:1.5}
+.service-icons>a:hover{background:#fff;border-color:var(--blue)}
+.commitment{grid-template-columns:1fr 1fr;gap:56px}
+.commitment>div:last-child>.eyebrow{margin-bottom:18px}
+.faq-intro{display:flex;flex-direction:column;align-self:start}
+.faq-intro>.faq-photo{display:block;margin-top:32px;width:100%;grid-column:auto;grid-row:auto}
+.faq-intro>.faq-photo img{height:240px;width:100%}
+.faq-list{align-self:start}
+.quote-section{grid-template-columns:1fr 1fr;align-items:stretch}
+.quote-copy{grid-row:1;align-self:start}
+.quote-copy>.scene-photo{height:190px;margin-top:28px}
+.quote-form{grid-column:2;grid-row:1;align-self:stretch;display:flex;flex-direction:column;gap:16px}
+.quote-form>.eyebrow,.quote-form>h3,.quote-form>p{margin:0}
+.quote-form>label,.quote-form .form-grid label{margin:0;display:block;font-size:12px;font-weight:600;line-height:1.5}
+.quote-form .form-grid{gap:16px}
+.quote-form input,.quote-form select,.quote-form textarea{margin-top:8px;display:block;padding:12px;font-size:13px;min-height:44px}
+.quote-form textarea{min-height:108px}
+.quote-form .button{margin-top:auto;min-height:48px}
+.quote-form .honeypot{display:none}
+.quote-form .form-status{line-height:1.5;min-height:0}
+@media(max-width:1100px){
+.hero-media .scene-photo{height:360px}
+.hero-media .glass-band .benefits>div{flex-direction:column;align-items:flex-start}
+.commitment{gap:32px}
+.feature-media .benefits.vertical{grid-template-columns:1fr 1fr}
+.cabinets .feature-media .benefits.vertical{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:760px){
+.hero-media,.feature-media{grid-column:1;grid-row:auto;order:2;gap:24px}
+.hero-copy,.feature-copy,.cabinets .feature-copy{grid-column:1;grid-row:auto;order:1}
+.hero-media .scene-photo,.feature-media .scene-photo{height:320px;order:initial}
+.hero-media .glass-band,.feature-media .feature-center{order:initial}
+.hero-media .glass-band .benefits>div{flex-direction:column;align-items:flex-start}
+.commitment{grid-template-columns:1fr;gap:24px}
+.faq-intro>.faq-photo{margin-top:28px}
+.quote-section{grid-template-columns:minmax(0,1fr)}
+.quote-copy,.quote-form{grid-column:1;grid-row:auto}
+.quote-copy{order:1}.quote-form{order:2}
+.quote-copy>.scene-photo{height:220px;order:initial}
+.quote-form{gap:18px}
+}
+@media(max-width:480px){
+.hero-media .scene-photo,.feature-media .scene-photo{height:280px}
+.cabinets .feature-media .benefits.vertical{grid-template-columns:1fr}
+.cabinets .feature-media .benefits.vertical>div{flex-direction:row;align-items:center}
+.service-icons{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.service-icons>a{padding:16px 10px;font-size:11px}
+.hero-media .glass-band .benefits strong{font-size:9px}
+}

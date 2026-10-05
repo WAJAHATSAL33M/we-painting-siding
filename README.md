@@ -10,6 +10,9 @@ Vercel: Next.js preset, repository root, default build settings.
 ## Clean layout update
 Handwritten accents and signature wrappers are removed. The homepage uses a wider 1480px container with fluid gutters, clear spacing between sections, matching service cards with aligned image and content columns, and normal-flow image captions. Desktop, tablet and mobile grids use explicit breakpoints, with single-column service cards and gallery cards on small phones. All core sections, branding, imagery, links and form behaviors are preserved.
 
+## Marked screenshot corrections
+Hero and feature imagery are grouped with their benefit rows. Detached captions are removed, exterior service icons are aligned in cards, the commitment label is part of its copy, FAQ imagery sits below the intro, and the quote form uses visible labels alongside compact supporting imagery. The existing container width, gutters and section spacing are retained.
+
 ## Reference design
 The 11 reference sections are preserved:
 1. Header and fresh-finish hero.
