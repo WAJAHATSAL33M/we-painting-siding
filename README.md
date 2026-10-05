@@ -7,6 +7,9 @@ Node.js 24. Run npm ci, then npm run dev.
 Production: npm run build, then npm start.
 Vercel: Next.js preset, repository root, default build settings.
 
+## Clean layout update
+Brush-edge shapes, paint underlines, decorative stroke dividers and brush backgrounds have been removed. Handwritten accents are horizontal and occupy dedicated layout space. Text, photos, resource cards, captions and forms use aligned grids with consistent section padding. Mobile layouts place section copy before photography. Gallery captions appear below photos. The existing colors, fonts, images, and section content are retained.
+
 ## Reference design
 The 11 reference sections are preserved:
 1. Header and fresh-finish hero.
@@ -48,4 +51,4 @@ Homepage-only navigation uses section links until the remaining website pages ar
 ## Validation
 Production compilation and static page generation passed with webpack. Workspace memory-reporting compatibility was supplied through an untracked test-only preload; it is not part of the app or deployment. Built HTML is checked for a single H1, valid section anchors, new image files, alternative text and all expected FAQ/dropdown controls. Browser visual verification is unavailable in this workspace.
 
-GitHub pushes require the owner's authorization.
+The owner has authorized pushing and deploying requested changes without repeated confirmation.
