@@ -8,12 +8,12 @@ Production: npm run build, then npm start.
 Vercel: Next.js preset, repository root, default build settings.
 
 ## Clean layout update
-Brush-edge shapes, paint underlines, decorative stroke dividers and brush backgrounds have been removed. Handwritten accents are horizontal and occupy dedicated layout space. Text, photos, resource cards, captions and forms use aligned grids with consistent section padding. Mobile layouts place section copy before photography. Gallery captions appear below photos. The existing colors, fonts, images, and section content are retained.
+Handwritten accents and signature wrappers are removed. The homepage uses a wider 1480px container with fluid gutters, clear spacing between sections, matching service cards with aligned image and content columns, and normal-flow image captions. Desktop, tablet and mobile grids use explicit breakpoints, with single-column service cards and gallery cards on small phones. All core sections, branding, imagery, links and form behaviors are preserved.
 
 ## Reference design
 The 11 reference sections are preserved:
 1. Header and fresh-finish hero.
-2. Two core services, brush dividers, and benefits strip.
+2. Two aligned service cards and benefits strip.
 3. Exterior painting feature and ten service icons.
 4. Five-step painting process and commitment band.
 5. Cabinet painting feature and five cabinetry service summaries.
@@ -22,7 +22,7 @@ The 11 reference sections are preserved:
 8. About feature, craftsmanship sidebar, and benefits strip.
 9. Seven FAQ accordions and three contact options.
 10. Quote section with project form.
-11. Brush-edged footer, brand mark, five columns, social controls, newsletter form, and legal links.
+11. Clean footer, brand mark, five columns, social controls, newsletter form, and legal links.
 
 Sampled reference colors: paper #f5f4f3, heading ink #071b2c, primary blue #0968af. Poppins 400–900 and Allura 400 are self-hosted under public/fonts, with SIL Open Font License notices included. The original PDF has no font resources; these fonts were selected by visual comparison, not extracted.
 
