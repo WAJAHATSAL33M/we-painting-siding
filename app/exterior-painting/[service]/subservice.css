@@ -1,0 +1,112 @@
+.subservice-page .subservice-split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;align-items:start}
+.subservice-page .subservice-hero{margin-top:0;align-items:stretch}
+.subservice-page h1{font-size:clamp(44px,4.4vw,68px);line-height:1.04;letter-spacing:-2.5px;margin:0}
+.subservice-page p:not(.eyebrow){font-size:15px;line-height:1.7}
+.subservice-page .benefits{gap:24px;align-items:flex-start}
+.subservice-page .benefits>div{padding:0;border:0;min-width:0;gap:12px;flex-direction:column}
+.subservice-page .benefits svg{width:30px;height:30px;flex-shrink:0}
+.subservice-page .benefits strong{font-size:13px;line-height:1.5}
+.subservice-page .benefits p{font-size:12px;line-height:1.6}
+.subservice-hero>div{min-width:0}
+.subservice-hero>div>p{margin:24px 0}
+.subservice-hero .benefits{margin-top:32px}
+.subservice-hero-media{display:flex;flex-direction:column;min-width:0}
+.subservice-hero-media>img{height:0;min-height:420px;flex:1}
+.subservice-image-note{background:var(--navy);color:#dbeaf4;padding:24px;font-size:11px;letter-spacing:1px;line-height:1.7;margin-top:24px}
+.subservice-explanation-grid{display:grid;grid-template-columns:1fr 1.1fr .8fr;gap:32px;align-items:start}
+.subservice-explanation-grid>div{min-width:0}
+.subservice-explanation-grid>div>p:first-child{margin-top:0}
+.subservice-explanation-grid>img{height:420px}
+.subservice-band{background:var(--light);padding:28px;margin-top:36px}
+.subservice-band .benefits{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}
+.subservice-coverage-top{display:grid;grid-template-columns:1fr 1.1fr .7fr;gap:32px;align-items:start}
+.subservice-coverage-top>img{height:340px}
+.subservice-coverage-note{padding:24px;background:var(--light);border:1px solid #d5e4ef}
+.subservice-coverage-note h3{font-size:21px;letter-spacing:-.4px}
+.subservice-page .subservice-coverage-note p{font-size:13px;margin-bottom:0}
+.subservice-coverage-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;margin-top:36px}
+.subservice-coverage-grid article{border-top:1px solid #d0e1ee;padding-top:24px;min-width:0}
+.subservice-coverage-grid svg{width:30px;height:30px;margin-bottom:20px}
+.subservice-coverage-grid h3{font-size:20px;letter-spacing:-.4px}
+.subservice-page .subservice-coverage-grid p{font-size:13px;margin-bottom:0}
+.subservice-approach>p{max-width:900px}
+.subservice-process-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;margin-top:36px}
+.subservice-step-title{min-height:64px;display:flex;gap:16px;align-items:start;margin-bottom:20px}
+.subservice-step-title b{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:38px;height:38px;border-radius:50%;background:#e0f0fb;color:var(--blue);font-size:13px}
+.subservice-step-title h3{font-size:21px;letter-spacing:-.4px}
+.subservice-step-title small{display:block;font-size:11px;color:var(--body);line-height:1.5;margin-top:6px}
+.subservice-process-grid img{height:170px}
+.subservice-page .subservice-process-grid p{font-size:13px;margin-bottom:0}
+.subservice-commitment{display:flex;align-items:center;gap:28px;padding:28px;background:var(--light);margin-top:36px}
+.subservice-commitment>svg{width:36px;height:36px;flex-shrink:0}
+.subservice-commitment>div:nth-child(2){flex:1;min-width:0}
+.subservice-commitment .eyebrow{font-size:9px;margin-bottom:12px}
+.subservice-commitment h3{font-size:25px;letter-spacing:-.6px}
+.subservice-page .subservice-commitment p{font-size:13px;margin-bottom:0}
+.subservice-commitment>div:last-child{display:flex;flex-direction:column;gap:18px;flex-shrink:0;max-width:280px}
+.subservice-commitment .text-link{font-size:11px;line-height:1.5}
+.subservice-consideration-top{display:grid;grid-template-columns:1.2fr 1fr;gap:56px;align-items:center;margin-bottom:36px}
+.subservice-consideration-top p{margin:0}
+.subservice-consideration-layout{display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start}
+.subservice-consideration-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.subservice-consideration-grid article{display:flex;gap:16px;min-width:0}
+.subservice-small-icon{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:42px;height:42px;border-radius:50%;background:#e2f1fb}
+.subservice-small-icon svg{width:24px;height:24px}
+.subservice-consideration-grid h3{font-size:19px;letter-spacing:-.4px}
+.subservice-page .subservice-consideration-grid p{font-size:13px;margin-bottom:0}
+.subservice-tips-media>img{height:230px;margin-bottom:24px}
+.subservice-tips-media aside{background:var(--light);padding:28px}
+.subservice-tips-media h3{font-size:23px}
+.subservice-tips-media ul{padding:0;list-style:none;display:flex;flex-direction:column;gap:18px;margin:20px 0 0;color:var(--body);font-size:13px}
+.subservice-tips-media li{position:relative;padding-left:22px;line-height:1.6}
+.subservice-tips-media li:before{content:'✓';position:absolute;left:0;color:var(--blue);font-weight:700}
+.subservice-related-heading{display:grid;grid-template-columns:1.3fr 1fr;gap:56px;align-items:start;margin-bottom:36px}
+.subservice-related-heading>img{height:230px}
+.subservice-related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.subservice-related-grid>a{display:flex;align-items:center;gap:16px;padding:16px;border:1px solid #d6e4ee;background:#f7fbfe;min-width:0}
+.subservice-related-grid img{width:78px;height:90px;flex-shrink:0}
+.subservice-related-grid h3{font-size:15px;letter-spacing:-.3px;line-height:1.4}
+.subservice-page .subservice-related-grid p{font-size:11px;line-height:1.5;margin:8px 0 0}
+.subservice-related-grid>a>div{flex:1;min-width:0}
+.subservice-related-grid>a>span{color:var(--blue);flex-shrink:0}
+.subservice-related-grid a:hover{border-color:var(--blue)}
+.subservice-final{display:grid;grid-template-columns:1.2fr 1fr;gap:36px;align-items:center;padding:28px;background:var(--light);margin-top:36px}
+.subservice-final h3{font-size:26px;letter-spacing:-.6px}
+.subservice-page .subservice-final p{font-size:13px}
+.subservice-final .eyebrow{font-size:9px;margin-bottom:14px}
+.subservice-final .actions{gap:16px;margin-top:24px}
+.subservice-final .button{font-size:11px}
+@media(max-width:1100px){
+.subservice-page .subservice-split,.subservice-consideration-top,.subservice-related-heading{gap:32px}
+.subservice-explanation-grid,.subservice-coverage-top{grid-template-columns:1fr 1fr;gap:28px}
+.subservice-explanation-grid>img{grid-column:1 / -1;height:280px}
+.subservice-coverage-note{grid-column:1 / -1}
+.subservice-band .benefits,.subservice-coverage-grid,.subservice-process-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.subservice-commitment{flex-wrap:wrap}.subservice-commitment>div:last-child{max-width:none;flex-direction:row;align-items:center;flex-wrap:wrap}
+.subservice-consideration-layout{grid-template-columns:1fr;gap:28px}
+.subservice-tips-media{display:grid;grid-template-columns:1fr 1fr;gap:24px}.subservice-tips-media>img{height:100%;min-height:300px;margin:0}
+.subservice-related-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.subservice-final{grid-template-columns:1fr;gap:28px}
+}
+@media(max-width:760px){
+.subservice-page .subservice-split,.subservice-explanation-grid,.subservice-coverage-top,.subservice-consideration-top,.subservice-related-heading{grid-template-columns:minmax(0,1fr);gap:28px}
+.subservice-page h1{font-size:clamp(40px,7.5vw,56px)}
+.subservice-hero-media>img{height:330px;min-height:0;flex:none}
+.subservice-explanation-grid>img,.subservice-coverage-note{grid-column:1}
+.subservice-coverage-top>img{height:300px}
+.subservice-consideration-grid{gap:28px}
+.subservice-tips-media>img{min-height:0;height:100%}
+.subservice-related-heading>img{height:260px}
+.subservice-final .benefits{gap:20px}
+}
+@media(max-width:480px){
+.subservice-hero .benefits{flex-direction:column;gap:24px}.subservice-hero .benefits>div{flex-direction:row}
+.subservice-hero-media>img{height:280px}
+.subservice-band{padding:24px}.subservice-band .benefits{gap:24px}
+.subservice-process-grid,.subservice-consideration-grid,.subservice-related-grid,.subservice-tips-media{grid-template-columns:1fr}
+.subservice-process-grid img{height:220px}
+.subservice-commitment{padding:24px;gap:20px}.subservice-commitment>div:nth-child(2){flex-basis:100%}
+.subservice-tips-media>img{height:250px}
+.subservice-related-grid img{width:82px;height:90px}
+.subservice-final{padding:24px}.subservice-final .benefits{flex-direction:column;gap:24px}.subservice-final .benefits>div{flex-direction:row}
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "spray-painting",
+    "title": "Spray Painting"
+  },
+  {
+    "slug": "aluminum-painting",
+    "title": "Aluminum Painting"
+  },
+  {
+    "slug": "siding-painting",
+    "title": "Siding Painting"
+  },
+  {
+    "slug": "vinyl-siding-painting",
+    "title": "Vinyl Siding Painting"
+  },
+  {
+    "slug": "brick-painting",
+    "title": "Brick Painting"
+  },
+  {
+    "slug": "exterior-stucco-painting",
+    "title": "Exterior Stucco Painting"
+  },
+  {
+    "slug": "wood-siding-painting",
+    "title": "Wood Siding Painting"
+  },
+  {
+    "slug": "eavestrough-fascia-painting",
+    "title": "Eavestrough & Fascia Painting"
+  },
+  {
+    "slug": "exterior-window-door-painting",
+    "title": "Exterior Window & Door Painting"
+  },
+  {
+    "slug": "commercial-painting",
+    "title": "Commercial Exterior Painting"
+  }
+]
