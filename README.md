@@ -55,3 +55,10 @@ Homepage-only navigation uses section links until the remaining website pages ar
 Production compilation and static page generation passed with webpack. Workspace memory-reporting compatibility was supplied through an untracked test-only preload; it is not part of the app or deployment. Built HTML is checked for a single H1, valid section anchors, new image files, alternative text and all expected FAQ/dropdown controls. Browser visual verification is unavailable in this workspace.
 
 The owner has authorized pushing and deploying requested changes without repeated confirmation.
+
+## About Us page
+The /about route follows all nine sections of the supplied About Us PDF: introduction, story/purpose, beliefs, approach, core services, craftsmanship, Southern Ontario service areas, gallery and closing CTA. Shared header/footer navigation links to both pages. Typography, container width and gutters inherit the homepage system; decorative brushes and handwritten accents are omitted. The gallery offers working category filters and clearly labels illustrative images. Unverified project counts and satisfaction figures from the mockup are not published.
+
+Four new images were generated with the built-in image-generation tool and optimized as WebP under public/images/about: team.webp (painter rolling white trim beside blue siding), detail.webp (gloved hand carefully brushing white exterior molding), office.webp (modern navy reception with white desk and glass meeting room), van.webp (unbranded contractor van beside a painted Ontario house at late afternoon). Prompt constraints: wide, sharp natural photography, no logos, lettering, watermark or brush graphics. Existing generated homepage photographs supply the house, kitchen, living room and detail gallery. These images are illustrative.
+
+The region map uses a Google Maps embed, with a narrowly scoped frame-src allowance and an external map fallback link. No business phone number was supplied; the closing secondary CTA directs to the project-request area. Production build and static checks cover both routes; browser visual verification is unavailable in this workspace.
