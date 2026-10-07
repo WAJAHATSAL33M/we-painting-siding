@@ -275,3 +275,13 @@ main>.hero{margin-top:0}
 
 /* Original supplied logo, with proportional sizing in both shared brand locations. */
 .header-brand>.brand-logo,.footer-brand>.brand-logo{display:block;width:100%;height:auto;max-width:100%;object-fit:contain}
+
+/* White footer lets the original JPG background blend into its surroundings. */
+.footer{background:#fff;color:var(--ink);border-top:1px solid var(--line)}
+.footer-company>p,.footer .stay-touch>p,.footer-main>div>a:not(.footer-brand),.footer-bottom,.footer-bottom>div>button{color:#344b5e}
+.footer-main h3{color:var(--ink)}
+.footer-main a:hover,.footer-bottom>div>button:hover{color:var(--blue)}
+.footer-bottom{border-top-color:var(--line)}
+.footer-bottom>div>button{border-right-color:var(--line)}
+.footer .socials button{background:#e8f2f9;color:var(--blue)}
+.footer .socials button:hover{background:var(--blue);color:#fff}
