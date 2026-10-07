@@ -272,3 +272,6 @@ main>.hero{margin-top:0}
 .service-icons>a{padding:16px 10px;font-size:11px}
 .hero-media .glass-band .benefits strong{font-size:9px}
 }
+
+/* Original supplied logo, with proportional sizing in both shared brand locations. */
+.header-brand>.brand-logo,.footer-brand>.brand-logo{display:block;width:100%;height:auto;max-width:100%;object-fit:contain}
