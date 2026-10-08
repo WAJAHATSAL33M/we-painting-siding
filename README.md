@@ -98,3 +98,13 @@ Eight images were created with the built-in image generation tool and saved as o
 
 Validation: production build, ten-section structure, metadata, navigation anchors and image files/alt descriptions. Browser visual QA was unavailable in this managed environment.
 
+
+## Location pages
+
+`/locations` follows the five-section location reference: hero, service directory, exterior/cabinet services, local service explanation, and location closing directory. `/locations/[location]` statically generates all 25 communities from `app/data/locations.json`, using the eight-section reference: hero, local services, owner planning guidance, services for properties, project considerations, nearby communities, FAQ, and local service closing. The existing shared shell, self-hosted Poppins, blue/ink colors, paper background, responsive gutters and whitespace remain; brush graphics and handwritten captions are omitted. Header Locations links to the overview and every city. Existing about/exterior/cabinet area listings now link to the same pages.
+
+Responsive live Google Maps embeds replace the reference maps and use a city-specific query on each local page. Burlington's additional nearby communities within Hamilton link to the Hamilton service page. Interior/specialty service links lead to contact because dedicated pages are not yet present. Existing quote delivery behavior is unchanged.
+
+Four newly generated illustrative photos, not extracted from either PDF and not presented as documented client work or exact city landmarks, are optimized as WebP in `public/images/locations/`: exterior, cabinet, interior, and community. Built-in image generation prompt subjects: Southern Ontario home with slate-blue siding and white trim; white shaker kitchen with navy island and quartz worktops; freshly painted warm-white living room with blue cushions; generic Southern Ontario residential neighbourhood with mature trees and maintained homes. All requested high-resolution realistic daylight photographs without text, logos, watermarks, or brush overlays. These shared assets support the cloned template without falsely labeling generated streetscapes as specific landmarks.
+
+Validation: Next.js production build; all 25 city routes and overview; correct five/eight section counts; local navigation/anchor and image checks. The cloud browser cannot reach the local server, so local visual QA is unavailable.
