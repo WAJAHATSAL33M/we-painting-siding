@@ -1,0 +1,9 @@
+'use client';
+import {useId,useState} from 'react';
+export default function Comparison({name,title,priority=false}){
+ const [position,setPosition]=useState(50);const id=useId();
+ function move(event){const rect=event.currentTarget.getBoundingClientRect();setPosition(Math.round(Math.max(0,Math.min(100,(event.clientX-rect.left)/rect.width*100))))}
+ function start(event){if(event.button!==0)return;event.preventDefault();event.currentTarget.focus({preventScroll:true});event.currentTarget.setPointerCapture(event.pointerId);move(event)}
+ function end(event){if(event.currentTarget.hasPointerCapture(event.pointerId))event.currentTarget.releasePointerCapture(event.pointerId)}
+ return <figure className="ba-comparison"><div className="ba-images" style={{'--position':position+'%'}}><img src={'/images/before-after/'+name+'-before.webp'} alt={title+' before painting, illustrative concept'} width="1536" height="1024" loading={priority?undefined:'lazy'} fetchPriority={priority?'high':undefined} draggable="false"/><img className="ba-after-image" src={'/images/before-after/'+name+'-after.webp'} alt={title+' after painting, illustrative concept'} width="1536" height="1024" loading={priority?undefined:'lazy'} draggable="false"/><div className="ba-divider" aria-hidden="true"><span>↔</span></div><input id={id} type="range" min="0" max="100" step="1" value={position} onChange={e=>setPosition(Number(e.target.value))} onPointerDown={start} onPointerMove={e=>{if(e.currentTarget.hasPointerCapture(e.pointerId))move(e)}} onPointerUp={end} onPointerCancel={end} aria-label={title+' before and after comparison'} aria-valuetext={position+'% before, '+(100-position)+'% after'} aria-describedby={id+'-help'}/></div><figcaption><span>Before</span><span id={id+'-help'}>Drag to compare</span><span>After</span></figcaption></figure>
+}
