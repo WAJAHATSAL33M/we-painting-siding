@@ -150,3 +150,9 @@ Twenty-four fresh files in `public/images/before-after/` were generated with the
 - trim-after.webp: Use case precise-object-edit, referenced generated before image. Paint only soffit fascia and window trim crisp white, keep siding unchanged. Preserve exact camera, crop, dimensions, architecture, objects, furniture, landscaping, lighting and shadows; no text, badges, logo, watermark or brush effects.
 
 Validation: production build, all internal route/image/anchor checks, seven sections and 18 labeled range controls; drag coordinate, endpoint clamping and pointer capture/release checks. No local browser engine is available for visual or touch-device verification.
+
+## Responsive navigation refinement
+
+Browse controls are removed. The three primary category labels open a compact panel on mouse hover and keyboard focus; touch taps toggle the panel. Each panel includes a clear overview link plus grouped service/community links. A shared open-panel state keeps only one category expanded. Escape restores focus, outside clicks and focus departure dismiss panels, and a pointer bridge keeps the panel open while moving down from its trigger. Below 1200px panels expand inline in a scrollable menu; below 600px service panels stack, with two-column city links (one column on narrow screens). The existing colors, fonts and logo are retained.
+
+Validation: production build, all generated header links, overview/subservice/community counts, ARIA target relationships, removal of Browse controls and hover/touch handler checks. Browser visual/device verification remains unavailable in this workspace.
