@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Kitchen Cabinet Painting",
+    "slug": "kitchen-cabinet-painting",
+    "image": "kitchen",
+    "space": "kitchen",
+    "surface": "kitchen cabinets",
+    "tagline": "A fresh look for the heart of your home."
+  },
+  {
+    "title": "Bathroom Vanity Painting",
+    "slug": "bathroom-vanity-painting",
+    "image": "vanity",
+    "space": "bathroom",
+    "surface": "bathroom vanity",
+    "tagline": "A fresh look for your everyday space."
+  },
+  {
+    "title": "Cabinet Doors & Drawer Fronts",
+    "slug": "cabinet-doors-drawer-fronts",
+    "image": "doors",
+    "space": "space",
+    "surface": "cabinet doors and drawer fronts",
+    "tagline": "A refreshed finish for the details you see every day."
+  },
+  {
+    "title": "Cabinet Frames, Boxes & End Panels",
+    "slug": "cabinet-frames-boxes-end-panels",
+    "image": "box",
+    "space": "space",
+    "surface": "cabinet frames, boxes, and end panels",
+    "tagline": "A complete, cohesive look for your cabinetry."
+  },
+  {
+    "title": "Built-In Cabinetry Painting",
+    "slug": "built-in-cabinetry-painting",
+    "image": "builtins",
+    "space": "living space",
+    "surface": "built-in cabinetry",
+    "tagline": "A refined finish for the spaces you call home."
+  }
+]
