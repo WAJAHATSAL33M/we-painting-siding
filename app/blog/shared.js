@@ -1,0 +1,4 @@
+import {Button} from '../components/site-home';
+export function readingTime(post){const words=post.sections.flatMap(s=>[s.title,...s.paragraphs]).join(' ').split(/\s+/).length;return Math.max(1,Math.ceil(words/200))}
+export function PostCard({post}){return <article className="blog-card"><img src={post.image} alt={post.alt} width="1536" height="1024" loading="lazy"/><div><p className="support-kicker">{post.category} · {readingTime(post)} min read</p><h3><a href={'/blog/'+post.slug}>{post.title}</a></h3><p>{post.excerpt}</p><a className="text-link" href={'/blog/'+post.slug}>Read article <span aria-hidden="true">→</span></a></div></article>}
+export function BlogCTA(){return <div className="support-cta"><div><h2>Ready for a <em>Fresh Finish?</em></h2><p>Explore our exterior and cabinet painting services, or start planning your project with us.</p></div><Button href="/contact#quote">Get a Free Quote</Button></div>}

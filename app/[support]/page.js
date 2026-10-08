@@ -1,0 +1,8 @@
+import {notFound} from 'next/navigation';
+import SiteHome from '../components/site-home';
+import pages from '../data/support-pages.json';
+import '../support/support.css';
+export const dynamicParams=false;
+export function generateStaticParams(){return pages.map(p=>({support:p.slug}))}
+export async function generateMetadata({params}){const {support}=await params;const p=pages.find(p=>p.slug===support);return p?{title:p.title+' | We Paint Siding',description:p.description}:{}}
+export default async function SupportPage({params}){const {support}=await params;const p=pages.find(p=>p.slug===support);if(!p)notFound();return <SiteHome isSupport><section className="section"><nav className="support-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><span>{p.title}</span></nav><div className="support-intro"><h1>{p.title}</h1><p>{p.description}</p><p className="support-meta">Last updated: <time dateTime="2026-10-08">October 8, 2026</time></p></div><div className="support-layout"><div className="support-prose">{p.sections.map((s,i)=><section key={s.title} id={'section-'+(i+1)}><h2>{s.title}</h2>{s.paragraphs.map(t=><p key={t}>{t}</p>)}{s.links&&<ul>{s.links.map(([label,href])=><li key={href}><a href={href}>{label}</a></li>)}</ul>}</section>)}</div><aside className="support-sidebar"><h2>On this page</h2><nav aria-label={p.title+' contents'}>{p.sections.map((s,i)=><a key={s.title} href={'#section-'+(i+1)}>{s.title}</a>)}</nav><hr/><h3>Website information</h3><nav aria-label="Related website policies">{pages.filter(x=>x.slug!==support).map(x=><a key={x.slug} href={'/'+x.slug}>{x.title}</a>)}</nav></aside></div></section></SiteHome>}
