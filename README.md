@@ -168,3 +168,9 @@ Policy text describes the current implementation: local quote draft downloads, i
 Privacy drafting references: Canadian OPC meaningful-consent guidance (https://www.priv.gc.ca/en/privacy-topics/privacy-for-businesses/appropriate-handling-of-personal-information/collecting-personal-information-and-consent/consent/gl_omc_201805/), Google Privacy Policy (https://policies.google.com/privacy), Vercel Privacy Notice (https://vercel.com/legal/privacy-notice). These inform clear descriptions of current website features rather than a legal compliance determination.
 
 Validation: clean production build after moving a corrupted Turbopack cache; all generated routes, links, anchors, image assets, heading/ARIA checks; archive filter/search logic and runtime page/404 checks. Browser visual/device QA is unavailable.
+
+## Focused, larger header menu
+
+Secondary header links (Before & After, About Us, Blog, FAQ and Contact) are available in the existing footer company links. The header now focuses on Home, Exterior Painting, Cabinet Painting and Locations, alongside the quote CTA. Navigation text increases from 10px to 15px on desktop and 16px in the collapsed menu; dropdown links use 14px text and larger tap targets. Service directories scale from two columns to one; community directories use three, two or one columns depending on available width. Tablet panel introductions become compact, and dropdown/menu heights are constrained by the viewport with scrolling. Hover, touch, keyboard and overview links are retained.
+
+Validation: production build and shared header/footer route and ARIA checks across all 60 pages. Browser visual/device verification remains unavailable.
