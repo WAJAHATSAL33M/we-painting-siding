@@ -1,37 +1,308 @@
 [
-{"slug":"privacy-policy","title":"Privacy Policy","description":"How information is handled when you use the We Paint Siding website.","sections":[
-{"title":"About this notice","paragraphs":["This notice describes the current We Paint Siding website. It explains the website's forms, technical services and third-party content. Information exchanged through a separate business relationship or another service may be handled under additional notices provided through that channel."]},
-{"title":"Quote request drafts","paragraphs":["The quote tools ask for details such as your name, contact information, location and painting project. The current tools process those entries in your browser to create a downloadable text file. They do not send the entries to We Paint Siding or create a submitted enquiry.","The downloaded file remains on your device until you remove it. The visible form values may remain in the page or be remembered by your browser's own autofill features. Avoid including payment details, identification documents or other sensitive information in a project description."]},
-{"title":"Newsletter and accounts","paragraphs":["Newsletter registration is not active. Entering an email address and pressing Subscribe displays a status message; it does not add you to a mailing list. The website does not currently provide customer accounts or online payment processing."]},
-{"title":"Technical information and hosting","paragraphs":["The website is hosted on Vercel. When a browser requests a page or file, technical information such as an IP address, request details and browser information can be processed by the hosting service to deliver and protect the website. The website application does not include an advertising tracker or analytics integration.","Provider processing and retention can vary with the service and its configuration. This notice does not promise a fixed retention period or a particular processing location for provider records."],"links":[["Vercel Privacy Notice","https://vercel.com/legal/privacy-notice"]]},
-{"title":"Maps and external services","paragraphs":["Some pages embed Google Maps. Loading an embedded map connects your browser to Google, which may process technical information and use cookies or similar technologies under its own policies. Your browser settings, existing Google session and use of the map can affect that processing.","External websites operate under their own privacy notices. Our fonts and website image files are served with the site rather than loaded from an external font library."],"links":[["Google Privacy Policy","https://policies.google.com/privacy"],["Cookies Policy","/cookies-policy"]]},
-{"title":"Your choices","paragraphs":["You can choose not to enter details in the quote tool, remove downloaded drafts, clear browser autofill information and manage cookies through your browser. You can also avoid pages with embedded maps or use browser controls that restrict third-party content.","If you provide information separately through an established business contact channel, ask about its purpose, handling and any available access or correction options through that channel."]},
-{"title":"Privacy enquiries","paragraphs":["For a privacy enquiry, use an established contact channel supplied to you by We Paint Siding. The current website quote tool downloads a draft and does not deliver privacy requests. Do not rely on a downloaded draft as confirmation that a request has been received."],"links":[["Current contact page","/contact"]]},
-{"title":"Changes to this notice","paragraphs":["This page will need to be updated if online submissions, subscriptions, accounts, analytics or other services are enabled. The date above identifies this version of the website notice."]}]},
-{"slug":"cookies-policy","title":"Cookies Policy","description":"Cookies, browser storage and third-party services on this website.","sections":[
-{"title":"What cookies are","paragraphs":["Cookies are small pieces of information stored by a browser when a website or service asks it to do so. Similar technologies can store information in the browser or help a service recognize a request."]},
-{"title":"Current website features","paragraphs":["The website application does not currently set advertising cookies, integrate an analytics service or use local storage to remember marketing preferences. Menus, article filters and comparison sliders hold their current state in the open page.","Quote tools generate local downloads. Newsletter registration is inactive. These features do not create a mailing-list or advertising profile through the website application."]},
-{"title":"Hosting and embedded maps","paragraphs":["The site is hosted by Vercel, which may process technical requests for delivery and security. Embedded Google Maps can contact Google when the map loads and may use cookies or similar technologies. Existing provider cookies may also be sent according to your browser settings.","Provider behavior can change and can depend on your account, browser and region. This page does not claim that no third-party cookies can be present."],"links":[["Vercel Privacy Notice","https://vercel.com/legal/privacy-notice"],["Google Privacy Policy","https://policies.google.com/privacy"]]},
-{"title":"Managing browser settings","paragraphs":["Most browsers let you review or remove stored site data and restrict third-party cookies. Use the privacy or site settings in your browser for the options available on your device. Restricting provider content may affect embedded maps.","Changing browser settings does not remove a quote draft already downloaded to your device. You can delete that file separately."]},
-{"title":"Future changes and questions","paragraphs":["If optional tracking or new storage-based features are added, this notice and the available choices will need to be updated. For more about the current site's handling of information, read the Privacy Policy."],"links":[["Privacy Policy","/privacy-policy"],["Contact page","/contact"]]}]},
-{"slug":"disclaimer","title":"Disclaimer","description":"Important context for website guides, imagery and project information.","sections":[
-{"title":"General website information","paragraphs":["The website provides general information about painting services and project planning. Guides cannot account for every material, previous coating, property condition or coating system. Obtain advice and a written scope for your own project before deciding how work should proceed."]},
-{"title":"Illustrative images and comparisons","paragraphs":["Website imagery includes generated illustrative photographs. Before and after sliders demonstrate painting concepts and are not records of completed client projects unless a particular image is expressly identified as such.","Example project descriptions illustrate possible goals and scopes. They do not establish that a pictured property belongs to a customer, document an actual result, or promise the same outcome for another property."]},
-{"title":"Colours and finishes","paragraphs":["Colours shown on a screen may differ from physical samples and completed surfaces because of display settings, lighting and materials. Confirm colour and finish choices with suitable samples and the agreed project details."]},
-{"title":"Quotes, schedules and warranties","paragraphs":["General website statements are not an individual quotation, booking or warranty. Scope, preparation, products, price, scheduling and any warranty terms should be confirmed in your own written agreement. A downloaded request draft has not been submitted or accepted."]},
-{"title":"Third-party resources","paragraphs":["Maps and external links are provided for convenience. Third-party content can change and is governed by the provider's own terms and notices. Inclusion of a link does not guarantee the provider's content or services."]},
-{"title":"Questions about a project","paragraphs":["Use the service pages and painting guides as a starting point for your questions. Confirm uncertain details with the team handling your project before work begins."],"links":[["Contact page","/contact"],["Painting guides","/blog"]]}]},
-{"slug":"terms-of-use","title":"Terms of Use","description":"Terms for browsing and using the We Paint Siding website.","sections":[
-{"title":"Website purpose","paragraphs":["This website presents information about We Paint Siding services and provides general painting guides. These website terms do not replace an individual project agreement or determine the scope of painting services."]},
-{"title":"Responsible use","paragraphs":["Use the website for lawful purposes. Do not attempt to disrupt its operation, bypass security controls, access information without permission or submit misleading information through its features."]},
-{"title":"Content and imagery","paragraphs":["Website text, layout, branding and imagery are provided for viewing this site and considering its services. Do not represent illustrative imagery or example descriptions as your own documented project work. Third-party materials remain subject to their respective rights and licenses."]},
-{"title":"Enquiries and service agreements","paragraphs":["The quote tool currently creates a request draft on your device. It does not send an enquiry, make a booking or form a service agreement. Newsletter registration is not active.","Any painting project requires separately agreed details, including the scope, preparation, products, access, schedule, price and applicable terms. General website information is not a substitute for those details."]},
-{"title":"Availability and external resources","paragraphs":["Pages and features may change or be unavailable during maintenance. External websites and embedded services operate under their own terms. Review the relevant provider's notices when you use those services."]},
-{"title":"Information and questions","paragraphs":["Read the Privacy Policy, Cookies Policy and Disclaimer for information about current website features. Nothing on these pages is intended to remove rights that cannot lawfully be excluded."],"links":[["Privacy Policy","/privacy-policy"],["Cookies Policy","/cookies-policy"],["Disclaimer","/disclaimer"],["Contact page","/contact"]]}]},
-{"slug":"accessibility","title":"Accessibility","description":"Using the site and understanding its accessibility features.","sections":[
-{"title":"Our approach","paragraphs":["We aim to make the site clear and usable across devices. This page describes available features; it is not a claim of certification or complete conformance with a particular accessibility standard."]},
-{"title":"Navigation and keyboard access","paragraphs":["A Skip to content link appears at the start of each page. You can use Tab and Shift+Tab to move between interactive controls. Service and location panels open through their main labels, and Escape closes an open panel.","Links inside each panel provide access to its main page and individual services or communities. On touch devices, tap the main label to expand or collapse its panel."]},
-{"title":"Reading and interactive content","paragraphs":["Content uses headings and responsive layouts. Images include descriptive alternative text. Article contents links jump to the relevant section, and blog search and topic filters show an updated result count.","Before and after controls are range inputs. Focus a comparison and use the arrow keys to adjust it; Home and End move to the endpoints. Frequently asked questions use expandable disclosure controls."]},
-{"title":"Motion, zoom and third-party content","paragraphs":["The site respects a browser preference for reduced motion. You can use browser zoom and device text settings when reading the content. Third-party maps have their own controls and may have different accessibility behavior."]},
-{"title":"Reporting a barrier","paragraphs":["If you encounter a barrier, note the page, the action you were trying to complete and the browser or assistive technology involved. Share those details through an established We Paint Siding contact channel. The website quote tool only downloads a draft and does not transmit an accessibility report."],"links":[["Contact page","/contact"],["Sitemap","/sitemap"]]}]}
+  {
+    "slug": "privacy-policy",
+    "title": "Privacy Policy",
+    "description": "How information is handled when you use the We Paint Siding website.",
+    "sections": [
+      {
+        "title": "About this notice",
+        "paragraphs": [
+          "This Privacy Policy explains the current We Paint Siding website, including quote drafts, hosting and embedded services. Details shared in a separate business relationship or through another provider may be handled under the notices and arrangements supplied for that channel."
+        ]
+      },
+      {
+        "title": "Quote request drafts",
+        "paragraphs": [
+          "The quote tools collect the project details you enter, such as name, contact information, location and surfaces to be painted. Those values are processed in your browser to create a downloadable text draft. The tools do not transmit the entries to We Paint Siding or submit an enquiry.",
+          "A downloaded draft stays on your device until you delete it. Form values can remain in the open page or be remembered by your browser’s autofill. Include only useful project information; avoid payment details, identification records or other sensitive material in the description."
+        ]
+      },
+      {
+        "title": "Newsletter and accounts",
+        "paragraphs": [
+          "Newsletter registration is currently inactive. Subscribe shows a status message without adding the entered email to a mailing list. The website also does not offer customer accounts or process online payments."
+        ]
+      },
+      {
+        "title": "Technical information and hosting",
+        "paragraphs": [
+          "Vercel hosts the website. Serving and protecting pages can involve technical request information, including IP addresses and browser or request details, being processed by the hosting provider. The application itself has no configured advertising tracker or analytics integration.",
+          "Provider records and retention depend on the service and its configuration. This policy does not specify a guaranteed retention period or processing location for the hosting provider’s information."
+        ],
+        "links": [
+          [
+            "Vercel Privacy Notice",
+            "https://vercel.com/legal/privacy-notice"
+          ]
+        ]
+      },
+      {
+        "title": "Maps and external services",
+        "paragraphs": [
+          "Some service and location pages contain Google Maps embeds. Loading a map connects the browser to Google, which may handle technical information and cookies or related technologies under its policies. Existing sessions, browser settings and map interactions can affect that processing.",
+          "External sites have their own privacy notices. The website’s fonts and image assets are served with the site; they are not requested from an external font library."
+        ],
+        "links": [
+          [
+            "Google Privacy Policy",
+            "https://policies.google.com/privacy"
+          ],
+          [
+            "Cookies Policy",
+            "/cookies-policy"
+          ]
+        ]
+      },
+      {
+        "title": "Your choices",
+        "paragraphs": [
+          "You can avoid entering details in quote tools, delete downloaded drafts and manage autofill or cookies through your browser. Browser controls may also restrict third-party content, including maps; choosing a page without an embed avoids loading that map.",
+          "If you share information through an established business contact channel, ask about the purpose and handling through that channel, including any available options to access or correct your details."
+        ]
+      },
+      {
+        "title": "Privacy enquiries",
+        "paragraphs": [
+          "Send privacy questions through an established We Paint Siding contact channel supplied to you separately. The website quote tool only downloads a local draft; it does not transmit a privacy request or confirm that the business has received one."
+        ],
+        "links": [
+          [
+            "Current contact page",
+            "/contact"
+          ]
+        ]
+      },
+      {
+        "title": "Changes to this notice",
+        "paragraphs": [
+          "This notice should be reviewed when submissions, subscriptions, accounts, tracking or other features change. The date shown above identifies the current version of the website policy."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "cookies-policy",
+    "title": "Cookies Policy",
+    "description": "Cookies, browser storage and third-party services on this website.",
+    "sections": [
+      {
+        "title": "What cookies are",
+        "paragraphs": [
+          "Cookies are small records a website or provider asks a browser to store. Other browser technologies can also hold information or help a service recognise a request. Their use depends on the service and your browser settings."
+        ]
+      },
+      {
+        "title": "Current website features",
+        "paragraphs": [
+          "The website application does not currently set advertising cookies, use an analytics integration or store marketing preferences in local storage. Menu panels, article filters and comparison sliders keep their current state within the open page.",
+          "Quote tools produce a downloaded draft, and newsletter registration is inactive. These application features do not create an advertising profile or register you on a mailing list."
+        ]
+      },
+      {
+        "title": "Hosting and embedded maps",
+        "paragraphs": [
+          "Vercel can process technical requests while delivering and protecting the site. Embedded Google Maps connects to Google when loaded and may involve cookies or similar technologies. Existing provider cookies can also accompany requests according to your browser’s settings.",
+          "Third-party behaviour can depend on account sessions, browser settings, location and provider changes. This notice does not state that the site can never involve third-party cookies."
+        ],
+        "links": [
+          [
+            "Vercel Privacy Notice",
+            "https://vercel.com/legal/privacy-notice"
+          ],
+          [
+            "Google Privacy Policy",
+            "https://policies.google.com/privacy"
+          ]
+        ]
+      },
+      {
+        "title": "Managing browser settings",
+        "paragraphs": [
+          "Review your browser’s privacy or site settings to inspect, remove or restrict stored data and third-party cookies. The available options vary by device and browser. Blocking third-party services may prevent embedded maps from working as expected.",
+          "Browser cookie controls do not delete quote drafts already downloaded to your device. Remove those files separately if you no longer want to keep them."
+        ]
+      },
+      {
+        "title": "Future changes and questions",
+        "paragraphs": [
+          "If tracking or features that use additional browser storage are introduced, this notice and the available choices will need review. The Privacy Policy explains the current forms, hosting and external services in more detail."
+        ],
+        "links": [
+          [
+            "Privacy Policy",
+            "/privacy-policy"
+          ],
+          [
+            "Contact page",
+            "/contact"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "disclaimer",
+    "title": "Disclaimer",
+    "description": "Important context for website guides, imagery and project information.",
+    "sections": [
+      {
+        "title": "General website information",
+        "paragraphs": [
+          "Service pages and guides provide general painting and planning information. They cannot assess every property, material, previous finish or coating system. Review your own surfaces with a qualified professional and confirm a written scope before deciding what work should proceed."
+        ]
+      },
+      {
+        "title": "Illustrative images and comparisons",
+        "paragraphs": [
+          "The website includes generated illustrative photographs. Before and after sliders present colour-change concepts rather than documented client work, unless an individual image is clearly identified otherwise.",
+          "Example descriptions demonstrate possible project goals, surfaces and scope. They do not identify a customer’s property, verify completed results or promise an identical outcome at another home or business."
+        ]
+      },
+      {
+        "title": "Colours and finishes",
+        "paragraphs": [
+          "Displays, lighting and materials affect the appearance of paint colours. A screen image may differ from a physical sample or finished surface. Review suitable samples and confirm colour, sheen and product choices in your project details."
+        ]
+      },
+      {
+        "title": "Quotes, schedules and warranties",
+        "paragraphs": [
+          "Website information does not constitute an individual quote, booking or warranty. Confirm preparation, coverage, products, price, schedule and any applicable terms in your own written agreement. A downloaded quote draft has not been submitted or accepted by the business."
+        ]
+      },
+      {
+        "title": "Third-party resources",
+        "paragraphs": [
+          "External links and maps are offered as reference tools. Providers can change their content and services, which operate under their own terms and notices. A link on this website does not guarantee a third party’s information or performance."
+        ]
+      },
+      {
+        "title": "Questions about a project",
+        "paragraphs": [
+          "Use the painting guides and service descriptions to prepare questions. Resolve uncertain details with the people handling your actual project before preparation or application begins."
+        ],
+        "links": [
+          [
+            "Contact page",
+            "/contact"
+          ],
+          [
+            "Painting guides",
+            "/blog"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "terms-of-use",
+    "title": "Terms of Use",
+    "description": "Terms for browsing and using the We Paint Siding website.",
+    "sections": [
+      {
+        "title": "Website purpose",
+        "paragraphs": [
+          "The website introduces We Paint Siding services and offers general painting guides. These browsing terms do not define a painting project’s scope or replace the agreement made separately for that work."
+        ]
+      },
+      {
+        "title": "Responsible use",
+        "paragraphs": [
+          "Use the site lawfully and without disrupting its operation. Do not bypass security, attempt unauthorised access to information or provide misleading details through the website’s features."
+        ]
+      },
+      {
+        "title": "Content and imagery",
+        "paragraphs": [
+          "Text, branding, layout and imagery are supplied to help visitors understand the site and its services. Illustrative concepts must not be represented as your own documented project work. Third-party material remains subject to the rights and licences that apply to it."
+        ]
+      },
+      {
+        "title": "Enquiries and service agreements",
+        "paragraphs": [
+          "The quote tool generates a draft file on your device. It does not submit an enquiry, book work or create a service contract. Newsletter registration is also not active.",
+          "Painting work requires separately agreed scope, preparation, products, access, timing, pricing and applicable terms. General descriptions on the website do not substitute for those project-specific details."
+        ]
+      },
+      {
+        "title": "Availability and external resources",
+        "paragraphs": [
+          "Website pages or features can change and may be unavailable during maintenance. Embedded services and external sites have their own terms; review the relevant provider’s notices when using them."
+        ]
+      },
+      {
+        "title": "Information and questions",
+        "paragraphs": [
+          "The Privacy Policy, Cookies Policy and Disclaimer describe the current features and the context of site information. These pages are not intended to exclude rights that cannot lawfully be removed."
+        ],
+        "links": [
+          [
+            "Privacy Policy",
+            "/privacy-policy"
+          ],
+          [
+            "Cookies Policy",
+            "/cookies-policy"
+          ],
+          [
+            "Disclaimer",
+            "/disclaimer"
+          ],
+          [
+            "Contact page",
+            "/contact"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "accessibility",
+    "title": "Accessibility",
+    "description": "Using the site and understanding its accessibility features.",
+    "sections": [
+      {
+        "title": "Our approach",
+        "paragraphs": [
+          "We aim to provide clear, usable content across screen sizes. This accessibility page describes the site’s features; it does not certify complete conformance with any particular accessibility standard."
+        ]
+      },
+      {
+        "title": "Navigation and keyboard access",
+        "paragraphs": [
+          "Use the Skip to content link at the start of a page to reach the main content. Tab and Shift+Tab move through controls. Service and location labels open their panels, and Escape dismisses an open dropdown.",
+          "Each panel contains a main-page link and links to the individual services or communities. Touch users can tap a category label to expand or collapse the panel, with the mobile menu opened through its Menu button."
+        ]
+      },
+      {
+        "title": "Reading and interactive content",
+        "paragraphs": [
+          "Pages use headings, responsive layouts and descriptive image text. Article contents links reach the relevant sections. Blog search and topic filters update the visible articles and announce a result count.",
+          "Before and after comparisons use range inputs. Focus a slider and press arrow keys to adjust it; Home and End reach the endpoints. FAQ sections use native disclosures that can be opened and closed."
+        ]
+      },
+      {
+        "title": "Motion, zoom and third-party content",
+        "paragraphs": [
+          "Reduced-motion preferences are respected for scrolling and transitions. Browser zoom and device text settings can be used to enlarge content. Google Maps embeds have provider-controlled interactions and may behave differently from the rest of the site."
+        ]
+      },
+      {
+        "title": "Reporting a barrier",
+        "paragraphs": [
+          "When reporting a barrier, include the page, intended action and browser or assistive technology involved. Share that information through an established We Paint Siding contact channel. Saving a website quote draft does not send an accessibility report to the business."
+        ],
+        "links": [
+          [
+            "Contact page",
+            "/contact"
+          ],
+          [
+            "Sitemap",
+            "/sitemap"
+          ]
+        ]
+      }
+    ]
+  }
 ]

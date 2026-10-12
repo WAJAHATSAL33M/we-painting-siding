@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-12",
+  "method": "PostCSS syntax parsing and breakpoint declaration checks. No browser engine, viewport screenshots, measured overflow, zoom or real-device interaction testing was available.",
+  "stylesheets": 12,
+  "viewports": [
+    {
+      "width": 320,
+      "header": "collapsed menu with inline panels",
+      "serviceColumns": "1fr",
+      "locationColumns": "1 column (shared guard)",
+      "cabinetPrimaryLayout": "single column",
+      "verification": "active source declarations, not browser geometry"
+    },
+    {
+      "width": 360,
+      "header": "collapsed menu with inline panels",
+      "serviceColumns": "1fr",
+      "locationColumns": "1 column (shared guard)",
+      "cabinetPrimaryLayout": "single column",
+      "verification": "active source declarations, not browser geometry"
+    },
+    {
+      "width": 375,
+      "header": "collapsed menu with inline panels",
+      "serviceColumns": "1fr",
+      "locationColumns": "repeat(2,minmax(0,1fr))",
+      "cabinetPrimaryLayout": "single column",
+      "verification": "active source declarations, not browser geometry"
+    },
+    {
+      "width": 390,
+      "header": "collapsed menu with inline panels",
+      "serviceColumns": "1fr",
+      "locationColumns": "repeat(2,minmax(0,1fr))",
+      "cabinetPrimaryLayout": "single column",
+      "verification": "active source declarations, not browser geometry"
+    },
+    {
+      "width": 480,
+      "header": "collapsed menu with inline panels",
+      "serviceColumns": "1fr",
+      "locationColumns": "repeat(2,minmax(0,1fr))",
+      "cabinetPrimaryLayout": "single column",
+      "verification": "active source declarations, not browser geometry"
+    },
+    {
+      "width": 600,
+      "header": "collapsed menu with inline panels",
+      "serviceColumns": "1fr",
+      "locationColumns": "repeat(2,minmax(0,1fr))",
+      "cabinetPrimaryLayout": "single column",
+      "verification": "active source declarations, not browser geometry"
+    },
+    {
+      "width": 700,
+      "header": "collapsed menu with inline panels",
+      "serviceColumns": "repeat(2,minmax(0,1fr))",
+      "locationColumns": "repeat(3,minmax(0,1fr))",
+      "cabinetPrimaryLayout": "single column",
+      "verification": "active source declarations, not browser geometry"
+    },
+    {
+      "width": 760,
+      "header": "collapsed menu with inline panels",
+      "serviceColumns": "repeat(2,minmax(0,1fr))",
+      "locationColumns": "repeat(3,minmax(0,1fr))",
+      "cabinetPrimaryLayout": "single column",
+      "verification": "active source declarations, not browser geometry"
+    },
+    {
+      "width": 768,
+      "header": "collapsed menu with inline panels",
+      "serviceColumns": "repeat(2,minmax(0,1fr))",
+      "locationColumns": "repeat(3,minmax(0,1fr))",
+      "cabinetPrimaryLayout": "route desktop/tablet rules",
+      "verification": "active source declarations, not browser geometry"
+    },
+    {
+      "width": 820,
+      "header": "collapsed menu with inline panels",
+      "serviceColumns": "repeat(2,minmax(0,1fr))",
+      "locationColumns": "repeat(3,minmax(0,1fr))",
+      "cabinetPrimaryLayout": "route desktop/tablet rules",
+      "verification": "active source declarations, not browser geometry"
+    },
+    {
+      "width": 1024,
+      "header": "collapsed menu with inline panels",
+      "serviceColumns": "repeat(2,minmax(0,1fr))",
+      "locationColumns": "repeat(3,minmax(0,1fr))",
+      "cabinetPrimaryLayout": "route desktop/tablet rules",
+      "verification": "active source declarations, not browser geometry"
+    },
+    {
+      "width": 1100,
+      "header": "collapsed menu with inline panels",
+      "serviceColumns": "repeat(2,minmax(0,1fr))",
+      "locationColumns": "repeat(3,minmax(0,1fr))",
+      "cabinetPrimaryLayout": "route desktop/tablet rules",
+      "verification": "active source declarations, not browser geometry"
+    },
+    {
+      "width": 1200,
+      "header": "collapsed menu with inline panels",
+      "serviceColumns": "repeat(2,minmax(0,1fr))",
+      "locationColumns": "repeat(3,minmax(0,1fr))",
+      "cabinetPrimaryLayout": "route desktop/tablet rules",
+      "verification": "active source declarations, not browser geometry"
+    },
+    {
+      "width": 1280,
+      "header": "desktop with floating panels",
+      "serviceColumns": "repeat(2,minmax(0,1fr))",
+      "locationColumns": "repeat(3,minmax(0,1fr))",
+      "cabinetPrimaryLayout": "route desktop/tablet rules",
+      "verification": "active source declarations, not browser geometry"
+    },
+    {
+      "width": 1440,
+      "header": "desktop with floating panels",
+      "serviceColumns": "repeat(2,minmax(0,1fr))",
+      "locationColumns": "repeat(3,minmax(0,1fr))",
+      "cabinetPrimaryLayout": "route desktop/tablet rules",
+      "verification": "active source declarations, not browser geometry"
+    },
+    {
+      "width": 1920,
+      "header": "desktop with floating panels",
+      "serviceColumns": "repeat(2,minmax(0,1fr))",
+      "locationColumns": "repeat(3,minmax(0,1fr))",
+      "cabinetPrimaryLayout": "route desktop/tablet rules",
+      "verification": "active source declarations, not browser geometry"
+    }
+  ],
+  "coveredFamilies": [
+    "Home",
+    "About",
+    "Contact",
+    "Exterior overview and 10 services",
+    "Cabinet overview and 5 services",
+    "Location overview and 25 cities",
+    "Before and After",
+    "Blog archive and 5 posts",
+    "FAQ",
+    "5 policies",
+    "Sitemap",
+    "404"
+  ],
+  "failures": []
+}

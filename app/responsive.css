@@ -1,0 +1,61 @@
+/* Shared reflow guards for copy, controls and route-specific grids. */
+main :where(section,article,aside,div,nav,header,form,fieldset){min-width:0}
+main :is(h1,h2,h3,p,li,a,summary,dt,dd),.footer :is(p,a,strong){overflow-wrap:anywhere;word-break:normal}
+.button{max-width:100%;min-width:0;white-space:normal;text-align:center}
+.button>span,.text-link>span,summary>span[aria-hidden]{flex-shrink:0}
+main iframe{max-width:100%;display:block}
+main input:not([type=checkbox]):not([type=radio]):not([type=range]),main select,main textarea{max-width:100%;min-width:0}
+.stay-touch form{min-width:0;flex-wrap:wrap}
+.stay-touch input{flex:1 1 180px;min-width:0;max-width:100%}
+.stay-touch form .button{flex:0 0 auto}
+main .text-link{min-height:44px;line-height:1.5}
+.exterior-page .exterior-service-grid a{width:44px;height:44px}
+.exterior-service-grid article{grid-template-columns:auto minmax(0,1fr) auto}
+.support-breadcrumb>span:last-child{min-width:0}
+.support-page .support-cta>div{min-width:0}
+.support-page .support-cta>.button{flex-shrink:0}
+/* Keep collapse rules consistent at tablet and small-screen boundaries. */
+@media(max-width:760px){
+ .cabinet-page .section :is(.cab-split,.cab-explained-grid,.cab-area-grid,.cab-component-heading,.cab-final){grid-template-columns:minmax(0,1fr);gap:28px}
+ .cabinet-page .section .cab-split>img,.cabinet-page .section .cab-explained-grid>img{height:340px;min-height:0}
+ .cabinet-page .section .cab-explained-grid>aside,.cabinet-page .section .cab-area-grid>aside{grid-column:1}
+ .cabinet-page .section .cab-area-grid iframe{height:360px;min-height:0}
+ .cabinet-page .section .cab-area-grid ul{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .cabinet-page .section .cab-five,.cabinet-page .section .cab-considerations{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .cabinet-page .section .cab-quote-strip{grid-template-columns:minmax(0,1fr);gap:18px}
+ .cabinet-page .section .cab-quote-strip>svg{display:none}
+ .cabinet-page .section .cab-quote-strip>div:last-child{grid-column:1;justify-items:start}
+ .cabinet-page .section .cab-three{grid-template-columns:minmax(0,1fr)}
+ .contact-form :is(input:not([type=checkbox]):not([type=radio]),textarea),.quote-form :is(input,select,textarea),.stay-touch input,.blog-search input{font-size:16px}
+ .contact-form fieldset label{min-height:44px}
+ .footer-main>div>a:not(.footer-brand){min-height:44px;display:flex;align-items:center;margin:0}
+ .footer-bottom>div>a{min-height:44px;display:flex;align-items:center}
+}
+@media(max-width:480px){
+ .cabinet-page .section .cab-five,.cabinet-page .section .cab-considerations,.cabinet-page .section .cab-four{grid-template-columns:minmax(0,1fr)}
+ .cabinet-page .section .cab-service-grid h3,.cabinet-page .section .cab-component-grid h3,.cabinet-page .section .cab-space-grid h3,.cabinet-page .section .cab-considerations h3{min-height:0!important}
+ .cabinet-page .section .cab-service-grid img,.cabinet-page .section .cab-component-grid img{height:220px}
+ .subservice-page .subservice-band .benefits,.subservice-page .subservice-coverage-grid{grid-template-columns:minmax(0,1fr)}
+ .subservice-page .subservice-commitment>div:last-child,.contact-how-bottom .button{width:100%}
+ .location-page .location-split .columns-4,.location-page .location-closing-links{grid-template-columns:minmax(0,1fr)}
+ .about-page .story-purpose{grid-template-columns:minmax(0,1fr)}
+ .about-page .story-purpose>img{height:280px;min-height:0}
+ .contact-page .contact-intro .benefits,.contact-page .contact-closing-grid .benefits{grid-template-columns:minmax(0,1fr)}
+ .contact-page .contact-intro .benefits>div,.contact-page .contact-closing-grid .benefits>div{flex-direction:row;align-items:center}
+ .support-page .blog-filter button{flex-basis:calc(50% - 10px)}
+ .support-page .support-cta>.button{width:100%}
+}
+@media(max-width:360px){
+ .header .header-brand{width:140px}
+ .header .header-inner{padding-inline:16px;gap:10px}
+ .header .locations-group .nav-panel-links{grid-template-columns:minmax(0,1fr)}
+ main .actions>.button{width:100%;justify-content:center}
+ .hero .hero-copy h1{font-size:38px;letter-spacing:-1.5px}
+ .hero .benefits.compact,.hero-media .glass-band .benefits{grid-template-columns:minmax(0,1fr)}
+ .hero .benefits.compact>div,.hero-media .glass-band .benefits>div{flex-direction:row;align-items:center}
+ .process-steps,.about-bottom .benefits,.services-bottom .benefits{grid-template-columns:minmax(0,1fr)}
+ .process-steps h3,.process-steps p{text-align:left;max-width:none;margin-inline:0}
+ .process-steps .circle-icon{margin-inline:0}
+ .process-steps article:last-child{grid-column:auto;max-width:none;justify-self:stretch}
+ .footer-main{grid-template-columns:minmax(0,1fr)}
+}
