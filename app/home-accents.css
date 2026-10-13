@@ -1,0 +1,27 @@
+/* Homepage-only brush accents. Keep decoration within existing section gutters. */
+.home-page > :is(#services,#process,#work,#about){position:relative;isolation:isolate;border-top-color:transparent}
+.home-page > :is(#services,#process,#work,#about)::before{
+ content:"";position:absolute;top:-8px;left:var(--gutter);
+ width:clamp(120px,18vw,220px);max-width:calc(100% - var(--gutter) * 2);
+ height:18px;background:var(--blue);opacity:.22;pointer-events:none;
+ -webkit-mask:url('/decor/home-brush/paint-stroke.svg') center / 100% 100% no-repeat;
+ mask:url('/decor/home-brush/paint-stroke.svg') center / 100% 100% no-repeat;
+}
+.home-page > #services::before{left:50%;transform:translateX(-50%)}
+.home-page > #work::before{background:var(--navy);opacity:.18}
+.home-page > .hero{position:relative;isolation:isolate}
+.home-page > .hero::after{
+ content:"";position:absolute;bottom:0;right:var(--gutter);
+ width:clamp(110px,14vw,180px);max-width:calc(100% - var(--gutter) * 2);
+ height:22px;background:var(--blue);opacity:.22;pointer-events:none;
+ -webkit-mask:url('/decor/home-brush/paint-stroke.svg') center / 100% 100% no-repeat;
+ mask:url('/decor/home-brush/paint-stroke.svg') center / 100% 100% no-repeat;
+}
+@media(max-width:1100px){
+ .home-page > :is(#services,#process,#work,#about)::before{width:150px;height:15px;top:-7px}
+ .home-page > .hero::after{width:130px;height:18px}
+}
+@media(max-width:760px){
+ .home-page > :is(#services,#process,#work,#about)::before{width:112px;height:12px;top:-6px;opacity:.18}
+ .home-page > .hero::after{width:100px;height:14px;opacity:.18}
+}
