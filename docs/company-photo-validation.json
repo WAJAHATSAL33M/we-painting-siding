@@ -1,0 +1,255 @@
+{
+  "pages": [
+    {
+      "page": "sitemap.html",
+      "images": 0
+    },
+    {
+      "page": "cabinet-painting.html",
+      "images": 16
+    },
+    {
+      "page": "before-and-after.html",
+      "images": 39
+    },
+    {
+      "page": "privacy-policy.html",
+      "images": 0
+    },
+    {
+      "page": "disclaimer.html",
+      "images": 0
+    },
+    {
+      "page": "faq.html",
+      "images": 0
+    },
+    {
+      "page": "locations.html",
+      "images": 3
+    },
+    {
+      "page": "about.html",
+      "images": 17
+    },
+    {
+      "page": "accessibility.html",
+      "images": 0
+    },
+    {
+      "page": "terms-of-use.html",
+      "images": 0
+    },
+    {
+      "page": "contact.html",
+      "images": 4
+    },
+    {
+      "page": "cookies-policy.html",
+      "images": 0
+    },
+    {
+      "page": "exterior-painting.html",
+      "images": 13
+    },
+    {
+      "page": "_not-found.html",
+      "images": 0
+    },
+    {
+      "page": "_global-error.html",
+      "images": 0
+    },
+    {
+      "page": "index.html",
+      "images": 29
+    },
+    {
+      "page": "blog.html",
+      "images": 6
+    },
+    {
+      "page": "exterior-painting/spray-painting.html",
+      "images": 18
+    },
+    {
+      "page": "exterior-painting/aluminum-painting.html",
+      "images": 18
+    },
+    {
+      "page": "exterior-painting/exterior-window-door-painting.html",
+      "images": 18
+    },
+    {
+      "page": "exterior-painting/commercial-painting.html",
+      "images": 18
+    },
+    {
+      "page": "exterior-painting/eavestrough-fascia-painting.html",
+      "images": 18
+    },
+    {
+      "page": "exterior-painting/vinyl-siding-painting.html",
+      "images": 18
+    },
+    {
+      "page": "exterior-painting/wood-siding-painting.html",
+      "images": 18
+    },
+    {
+      "page": "exterior-painting/siding-painting.html",
+      "images": 18
+    },
+    {
+      "page": "exterior-painting/exterior-stucco-painting.html",
+      "images": 18
+    },
+    {
+      "page": "exterior-painting/brick-painting.html",
+      "images": 18
+    },
+    {
+      "page": "blog/why-surface-preparation-matters.html",
+      "images": 4
+    },
+    {
+      "page": "blog/caring-for-a-fresh-paint-finish.html",
+      "images": 4
+    },
+    {
+      "page": "blog/choosing-a-colour-for-your-home.html",
+      "images": 4
+    },
+    {
+      "page": "blog/planning-an-exterior-painting-project.html",
+      "images": 4
+    },
+    {
+      "page": "blog/cabinet-painting-or-replacement.html",
+      "images": 4
+    },
+    {
+      "page": "cabinet-painting/bathroom-vanity-painting.html",
+      "images": 7
+    },
+    {
+      "page": "cabinet-painting/cabinet-doors-drawer-fronts.html",
+      "images": 7
+    },
+    {
+      "page": "cabinet-painting/built-in-cabinetry-painting.html",
+      "images": 7
+    },
+    {
+      "page": "cabinet-painting/cabinet-frames-boxes-end-panels.html",
+      "images": 7
+    },
+    {
+      "page": "cabinet-painting/kitchen-cabinet-painting.html",
+      "images": 7
+    },
+    {
+      "page": "locations/mississauga.html",
+      "images": 12
+    },
+    {
+      "page": "locations/guelph.html",
+      "images": 12
+    },
+    {
+      "page": "locations/markham.html",
+      "images": 12
+    },
+    {
+      "page": "locations/etobicoke.html",
+      "images": 12
+    },
+    {
+      "page": "locations/barrie.html",
+      "images": 12
+    },
+    {
+      "page": "locations/london.html",
+      "images": 12
+    },
+    {
+      "page": "locations/aurora.html",
+      "images": 12
+    },
+    {
+      "page": "locations/cambridge.html",
+      "images": 12
+    },
+    {
+      "page": "locations/kitchener.html",
+      "images": 12
+    },
+    {
+      "page": "locations/waterloo.html",
+      "images": 12
+    },
+    {
+      "page": "locations/welland.html",
+      "images": 12
+    },
+    {
+      "page": "locations/toronto.html",
+      "images": 12
+    },
+    {
+      "page": "locations/brantford.html",
+      "images": 12
+    },
+    {
+      "page": "locations/burlington.html",
+      "images": 12
+    },
+    {
+      "page": "locations/niagara-falls.html",
+      "images": 12
+    },
+    {
+      "page": "locations/newmarket.html",
+      "images": 12
+    },
+    {
+      "page": "locations/north-york.html",
+      "images": 12
+    },
+    {
+      "page": "locations/oakville.html",
+      "images": 12
+    },
+    {
+      "page": "locations/richmond-hill.html",
+      "images": 12
+    },
+    {
+      "page": "locations/milton.html",
+      "images": 12
+    },
+    {
+      "page": "locations/caledon.html",
+      "images": 12
+    },
+    {
+      "page": "locations/hamilton.html",
+      "images": 12
+    },
+    {
+      "page": "locations/vaughan.html",
+      "images": 12
+    },
+    {
+      "page": "locations/king-city.html",
+      "images": 12
+    },
+    {
+      "page": "locations/st-catharines.html",
+      "images": 12
+    }
+  ],
+  "failures": [],
+  "uniqueImages": 136,
+  "browserVerification": "Unavailable; source and rendered HTML checks only."
+}
