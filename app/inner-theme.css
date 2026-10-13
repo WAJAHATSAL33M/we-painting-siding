@@ -1,0 +1,81 @@
+/* Inner pages share the approved homepage visual language without changing their grids. */
+main.inner-theme{max-width:none;width:100%;--gutter:max(clamp(22px,3vw,48px),calc((100vw - 1560px)/2));--section-space:48px;padding-bottom:0}
+main.inner-theme>.section,main.inner-theme>.scene{width:100%;max-width:none;margin-top:0;padding:48px var(--gutter);border:0;min-height:0;background:#fff}
+main.inner-theme>.section:nth-of-type(even),main.inner-theme>.scene:nth-of-type(even){background:var(--paper)}
+main.inner-theme>.full-band{max-width:none;width:100%;margin-top:0;padding:26px var(--gutter)}
+main.inner-theme h1{font-size:clamp(40px,4.5vw,66px);line-height:1.08;letter-spacing:-2px}
+main.inner-theme h2{font-size:clamp(30px,3.3vw,48px);line-height:1.14;letter-spacing:-1.4px}
+main.inner-theme h3{line-height:1.35;letter-spacing:-.5px}
+main.inner-theme p{font-size:14px;line-height:1.75}
+main.inner-theme .subtitle{font-size:18px;color:var(--blue);line-height:1.5}
+main.inner-theme .inner-section-label,main.inner-theme .support-kicker{font-size:11px;font-weight:700;line-height:1.5;letter-spacing:1.8px;text-transform:uppercase;color:var(--blue);margin:0 0 14px}
+main.inner-theme .button{min-height:50px;padding:14px 24px;border-radius:6px;font-size:13px;line-height:1.5;letter-spacing:0;text-transform:none;justify-content:center;gap:20px}
+main.inner-theme .actions{margin-top:24px;gap:16px;flex-wrap:wrap}
+main.inner-theme .text-link{font-size:13px;letter-spacing:0;text-transform:none;font-weight:600;color:var(--blue);line-height:1.5}
+main.inner-theme .benefits{gap:22px}
+main.inner-theme .benefits strong{font-size:13px;line-height:1.5;letter-spacing:0;text-transform:none}
+main.inner-theme .benefits p{font-size:12px;line-height:1.65;margin:8px 0 0}
+main.inner-theme .benefits svg{width:34px;height:34px;color:var(--blue)}
+main.inner-theme :is(.about-media>img,.about-split>img,.contact-intro-media>img,.exterior-split>img,.cab-split>img,.cab-explained-grid>img,.subservice-hero-media>img,.location-split>img,.blog-feature>img,.blog-post-hero,.ba-final img){border-radius:6px}
+main.inner-theme :is(.location-map,.about-map,.contact-map,.cab-area-grid iframe,.subservice-coverage-grid iframe){border-radius:6px;max-width:100%}
+/* Connected benefit bands and soft panels echo the homepage. */
+main.inner-theme :is(.location-band,.cab-band,.subservice-band,.ba-band,.support-cta,.contact-closing-benefits,.about-cta-benefits){background:var(--light);border-radius:8px;padding:26px;margin-top:28px}
+main.inner-theme :is(.location-band,.cab-band,.subservice-band,.ba-band) .inner-section-label{margin-bottom:16px}
+main.inner-theme :is(.about-value-grid,.about-service-grid,.about-step-grid,.contact-choice-grid,.exterior-service-grid,.exterior-process-grid,.cab-service-grid,.cab-component-grid,.cab-space-grid,.cab-considerations,.cab-sub-four,.location-cards,.subservice-consideration-grid,.subservice-process-grid,.blog-grid,.ba-process-grid){gap:22px}
+main.inner-theme :is(.about-value-grid,.contact-choice-grid,.cab-considerations,.cab-sub-four,.subservice-consideration-grid,.ba-process-grid)>article{background:#fff;border:1px solid #dce5ee;border-radius:6px;padding:24px;min-width:0}
+main.inner-theme :is(.blog-card,.location-card,.sitemap-grid>section,.subservice-related-grid>a){background:#fff;border:1px solid #dce5ee;border-radius:6px;overflow:hidden}
+main.inner-theme :is(.resource-card,.support-sidebar,.cab-sub-quote,.subservice-coverage-note,.subservice-commitment,.purpose-card){background:var(--light);border-radius:6px}
+main.inner-theme :is(.about-project-grid,.ba-card-grid,.ba-more-grid,.cab-transformations,.cab-sub-detail-photos){gap:22px}
+main.inner-theme .ba-images{border-radius:6px}
+main.inner-theme :is(.faq-list,.support-faq,.cab-faq-grid,.cab-sub-faq) details{background:#fff;border:1px solid #dce5ee;border-radius:6px;overflow:hidden;margin-bottom:12px}
+main.inner-theme :is(.faq-list,.support-faq,.cab-faq-grid,.cab-sub-faq) details[open]{background:var(--light)}
+main.inner-theme :is(.faq-list,.support-faq,.cab-faq-grid,.cab-sub-faq) summary{font-size:14px;line-height:1.5;min-height:60px;padding:18px}
+/* Forms and long articles retain their purpose-specific reading width. */
+main.inner-theme .contact-form{background:#fff;border:1px solid #dce5ee;border-radius:8px;padding:30px}
+main.inner-theme :is(.contact-form,.blog-search) input,main.inner-theme .contact-form textarea,main.inner-theme .contact-form select{border-radius:5px;border:1px solid #ccd7e2;min-height:46px;padding:12px}
+main.inner-theme .support-prose{max-width:860px}
+main.inner-theme .support-layout{grid-template-columns:minmax(0,1fr) 300px;gap:48px;max-width:1280px}
+main.inner-theme .support-prose h2{font-size:30px}
+main.inner-theme .support-prose h3{font-size:22px}
+main.inner-theme .support-sidebar h2{font-size:21px}
+main.inner-theme .support-cta h2{font-size:30px}
+main.inner-theme .support-prose p,main.inner-theme .support-prose li{font-size:15px;line-height:1.8}
+main.inner-theme .support-prose>section{margin-bottom:24px;padding-bottom:24px}
+main.inner-theme .blog-related{margin-top:36px}
+main.inner-theme :is(.support-intro,.blog-post-head){margin-bottom:28px}
+@media(max-width:1100px){
+ main.inner-theme :is(.about-split,.location-split,.exterior-split,.cab-split,.cab-explained-grid,.ba-split){gap:30px}
+ main.inner-theme .cab-sub-explanation,main.inner-theme .cab-sub-notes-layout{grid-template-columns:minmax(0,1fr);gap:26px}
+ main.inner-theme .cab-sub-four{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:900px){
+ main.inner-theme .support-layout{grid-template-columns:minmax(0,1fr);gap:28px}
+ main.inner-theme .support-sidebar{position:static}
+}
+@media(max-width:760px){
+ main.inner-theme{--gutter:22px;--section-space:36px}
+ main.inner-theme>.section,main.inner-theme>.scene{padding:36px var(--gutter);margin-top:0}
+ main.inner-theme>.full-band{padding:22px var(--gutter)}
+ main.inner-theme h1{font-size:39px;line-height:1.1;letter-spacing:-1.3px}
+ main.inner-theme h2{font-size:32px;letter-spacing:-1px}
+ main.inner-theme p{font-size:13px;line-height:1.75}
+ main.inner-theme .inner-section-label,main.inner-theme .support-kicker{font-size:10px;letter-spacing:1.5px;margin-bottom:12px}
+ main.inner-theme .button{font-size:12px;padding:13px 18px;min-height:48px}
+ main.inner-theme :is(.location-band,.cab-band,.subservice-band,.ba-band,.support-cta,.contact-closing-benefits,.about-cta-benefits){padding:22px;margin-top:24px}
+ main.inner-theme :is(.about-split,.location-split,.exterior-split,.cab-split,.cab-explained-grid,.ba-split,.cab-sub-final-layout,.subservice-explanation-grid){grid-template-columns:minmax(0,1fr);gap:26px}
+ main.inner-theme :is(.cab-sub-copy,.cab-sub-notes){grid-template-columns:minmax(0,1fr);gap:22px}
+ main.inner-theme :is(.location-map,.about-map,.contact-map){min-height:320px}
+ main.inner-theme .contact-form{padding:24px}
+ main.inner-theme .contact-form input,main.inner-theme .contact-form textarea,main.inner-theme .contact-form select{font-size:16px}
+ main.inner-theme .support-prose h2,main.inner-theme .support-cta h2{font-size:27px}
+ main.inner-theme .support-prose p,main.inner-theme .support-prose li{font-size:14px}
+ main.inner-theme .support-cta{flex-wrap:wrap}
+}
+@media(max-width:480px){
+ main.inner-theme :is(.about-value-grid,.contact-choice-grid,.cab-sub-four,.subservice-consideration-grid,.ba-process-grid){grid-template-columns:minmax(0,1fr)}
+ main.inner-theme :is(.location-band,.cab-band,.subservice-band,.ba-band) .benefits{grid-template-columns:minmax(0,1fr)}
+ main.inner-theme :is(.location-band,.cab-band,.subservice-band,.ba-band) .benefits>div{flex-direction:row;align-items:center;gap:18px}
+ main.inner-theme .actions>.button{width:100%}
+}
+@media(max-width:360px){main.inner-theme h1{font-size:35px}}
+main.inner-theme>.section>.inner-section-label,main.inner-theme>.scene>.inner-section-label{grid-column:1/-1}
