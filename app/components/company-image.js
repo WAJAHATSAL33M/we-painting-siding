@@ -1,0 +1,2 @@
+import metadata from '../data/company-photo-metadata.json';
+export default function CompanyImage({src,alt,width,height,loading,fetchPriority,...props}){const photo=metadata[src];return <img {...props} src={src} alt={photo?.alt||alt||'Painting project'} width={photo?.width||width} height={photo?.height||height} loading={loading||(fetchPriority==='high'?undefined:'lazy')} fetchPriority={fetchPriority} data-photo-origin={photo?.origin}/>;}

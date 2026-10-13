@@ -1,0 +1,820 @@
+{
+  "home": {
+    "hero": "/images/company/100-ezgif-com-gif-maker-35.webp",
+    "service-house": "/images/company/101-freshly-painted-house.webp",
+    "service-kitchen": "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+    "exterior": "/images/company/035-stunning-house-with-fresh-white-siding.webp",
+    "process-overview": "/images/company/094-halton-hills-maibec-siding-staining-front-after.webp",
+    "commitment": "/images/company/096-orangeville-exterior-painting-front-after.webp",
+    "cabinets": "/images/company/061-chatgpt-image-sep-5-2026-10-53-28-pm-1024x683.webp",
+    "guides": "/images/company/071-masking-exterior-house-spray-painter.webp",
+    "painter": "/images/company/211-back-brushing.webp",
+    "about-tools": "/images/company/040-img-1144.webp",
+    "faq": "/images/company/055-built-in-cabinetry-1024x683.webp",
+    "quote": "/images/company/099-average-house-siding-shutters-painted.webp",
+    "steps": [
+      "/images/company/203-img-9942.webp",
+      "/images/company/041-img-1148.webp",
+      "/images/company/042-img-1165.webp",
+      "/images/company/214-img-4819.webp",
+      "/images/company/091-after-white-we-paint-siding-van-e1704895870407.webp"
+    ],
+    "guideCards": [
+      "/images/company/034-masking-preparation-painting-contractor-exterior.webp",
+      "/images/company/033-grey-house.webp",
+      "/images/company/209-exterior-vinyl-windows-painted-black.webp",
+      "/images/company/060-chatgpt-image-sep-5-2026-06-53-43-pm-1024x704.webp",
+      "/images/company/052-painted-grey-brick-black-trim.webp"
+    ],
+    "projects": [
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/166-large-exterior-painting-siding-st-catharines.webp",
+      "/images/company/184-img-0229.webp",
+      "/images/company/037-brick-painting.webp",
+      "/images/company/054-bathroom-vanity-painting-1024x683.webp"
+    ]
+  },
+  "about": [
+    "/images/company/040-img-1144.webp",
+    "/images/company/211-back-brushing.webp",
+    "/images/company/100-ezgif-com-gif-maker-35.webp",
+    "/images/company/203-img-9942.webp",
+    "/images/company/041-img-1148.webp",
+    "/images/company/209-exterior-vinyl-windows-painted-black.webp",
+    "/images/company/096-orangeville-exterior-painting-front-after.webp",
+    "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
+    "/images/company/071-masking-exterior-house-spray-painter.webp",
+    "/images/company/214-img-4819.webp",
+    "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+    "/images/company/072-white-eavestrough-soffits-spray-painter.webp",
+    "/images/company/098-we-paint-siding-gta-898x1024-1.webp"
+  ],
+  "aboutGallery": [
+    "/images/company/055-built-in-cabinetry-1024x683.webp",
+    "/images/company/066-commercial-painting-inc-georgetown-1536x1152-1.webp",
+    "/images/company/094-halton-hills-maibec-siding-staining-front-after.webp",
+    "/images/company/061-chatgpt-image-sep-5-2026-10-53-28-pm-1024x683.webp"
+  ],
+  "contact": {
+    "tools": "/images/company/188-img-0622.webp",
+    "service-house": "/images/company/089-pics-35-young-court-orangeville-on2026-07-09-pictures-2.webp",
+    "kitchen": "/images/company/060-chatgpt-image-sep-5-2026-06-53-43-pm-1024x704.webp",
+    "closing": "/images/company/101-freshly-painted-house.webp"
+  },
+  "exterior": [
+    "/images/company/078-img-1258-scaled.webp",
+    "/images/company/211-back-brushing.webp",
+    "/images/company/100-ezgif-com-gif-maker-35.webp",
+    "/images/company/075-img-0545d-scaled.webp",
+    "/images/company/203-img-9942.webp",
+    "/images/company/071-masking-exterior-house-spray-painter.webp",
+    "/images/company/042-img-1165.webp",
+    "/images/company/214-img-4819.webp",
+    "/images/company/096-orangeville-exterior-painting-front-after.webp",
+    "/images/company/063-oakville-paint-sprayer-near-me.webp",
+    "/images/company/091-after-white-we-paint-siding-van-e1704895870407.webp",
+    "/images/company/035-stunning-house-with-fresh-white-siding.webp",
+    "/images/company/094-halton-hills-maibec-siding-staining-front-after.webp"
+  ],
+  "exteriorServices": {
+    "spray-painting": [
+      "/images/company/105-white-house-exterior-spray-painting.webp",
+      "/images/company/102-after-house-painting-brick-siding-1024x576-1-1.webp",
+      "/images/company/106-yellow-house-lakeshore-spray-painting.webp",
+      "/images/company/071-masking-exterior-house-spray-painter.webp",
+      "/images/company/040-img-1144.webp",
+      "/images/company/041-img-1148.webp",
+      "/images/company/211-back-brushing.webp",
+      "/images/company/104-grey-aluminum-siding-painting-front.webp",
+      "/images/company/035-stunning-house-with-fresh-white-siding.webp"
+    ],
+    "aluminum-painting": [
+      "/images/company/033-grey-house.webp",
+      "/images/company/035-stunning-house-with-fresh-white-siding.webp",
+      "/images/company/031-after-house-painting-burlington-exterior.webp",
+      "/images/company/034-masking-preparation-painting-contractor-exterior.webp",
+      "/images/company/203-img-9942.webp",
+      "/images/company/041-img-1148.webp",
+      "/images/company/042-img-1165.webp",
+      "/images/company/025-img-5523.webp",
+      "/images/company/030-img-9245s.webp"
+    ],
+    "siding-painting": [
+      "/images/company/162-after-exterior-siding-painting.webp",
+      "/images/company/165-house-rear-spray-painted-grey-1024x768-1.webp",
+      "/images/company/166-large-exterior-painting-siding-st-catharines.webp",
+      "/images/company/071-masking-exterior-house-spray-painter.webp",
+      "/images/company/203-img-9942.webp",
+      "/images/company/211-back-brushing.webp",
+      "/images/company/041-img-1148.webp",
+      "/images/company/167-side-house-vinyl-siding-exterior.webp",
+      "/images/company/168-vinyl-siding-olive-coloured-exterior-1024x768-1.webp"
+    ],
+    "vinyl-siding-painting": [
+      "/images/company/128-img-0545.webp",
+      "/images/company/132-img-0760.webp",
+      "/images/company/134-img-0894.webp",
+      "/images/company/071-masking-exterior-house-spray-painter.webp",
+      "/images/company/203-img-9942.webp",
+      "/images/company/041-img-1148.webp",
+      "/images/company/042-img-1165.webp",
+      "/images/company/140-img-5402.webp",
+      "/images/company/148-img-5851.webp"
+    ],
+    "brick-painting": [
+      "/images/company/051-huge-house-after-brick-painting.webp",
+      "/images/company/037-brick-painting.webp",
+      "/images/company/052-painted-grey-brick-black-trim.webp",
+      "/images/company/040-img-1144.webp",
+      "/images/company/041-img-1148.webp",
+      "/images/company/042-img-1165.webp",
+      "/images/company/211-back-brushing.webp",
+      "/images/company/045-img-2441-1.webp",
+      "/images/company/046-img-6425.webp"
+    ],
+    "exterior-stucco-painting": [
+      "/images/company/122-after-house-stucco-painting-white.webp",
+      "/images/company/107-img-0983.webp",
+      "/images/company/116-img-5460.webp",
+      "/images/company/071-masking-exterior-house-spray-painter.webp",
+      "/images/company/203-img-9942.webp",
+      "/images/company/041-img-1148.webp",
+      "/images/company/042-img-1165.webp",
+      "/images/company/118-img-5692.webp",
+      "/images/company/120-img-9037.webp"
+    ],
+    "wood-siding-painting": [
+      "/images/company/214-img-4819.webp",
+      "/images/company/216-img-4820.webp",
+      "/images/company/225-img-9337.webp",
+      "/images/company/211-back-brushing.webp",
+      "/images/company/218-img-8513.webp",
+      "/images/company/041-img-1148.webp",
+      "/images/company/042-img-1165.webp",
+      "/images/company/229-blue-garage.webp",
+      "/images/company/230-fresh-blue-siding-job-1536x1152-1-768x576.webp"
+    ],
+    "eavestrough-fascia-painting": [
+      "/images/company/072-white-eavestrough-soffits-spray-painter.webp",
+      "/images/company/069-screenshot-at-dec-21-18-17-11.webp",
+      "/images/company/070-eavestroughs-spray-painting-black-oakville-1024x768-1-scaled.webp",
+      "/images/company/071-masking-exterior-house-spray-painter.webp",
+      "/images/company/203-img-9942.webp",
+      "/images/company/188-img-0622.webp",
+      "/images/company/209-exterior-vinyl-windows-painted-black.webp",
+      "/images/company/208-eaves-soffits-windows-painted-hamilton.webp",
+      "/images/company/196-img-5430.webp"
+    ],
+    "exterior-window-door-painting": [
+      "/images/company/184-img-0229.webp",
+      "/images/company/191-img-0681.webp",
+      "/images/company/204-img-9948.webp",
+      "/images/company/203-img-9942.webp",
+      "/images/company/209-exterior-vinyl-windows-painted-black.webp",
+      "/images/company/188-img-0622.webp",
+      "/images/company/197-img-5556.webp",
+      "/images/company/180-img-0202.webp",
+      "/images/company/200-img-6941.webp"
+    ],
+    "commercial-painting": [
+      "/images/company/066-commercial-painting-inc-georgetown-1536x1152-1.webp",
+      "/images/company/064-after-masonry-painting-commercial.webp",
+      "/images/company/067-spray-paint-painting-mississauga.webp",
+      "/images/company/071-masking-exterior-house-spray-painter.webp",
+      "/images/company/040-img-1144.webp",
+      "/images/company/041-img-1148.webp",
+      "/images/company/042-img-1165.webp",
+      "/images/company/063-oakville-paint-sprayer-near-me.webp",
+      "/images/company/125-commercial-job-4-1536x1024.webp"
+    ]
+  },
+  "related": {
+    "spray-painting": {
+      "aluminum-painting": "/images/company/019-img-4851.webp",
+      "siding-painting": "/images/company/150-img-6872.webp",
+      "vinyl-siding-painting": "/images/company/154-img-6874.webp",
+      "brick-painting": "/images/company/038-brick-painting-1.webp",
+      "exterior-stucco-painting": "/images/company/124-church-with-white-paint.webp",
+      "wood-siding-painting": "/images/company/231-green-house-4.webp",
+      "eavestrough-fascia-painting": "/images/company/069-screenshot-at-dec-21-18-17-11.webp",
+      "exterior-window-door-painting": "/images/company/198-img-6721.webp",
+      "commercial-painting": "/images/company/083-img-5131-1024x768.webp"
+    },
+    "aluminum-painting": {
+      "spray-painting": "/images/company/102-after-house-painting-brick-siding-1024x576-1-1.webp",
+      "aluminum-painting": "/images/company/019-img-4851.webp",
+      "siding-painting": "/images/company/150-img-6872.webp",
+      "vinyl-siding-painting": "/images/company/154-img-6874.webp",
+      "brick-painting": "/images/company/038-brick-painting-1.webp",
+      "exterior-stucco-painting": "/images/company/124-church-with-white-paint.webp",
+      "wood-siding-painting": "/images/company/231-green-house-4.webp",
+      "eavestrough-fascia-painting": "/images/company/069-screenshot-at-dec-21-18-17-11.webp",
+      "exterior-window-door-painting": "/images/company/198-img-6721.webp",
+      "commercial-painting": "/images/company/083-img-5131-1024x768.webp"
+    },
+    "siding-painting": {
+      "spray-painting": "/images/company/102-after-house-painting-brick-siding-1024x576-1-1.webp",
+      "aluminum-painting": "/images/company/019-img-4851.webp",
+      "siding-painting": "/images/company/150-img-6872.webp",
+      "vinyl-siding-painting": "/images/company/154-img-6874.webp",
+      "brick-painting": "/images/company/038-brick-painting-1.webp",
+      "exterior-stucco-painting": "/images/company/124-church-with-white-paint.webp",
+      "wood-siding-painting": "/images/company/231-green-house-4.webp",
+      "eavestrough-fascia-painting": "/images/company/069-screenshot-at-dec-21-18-17-11.webp",
+      "exterior-window-door-painting": "/images/company/198-img-6721.webp",
+      "commercial-painting": "/images/company/083-img-5131-1024x768.webp"
+    },
+    "vinyl-siding-painting": {
+      "spray-painting": "/images/company/102-after-house-painting-brick-siding-1024x576-1-1.webp",
+      "aluminum-painting": "/images/company/019-img-4851.webp",
+      "siding-painting": "/images/company/150-img-6872.webp",
+      "vinyl-siding-painting": "/images/company/154-img-6874.webp",
+      "brick-painting": "/images/company/038-brick-painting-1.webp",
+      "exterior-stucco-painting": "/images/company/124-church-with-white-paint.webp",
+      "wood-siding-painting": "/images/company/231-green-house-4.webp",
+      "eavestrough-fascia-painting": "/images/company/069-screenshot-at-dec-21-18-17-11.webp",
+      "exterior-window-door-painting": "/images/company/198-img-6721.webp",
+      "commercial-painting": "/images/company/083-img-5131-1024x768.webp"
+    },
+    "brick-painting": {
+      "spray-painting": "/images/company/102-after-house-painting-brick-siding-1024x576-1-1.webp",
+      "aluminum-painting": "/images/company/019-img-4851.webp",
+      "siding-painting": "/images/company/150-img-6872.webp",
+      "vinyl-siding-painting": "/images/company/154-img-6874.webp",
+      "brick-painting": "/images/company/038-brick-painting-1.webp",
+      "exterior-stucco-painting": "/images/company/124-church-with-white-paint.webp",
+      "wood-siding-painting": "/images/company/231-green-house-4.webp",
+      "eavestrough-fascia-painting": "/images/company/069-screenshot-at-dec-21-18-17-11.webp",
+      "exterior-window-door-painting": "/images/company/198-img-6721.webp",
+      "commercial-painting": "/images/company/083-img-5131-1024x768.webp"
+    },
+    "exterior-stucco-painting": {
+      "spray-painting": "/images/company/102-after-house-painting-brick-siding-1024x576-1-1.webp",
+      "aluminum-painting": "/images/company/019-img-4851.webp",
+      "siding-painting": "/images/company/150-img-6872.webp",
+      "vinyl-siding-painting": "/images/company/154-img-6874.webp",
+      "brick-painting": "/images/company/038-brick-painting-1.webp",
+      "exterior-stucco-painting": "/images/company/124-church-with-white-paint.webp",
+      "wood-siding-painting": "/images/company/231-green-house-4.webp",
+      "eavestrough-fascia-painting": "/images/company/069-screenshot-at-dec-21-18-17-11.webp",
+      "exterior-window-door-painting": "/images/company/198-img-6721.webp",
+      "commercial-painting": "/images/company/083-img-5131-1024x768.webp"
+    },
+    "wood-siding-painting": {
+      "spray-painting": "/images/company/102-after-house-painting-brick-siding-1024x576-1-1.webp",
+      "aluminum-painting": "/images/company/019-img-4851.webp",
+      "siding-painting": "/images/company/150-img-6872.webp",
+      "vinyl-siding-painting": "/images/company/154-img-6874.webp",
+      "brick-painting": "/images/company/038-brick-painting-1.webp",
+      "exterior-stucco-painting": "/images/company/124-church-with-white-paint.webp",
+      "wood-siding-painting": "/images/company/231-green-house-4.webp",
+      "eavestrough-fascia-painting": "/images/company/069-screenshot-at-dec-21-18-17-11.webp",
+      "exterior-window-door-painting": "/images/company/198-img-6721.webp",
+      "commercial-painting": "/images/company/083-img-5131-1024x768.webp"
+    },
+    "eavestrough-fascia-painting": {
+      "spray-painting": "/images/company/102-after-house-painting-brick-siding-1024x576-1-1.webp",
+      "aluminum-painting": "/images/company/019-img-4851.webp",
+      "siding-painting": "/images/company/150-img-6872.webp",
+      "vinyl-siding-painting": "/images/company/154-img-6874.webp",
+      "brick-painting": "/images/company/038-brick-painting-1.webp",
+      "exterior-stucco-painting": "/images/company/124-church-with-white-paint.webp",
+      "wood-siding-painting": "/images/company/231-green-house-4.webp",
+      "exterior-window-door-painting": "/images/company/198-img-6721.webp",
+      "commercial-painting": "/images/company/083-img-5131-1024x768.webp"
+    },
+    "exterior-window-door-painting": {
+      "spray-painting": "/images/company/102-after-house-painting-brick-siding-1024x576-1-1.webp",
+      "aluminum-painting": "/images/company/019-img-4851.webp",
+      "siding-painting": "/images/company/150-img-6872.webp",
+      "vinyl-siding-painting": "/images/company/154-img-6874.webp",
+      "brick-painting": "/images/company/038-brick-painting-1.webp",
+      "exterior-stucco-painting": "/images/company/124-church-with-white-paint.webp",
+      "wood-siding-painting": "/images/company/231-green-house-4.webp",
+      "eavestrough-fascia-painting": "/images/company/069-screenshot-at-dec-21-18-17-11.webp",
+      "exterior-window-door-painting": "/images/company/198-img-6721.webp",
+      "commercial-painting": "/images/company/083-img-5131-1024x768.webp"
+    },
+    "commercial-painting": {
+      "spray-painting": "/images/company/102-after-house-painting-brick-siding-1024x576-1-1.webp",
+      "aluminum-painting": "/images/company/019-img-4851.webp",
+      "siding-painting": "/images/company/150-img-6872.webp",
+      "vinyl-siding-painting": "/images/company/154-img-6874.webp",
+      "brick-painting": "/images/company/038-brick-painting-1.webp",
+      "exterior-stucco-painting": "/images/company/124-church-with-white-paint.webp",
+      "wood-siding-painting": "/images/company/231-green-house-4.webp",
+      "eavestrough-fascia-painting": "/images/company/069-screenshot-at-dec-21-18-17-11.webp",
+      "exterior-window-door-painting": "/images/company/198-img-6721.webp",
+      "commercial-painting": "/images/company/083-img-5131-1024x768.webp"
+    }
+  },
+  "cabinet": [
+    "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
+    "/images/company/supplementary/cabinet-finish.webp",
+    "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+    "/images/company/054-bathroom-vanity-painting-1024x683.webp",
+    "/images/company/056-cabinet-doors-drawer-fronts-1024x683.webp",
+    "/images/company/supplementary/cabinet-boxes.webp",
+    "/images/company/055-built-in-cabinetry-1024x683.webp",
+    "/images/company/060-chatgpt-image-sep-5-2026-06-53-43-pm-1024x704.webp",
+    "/images/company/057-cabinet-painting-faqs.webp",
+    "/images/company/061-chatgpt-image-sep-5-2026-10-53-28-pm-1024x683.webp",
+    "/images/company/supplementary/cabinet-frames.webp",
+    "/images/company/supplementary/cabinet-end-panels.webp",
+    "/images/company/supplementary/cabinet-vanity-detail.webp",
+    "/images/company/supplementary/cabinet-builtins-detail.webp",
+    "/images/company/supplementary/cabinet-preparation.webp",
+    "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp"
+  ],
+  "cabinetServices": {
+    "kitchen-cabinet-painting": [
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
+      "/images/company/060-chatgpt-image-sep-5-2026-06-53-43-pm-1024x704.webp",
+      "/images/company/061-chatgpt-image-sep-5-2026-10-53-28-pm-1024x683.webp",
+      "/images/company/supplementary/cabinet-preparation.webp",
+      "/images/company/supplementary/cabinet-finish.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp"
+    ],
+    "bathroom-vanity-painting": [
+      "/images/company/054-bathroom-vanity-painting-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp",
+      "/images/company/supplementary/cabinet-vanity-detail.webp",
+      "/images/company/supplementary/cabinet-frames.webp",
+      "/images/company/supplementary/cabinet-preparation.webp",
+      "/images/company/supplementary/cabinet-finish.webp",
+      "/images/company/supplementary/cabinet-boxes.webp"
+    ],
+    "cabinet-doors-drawer-fronts": [
+      "/images/company/056-cabinet-doors-drawer-fronts-1024x683.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/060-chatgpt-image-sep-5-2026-06-53-43-pm-1024x704.webp",
+      "/images/company/061-chatgpt-image-sep-5-2026-10-53-28-pm-1024x683.webp",
+      "/images/company/supplementary/cabinet-preparation.webp",
+      "/images/company/supplementary/cabinet-finish.webp",
+      "/images/company/supplementary/cabinet-end-panels.webp"
+    ],
+    "cabinet-frames-boxes-end-panels": [
+      "/images/company/supplementary/cabinet-frames.webp",
+      "/images/company/supplementary/cabinet-boxes.webp",
+      "/images/company/supplementary/cabinet-end-panels.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/supplementary/cabinet-preparation.webp",
+      "/images/company/supplementary/cabinet-finish.webp",
+      "/images/company/060-chatgpt-image-sep-5-2026-06-53-43-pm-1024x704.webp"
+    ],
+    "built-in-cabinetry-painting": [
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/supplementary/cabinet-builtins-detail.webp",
+      "/images/company/supplementary/cabinet-frames.webp",
+      "/images/company/supplementary/cabinet-boxes.webp",
+      "/images/company/supplementary/cabinet-preparation.webp",
+      "/images/company/supplementary/cabinet-finish.webp",
+      "/images/company/supplementary/cabinet-end-panels.webp"
+    ]
+  },
+  "locations": {
+    "burlington": [
+      "/images/company/100-ezgif-com-gif-maker-35.webp",
+      "/images/company/101-freshly-painted-house.webp",
+      "/images/company/033-grey-house.webp",
+      "/images/company/035-stunning-house-with-fresh-white-siding.webp",
+      "/images/company/094-halton-hills-maibec-siding-staining-front-after.webp",
+      "/images/company/096-orangeville-exterior-painting-front-after.webp",
+      "/images/company/214-img-4819.webp",
+      "/images/company/225-img-9337.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "oakville": [
+      "/images/company/035-stunning-house-with-fresh-white-siding.webp",
+      "/images/company/094-halton-hills-maibec-siding-staining-front-after.webp",
+      "/images/company/096-orangeville-exterior-painting-front-after.webp",
+      "/images/company/214-img-4819.webp",
+      "/images/company/225-img-9337.webp",
+      "/images/company/230-fresh-blue-siding-job-1536x1152-1-768x576.webp",
+      "/images/company/232-green-siding-painted.webp",
+      "/images/company/031-after-house-painting-burlington-exterior.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "milton": [
+      "/images/company/214-img-4819.webp",
+      "/images/company/225-img-9337.webp",
+      "/images/company/230-fresh-blue-siding-job-1536x1152-1-768x576.webp",
+      "/images/company/232-green-siding-painted.webp",
+      "/images/company/031-after-house-painting-burlington-exterior.webp",
+      "/images/company/025-img-5523.webp",
+      "/images/company/030-img-9245s.webp",
+      "/images/company/037-brick-painting.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "hamilton": [
+      "/images/company/232-green-siding-painted.webp",
+      "/images/company/031-after-house-painting-burlington-exterior.webp",
+      "/images/company/025-img-5523.webp",
+      "/images/company/030-img-9245s.webp",
+      "/images/company/037-brick-painting.webp",
+      "/images/company/052-painted-grey-brick-black-trim.webp",
+      "/images/company/089-pics-35-young-court-orangeville-on2026-07-09-pictures-2.webp",
+      "/images/company/075-img-0545d-scaled.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "guelph": [
+      "/images/company/030-img-9245s.webp",
+      "/images/company/037-brick-painting.webp",
+      "/images/company/052-painted-grey-brick-black-trim.webp",
+      "/images/company/089-pics-35-young-court-orangeville-on2026-07-09-pictures-2.webp",
+      "/images/company/075-img-0545d-scaled.webp",
+      "/images/company/078-img-1258-scaled.webp",
+      "/images/company/079-img-1335.webp",
+      "/images/company/080-img-2623-scaled.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "waterloo": [
+      "/images/company/089-pics-35-young-court-orangeville-on2026-07-09-pictures-2.webp",
+      "/images/company/075-img-0545d-scaled.webp",
+      "/images/company/078-img-1258-scaled.webp",
+      "/images/company/079-img-1335.webp",
+      "/images/company/080-img-2623-scaled.webp",
+      "/images/company/082-img-4980-scaled.webp",
+      "/images/company/084-img-6169-scaled.webp",
+      "/images/company/085-img-7364-scaled.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "kitchener": [
+      "/images/company/079-img-1335.webp",
+      "/images/company/080-img-2623-scaled.webp",
+      "/images/company/082-img-4980-scaled.webp",
+      "/images/company/084-img-6169-scaled.webp",
+      "/images/company/085-img-7364-scaled.webp",
+      "/images/company/087-pics-12-stokes-drive-nobleton-on2026-07-30-pictures-4.webp",
+      "/images/company/091-after-white-we-paint-siding-van-e1704895870407.webp",
+      "/images/company/099-average-house-siding-shutters-painted.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "cambridge": [
+      "/images/company/084-img-6169-scaled.webp",
+      "/images/company/085-img-7364-scaled.webp",
+      "/images/company/087-pics-12-stokes-drive-nobleton-on2026-07-30-pictures-4.webp",
+      "/images/company/091-after-white-we-paint-siding-van-e1704895870407.webp",
+      "/images/company/099-average-house-siding-shutters-painted.webp",
+      "/images/company/104-grey-aluminum-siding-painting-front.webp",
+      "/images/company/105-white-house-exterior-spray-painting.webp",
+      "/images/company/106-yellow-house-lakeshore-spray-painting.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "barrie": [
+      "/images/company/091-after-white-we-paint-siding-van-e1704895870407.webp",
+      "/images/company/099-average-house-siding-shutters-painted.webp",
+      "/images/company/104-grey-aluminum-siding-painting-front.webp",
+      "/images/company/105-white-house-exterior-spray-painting.webp",
+      "/images/company/106-yellow-house-lakeshore-spray-painting.webp",
+      "/images/company/107-img-0983.webp",
+      "/images/company/109-img-1061.webp",
+      "/images/company/111-img-1063.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "london": [
+      "/images/company/105-white-house-exterior-spray-painting.webp",
+      "/images/company/106-yellow-house-lakeshore-spray-painting.webp",
+      "/images/company/107-img-0983.webp",
+      "/images/company/109-img-1061.webp",
+      "/images/company/111-img-1063.webp",
+      "/images/company/113-img-1064.webp",
+      "/images/company/116-img-5460.webp",
+      "/images/company/118-img-5692.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "st-catharines": [
+      "/images/company/109-img-1061.webp",
+      "/images/company/111-img-1063.webp",
+      "/images/company/113-img-1064.webp",
+      "/images/company/116-img-5460.webp",
+      "/images/company/118-img-5692.webp",
+      "/images/company/120-img-9037.webp",
+      "/images/company/121-img-9038.webp",
+      "/images/company/122-after-house-stucco-painting-white.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "niagara-falls": [
+      "/images/company/116-img-5460.webp",
+      "/images/company/118-img-5692.webp",
+      "/images/company/120-img-9037.webp",
+      "/images/company/121-img-9038.webp",
+      "/images/company/122-after-house-stucco-painting-white.webp",
+      "/images/company/124-church-with-white-paint.webp",
+      "/images/company/128-img-0545.webp",
+      "/images/company/130-img-0546.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "welland": [
+      "/images/company/121-img-9038.webp",
+      "/images/company/122-after-house-stucco-painting-white.webp",
+      "/images/company/124-church-with-white-paint.webp",
+      "/images/company/128-img-0545.webp",
+      "/images/company/130-img-0546.webp",
+      "/images/company/132-img-0760.webp",
+      "/images/company/134-img-0894.webp",
+      "/images/company/136-img-0913.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "etobicoke": [
+      "/images/company/128-img-0545.webp",
+      "/images/company/130-img-0546.webp",
+      "/images/company/132-img-0760.webp",
+      "/images/company/134-img-0894.webp",
+      "/images/company/136-img-0913.webp",
+      "/images/company/138-img-0914.webp",
+      "/images/company/140-img-5402.webp",
+      "/images/company/142-img-5583.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "mississauga": [
+      "/images/company/134-img-0894.webp",
+      "/images/company/136-img-0913.webp",
+      "/images/company/138-img-0914.webp",
+      "/images/company/140-img-5402.webp",
+      "/images/company/142-img-5583.webp",
+      "/images/company/144-img-5584.webp",
+      "/images/company/146-img-5585.webp",
+      "/images/company/148-img-5851.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "toronto": [
+      "/images/company/140-img-5402.webp",
+      "/images/company/142-img-5583.webp",
+      "/images/company/144-img-5584.webp",
+      "/images/company/146-img-5585.webp",
+      "/images/company/148-img-5851.webp",
+      "/images/company/150-img-6872.webp",
+      "/images/company/152-img-6873.webp",
+      "/images/company/154-img-6874.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "north-york": [
+      "/images/company/146-img-5585.webp",
+      "/images/company/148-img-5851.webp",
+      "/images/company/150-img-6872.webp",
+      "/images/company/152-img-6873.webp",
+      "/images/company/154-img-6874.webp",
+      "/images/company/160-img-8901s.webp",
+      "/images/company/161-img-9097s.webp",
+      "/images/company/162-after-exterior-siding-painting.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "vaughan": [
+      "/images/company/152-img-6873.webp",
+      "/images/company/154-img-6874.webp",
+      "/images/company/160-img-8901s.webp",
+      "/images/company/161-img-9097s.webp",
+      "/images/company/162-after-exterior-siding-painting.webp",
+      "/images/company/165-house-rear-spray-painted-grey-1024x768-1.webp",
+      "/images/company/166-large-exterior-painting-siding-st-catharines.webp",
+      "/images/company/167-side-house-vinyl-siding-exterior.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "markham": [
+      "/images/company/161-img-9097s.webp",
+      "/images/company/162-after-exterior-siding-painting.webp",
+      "/images/company/165-house-rear-spray-painted-grey-1024x768-1.webp",
+      "/images/company/166-large-exterior-painting-siding-st-catharines.webp",
+      "/images/company/167-side-house-vinyl-siding-exterior.webp",
+      "/images/company/168-vinyl-siding-olive-coloured-exterior-1024x768-1.webp",
+      "/images/company/100-ezgif-com-gif-maker-35.webp",
+      "/images/company/101-freshly-painted-house.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "richmond-hill": [
+      "/images/company/166-large-exterior-painting-siding-st-catharines.webp",
+      "/images/company/167-side-house-vinyl-siding-exterior.webp",
+      "/images/company/168-vinyl-siding-olive-coloured-exterior-1024x768-1.webp",
+      "/images/company/100-ezgif-com-gif-maker-35.webp",
+      "/images/company/101-freshly-painted-house.webp",
+      "/images/company/033-grey-house.webp",
+      "/images/company/035-stunning-house-with-fresh-white-siding.webp",
+      "/images/company/094-halton-hills-maibec-siding-staining-front-after.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "newmarket": [
+      "/images/company/100-ezgif-com-gif-maker-35.webp",
+      "/images/company/101-freshly-painted-house.webp",
+      "/images/company/033-grey-house.webp",
+      "/images/company/035-stunning-house-with-fresh-white-siding.webp",
+      "/images/company/094-halton-hills-maibec-siding-staining-front-after.webp",
+      "/images/company/096-orangeville-exterior-painting-front-after.webp",
+      "/images/company/214-img-4819.webp",
+      "/images/company/225-img-9337.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "aurora": [
+      "/images/company/035-stunning-house-with-fresh-white-siding.webp",
+      "/images/company/094-halton-hills-maibec-siding-staining-front-after.webp",
+      "/images/company/096-orangeville-exterior-painting-front-after.webp",
+      "/images/company/214-img-4819.webp",
+      "/images/company/225-img-9337.webp",
+      "/images/company/230-fresh-blue-siding-job-1536x1152-1-768x576.webp",
+      "/images/company/232-green-siding-painted.webp",
+      "/images/company/031-after-house-painting-burlington-exterior.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "king-city": [
+      "/images/company/214-img-4819.webp",
+      "/images/company/225-img-9337.webp",
+      "/images/company/230-fresh-blue-siding-job-1536x1152-1-768x576.webp",
+      "/images/company/232-green-siding-painted.webp",
+      "/images/company/031-after-house-painting-burlington-exterior.webp",
+      "/images/company/025-img-5523.webp",
+      "/images/company/030-img-9245s.webp",
+      "/images/company/037-brick-painting.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "caledon": [
+      "/images/company/232-green-siding-painted.webp",
+      "/images/company/031-after-house-painting-burlington-exterior.webp",
+      "/images/company/025-img-5523.webp",
+      "/images/company/030-img-9245s.webp",
+      "/images/company/037-brick-painting.webp",
+      "/images/company/052-painted-grey-brick-black-trim.webp",
+      "/images/company/089-pics-35-young-court-orangeville-on2026-07-09-pictures-2.webp",
+      "/images/company/075-img-0545d-scaled.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ],
+    "brantford": [
+      "/images/company/030-img-9245s.webp",
+      "/images/company/037-brick-painting.webp",
+      "/images/company/052-painted-grey-brick-black-trim.webp",
+      "/images/company/089-pics-35-young-court-orangeville-on2026-07-09-pictures-2.webp",
+      "/images/company/075-img-0545d-scaled.webp",
+      "/images/company/078-img-1258-scaled.webp",
+      "/images/company/079-img-1335.webp",
+      "/images/company/080-img-2623-scaled.webp",
+      "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+      "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+      "/images/company/055-built-in-cabinetry-1024x683.webp",
+      "/images/company/057-cabinet-painting-faqs.webp"
+    ]
+  },
+  "locationMain": {
+    "exterior": "/images/company/100-ezgif-com-gif-maker-35.webp",
+    "cabinet": "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
+    "closing": "/images/company/101-freshly-painted-house.webp"
+  },
+  "blogs": [
+    "/images/company/094-halton-hills-maibec-siding-staining-front-after.webp",
+    "/images/company/211-back-brushing.webp",
+    "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+    "/images/company/232-green-siding-painted.webp",
+    "/images/company/106-yellow-house-lakeshore-spray-painting.webp"
+  ],
+  "blogFeature": "/images/company/100-ezgif-com-gif-maker-35.webp",
+  "comparisons": {
+    "home-siding": {
+      "before": "/images/company/163-before-siding-painting-etobicoke.webp",
+      "after": "/images/company/162-after-exterior-siding-painting.webp"
+    },
+    "hero-brick": {
+      "before": "/images/company/050-huge-brick-house-before-painting.webp",
+      "after": "/images/company/051-huge-house-after-brick-painting.webp"
+    },
+    "siding": {
+      "before": "/images/company/129-img-0545s.webp",
+      "after": "/images/company/128-img-0545.webp"
+    },
+    "brick": {
+      "before": "/images/company/190-img-0648s.webp",
+      "after": "/images/company/189-img-0648.webp"
+    },
+    "stucco": {
+      "before": "/images/company/123-before-stucco-painting-dirty-house.webp",
+      "after": "/images/company/122-after-house-stucco-painting-white.webp"
+    },
+    "wood": {
+      "before": "/images/company/213-img-1065s.webp",
+      "after": "/images/company/212-img-1065.webp"
+    },
+    "project-siding": {
+      "before": "/images/company/151-img-6872sw.webp",
+      "after": "/images/company/150-img-6872.webp"
+    },
+    "project-commercial": {
+      "before": "/images/company/065-commercial-masonry-painting-before.webp",
+      "after": "/images/company/064-after-masonry-painting-commercial.webp"
+    },
+    "aluminum": {
+      "before": "/images/company/022-img-4925s.webp",
+      "after": "/images/company/021-img-4925.webp"
+    },
+    "vinyl": {
+      "before": "/images/company/133-img-0760s.webp",
+      "after": "/images/company/132-img-0760.webp"
+    },
+    "door": {
+      "before": "/images/company/172-img-0123s.webp",
+      "after": "/images/company/171-img-0123.webp"
+    },
+    "garage": {
+      "before": "/images/company/206-milton-garage-paintings.webp",
+      "after": "/images/company/205-milton-garage-painting.webp"
+    },
+    "timber": {
+      "before": "/images/company/226-img-9337s.webp",
+      "after": "/images/company/225-img-9337.webp"
+    },
+    "rear-siding": {
+      "before": "/images/company/145-img-5584s.webp",
+      "after": "/images/company/144-img-5584.webp"
+    },
+    "trim": {
+      "before": "/images/company/207-before-painting-soffits-windows-eaves.webp",
+      "after": "/images/company/208-eaves-soffits-windows-painted-hamilton.webp"
+    },
+    "garage-trim": {
+      "before": "/images/company/202-img-9336s.webp",
+      "after": "/images/company/201-img-9336.webp"
+    }
+  },
+  "beforeAfterSteps": [
+    "/images/company/040-img-1144.webp",
+    "/images/company/071-masking-exterior-house-spray-painter.webp",
+    "/images/company/211-back-brushing.webp",
+    "/images/company/203-img-9942.webp",
+    "/images/company/214-img-4819.webp"
+  ],
+  "beforeAfterFinal": "/images/company/094-halton-hills-maibec-siding-staining-front-after.webp",
+  "beforeAfterCabinets": [
+    "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+    "/images/company/054-bathroom-vanity-painting-1024x683.webp",
+    "/images/company/055-built-in-cabinetry-1024x683.webp"
+  ]
+}
