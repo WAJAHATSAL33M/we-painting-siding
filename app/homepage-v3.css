@@ -518,3 +518,35 @@
 }
 @media(max-width:380px){.wps-home .w-hero-copy h1{font-size:36px}.wps-home .w-hero-media{height:290px}.wps-home .w-hero-inset{width:122px;height:125px}.wps-home .w-service-links a{font-size:11px}.wps-home .w-interior-tabs>button{font-size:10px}.wps-home .w-photo-band>span{font-size:8px}.wps-home .w-photo-band svg{width:16px;height:16px}}
 .wps-home .w-work .w-painted{color:#29aaf0}
+/* Exact approved-artwork masks replace all procedural line paths. */
+.wps-home .w-hero-copy>p:not(.w-eyebrow){max-width:500px;margin-top:20px}
+.wps-home .w-hero-media{margin-left:-24px;width:calc(100% + var(--w-gutter) + 24px)}
+.wps-home .w-painted:after{height:22px;width:min(100%,285px)}
+.wps-home .w-hero-copy .w-painted:after{left:42%;width:55%;height:22px}
+.wps-home .w-hero-inset figcaption{bottom:4px;right:4px;padding:14px 22px}
+.wps-home .w-service-card>.w-inspiration{mask:none}
+.wps-home .w-service-card>.w-inspiration>img{mask:url('/images/brush/photo-bottom.svg') center/100% 100% no-repeat}
+.wps-home .w-service-card>.w-inspiration>figcaption{bottom:44px}
+.wps-home .w-services .w-section-intro{display:block;max-width:1100px}
+.wps-home .w-services .w-section-intro>p{max-width:760px;margin-top:18px;font-size:17px}
+.wps-home .w-service-heading{display:block;margin-bottom:18px}
+.wps-home .w-service-heading>.w-icon-circle{display:none}
+.wps-home .w-service-heading h3{padding:0}
+.wps-home .w-service-body{padding-top:0}
+.wps-home .w-photo-band{display:flex;align-items:center;gap:8px;right:auto;max-width:94%;padding:22px 32px}
+.wps-home .w-photo-band>span{font-size:14px;display:inline;white-space:nowrap}
+.wps-home .w-photo-band svg{display:none}
+.wps-home .w-interior .w-inspiration>figcaption{padding:15px 24px}
+.wps-home .w-footer-brand:after{height:32px}
+@media(max-width:760px){
+ .wps-home .w-hero-media{margin-left:0;width:100%}
+ .wps-home .w-hero-copy .w-painted:after{left:30%;width:66%;height:18px}
+ .wps-home .w-painted:after{height:17px;width:min(100%,220px)}
+ .wps-home .w-service-card>.w-inspiration>figcaption{bottom:32px;font-size:9px}
+ .wps-home .w-services .w-section-intro>p{font-size:15px}
+ .wps-home .w-service-heading h3{font-size:25px}
+ .wps-home .w-photo-band{left:4px;max-width:98%;gap:4px;padding:18px 20px}
+ .wps-home .w-photo-band>span{font-size:10px}
+ .wps-home .w-hero-inset figcaption{font-size:8px;padding:12px 16px}
+ .wps-home .w-interior .w-inspiration>figcaption{font-size:9px;padding:13px 18px}
+}
