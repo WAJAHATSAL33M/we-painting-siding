@@ -4,10 +4,50 @@ import {Icon} from './site-home';
 import surfaces from '../data/exterior-service-links.json';
 import locations from '../data/locations.json';
 import cabinetLinks from '../data/cabinet-service-links.json';
-import artwork from '../../public/images/original-home/provenance.json';
-function dimensions(name){const item=artwork.crops.find(x=>x.name===name);return item?{width:item.width,height:item.height}:{}}
-const asset=n=>'/images/original-home/'+n+'.webp';
-function Art({name,alt='',className='',eager=false}){if(name==='knowledge-art'||name==='quote-art')return <span className={'o-picture '+className}><img className="o-art o-art-desktop" {...dimensions(name)} src={asset(name)} alt={alt} loading="lazy"/><img className="o-art o-art-mobile" {...dimensions(name==='knowledge-art'?'knowledge-mobile':'quote-mobile')} src={asset(name==='knowledge-art'?'knowledge-mobile':'quote-mobile')} alt={alt} loading="lazy"/></span>;return <img className={'o-art '+className} {...dimensions(name)} src={asset(name)} alt={alt} loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined}/>}
+const cleanPhotos={
+ 'hero-art':['/images/v2/house.webp','White siding home with dark trim'],
+ 'services-left':['/images/company/035-stunning-house-with-fresh-white-siding.webp','Freshly painted white siding home'],
+ 'services-right':['/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp','Blue painted kitchen cabinets'],
+ 'exterior-art':['/images/company/100-ezgif-com-gif-maker-35.webp','Painted grey siding and brick exterior'],
+ 'interior-art':['/images/v2/kitchen.webp','Professionally painted kitchen cabinetry'],
+ 'process-photo':['/images/company/096-orangeville-exterior-painting-front-after.webp','Finished exterior painting project'],
+ 'knowledge-art':['/images/v2/tools.webp','Paint brush and painting supplies beside blue siding'],
+ 'work-art':['/images/company/166-large-exterior-painting-siding-st-catharines.webp','Completed exterior siding project'],
+ 'about-art':['/images/v2/painter.webp','We Paint Siding painter working on a home'],
+ 'about-brush-photo':['/images/company/071-masking-exterior-house-spray-painter.webp','Brush applying a blue finish to siding'],
+ 'faq-art':['/images/v2/living.webp','Bright living room with a freshly painted finish'],
+ 'quote-art':['/images/company/099-average-house-siding-shutters-painted.webp','Painted siding home and landscaping'],
+ 'work-kitchen':['/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp','Kitchen cabinet painting project'],
+ 'work-siding':['/images/company/094-halton-hills-maibec-siding-staining-front-after.webp','Completed siding painting project'],
+ 'work-door':['/images/v2/door.webp','Painted front door and entryway'],
+ 'work-brick':['/images/company/037-brick-painting.webp','Finished brick painting project'],
+ 'work-vanity':['/images/company/054-bathroom-vanity-painting-1024x683.webp','Painted bathroom vanity']
+};
+const handwritten={
+ 'hero-art':<>Painting<br/>Stronger<br/>Communities</>,
+ 'services-right':<>Same Spaces.<br/>Brighter Days.</>,
+ 'exterior-art':<>Built to<br/>Withstand More.</>,
+ 'interior-art':<>Same Cabinets.<br/>A Whole New Look.</>,
+ 'process-photo':<>Beautiful Spaces.<br/>Brighter Tomorrows.</>,
+ 'knowledge-art':<>Knowledge Leads<br/>to a Better Finish.</>,
+ 'work-art':<>Same Spaces.<br/>A Brighter Story.</>,
+ 'about-art':<>More Than Paint.<br/>A Brighter Tomorrow.</>,
+ 'faq-art':<>Great Questions.<br/>Even Better Spaces.</>,
+ 'quote-art':<>Same Great Spaces.<br/>A Brighter Tomorrow.</>
+};
+function Script({children,className=''}){return <p className={'o-script '+className}>{children}</p>}
+function PhotoPanel({name,className='',eager=false}){const[src,alt]=cleanPhotos[name];const benefits=name==='exterior-art'?[['shield','Weather Protection'],['home','Enhanced Curb Appeal'],['layers','Long-lasting Finishes'],['leaf','A Cleaner, Brighter Home']]:name==='interior-art'?[['diamond','Cost-effective Upgrade'],['leaf','Smooth & Durable Finishes'],['home','Beautiful Spaces You’ll Love']]:null;return <div className={'o-panel '+className+' o-panel-'+name}><img className="o-clean-photo" src={src} width="1200" height="1000" alt={alt} loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined}/><div className="o-panel-content">{handwritten[name]&&<Script>{handwritten[name]}</Script>}{benefits&&<Benefits items={benefits} className="o-panel-benefits"/>}</div>{name==='hero-art'&&<Benefits className="o-glass-benefits" items={[["shield","Quality Craftsmanship"],["leaf","Lasting Protection"],["people","Serving Across Ontario"]]}/>}<div className="o-panel-bottom">{name==='exterior-art'&&<span className="o-brush-label">Beautiful Exteriors.<br/>Stronger Communities.</span>}{name==='interior-art'&&<span className="o-brush-label">Beautiful Cabinets.<br/>Brighter Everydays.</span>}{name==='work-art'&&<span className="o-brush-label">Exterior Transformation</span>}{name==='faq-art'&&<blockquote className="o-testimonial"><p>“They answered all of our questions and made the whole process so easy!”</p><cite>A Happy Homeowner</cite></blockquote>}</div></div>}
+function Art({name,className='',eager=false}){
+ if(['hero-sign','knowledge-sign'].includes(name))return <div className={'o-tagline '+className}><Script>{name==='hero-sign'?'More Than Just Paint.':'Informed Choices. More Beautiful Spaces.'}</Script><span className="o-tagline-rule" aria-hidden="true"/><span className="o-tagline-people">People　 |　 Properties　 |　 Communities</span></div>;
+ const phrases={'process-sign':<>It’s More<br/>Than Paint.</>,'about-sign':<>Proud to Paint<br/>the Places You Love.</>,'faq-sign':<>More Than Paint.<br/>Peace of Mind.</>,'quote-swash':<>Better Spaces<br/>Start Here.</>,'footer-swash':<>More Than Paint.<br/>Brighter Tomorrows.</>,'work-ribbon':<>More Projects.<br/>More Possibilities.<Arrow/></>};
+ if(phrases[name])return <div className={className+' '+(['quote-swash','footer-swash','work-ribbon'].includes(name)?'o-native-ribbon':'o-native-script')}><Script>{phrases[name]}</Script></div>;
+ if(name==='service-divider'||name==='footer-top')return <span className={className+' o-decoration'} aria-hidden="true"/>;
+ if(['services-left','about-brush-photo',...projectsPhotoNames].includes(name)){const[src,alt]=cleanPhotos[name];return <img className={'o-art o-clean-photo '+className} src={src} alt={alt} width="1200" height="1000" loading="lazy"/>}
+ if(cleanPhotos[name])return <PhotoPanel name={name} className={className} eager={eager}/>;
+ return null;
+}
+const projectsPhotoNames=['work-kitchen','work-siding','work-door','work-brick','work-vanity'];
+
 function Arrow(){return <span aria-hidden="true">⟶</span>}
 function Button({children='Get a Quote',href='#quote',outline=false}){return <a className={'o-button'+(outline?' o-outline':'')} href={href}>{children}<Arrow/></a>}
 function Label({children,center=false}){return <p className={'o-label'+(center?' o-centered':'')}>{children}</p>}
