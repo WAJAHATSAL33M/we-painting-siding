@@ -77,9 +77,9 @@
     {
       "name": "knowledge-art",
       "page": 6,
-      "x": 850,
+      "x": 760,
       "y": 0,
-      "width": 924,
+      "width": 1014,
       "height": 460
     },
     {
@@ -217,6 +217,27 @@
       "y": 425,
       "width": 648,
       "height": 190
+    },
+    {
+      "name": "knowledge-mobile",
+      "page": 6,
+      "x": 760,
+      "y": 0,
+      "width": 590,
+      "height": 460
+    },
+    {
+      "name": "quote-mobile",
+      "page": 10,
+      "x": 780,
+      "y": 0,
+      "width": 730,
+      "height": 743
     }
-  ]
+  ],
+  "additionalAssets": {
+    "underline.svg": "Blue stroke alpha extracted from page 2, x1320 y820, 350x40.",
+    "process-line.svg": "Blue connecting strokes extracted from page 4, x690 y238, 900x45.",
+    "footer-logo.svg": "The existing company JPG logo with a transparent background and light lettering for the navy footer."
+  }
 }
