@@ -401,3 +401,10 @@
  .wps-original .o-footer-bottom{gap:16px;padding-block:20px}
  .wps-original .o-footer-bottom nav{gap:10px 12px}
 }
+/* Standalone slogans need no oversized paint block. */
+.wps-original .o-quote-swash{background:none;padding:8px 20px;margin:0 0 8px}
+.wps-original .o-quote-swash:before{display:none}
+.wps-original .o-quote-swash .o-script{color:#0879bd}
+.wps-original .o-quote-swash .o-script:after{background:#0879bd}
+.wps-original .o-work-bottom .o-native-ribbon{border-radius:3px}
+.wps-original .o-work-bottom .o-native-ribbon:before{display:none}
