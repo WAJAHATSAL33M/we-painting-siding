@@ -102,3 +102,4 @@
  .hero-only .h-trust>div{flex-direction:column;align-items:center;text-align:center;gap:6px}
  .hero-only .h-trust span{font-size:.53rem}
 }
+.hero-only .h-header .o-logo{max-width:calc(100% - 64px)}
