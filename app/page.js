@@ -1,7 +1,4 @@
-import Homepage from './components/homepage-hero';
-import './homepage-original.css';
-import './homepage-hero.css';
-import './homepage-services.css';
-export const metadata={title:'Exterior & Interior Painting Ontario | We Paint Siding',description:'Professional exterior and interior painting across the GTA, Golden Horseshoe and Southern Ontario. Explore siding, walls, trim and cabinet painting with We Paint Siding.'};
-export default function Home(){return <Homepage/>}
-
+import ApprovedHomepage from './components/approved-homepage';
+import './approved-homepage.css';
+export const metadata={title:'Exterior & Cabinet Painting Ontario | We Paint Siding',description:'A fresh finish for a brighter tomorrow. Explore exterior house and cabinet painting, our process, finish inspiration and free quote requests across Southern Ontario.'};
+export default function Home(){return <ApprovedHomepage/>}
