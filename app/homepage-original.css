@@ -262,3 +262,4 @@
  .wps-original .o-glass-benefits{margin-left:8%;padding:14px;gap:14px}
  .wps-original .o-panel-content .o-script{font-size:2rem}
 }
+.wps-original .o-full-width[data-band=header]{position:relative;z-index:100}
