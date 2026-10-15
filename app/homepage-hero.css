@@ -103,3 +103,6 @@
  .hero-only .h-trust span{font-size:.53rem}
 }
 .hero-only .h-header .o-logo{max-width:calc(100% - 64px)}
+.hero-only .h-handwriting{left:12%;isolation:isolate}
+.hero-only .h-handwriting:before{content:'';position:absolute;inset:-24px -34px;background:radial-gradient(ellipse,#e6f3fcf2 0%,#e6f3fccf 45%,#e6f3fc00 72%);z-index:-1;pointer-events:none}
+@container hero (max-width:640px){.hero-only .h-handwriting{left:16px}.hero-only .h-handwriting:before{inset:-14px -20px}}
