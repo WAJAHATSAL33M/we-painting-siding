@@ -327,3 +327,41 @@
  .wps-original .o-steps li:nth-child(4):after{background-image:url('/images/reference-details/process-link-4.svg')}
 }
 .wps-original .o-footer-swash:before{mask-image:url('/images/reference-details/footer-ribbon.svg')}
+
+/* Keep the original painted character without crowding responsive content. */
+.wps-original .o-actions{align-items:stretch}
+.wps-original .o-actions .o-button{min-height:50px;display:inline-flex;align-items:center;justify-content:center}
+.wps-original :is(a,button,input,select,textarea):focus-visible{outline:3px solid #007bbd;outline-offset:4px}
+@container home (max-width:1099px){
+ .wps-original .o-service-divider{display:none}
+ .wps-original .o-process-sign{display:none}
+ .wps-original .o-exterior-links{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .wps-original .o-exterior-links a{min-height:48px;display:flex;align-items:center;justify-content:center;text-align:center}
+}
+@container home (max-width:760px){
+ .wps-original .o-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+ .wps-original .o-actions .o-button{width:100%;height:100%;padding:14px 12px;gap:10px;line-height:1.4}
+ .wps-original .o-panel>.o-clean-photo{width:92%}
+ .wps-original .o-panel>.o-panel-content{width:60%;padding:24px 16px;background:linear-gradient(90deg,#f7f7f5 12%,rgba(247,247,245,.93) 50%,rgba(247,247,245,0))}
+ .wps-original .o-panel>.o-panel-content .o-script{font-size:clamp(1.8rem,7cqw,2.4rem);line-height:1.12}
+ .wps-original .o-feature-art{min-height:390px}
+ .wps-original .o-panel-work-art .o-panel-bottom{position:relative;inset:auto;width:100%;margin-top:auto;align-self:end}
+ .wps-original .o-panel-work-art .o-project-badge{display:none}
+ .wps-original .o-panel-work-art>.o-panel-content{width:60%}
+ .wps-original .o-brush-label{padding:22px 24px;font-size:clamp(1rem,4.5cqw,1.35rem)}
+ .wps-original .o-panel-faq-art>.o-panel-content{width:100%;background:#f7f7f5}
+ .wps-original .o-panel-faq-art>.o-clean-photo{width:100%}
+ .wps-original .o-work-bottom .o-native-ribbon{padding:24px 18px}
+ .wps-original .o-work-bottom .o-script{font-size:1.35rem;line-height:1.3}
+ .wps-original .o-footer-swash{max-width:100%;margin-inline:auto}
+}
+@container home (max-width:480px){
+ .wps-original .o-actions{grid-template-columns:1fr}
+ .wps-original .o-exterior-links{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .wps-original .o-panel>.o-panel-content{width:66%}
+ .wps-original .o-panel-faq-art>.o-panel-content{width:100%}
+ .wps-original .o-feature-art{min-height:350px}
+}
+@media (prefers-reduced-motion:reduce){
+ .wps-original *{scroll-behavior:auto!important;animation:none!important;transition:none!important}
+}
