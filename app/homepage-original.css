@@ -275,3 +275,36 @@
  .wps-original .o-nav-pair{justify-content:space-between}.wps-original .o-nav-pair>a{flex:1}.wps-original .o-nav-pair button{width:44px;height:44px}
  .wps-original .o-dropdown,.wps-original .o-nav-locations .o-dropdown,.wps-original .o-nav-interior .o-dropdown{position:static;width:100%;max-width:none;background:#edf5fa;box-shadow:none;border:0;grid-template-columns:1fr 1fr}
 }
+
+/* Reference-only detail corrections; the accepted shell, spacing and padding stay intact. */
+.wps-original .o-panel-exterior-art .o-brush-label:before{mask-image:url('/images/reference-details/exterior-ribbon.svg')}
+.wps-original .o-panel-interior-art .o-brush-label:before{mask-image:url('/images/reference-details/interior-ribbon.svg')}
+.wps-original .o-panel-faq-art .o-testimonial:before{mask-image:url('/images/reference-details/faq-ribbon.svg')}
+.wps-original .o-work-bottom .o-native-ribbon:before{mask-image:url('/images/reference-details/project-ribbon.svg')}
+.wps-original .o-work-bottom .o-script{font-family:Poppins,Arial,sans-serif;font-size:.7rem;font-weight:600;line-height:1.65;letter-spacing:.1em;text-transform:uppercase;transform:none}
+.wps-original .o-work-bottom .o-script:after{display:none}
+.wps-original .o-work-bottom .o-script>span{font-size:1.5rem;margin-left:18px;vertical-align:middle}
+.wps-original .o-panel-work-art .o-panel-bottom{position:absolute;top:0;right:0;bottom:auto;width:29%;margin:0;padding:0}
+.wps-original .o-panel-work-art .o-project-badge{width:100%;padding:22px 16px;text-transform:none}
+.wps-original .o-panel-work-art .o-project-badge:before{mask-image:url('/images/reference-details/project-badge.svg')}
+.wps-original .o-panel-work-art .o-project-badge .o-script{font-size:clamp(1.4rem,2.05cqw,2rem);line-height:1;color:white;max-width:none}
+.wps-original .o-panel-work-art .o-project-badge .o-script:after{background:white;width:75%;height:10px;margin:8px auto 0}
+.wps-original .o-footer-top{height:60px;background:url('/images/reference-details/footer-edge.svg') center top/100% 100% no-repeat;mask:none}
+.wps-original .o-socials button svg{width:19px;height:19px}
+@container home (min-width:1280px){
+ .wps-original .o-process-sign{display:block;position:relative;grid-column:1;grid-row:1;align-self:end;justify-self:end;top:auto;right:auto;width:180px;max-width:180px;padding:0;margin:0;z-index:1;pointer-events:none}
+ .wps-original .o-process-sign .o-script{font-size:1.8rem}
+}
+@container home (max-width:760px){
+ .wps-original .o-panel-work-art .o-panel-bottom{width:42%}
+ .wps-original .o-panel-work-art .o-project-badge{padding:18px 12px}
+ .wps-original .o-panel-work-art .o-project-badge .o-script{font-size:1.45rem}
+ .wps-original .o-panel-work-art>.o-panel-content{width:56%;padding-right:8px}
+ .wps-original .o-panel-work-art>.o-panel-content .o-script{font-size:2rem}
+ .wps-original .o-work-bottom .o-script{font-size:.68rem}
+ .wps-original .o-footer-top{height:50px}
+}
+@container home (min-width:1100px){
+ .wps-original .o-steps:before{background:#087bbb;mask:url('/images/original-home/process-line.svg') center/100% 100% no-repeat}
+ .wps-original .o-work-bottom .o-native-ribbon{min-height:114px}
+}
