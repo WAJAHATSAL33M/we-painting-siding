@@ -67,6 +67,17 @@
         110
       ],
       "role": "Original unlettered paint transition"
+    },
+    {
+      "name": "process-connector",
+      "page": 4,
+      "crop": [
+        675,
+        235,
+        1598,
+        280
+      ],
+      "role": "Original unlettered connector colors, including the pale first segment; native icons cover the original icon positions"
     }
   ]
 }

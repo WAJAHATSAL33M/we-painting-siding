@@ -308,3 +308,14 @@
  .wps-original .o-steps:before{background:#087bbb;mask:url('/images/original-home/process-line.svg') center/100% 100% no-repeat}
  .wps-original .o-work-bottom .o-native-ribbon{min-height:114px}
 }
+/* Carry the original connector's pale-to-blue progression between the native icons. */
+@container home (min-width:1100px){
+ .wps-original .o-steps:before{left:29px;right:calc((100% - 120px)/5 - 29px);top:58px;height:30px;background:url('/images/reference-details/process-connector.svg') center/100% 100% no-repeat;mask:none}
+}
+.wps-original .o-full-width[data-band=footer]{position:relative}
+.wps-original .o-full-width[data-band=footer]:before{content:'';position:absolute;left:0;right:0;top:0;height:60px;background:url('/images/reference-details/footer-edge.svg') center top/100% 100% no-repeat;pointer-events:none;z-index:1}
+.wps-original .o-footer-top{display:none}
+@container home (max-width:760px){
+ .wps-original .o-panel-work-art .o-project-badge .o-script{font-size:clamp(1rem,5cqw,1.45rem)}
+ .wps-original .o-full-width[data-band=footer]:before{height:50px}
+}
