@@ -326,3 +326,4 @@
  .wps-original .o-steps li:nth-child(3):after{background-image:url('/images/reference-details/process-link-3.svg')}
  .wps-original .o-steps li:nth-child(4):after{background-image:url('/images/reference-details/process-link-4.svg')}
 }
+.wps-original .o-footer-swash:before{mask-image:url('/images/reference-details/footer-ribbon.svg')}

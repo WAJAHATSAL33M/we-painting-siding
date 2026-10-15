@@ -122,6 +122,21 @@
         280
       ],
       "role": "Unlettered brush connector between source icon boundaries; excludes the original circles"
+    },
+    {
+      "name": "footer-ribbon",
+      "page": 11,
+      "crop": [
+        1380,
+        410,
+        2098,
+        625
+      ],
+      "role": "Blue paint silhouette only, excluding the dark navy background and filled lettering cut-outs"
+    },
+    {
+      "name": "footer-edge-color-match",
+      "role": "Original unlettered edge retains the blue paint and matches dark pixels to existing footer navy to avoid a seam"
     }
   ]
 }
