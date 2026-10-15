@@ -103,3 +103,5 @@
  .wps-original .o-work-art{height:100%}
  .wps-original .o-feature-action .o-benefits strong{font-size:9px}
 }
+.wps-original .o-picture>.o-art-mobile{display:none}
+@container home (max-width:760px){.wps-original .o-picture>.o-art-desktop{display:none}.wps-original .o-picture>.o-art-mobile{display:block}}

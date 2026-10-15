@@ -5,7 +5,7 @@ import surfaces from '../data/exterior-service-links.json';
 import locations from '../data/locations.json';
 import cabinetLinks from '../data/cabinet-service-links.json';
 const asset=n=>'/images/original-home/'+n+'.webp';
-function Art({name,alt='',className='',eager=false}){if(name==='knowledge-art'||name==='quote-art')return <picture className={'o-picture '+className}><source media="(max-width:760px)" srcSet={asset(name==='knowledge-art'?'knowledge-mobile':'quote-mobile')}/><img className="o-art" src={asset(name)} alt={alt} loading="lazy"/></picture>;return <img className={'o-art '+className} src={asset(name)} alt={alt} loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined}/>}
+function Art({name,alt='',className='',eager=false}){if(name==='knowledge-art'||name==='quote-art')return <span className={'o-picture '+className}><img className="o-art o-art-desktop" src={asset(name)} alt={alt} loading="lazy"/><img className="o-art o-art-mobile" src={asset(name==='knowledge-art'?'knowledge-mobile':'quote-mobile')} alt={alt} loading="lazy"/></span>;return <img className={'o-art '+className} src={asset(name)} alt={alt} loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined}/>}
 function Arrow(){return <span aria-hidden="true">⟶</span>}
 function Button({children='Get a Quote',href='#quote',outline=false}){return <a className={'o-button'+(outline?' o-outline':'')} href={href}>{children}<Arrow/></a>}
 function Label({children,center=false}){return <p className={'o-label'+(center?' o-centered':'')}>{children}</p>}
