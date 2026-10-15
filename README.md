@@ -182,3 +182,7 @@ All 60 public routes have revised content and metadata while retaining their ori
 Shared responsive guards address wrapping controls, grid/flex minimum widths, cabinet breakpoint consistency, phone card density, touch targets, mobile form text and narrow footer/newsletter layouts. Validation: clean production build; all 60 route section counts, H1s, unique titles/descriptions, links/anchors, image assets/alt text, IDs and ARIA targets; 12 CSS files parsed and active source declarations checked at 16 widths. Main-content word-count changes range from -4.9% to +13.3%. Browser rendering and real-device interaction verification remain unavailable.
 
 Research and audit records: `docs/research-and-qa.md`, `docs/keyword-map.csv`, `docs/content-audit.json`, and `docs/responsive-audit.json`.
+
+
+### Homepage native text and responsive layout
+The homepage renders marketing copy, handwritten phrases (local Allura font), benefits, ribbons, project captions and testimonials as native HTML. Clean project photographs replace the old PDF presentation panels; brush assets are decorative CSS masks only. Content is centered in a maximum 1,360px shell, with container-based layouts and automatic content heights. Checked desktop, tablet and 360/390px mobile layouts, plus 80–400% CSS zoom reflow using a temporary review route (removed before release). Quote delivery remains a local draft download and newsletter enrollment remains inactive.

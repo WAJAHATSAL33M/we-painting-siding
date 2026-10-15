@@ -40,3 +40,6 @@
 }
 @media(max-width:760px){.o-responsive{--shell-gutter:0px}}
 @media(prefers-reduced-motion:reduce){.wps-original *{scroll-behavior:auto;transition:none!important}}
+
+/* Long native labels may wrap at narrow widths and enlarged text settings. */
+.wps-original :is(h1,h2,h3,p,a,button,label){overflow-wrap:anywhere}
