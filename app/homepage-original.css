@@ -263,3 +263,15 @@
  .wps-original .o-panel-content .o-script{font-size:2rem}
 }
 .wps-original .o-full-width[data-band=header]{position:relative;z-index:100}
+@container home (max-width:760px){
+ .wps-original .o-hero-art .o-panel-content{background:linear-gradient(90deg,#f7f7f5ee,#f7f7f570 68%,#f7f7f500)}
+ .wps-original .o-dropdown,.wps-original .o-nav-locations .o-dropdown,.wps-original .o-nav-interior .o-dropdown{grid-template-columns:1fr}
+}
+@container home (min-width:1100px) and (max-width:1199px){
+ .wps-original .o-menu-toggle{display:flex;flex-direction:column;gap:6px;padding:12px;border:0;background:none}
+ .wps-original .o-navigation:not(.o-is-open){display:none}
+ .wps-original .o-navigation.o-is-open{display:block;position:absolute;top:100%;left:0;right:0;max-height:calc(100dvh - 84px);overflow:auto;padding:16px var(--o-pad) 24px;background:white;box-shadow:0 15px 30px #00203c20;font-size:1rem}
+ .wps-original .o-navigation>a:not(.o-button){display:block}
+ .wps-original .o-nav-pair{justify-content:space-between}.wps-original .o-nav-pair>a{flex:1}.wps-original .o-nav-pair button{width:44px;height:44px}
+ .wps-original .o-dropdown,.wps-original .o-nav-locations .o-dropdown,.wps-original .o-nav-interior .o-dropdown{position:static;width:100%;max-width:none;background:#edf5fa;box-shadow:none;border:0;grid-template-columns:1fr 1fr}
+}
