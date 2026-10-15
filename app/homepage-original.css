@@ -48,3 +48,33 @@
 @media(prefers-reduced-motion:reduce){.wps-original *{scroll-behavior:auto;transition:none!important}}
 .wps-original .o-picture{display:block;overflow:hidden}.wps-original .o-picture>.o-art{width:100%;height:100%;object-fit:fill}.wps-original .o-social-status:empty{display:none}@media(max-width:760px){.wps-original .o-picture>.o-art{object-fit:cover;object-position:left}}
 @media(min-width:1101px){.wps-original .o-quote-form{min-height:30.5vw}}
+/* Visual comparison corrections: isolate artwork from flattened demo copy. */
+@media(min-width:761px){
+ .wps-original .o-hero-art{clip-path:polygon(0 0,100% 0,100% 100%,22% 100%,18% 82%,7% 63%,7% 44%,0 19%)}
+ .wps-original .o-service-right{clip-path:polygon(0 0,100% 0,100% 100%,0 100%,8% 88%,8% 43%,0 38%)}
+ .wps-original .o-exterior .o-feature-art{clip-path:polygon(0 0,100% 0,100% 100%,5% 100%,5% 76%,0 76%)}
+ .wps-original .o-work-art{clip-path:polygon(0 0,100% 0,100% 100%,12% 100%,12% 30%)}
+ .wps-original .o-about-art{clip-path:polygon(0 0,100% 0,100% 100%,0 100%,8% 87%,8% 32%)}
+ .wps-original .o-knowledge-art{width:57.16%;clip-path:polygon(0 0,100% 0,100% 100%,10% 100%,10% 55%,0 55%)}
+ .wps-original .o-service-columns article>p{font-size:1.02vw;line-height:1.33;margin-bottom:1.4vw}
+ .wps-original .o-process-copy h2{font-size:3.5vw;letter-spacing:-.06em}
+ .wps-original .o-process-copy>p{font-size:1.05vw}
+ .wps-original .o-steps{top:8vw}
+ .wps-original .o-steps p{font-family:Arial,sans-serif;font-size:.94vw;line-height:1.32;min-height:7.8vw}
+ .wps-original .o-guide-callout{padding:1.3vw 1.6vw}
+ .wps-original .o-guide-callout h3{font-size:1.95vw}
+ .wps-original .o-guide-callout p{font-family:Arial,sans-serif;font-size:1vw;line-height:1.3;margin:.9vw 0 1.2vw}
+ .wps-original .o-guide-callout .o-label{font-size:.58vw;margin-bottom:.8vw}
+ .wps-original .o-guide-callout .o-label svg{width:1.9vw;height:1.9vw}
+}
+.wps-original .o-feature-copy{z-index:3}.wps-original .o-project-caption,.wps-original .o-work-feature-caption{background:#042333}
+/* Artwork crops remain clean when they stack on small screens. */
+.wps-original .o-hero-art{clip-path:polygon(0 0,100% 0,100% 100%,22% 100%,18% 82%,7% 63%,7% 44%,0 19%)}
+.wps-original .o-service-right{clip-path:polygon(0 0,100% 0,100% 100%,0 100%,8% 88%,8% 43%,0 38%)}
+.wps-original .o-exterior .o-feature-art{clip-path:polygon(0 0,100% 0,100% 100%,5% 100%,5% 76%,0 76%)}
+.wps-original .o-work-art{clip-path:polygon(0 0,100% 0,100% 100%,12% 100%,12% 30%)}
+.wps-original .o-about-art{clip-path:polygon(0 0,100% 0,100% 100%,0 100%,8% 87%,8% 32%)}
+.wps-original .o-quote-art{clip-path:polygon(0 0,100% 0,100% 100%,10% 100%,10% 65%,0 45%)}
+.wps-original .o-logo-footer img{filter:none;mix-blend-mode:normal}
+@media(min-width:761px){.wps-original .o-quote-copy h2{font-size:3.8vw}.wps-original .o-quote-copy .o-label{margin-bottom:1.5vw}.wps-original .o-quote-copy>p{font-size:1.08vw;line-height:1.32;margin:1.1vw 0}.wps-original .o-quote-copy .o-benefits{margin-top:1.1vw}}
+@media(max-width:760px){.wps-original .o-knowledge-art{clip-path:polygon(0 0,100% 0,100% 100%,16% 100%,16% 55%,0 55%)}.wps-original .o-quote-art{clip-path:polygon(0 0,100% 0,100% 100%,10% 100%,10% 65%,0 45%)}}
