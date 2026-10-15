@@ -106,3 +106,48 @@
 .hero-only .h-handwriting{left:12%;isolation:isolate}
 .hero-only .h-handwriting:before{content:'';position:absolute;inset:-24px -34px;background:radial-gradient(ellipse,#e6f3fcf2 0%,#e6f3fccf 45%,#e6f3fc00 72%);z-index:-1;pointer-events:none}
 @container hero (max-width:640px){.hero-only .h-handwriting{left:16px}.hero-only .h-handwriting:before{inset:-14px -20px}}
+/* Reference alignment: sky beside the roof, unboxed lettering, compact copy. */
+@container hero (min-width:901px){
+ .hero-only .h-hero{min-height:640px;grid-template-columns:44% 56%}
+ .hero-only .h-copy{padding-top:52px;padding-left:70px;max-width:560px}
+ .hero-only h1{font-size:clamp(44px,4.6cqw,66px);line-height:.99;letter-spacing:-.055em;margin-bottom:16px}
+ .hero-only .h-description{font-size:1rem;line-height:1.3;max-width:420px;margin-bottom:24px}
+ .hero-only .h-actions{gap:20px;margin-bottom:24px}
+ .hero-only .h-actions a{padding:13px 24px;font-size:.86rem;min-height:50px}
+ .hero-only .h-benefits{padding-top:22px}
+ .hero-only .h-benefits>div{gap:14px}
+ .hero-only .h-benefits span{font-size:.64rem}
+ .hero-only .h-sign{padding:10px 0 35px 60px;gap:16px;max-width:700px}
+ .hero-only .h-sign>span{font-size:32px}
+ .hero-only .h-sign>i{width:72px}
+ .hero-only .h-sign>p{font-size:.6rem;letter-spacing:.13em}
+ .hero-only .h-sign b{margin-inline:7px}
+ .hero-only .h-photo{width:64%;background:linear-gradient(155deg,#8ec6ee 0%,#bddcf2 38%,#e1edf0 75%);mask:url('/images/brush/reveal-left.svg') center/100% 100% no-repeat}
+ .hero-only .h-photo>img{position:absolute;right:0;top:0;width:79%;height:100%;mask:none;object-fit:fill}
+ .hero-only .h-handwriting{left:16%;top:68px;font-size:47px;line-height:.92;transform:rotate(-12deg);text-align:center}
+ .hero-only .h-handwriting:before{display:none}
+ .hero-only .h-handwriting>span{width:150px;height:18px;margin-top:10px}
+ .hero-only .h-trust{width:67%;bottom:36px;padding:25px 28px;gap:20px;background:#a5b5b08a;backdrop-filter:blur(10px)}
+ .hero-only .h-trust>div{gap:12px}
+ .hero-only .h-trust span{font-size:.62rem;line-height:1.55;letter-spacing:.06em}
+}
+@container hero (min-width:901px) and (max-width:1199px){
+ .hero-only .h-copy{padding-left:36px}
+ .hero-only .h-actions a{padding-inline:14px;font-size:.77rem;gap:12px}
+ .hero-only .h-benefits{gap:12px}.hero-only .h-benefits>div{gap:8px}
+ .hero-only .h-benefits>div+div{padding-left:10px}
+ .hero-only .h-benefits span{font-size:.58rem}
+ .hero-only .h-sign{padding-left:36px;max-width:650px}
+ .hero-only .h-trust{width:73%;padding:20px 18px;gap:12px}
+ .hero-only .h-trust span{font-size:.55rem}
+ .hero-only .h-trust>div+div{padding-left:12px}
+ .hero-only .h-handwriting{left:12%;font-size:40px}
+}
+.hero-only .h-marks span{font-weight:600}
+.hero-only .h-actions a>span{font-family:Arial,sans-serif;font-size:1.5rem;font-weight:400}
+@container hero (max-width:900px){
+ .hero-only .h-sign{background:#f7f7f5;position:relative}
+ .hero-only .h-handwriting:before{background:radial-gradient(ellipse,#e9f4fbe6 0%,#e9f4fbb3 48%,#e9f4fb00 74%)}
+}
+.hero-only .h-actions .h-arrow{width:25px;height:16px;flex:none}
+@container hero (min-width:901px){.hero-only .h-photo>img{mask:linear-gradient(90deg,transparent,#000 14%)}}
