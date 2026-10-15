@@ -79,3 +79,27 @@
 .wps-original .o-logo-footer img{filter:none;mix-blend-mode:normal}
 @container home (min-width:761px){.wps-original .o-quote-copy h2{font-size:3.8cqw}.wps-original .o-quote-copy .o-label{margin-bottom:1.5cqw}.wps-original .o-quote-copy>p{font-size:1.08cqw;line-height:1.32;margin:1.1cqw 0}.wps-original .o-quote-copy .o-benefits{margin-top:1.1cqw}}
 @container home (max-width:760px){.wps-original .o-knowledge-art{clip-path:polygon(0 0,100% 0,100% 100%,16% 100%,16% 55%,0 55%)}.wps-original .o-quote-art{clip-path:polygon(0 0,100% 0,100% 100%,10% 100%,10% 65%,0 45%)}}
+@container home (min-width:1101px){.wps-original .o-header{min-height:64px}}
+@container home (min-width:761px) and (max-width:1100px){
+ .wps-original .o-process-main{height:auto;padding-bottom:30px}
+ .wps-original .o-process-copy{width:100%;padding:35px 5cqw 0;max-width:650px}
+ .wps-original .o-process-copy h2{font-size:40px}
+ .wps-original .o-process-copy>p{font-size:14px;max-width:500px}
+ .wps-original .o-process-copy .o-feature-action{margin-bottom:25px}
+ .wps-original .o-process-sign{width:35%;right:0}
+ .wps-original .o-steps{position:relative;left:auto;top:auto;width:90%;margin:0 auto;gap:18px}
+ .wps-original .o-steps li>b{font-size:32px}
+ .wps-original .o-step-icon{width:65px;height:65px;box-shadow:inset 0 0 0 6px #f3f8fc;margin:8px 0 12px}
+ .wps-original .o-step-icon svg{width:30px;height:30px}
+ .wps-original .o-steps h3{font-size:14px;min-height:38px}
+ .wps-original .o-steps p{font-size:13px;line-height:1.4;min-height:0}
+ .wps-original .o-steps:before{top:75px;height:24px}
+ .wps-original .o-steps li>span{font-size:9px;line-height:1.5}
+ .wps-original .o-feature-main,.wps-original .o-interior .o-feature-main{height:auto;min-height:470px}
+ .wps-original .o-feature-art,.wps-original .o-interior .o-feature-art{height:100%}
+ .wps-original .o-feature-copy{padding-bottom:30px}
+ .wps-original .o-work-top{height:auto;min-height:340px}
+ .wps-original .o-work-copy{padding-bottom:30px}
+ .wps-original .o-work-art{height:100%}
+ .wps-original .o-feature-action .o-benefits strong{font-size:9px}
+}
