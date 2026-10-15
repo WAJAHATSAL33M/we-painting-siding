@@ -186,3 +186,7 @@ Research and audit records: `docs/research-and-qa.md`, `docs/keyword-map.csv`, `
 
 ### Homepage native text and responsive layout
 The homepage renders marketing copy, handwritten phrases (local Allura font), benefits, ribbons, project captions and testimonials as native HTML. Clean project photographs replace the old PDF presentation panels; brush assets are decorative CSS masks only. Content is centered in a maximum 1,360px shell, with container-based layouts and automatic content heights. Checked desktop, tablet and 360/390px mobile layouts, plus 80–400% CSS zoom reflow using a temporary review route (removed before release). Quote delivery remains a local draft download and newsletter enrollment remains inactive.
+
+
+### Original reference composition refinement
+The eleven-panel reference was visually reviewed again. Desktop composition now retains flanking service photographs, a five-step horizontal process, ten exterior service links in one row, an overlaid guide card, the three-column FAQ and quote composition, and the compact five-column footer until the available width requires reflow. Text remains semantic HTML. Photo-only crops from the supplied reference are stored separately from every handwritten phrase, caption, badge and form. Decorative divider and ribbon silhouettes are extracted without lettering. Checked 1,300px desktop, 720px tablet, 390px and 320px mobile content widths for horizontal overflow and clipped text. The flattened reference does not expose the original handwriting font; Allura remains the native-text approximation.
