@@ -365,3 +365,39 @@
 @media (prefers-reduced-motion:reduce){
  .wps-original *{scroll-behavior:auto!important;animation:none!important;transition:none!important}
 }
+
+/* Caption text stays on a solid painted centre; texture is confined to the edges. */
+.wps-original :is(.o-panel-exterior-art,.o-panel-interior-art) .o-panel-bottom{padding:20px 24px 24px;overflow:visible}
+.wps-original :is(.o-panel-exterior-art,.o-panel-interior-art) .o-brush-label{background:#0879bd;padding:16px 22px;max-width:calc(100% - 16px);font-size:.72rem;line-height:1.65;letter-spacing:.06em}
+.wps-original :is(.o-panel-exterior-art,.o-panel-interior-art) .o-brush-label:before{inset:-10px -14px;opacity:.95}
+.wps-original .o-panel-faq-art .o-panel-bottom{padding:18px 16px 22px;width:100%}
+.wps-original .o-panel-faq-art .o-testimonial{width:100%;background:#0879bd;padding:20px 16px}
+.wps-original .o-panel-faq-art .o-testimonial:before{inset:-10px -12px}
+.wps-original .o-panel-faq-art .o-testimonial p{font-size:.8rem;line-height:1.65}
+.wps-original .o-quote-swash{width:min(380px,80%);min-width:0;justify-self:center;padding:22px 28px;margin:8px 0 0;background:#0879bd}
+.wps-original .o-quote-swash:before{inset:-9px -18px}
+.wps-original .o-quote-swash .o-script{font-size:clamp(1.9rem,2.8cqw,2.5rem);line-height:1.15;text-align:center}
+.wps-original .o-work-bottom{padding-bottom:18px;gap:28px}
+.wps-original .o-work-bottom>a{flex:0 1 300px;margin:10px 18px}
+.wps-original .o-work-bottom .o-native-ribbon{min-height:0;background:#0879bd;padding:18px 24px}
+.wps-original .o-work-bottom .o-native-ribbon:before{inset:-10px -16px}
+.wps-original .o-work-bottom .o-script{font-size:.72rem;line-height:1.8;text-align:center}
+.wps-original .o-footer-grid{padding-bottom:30px}
+.wps-original .o-footer-bottom{margin-top:0;padding-block:22px}
+@container home (max-width:1099px){
+ .wps-original .o-panel-faq-art .o-panel-bottom{width:50%;align-self:end}
+ .wps-original .o-footer{padding-top:54px}
+}
+@container home (max-width:760px){
+ .wps-original :is(.o-panel-exterior-art,.o-panel-interior-art) .o-panel-bottom{padding:24px 24px 26px}
+ .wps-original :is(.o-panel-exterior-art,.o-panel-interior-art) .o-brush-label{font-size:.72rem;padding:14px 18px}
+ .wps-original .o-panel-faq-art .o-panel-bottom{width:100%;padding:18px 20px 24px}
+ .wps-original .o-quote-swash{width:min(340px,calc(100% - 36px));grid-column:1/-1;padding:20px 22px;margin:4px 0 12px}
+ .wps-original .o-quote-swash .o-script{font-size:2rem}
+ .wps-original .o-work-bottom{flex-direction:column;align-items:stretch;gap:16px;padding-bottom:14px}
+ .wps-original .o-work-bottom>a{flex:auto;width:calc(100% - 36px);max-width:320px;align-self:center;margin:4px 18px 10px}
+ .wps-original .o-work-bottom>span{text-align:center}
+ .wps-original .o-footer-grid{padding-bottom:24px;gap:24px}
+ .wps-original .o-footer-bottom{gap:16px;padding-block:20px}
+ .wps-original .o-footer-bottom nav{gap:10px 12px}
+}
