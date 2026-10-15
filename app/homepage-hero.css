@@ -151,3 +151,10 @@
 }
 .hero-only .h-actions .h-arrow{width:25px;height:16px;flex:none}
 @container hero (min-width:901px){.hero-only .h-photo>img{mask:linear-gradient(90deg,transparent,#000 14%)}}
+@container hero (min-width:901px){
+ .hero-only .h-photo>img{width:70%;mask:linear-gradient(90deg,transparent,#000 8%)}
+ .hero-only .h-handwriting{left:10%;top:64px;font-size:44px}
+}
+@container hero (min-width:901px) and (max-width:1199px){
+ .hero-only .h-handwriting{left:9%;font-size:37px}
+}
