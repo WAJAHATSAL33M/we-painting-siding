@@ -319,3 +319,10 @@
  .wps-original .o-panel-work-art .o-project-badge .o-script{font-size:clamp(1rem,5cqw,1.45rem)}
  .wps-original .o-full-width[data-band=footer]:before{height:50px}
 }
+@container home (min-width:1100px){
+ .wps-original .o-steps:before{display:none}
+ .wps-original .o-steps li:not(:last-child):after{content:'';position:absolute;left:58px;right:-30px;top:58px;height:30px;background:url('/images/reference-details/process-link-1.svg') center/100% 100% no-repeat;pointer-events:none}
+ .wps-original .o-steps li:nth-child(2):after{background-image:url('/images/reference-details/process-link-2.svg')}
+ .wps-original .o-steps li:nth-child(3):after{background-image:url('/images/reference-details/process-link-3.svg')}
+ .wps-original .o-steps li:nth-child(4):after{background-image:url('/images/reference-details/process-link-4.svg')}
+}

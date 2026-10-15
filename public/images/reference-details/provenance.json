@@ -78,6 +78,50 @@
         280
       ],
       "role": "Original unlettered connector colors, including the pale first segment; native icons cover the original icon positions"
+    },
+    {
+      "name": "process-link-1",
+      "page": 4,
+      "crop": [
+        734,
+        235,
+        850,
+        280
+      ],
+      "role": "Unlettered brush connector between source icon boundaries; excludes the original circles"
+    },
+    {
+      "name": "process-link-2",
+      "page": 4,
+      "crop": [
+        965,
+        235,
+        1080,
+        280
+      ],
+      "role": "Unlettered brush connector between source icon boundaries; excludes the original circles"
+    },
+    {
+      "name": "process-link-3",
+      "page": 4,
+      "crop": [
+        1196,
+        235,
+        1308,
+        280
+      ],
+      "role": "Unlettered brush connector between source icon boundaries; excludes the original circles"
+    },
+    {
+      "name": "process-link-4",
+      "page": 4,
+      "crop": [
+        1425,
+        235,
+        1538,
+        280
+      ],
+      "role": "Unlettered brush connector between source icon boundaries; excludes the original circles"
     }
   ]
 }
