@@ -3,6 +3,7 @@ import ServiceTemplate from '../../components/service-template';
 import {allServices,getService,serviceMetadata} from '../../data/service-pages';
 import '../../approved-homepage.css';
 import '../../service-template.css';
+import '../../service-refinements.css';
 export const dynamicParams=false;
 const prefix='/interior-painting/';
 export function generateStaticParams(){return allServices.filter(s=>s.path.startsWith(prefix)).map(s=>({service:s.slug}))}

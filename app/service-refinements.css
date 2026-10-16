@@ -1,0 +1,41 @@
+/* Service detail pages: calmer reading rhythm and a contained final enquiry. */
+.sp-refined .sp-section{padding-block:clamp(40px,4.2vw,68px)}
+.sp-refined .sp-overview .sp-lead,.sp-refined .sp-features p{max-width:68ch}
+.sp-refined .sp-scope-grid{gap:22px;align-items:stretch}
+.sp-refined .sp-scope-grid article{display:flex;flex-direction:column;border-radius:6px;overflow:hidden}
+.sp-refined .sp-scope-grid article>div{display:flex;flex:1;flex-direction:column;padding:26px}
+.sp-refined .sp-scope-grid article>div>p{margin-bottom:20px}
+.sp-refined .sp-scope-more{margin-top:auto}
+.sp-refined .sp-process-intro h2{font-size:clamp(28px,3.2vw,46px);max-width:14ch;line-height:1.15}
+.sp-refined .sp-process-intro>p{font-size:clamp(15px,1.25vw,18px);max-width:46ch}
+.sp-refined .sp-gallery-grid{gap:24px}
+.sp-refined .sp-related{border-radius:6px;border:1px solid #d4e0e8}
+.sp-refined .sp-related>div>a{border-radius:4px;padding:12px;background:white}
+.sp-refined .sp-enquiry{background:#071f32;padding-block:clamp(36px,4.6vw,72px);border-bottom:1px solid #28475d}
+.sp-refined .sp-enquiry-grid{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(28px,4vw,64px);align-items:start}
+.sp-refined .sp-enquiry-story{min-width:0;display:grid;gap:26px}
+.sp-refined .sp-enquiry-copy{padding:0;position:static}
+.sp-refined .sp-enquiry-copy h2{font-size:clamp(30px,3.1vw,46px);line-height:1.15}
+.sp-refined .sp-enquiry-copy h2 em{color:#49b6ff}
+.sp-refined .sp-enquiry-copy>p{font-size:15px;line-height:1.75;max-width:56ch;margin-top:20px}
+.sp-refined .sp-enquiry-copy .sp-enquiry-label{font-size:11px;letter-spacing:.13em;text-transform:uppercase;font-weight:600;color:#8dd0ff;margin:0 0 16px}
+.sp-refined .sp-enquiry-figure{margin:0;border-radius:6px;overflow:hidden;background:#0e3048}
+.sp-refined .sp-enquiry-figure img{display:block;width:100%;height:auto;aspect-ratio:1.65;max-height:360px;object-fit:cover}
+.sp-refined .sp-enquiry-figure figcaption{padding:12px 16px;margin:0;font-size:12px;line-height:1.5;color:#c5d8e6;font-weight:400}
+.sp-refined .sp-enquiry-help{display:flex;align-items:start;gap:14px;padding:18px;border:1px solid #355268;border-radius:5px}
+.sp-refined .sp-enquiry-help svg{width:26px;height:26px;color:#8dd0ff;flex:none}
+.sp-refined .sp-enquiry-help p{font-size:13px;line-height:1.7;color:#c5d8e6}
+.sp-refined .sp-form{grid-column:auto;position:relative;margin:0;padding:clamp(24px,2.8vw,42px);gap:20px;border:1px solid #d4e0e8;border-radius:7px;box-shadow:0 12px 36px #00000018}
+.sp-refined .sp-request-heading{padding-bottom:20px;border-bottom:1px solid #d4e0e8}
+.sp-refined .sp-request-heading h3{font-size:clamp(21px,1.8vw,27px);line-height:1.3}
+.sp-refined .sp-request-heading p{font-size:13px;line-height:1.6;margin-top:10px}
+.sp-refined .sp-field-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.sp-refined .sp-form :is(input,select,textarea){font-size:16px;min-width:0}
+.sp-refined .sp-upload{background:#f2f7fa;border:1px dashed #b6cbd9;border-radius:5px;padding:16px}
+.sp-refined .sp-upload input{background:white;font-size:13px}
+.sp-refined .sp-form .sp-consent{line-height:1.7}
+.sp-refined .sp-form .ah-button{width:100%;margin:0;min-height:52px}
+.sp-refined .sp-form .sp-form-status:not(:empty){background:#eaf5ee;color:#24563a;padding:14px;border-radius:4px;font-size:13px;line-height:1.6}
+@media(max-width:1099px){.sp-refined .sp-enquiry-grid{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:28px}.sp-refined .sp-field-grid{grid-template-columns:1fr}.sp-refined .sp-scope-grid article>div{padding:22px}}
+@media(max-width:767px){.sp-refined .sp-enquiry-grid{grid-template-columns:1fr;gap:28px}.sp-refined .sp-enquiry-story{grid-template-columns:1fr 1fr;gap:20px;align-items:center}.sp-refined .sp-enquiry-help{grid-column:1/-1}.sp-refined .sp-enquiry-figure img{aspect-ratio:1.2}.sp-refined .sp-field-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.sp-refined .sp-gallery-grid{gap:20px}}
+@media(max-width:599px){.sp-refined .sp-enquiry-story,.sp-refined .sp-field-grid{grid-template-columns:1fr}.sp-refined .sp-enquiry-help{grid-column:auto}.sp-refined .sp-enquiry-figure img{aspect-ratio:1.7;max-height:240px}.sp-refined .sp-form{padding:24px 20px;gap:18px}.sp-refined .sp-upload{padding:14px}.sp-refined .sp-enquiry-copy h2{font-size:30px}.sp-refined .sp-process-intro h2{max-width:none}.sp-refined .sp-related>div>a{grid-template-columns:76px minmax(0,1fr) 20px;gap:12px}.sp-refined .sp-enquiry-help{padding:15px}}
