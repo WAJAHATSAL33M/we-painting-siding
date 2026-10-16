@@ -1,0 +1,38 @@
+/* Restrained motion and interaction feedback, shared by every current page. */
+@keyframes wps-arrive{from{opacity:.65;translate:0 12px}to{opacity:1;translate:0 0}}
+@media(prefers-reduced-motion:no-preference){
+ .wps-enter{animation:wps-arrive .55s cubic-bezier(.2,.7,.2,1) both}
+ .approved-site :is(.ah-button,.wps-action,.sp-text-link,.ah-text-link){transition:background-color .2s,border-color .2s,box-shadow .2s,color .2s}
+ .approved-site :is(.ah-button,.wps-action,.sp-text-link,.ah-text-link)>svg{transition:transform .2s}
+ .approved-site :is(.re-service-grid>article,.sp-scope-grid>article,.lm-service-grid>article,.blog-card){transition:box-shadow .22s,transform .22s,border-color .22s}
+ .wps-header :is(a,button),.wps-footer a{transition:color .18s,background-color .18s}
+}
+@media(hover:hover) and (pointer:fine){
+ .approved-site :is(.ah-button,.wps-action):hover{box-shadow:0 6px 18px #0073bc30}
+ .approved-site :is(.ah-button,.wps-action,.sp-text-link,.ah-text-link):hover>svg{transform:translateX(4px)}
+ .approved-site :is(.re-service-grid>article,.sp-scope-grid>article,.lm-service-grid>article,.blog-card):hover{transform:translateY(-4px);box-shadow:0 12px 28px #071f3214;border-color:#a7c7dc}
+ .wps-footer :is(.wps-footer-desktop,.wps-footer-mobile) a:hover{text-decoration:underline;text-underline-offset:4px}
+}
+.approved-site :is(input,select,textarea):focus-visible{outline:2px solid #0073bc;outline-offset:3px;box-shadow:0 0 0 4px #0073bc12}
+.approved-site :is(a,button,summary):focus-visible{outline:2px solid #0073bc;outline-offset:4px}
+/* Allow long copy, flex actions and media to shrink within narrow viewports. */
+.approved-site main :is(article,aside,fieldset,figure,form){min-width:0}
+.approved-site main :is(.ah-actions,.sp-actions,.re-actions){max-width:100%;flex-wrap:wrap}
+.approved-site main :is(.ah-button,.sp-text-link,.ah-text-link){max-width:100%;overflow-wrap:anywhere}
+.approved-site main :is(img,iframe,video){max-width:100%}
+.approved-site main :is(input,textarea,select){min-width:0;max-width:100%}
+.approved-site main fieldset{margin-inline:0}
+@media(max-width:599px){
+ .approved-site main :is(.ah-button,.wps-action){white-space:normal;min-height:48px}
+ .approved-site main :is(.ah-actions,.sp-actions,.re-actions)>.ah-button{flex:1 1 100%}
+ .approved-site main :is(.sp-gallery-grid,.blog-grid){min-width:0}
+ .approved-site main :is(h1,h2,h3){text-wrap:pretty;overflow-wrap:break-word}
+ .approved-site main :is(summary,button){touch-action:manipulation}
+ .approved-site main :is(input:not([type=checkbox]):not([type=radio]):not([type=range]),textarea,select){font-size:16px}
+}
+@media(prefers-reduced-motion:reduce){
+ .wps-enter{animation:none!important;translate:none!important}
+ .approved-site :is(a,button,article,summary,svg){transition:none!important}
+ .approved-site :is(.re-service-grid>article,.sp-scope-grid>article,.lm-service-grid>article,.blog-card):hover{transform:none}
+ .approved-site :is(.ah-button,.wps-action,.sp-text-link,.ah-text-link):hover>svg{transform:none}
+}
