@@ -13,3 +13,10 @@
 @media(max-width:1199px){.wps-header .wps-main-navigation>.wps-nav-link>svg,.wps-header .wps-nav-trigger>svg,.wps-header .wps-area-trigger>.wps-nav-link>svg{display:block;width:27px;height:27px}}
 
 @media(max-width:599px){.wps-header .wps-menu-toggle{font-size:0;min-width:44px;flex:none}.wps-header .wps-menu-toggle>.wps-toggle-label{display:none}.wps-header .wps-menu-toggle>span[aria-hidden]{font-size:28px}}
+/* Keep shared navigation and footer typography independent of page-level themes. */
+.wps-header .wps-area-top h2{font-size:clamp(24px,2.3vw,37px);line-height:1.15;letter-spacing:-.035em;margin:0;color:var(--wc-navy)}.wps-header .wps-region-grid h3{font-size:22px;line-height:1.2;letter-spacing:-.025em;margin:0 0 14px;color:var(--wc-navy)}
+.wps-footer .wps-footer-desktop h2{font-size:19px;line-height:1.3;letter-spacing:-.025em;margin:0 0 20px;color:white}.wps-footer .wps-footer-brand p{font-size:clamp(16px,1.2vw,18px);line-height:1.6;color:#c5d8e6;margin:25px 0 28px}.wps-footer .wps-footer-bottom p{color:#d5e3ee;font-size:14px;margin:0}.wps-footer .wps-footer-cta>svg{display:none;color:var(--wc-blue)}.wps-footer .wps-footer-cta p{display:none;color:#567083;margin:10px 0 0;font-size:15px;line-height:1.5}
+@media(max-width:1399px) and (min-width:1200px){.wps-header .wps-region-grid h3{font-size:20px}}
+@media(max-width:1199px){.wps-header .wps-area-top h2{font-size:27px}.wps-header .wps-region-grid h3{font-size:20px}.wps-header .wps-menu-bottom{display:none}}
+@media(max-width:599px){.wps-footer .wps-footer-brand p{font-size:17px;margin:22px 0 26px}.wps-footer .wps-footer-cta>svg{display:block;width:34px;height:38px}.wps-footer .wps-footer-cta p{display:block;font-size:15px;line-height:1.5;margin:10px 0 0}.wps-footer .wps-footer-bottom p{font-size:13px}}
+@media(max-width:359px){.wps-footer .wps-footer-cta>svg{width:27px;height:32px}}
