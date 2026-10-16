@@ -14,7 +14,7 @@
         "title": "Quote request drafts",
         "paragraphs": [
           "The quote tools collect the project details you enter, such as name, contact information, location and surfaces to be painted. Those values are processed in your browser to create a downloadable text draft. The tools do not transmit the entries to We Paint Siding or submit an enquiry.",
-          "A downloaded draft stays on your device until you delete it. Form values can remain in the open page or be remembered by your browser’s autofill. Include only useful project information; avoid payment details, identification records or other sensitive material in the description."
+          "A downloaded draft stays on your device until you delete it. Form values can remain in the open page or be remembered by your browser\u2019s autofill. Include only useful project information; avoid payment details, identification records or other sensitive material in the description."
         ]
       },
       {
@@ -27,7 +27,7 @@
         "title": "Technical information and hosting",
         "paragraphs": [
           "Vercel hosts the website. Serving and protecting pages can involve technical request information, including IP addresses and browser or request details, being processed by the hosting provider. The application itself has no configured advertising tracker or analytics integration.",
-          "Provider records and retention depend on the service and its configuration. This policy does not specify a guaranteed retention period or processing location for the hosting provider’s information."
+          "Provider records and retention depend on the service and its configuration. This policy does not specify a guaranteed retention period or processing location for the hosting provider\u2019s information."
         ],
         "links": [
           [
@@ -40,7 +40,7 @@
         "title": "Maps and external services",
         "paragraphs": [
           "Some service and location pages contain Google Maps embeds. Loading a map connects the browser to Google, which may handle technical information and cookies or related technologies under its policies. Existing sessions, browser settings and map interactions can affect that processing.",
-          "External sites have their own privacy notices. The website’s fonts and image assets are served with the site; they are not requested from an external font library."
+          "External sites have their own privacy notices. The website\u2019s fonts and image assets are served with the site; they are not requested from an external font library."
         ],
         "links": [
           [
@@ -101,7 +101,7 @@
       {
         "title": "Hosting and embedded maps",
         "paragraphs": [
-          "Vercel can process technical requests while delivering and protecting the site. Embedded Google Maps connects to Google when loaded and may involve cookies or similar technologies. Existing provider cookies can also accompany requests according to your browser’s settings.",
+          "Vercel can process technical requests while delivering and protecting the site. Embedded Google Maps connects to Google when loaded and may involve cookies or similar technologies. Existing provider cookies can also accompany requests according to your browser\u2019s settings.",
           "Third-party behaviour can depend on account sessions, browser settings, location and provider changes. This notice does not state that the site can never involve third-party cookies."
         ],
         "links": [
@@ -118,7 +118,7 @@
       {
         "title": "Managing browser settings",
         "paragraphs": [
-          "Review your browser’s privacy or site settings to inspect, remove or restrict stored data and third-party cookies. The available options vary by device and browser. Blocking third-party services may prevent embedded maps from working as expected.",
+          "Review your browser\u2019s privacy or site settings to inspect, remove or restrict stored data and third-party cookies. The available options vary by device and browser. Blocking third-party services may prevent embedded maps from working as expected.",
           "Browser cookie controls do not delete quote drafts already downloaded to your device. Remove those files separately if you no longer want to keep them."
         ]
       },
@@ -155,7 +155,7 @@
         "title": "Illustrative images and comparisons",
         "paragraphs": [
           "The website includes generated illustrative photographs. Before and after sliders present colour-change concepts rather than documented client work, unless an individual image is clearly identified otherwise.",
-          "Example descriptions demonstrate possible project goals, surfaces and scope. They do not identify a customer’s property, verify completed results or promise an identical outcome at another home or business."
+          "Example descriptions demonstrate possible project goals, surfaces and scope. They do not identify a customer\u2019s property, verify completed results or promise an identical outcome at another home or business."
         ]
       },
       {
@@ -173,7 +173,7 @@
       {
         "title": "Third-party resources",
         "paragraphs": [
-          "External links and maps are offered as reference tools. Providers can change their content and services, which operate under their own terms and notices. A link on this website does not guarantee a third party’s information or performance."
+          "External links and maps are offered as reference tools. Providers can change their content and services, which operate under their own terms and notices. A link on this website does not guarantee a third party\u2019s information or performance."
         ]
       },
       {
@@ -195,20 +195,20 @@
     ]
   },
   {
-    "slug": "terms-of-use",
-    "title": "Terms of Use",
+    "slug": "terms-and-conditions",
+    "title": "Terms and Conditions",
     "description": "Terms for browsing and using the We Paint Siding website.",
     "sections": [
       {
         "title": "Website purpose",
         "paragraphs": [
-          "The website introduces We Paint Siding services and offers general painting guides. These browsing terms do not define a painting project’s scope or replace the agreement made separately for that work."
+          "The website introduces We Paint Siding services and offers general painting guides. These browsing terms do not define a painting project\u2019s scope or replace the agreement made separately for that work."
         ]
       },
       {
         "title": "Responsible use",
         "paragraphs": [
-          "Use the site lawfully and without disrupting its operation. Do not bypass security, attempt unauthorised access to information or provide misleading details through the website’s features."
+          "Use the site lawfully and without disrupting its operation. Do not bypass security, attempt unauthorised access to information or provide misleading details through the website\u2019s features."
         ]
       },
       {
@@ -227,7 +227,7 @@
       {
         "title": "Availability and external resources",
         "paragraphs": [
-          "Website pages or features can change and may be unavailable during maintenance. Embedded services and external sites have their own terms; review the relevant provider’s notices when using them."
+          "Website pages or features can change and may be unavailable during maintenance. Embedded services and external sites have their own terms; review the relevant provider\u2019s notices when using them."
         ]
       },
       {
@@ -264,7 +264,7 @@
       {
         "title": "Our approach",
         "paragraphs": [
-          "We aim to provide clear, usable content across screen sizes. This accessibility page describes the site’s features; it does not certify complete conformance with any particular accessibility standard."
+          "We aim to provide clear, usable content across screen sizes. This accessibility page describes the site\u2019s features; it does not certify complete conformance with any particular accessibility standard."
         ]
       },
       {
