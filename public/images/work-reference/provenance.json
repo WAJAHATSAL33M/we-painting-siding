@@ -1,0 +1,20 @@
+{
+  "method": "Built-in image generation and reference-image editing",
+  "use": "Illustrative painting concepts, not verified client project photographs",
+  "assets": [
+    {
+      "paths": [
+        "doors-before.webp",
+        "doors-after.webp"
+      ],
+      "brief": "Ontario hallway with natural oak doors, edited to off-white satin doors, casings and baseboards while preserving the setting."
+    },
+    {
+      "paths": [
+        "study-before.webp",
+        "study-after.webp"
+      ],
+      "brief": "Ontario home office with taupe walls and beige ceiling, edited to mist-blue walls and a white ceiling while preserving the setting."
+    }
+  ]
+}
