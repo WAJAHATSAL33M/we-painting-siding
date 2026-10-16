@@ -45,7 +45,7 @@ export const featuredCities=['Burlington','Oakville','Milton','Hamilton','Guelph
 export function getService(path){return allServices.find(s=>s.path===path)}
 export function relatedServices(s){const candidates=s.cabinet?cabinetServices.filter(p=>p.path!==s.path):allServices.filter(p=>p.category===s.category&&!p.cabinet&&p.path!==s.path);const groups={exterior:['siding-painting','aluminum-painting','vinyl-siding-painting','wood-siding-painting'],masonry:['brick-painting','exterior-stucco-painting','commercial-painting'],details:['eavestrough-fascia-painting','exterior-window-door-painting','siding-painting'],interior:['wall-painting','ceiling-painting','trim-baseboard-painting','interior-door-painting']};const desired=s.related||(s.category==='interior'?groups.interior:['brick-painting','exterior-stucco-painting','commercial-painting'].includes(s.slug)?groups.masonry:['eavestrough-fascia-painting','exterior-window-door-painting'].includes(s.slug)?groups.details:groups.exterior);return [...candidates.filter(p=>desired.includes(p.slug)),...candidates.filter(p=>!desired.includes(p.slug))].slice(0,s.path==='/cabinet-painting'?5:3)}
 export function serviceFaqs(s){return [
- ['Can these surfaces be painted?',s.condition+' '+s.material],
+ ['Can my '+s.surface+' be painted?',s.condition+' '+s.material],
  s.faq,
  ['How is the surface prepared?',s.prepare],
  ['What affects my '+s.title.toLowerCase()+' quote?','The amount of '+s.surface+', their condition, preparation and access affect the scope. '+s.goals+' Share photos and your city or postal code so those details can be reviewed together.'],

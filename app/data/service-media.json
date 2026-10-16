@@ -1,0 +1,1574 @@
+{
+  "/exterior-painting/spray-painting": {
+    "hero": {
+      "src": "/images/subservices/spray-painting/hero.webp",
+      "alt": "Illustrative exterior spray painting finish"
+    },
+    "overview": {
+      "src": "/images/subservices/spray-painting/detail.webp",
+      "alt": "Surface detail for exterior spray painting"
+    },
+    "related": {
+      "/exterior-painting/aluminum-painting": {
+        "src": "/images/subservices/aluminum-painting/hero.webp",
+        "alt": "Illustrative aluminum siding painting finish"
+      },
+      "/exterior-painting/siding-painting": {
+        "src": "/images/subservices/siding-painting/hero.webp",
+        "alt": "Illustrative siding painting finish"
+      },
+      "/exterior-painting/vinyl-siding-painting": {
+        "src": "/images/subservices/vinyl-siding-painting/hero.webp",
+        "alt": "Illustrative vinyl siding painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/company/105-white-house-exterior-spray-painting.webp",
+      "alt": "Painted spray painting project"
+    },
+    "scope": [
+      {
+        "src": "/images/company/102-after-house-painting-brick-siding-1024x576-1-1.webp",
+        "alt": "Painted spray painting project"
+      },
+      {
+        "src": "/images/company/071-masking-exterior-house-spray-painter.webp",
+        "alt": "Painting preparation and application"
+      },
+      {
+        "src": "/images/approved-home/detail.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/company/106-yellow-house-lakeshore-spray-painting.webp",
+        "alt": "Painted spray painting project"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/exterior/house.webp",
+        "alt": "Coordinated exterior colour and finish inspiration"
+      },
+      {
+        "src": "/images/company/104-grey-aluminum-siding-painting-front.webp",
+        "alt": "Painted spray painting project"
+      },
+      {
+        "src": "/images/company/035-stunning-house-with-fresh-white-siding.webp",
+        "alt": "Painted aluminum siding project"
+      }
+    ],
+    "area": {
+      "src": "/images/company/040-img-1144.webp",
+      "alt": "Painting preparation and application"
+    },
+    "quote": {
+      "src": "/images/company/041-img-1148.webp",
+      "alt": "Painting preparation and application"
+    }
+  },
+  "/exterior-painting/aluminum-painting": {
+    "hero": {
+      "src": "/images/subservices/aluminum-painting/hero.webp",
+      "alt": "Illustrative aluminum siding painting finish"
+    },
+    "overview": {
+      "src": "/images/subservices/aluminum-painting/detail.webp",
+      "alt": "Surface detail for aluminum siding painting"
+    },
+    "related": {
+      "/exterior-painting/siding-painting": {
+        "src": "/images/subservices/siding-painting/hero.webp",
+        "alt": "Illustrative siding painting finish"
+      },
+      "/exterior-painting/vinyl-siding-painting": {
+        "src": "/images/subservices/vinyl-siding-painting/hero.webp",
+        "alt": "Illustrative vinyl siding painting finish"
+      },
+      "/exterior-painting/wood-siding-painting": {
+        "src": "/images/subservices/wood-siding-painting/hero.webp",
+        "alt": "Illustrative wood siding painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/approved-home/painter.webp",
+      "alt": "Painter preparing and finishing exterior surfaces"
+    },
+    "scope": [
+      {
+        "src": "/images/company/033-grey-house.webp",
+        "alt": "Painted aluminum siding project"
+      },
+      {
+        "src": "/images/company/034-masking-preparation-painting-contractor-exterior.webp",
+        "alt": "Painting preparation and application"
+      },
+      {
+        "src": "/images/approved-home/detail.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/company/035-stunning-house-with-fresh-white-siding.webp",
+        "alt": "Painted aluminum siding project"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/company/031-after-house-painting-burlington-exterior.webp",
+        "alt": "Painted aluminum siding project"
+      },
+      {
+        "src": "/images/company/025-img-5523.webp",
+        "alt": "Painted aluminum siding project"
+      },
+      {
+        "src": "/images/company/030-img-9245s.webp",
+        "alt": "Painted aluminum siding project"
+      }
+    ],
+    "area": {
+      "src": "/images/company/203-img-9942.webp",
+      "alt": "Painting preparation and application"
+    },
+    "quote": {
+      "src": "/images/company/041-img-1148.webp",
+      "alt": "Painting preparation and application"
+    }
+  },
+  "/exterior-painting/siding-painting": {
+    "hero": {
+      "src": "/images/subservices/siding-painting/hero.webp",
+      "alt": "Illustrative siding painting finish"
+    },
+    "overview": {
+      "src": "/images/subservices/siding-painting/detail.webp",
+      "alt": "Surface detail for siding painting"
+    },
+    "related": {
+      "/exterior-painting/aluminum-painting": {
+        "src": "/images/subservices/aluminum-painting/hero.webp",
+        "alt": "Illustrative aluminum siding painting finish"
+      },
+      "/exterior-painting/vinyl-siding-painting": {
+        "src": "/images/subservices/vinyl-siding-painting/hero.webp",
+        "alt": "Illustrative vinyl siding painting finish"
+      },
+      "/exterior-painting/wood-siding-painting": {
+        "src": "/images/subservices/wood-siding-painting/hero.webp",
+        "alt": "Illustrative wood siding painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/approved-home/painter.webp",
+      "alt": "Painter preparing and finishing exterior surfaces"
+    },
+    "scope": [
+      {
+        "src": "/images/company/162-after-exterior-siding-painting.webp",
+        "alt": "Painted vinyl siding project"
+      },
+      {
+        "src": "/images/company/071-masking-exterior-house-spray-painter.webp",
+        "alt": "Painting preparation and application"
+      },
+      {
+        "src": "/images/approved-home/detail.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/company/165-house-rear-spray-painted-grey-1024x768-1.webp",
+        "alt": "Painted vinyl siding project"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/company/166-large-exterior-painting-siding-st-catharines.webp",
+        "alt": "Painted vinyl siding project"
+      },
+      {
+        "src": "/images/company/167-side-house-vinyl-siding-exterior.webp",
+        "alt": "Painted vinyl siding project"
+      },
+      {
+        "src": "/images/company/168-vinyl-siding-olive-coloured-exterior-1024x768-1.webp",
+        "alt": "Painted vinyl siding project"
+      }
+    ],
+    "area": {
+      "src": "/images/company/203-img-9942.webp",
+      "alt": "Painting preparation and application"
+    },
+    "quote": {
+      "src": "/images/company/211-back-brushing.webp",
+      "alt": "Painting preparation and application"
+    }
+  },
+  "/exterior-painting/vinyl-siding-painting": {
+    "hero": {
+      "src": "/images/subservices/vinyl-siding-painting/hero.webp",
+      "alt": "Illustrative vinyl siding painting finish"
+    },
+    "overview": {
+      "src": "/images/subservices/vinyl-siding-painting/detail.webp",
+      "alt": "Surface detail for vinyl siding painting"
+    },
+    "related": {
+      "/exterior-painting/aluminum-painting": {
+        "src": "/images/subservices/aluminum-painting/hero.webp",
+        "alt": "Illustrative aluminum siding painting finish"
+      },
+      "/exterior-painting/siding-painting": {
+        "src": "/images/subservices/siding-painting/hero.webp",
+        "alt": "Illustrative siding painting finish"
+      },
+      "/exterior-painting/wood-siding-painting": {
+        "src": "/images/subservices/wood-siding-painting/hero.webp",
+        "alt": "Illustrative wood siding painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/approved-home/painter.webp",
+      "alt": "Painter preparing and finishing exterior surfaces"
+    },
+    "scope": [
+      {
+        "src": "/images/subservice-reference/surface-assessment.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/company/071-masking-exterior-house-spray-painter.webp",
+        "alt": "Painting preparation and application"
+      },
+      {
+        "src": "/images/approved-home/detail.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/company/072-white-eavestrough-soffits-spray-painter.webp",
+        "alt": "Fresh white soffit and eavestrough finishing detail"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/approved-home/slate-house.webp",
+        "alt": "Slate-coloured siding with coordinated white trim"
+      },
+      {
+        "src": "/images/company/140-img-5402.webp",
+        "alt": "Painted vinyl siding project"
+      },
+      {
+        "src": "/images/company/148-img-5851.webp",
+        "alt": "Painted vinyl siding project"
+      }
+    ],
+    "area": {
+      "src": "/images/company/128-img-0545.webp",
+      "alt": "Painted vinyl siding project"
+    },
+    "quote": {
+      "src": "/images/company/132-img-0760.webp",
+      "alt": "Fresh grey vinyl siding on a detached home"
+    }
+  },
+  "/exterior-painting/brick-painting": {
+    "hero": {
+      "src": "/images/subservices/brick-painting/hero.webp",
+      "alt": "Illustrative brick painting finish"
+    },
+    "overview": {
+      "src": "/images/subservices/brick-painting/detail.webp",
+      "alt": "Surface detail for brick painting"
+    },
+    "related": {
+      "/exterior-painting/exterior-stucco-painting": {
+        "src": "/images/subservices/exterior-stucco-painting/hero.webp",
+        "alt": "Illustrative exterior stucco painting finish"
+      },
+      "/exterior-painting/commercial-painting": {
+        "src": "/images/subservices/commercial-painting/hero.webp",
+        "alt": "Illustrative commercial exterior painting finish"
+      },
+      "/exterior-painting/spray-painting": {
+        "src": "/images/subservices/spray-painting/hero.webp",
+        "alt": "Illustrative exterior spray painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/approved-home/painter.webp",
+      "alt": "Painter preparing and finishing exterior surfaces"
+    },
+    "scope": [
+      {
+        "src": "/images/company/051-huge-house-after-brick-painting.webp",
+        "alt": "Painted brick painting project"
+      },
+      {
+        "src": "/images/company/040-img-1144.webp",
+        "alt": "Painting preparation and application"
+      },
+      {
+        "src": "/images/approved-home/detail.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/company/037-brick-painting.webp",
+        "alt": "Painted brick painting project"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/company/052-painted-grey-brick-black-trim.webp",
+        "alt": "Painted brick painting project"
+      },
+      {
+        "src": "/images/company/045-img-2441-1.webp",
+        "alt": "Painted brick painting project"
+      },
+      {
+        "src": "/images/company/046-img-6425.webp",
+        "alt": "Painted brick painting project"
+      }
+    ],
+    "area": {
+      "src": "/images/company/041-img-1148.webp",
+      "alt": "Painting preparation and application"
+    },
+    "quote": {
+      "src": "/images/company/042-img-1165.webp",
+      "alt": "Painting preparation and application"
+    }
+  },
+  "/exterior-painting/exterior-stucco-painting": {
+    "hero": {
+      "src": "/images/subservices/exterior-stucco-painting/hero.webp",
+      "alt": "Illustrative exterior stucco painting finish"
+    },
+    "overview": {
+      "src": "/images/subservices/exterior-stucco-painting/detail.webp",
+      "alt": "Surface detail for exterior stucco painting"
+    },
+    "related": {
+      "/exterior-painting/brick-painting": {
+        "src": "/images/subservices/brick-painting/hero.webp",
+        "alt": "Illustrative brick painting finish"
+      },
+      "/exterior-painting/commercial-painting": {
+        "src": "/images/subservices/commercial-painting/hero.webp",
+        "alt": "Illustrative commercial exterior painting finish"
+      },
+      "/exterior-painting/spray-painting": {
+        "src": "/images/subservices/spray-painting/hero.webp",
+        "alt": "Illustrative exterior spray painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/approved-home/painter.webp",
+      "alt": "Painter preparing and finishing exterior surfaces"
+    },
+    "scope": [
+      {
+        "src": "/images/company/122-after-house-stucco-painting-white.webp",
+        "alt": "Painted stucco painting project"
+      },
+      {
+        "src": "/images/company/071-masking-exterior-house-spray-painter.webp",
+        "alt": "Painting preparation and application"
+      },
+      {
+        "src": "/images/approved-home/detail.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/company/107-img-0983.webp",
+        "alt": "Painted stucco painting project"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/company/116-img-5460.webp",
+        "alt": "Painted stucco painting project"
+      },
+      {
+        "src": "/images/company/118-img-5692.webp",
+        "alt": "Painted stucco painting project"
+      },
+      {
+        "src": "/images/company/120-img-9037.webp",
+        "alt": "Painted stucco painting project"
+      }
+    ],
+    "area": {
+      "src": "/images/company/203-img-9942.webp",
+      "alt": "Painting preparation and application"
+    },
+    "quote": {
+      "src": "/images/company/041-img-1148.webp",
+      "alt": "Painting preparation and application"
+    }
+  },
+  "/exterior-painting/wood-siding-painting": {
+    "hero": {
+      "src": "/images/subservices/wood-siding-painting/hero.webp",
+      "alt": "Illustrative wood siding painting finish"
+    },
+    "overview": {
+      "src": "/images/subservices/wood-siding-painting/detail.webp",
+      "alt": "Surface detail for wood siding painting"
+    },
+    "related": {
+      "/exterior-painting/aluminum-painting": {
+        "src": "/images/subservices/aluminum-painting/hero.webp",
+        "alt": "Illustrative aluminum siding painting finish"
+      },
+      "/exterior-painting/siding-painting": {
+        "src": "/images/subservices/siding-painting/hero.webp",
+        "alt": "Illustrative siding painting finish"
+      },
+      "/exterior-painting/vinyl-siding-painting": {
+        "src": "/images/subservices/vinyl-siding-painting/hero.webp",
+        "alt": "Illustrative vinyl siding painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/approved-home/painter.webp",
+      "alt": "Painter preparing and finishing exterior surfaces"
+    },
+    "scope": [
+      {
+        "src": "/images/company/214-img-4819.webp",
+        "alt": "Painted wood siding project"
+      },
+      {
+        "src": "/images/company/211-back-brushing.webp",
+        "alt": "Painting preparation and application"
+      },
+      {
+        "src": "/images/approved-home/detail.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/company/216-img-4820.webp",
+        "alt": "Painted wood siding project"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/company/225-img-9337.webp",
+        "alt": "Painted wood siding project"
+      },
+      {
+        "src": "/images/company/229-blue-garage.webp",
+        "alt": "Painted wood siding project"
+      },
+      {
+        "src": "/images/company/230-fresh-blue-siding-job-1536x1152-1-768x576.webp",
+        "alt": "Painted wood siding project"
+      }
+    ],
+    "area": {
+      "src": "/images/company/218-img-8513.webp",
+      "alt": "Painting preparation and application"
+    },
+    "quote": {
+      "src": "/images/company/041-img-1148.webp",
+      "alt": "Painting preparation and application"
+    }
+  },
+  "/exterior-painting/eavestrough-fascia-painting": {
+    "hero": {
+      "src": "/images/subservices/eavestrough-fascia-painting/hero.webp",
+      "alt": "Illustrative eavestrough & fascia painting finish"
+    },
+    "overview": {
+      "src": "/images/subservices/eavestrough-fascia-painting/detail.webp",
+      "alt": "Surface detail for eavestrough & fascia painting"
+    },
+    "related": {
+      "/exterior-painting/siding-painting": {
+        "src": "/images/subservices/siding-painting/hero.webp",
+        "alt": "Illustrative siding painting finish"
+      },
+      "/exterior-painting/exterior-window-door-painting": {
+        "src": "/images/subservices/exterior-window-door-painting/hero.webp",
+        "alt": "Illustrative exterior window & door painting finish"
+      },
+      "/exterior-painting/spray-painting": {
+        "src": "/images/subservices/spray-painting/hero.webp",
+        "alt": "Illustrative exterior spray painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/approved-home/painter.webp",
+      "alt": "Painter preparing and finishing exterior surfaces"
+    },
+    "scope": [
+      {
+        "src": "/images/company/072-white-eavestrough-soffits-spray-painter.webp",
+        "alt": "Painted eavestrough, soffit, and fascia project"
+      },
+      {
+        "src": "/images/company/071-masking-exterior-house-spray-painter.webp",
+        "alt": "Painting preparation and application"
+      },
+      {
+        "src": "/images/approved-home/detail.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/company/069-screenshot-at-dec-21-18-17-11.webp",
+        "alt": "Painted eavestrough, soffit, and fascia project"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/company/070-eavestroughs-spray-painting-black-oakville-1024x768-1-scaled.webp",
+        "alt": "Painted eavestrough, soffit, and fascia project"
+      },
+      {
+        "src": "/images/company/208-eaves-soffits-windows-painted-hamilton.webp",
+        "alt": "Painted window and door project"
+      },
+      {
+        "src": "/images/company/196-img-5430.webp",
+        "alt": "Painted window and door project"
+      }
+    ],
+    "area": {
+      "src": "/images/company/203-img-9942.webp",
+      "alt": "Painting preparation and application"
+    },
+    "quote": {
+      "src": "/images/company/188-img-0622.webp",
+      "alt": "Painting preparation and application"
+    }
+  },
+  "/exterior-painting/exterior-window-door-painting": {
+    "hero": {
+      "src": "/images/subservices/exterior-window-door-painting/hero.webp",
+      "alt": "Illustrative exterior window & door painting finish"
+    },
+    "overview": {
+      "src": "/images/subservices/exterior-window-door-painting/detail.webp",
+      "alt": "Surface detail for exterior window & door painting"
+    },
+    "related": {
+      "/exterior-painting/siding-painting": {
+        "src": "/images/subservices/siding-painting/hero.webp",
+        "alt": "Illustrative siding painting finish"
+      },
+      "/exterior-painting/eavestrough-fascia-painting": {
+        "src": "/images/subservices/eavestrough-fascia-painting/hero.webp",
+        "alt": "Illustrative eavestrough & fascia painting finish"
+      },
+      "/exterior-painting/spray-painting": {
+        "src": "/images/subservices/spray-painting/hero.webp",
+        "alt": "Illustrative exterior spray painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/approved-home/painter.webp",
+      "alt": "Painter preparing and finishing exterior surfaces"
+    },
+    "scope": [
+      {
+        "src": "/images/company/184-img-0229.webp",
+        "alt": "Painted window and door project"
+      },
+      {
+        "src": "/images/company/203-img-9942.webp",
+        "alt": "Painting preparation and application"
+      },
+      {
+        "src": "/images/approved-home/detail.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/company/191-img-0681.webp",
+        "alt": "Painted window and door project"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/company/204-img-9948.webp",
+        "alt": "Painted window and door project"
+      },
+      {
+        "src": "/images/company/180-img-0202.webp",
+        "alt": "Painted window and door project"
+      },
+      {
+        "src": "/images/company/200-img-6941.webp",
+        "alt": "Painted window and door project"
+      }
+    ],
+    "area": {
+      "src": "/images/company/209-exterior-vinyl-windows-painted-black.webp",
+      "alt": "Painting preparation and application"
+    },
+    "quote": {
+      "src": "/images/company/188-img-0622.webp",
+      "alt": "Painting preparation and application"
+    }
+  },
+  "/exterior-painting/commercial-painting": {
+    "hero": {
+      "src": "/images/subservices/commercial-painting/hero.webp",
+      "alt": "Illustrative commercial exterior painting finish"
+    },
+    "overview": {
+      "src": "/images/subservices/commercial-painting/detail.webp",
+      "alt": "Surface detail for commercial exterior painting"
+    },
+    "related": {
+      "/exterior-painting/brick-painting": {
+        "src": "/images/subservices/brick-painting/hero.webp",
+        "alt": "Illustrative brick painting finish"
+      },
+      "/exterior-painting/exterior-stucco-painting": {
+        "src": "/images/subservices/exterior-stucco-painting/hero.webp",
+        "alt": "Illustrative exterior stucco painting finish"
+      },
+      "/exterior-painting/spray-painting": {
+        "src": "/images/subservices/spray-painting/hero.webp",
+        "alt": "Illustrative exterior spray painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/approved-home/painter.webp",
+      "alt": "Painter preparing and finishing exterior surfaces"
+    },
+    "scope": [
+      {
+        "src": "/images/company/066-commercial-painting-inc-georgetown-1536x1152-1.webp",
+        "alt": "Painted commercial painting project"
+      },
+      {
+        "src": "/images/company/071-masking-exterior-house-spray-painter.webp",
+        "alt": "Painting preparation and application"
+      },
+      {
+        "src": "/images/approved-home/detail.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/company/064-after-masonry-painting-commercial.webp",
+        "alt": "Painted commercial painting project"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/company/067-spray-paint-painting-mississauga.webp",
+        "alt": "Painted commercial painting project"
+      },
+      {
+        "src": "/images/company/063-oakville-paint-sprayer-near-me.webp",
+        "alt": "Painted commercial painting project"
+      },
+      {
+        "src": "/images/company/125-commercial-job-4-1536x1024.webp",
+        "alt": "Painted stucco painting project"
+      }
+    ],
+    "area": {
+      "src": "/images/company/040-img-1144.webp",
+      "alt": "Painting preparation and application"
+    },
+    "quote": {
+      "src": "/images/company/041-img-1148.webp",
+      "alt": "Painting preparation and application"
+    }
+  },
+  "/interior-painting/wall-painting": {
+    "hero": {
+      "src": "/images/home-v3/interior-overview.webp",
+      "alt": "Illustrative wall painting finish"
+    },
+    "overview": {
+      "src": "/images/home-v3/interior.webp",
+      "alt": "Interior finish detail for wall painting"
+    },
+    "related": {
+      "/interior-painting/ceiling-painting": {
+        "src": "/images/interior-reference/ceiling.webp",
+        "alt": "Illustrative ceiling painting finish"
+      },
+      "/interior-painting/trim-baseboard-painting": {
+        "src": "/images/interior-reference/trim.webp",
+        "alt": "Illustrative trim & baseboard painting finish"
+      },
+      "/interior-painting/interior-door-painting": {
+        "src": "/images/interior-reference/door.webp",
+        "alt": "Illustrative interior door painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/interior-reference/painter.webp",
+      "alt": "Painter carefully finishing interior trim with floor protection"
+    },
+    "scope": [
+      {
+        "src": "/images/interior-reference/dining.webp",
+        "alt": "Coordinated interior colour inspiration"
+      },
+      {
+        "src": "/images/subservice-reference/interior-protection.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/subservice-reference/interior-application.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/about/office.webp",
+        "alt": "Coordinated commercial reception"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/cabinet/builtins.webp",
+        "alt": "Painted built-ins and room trim"
+      },
+      {
+        "src": "/images/approved-home/living.webp",
+        "alt": "Bright painted living room"
+      },
+      {
+        "src": "/images/v2/living.webp",
+        "alt": "White fireplace and room trim"
+      }
+    ],
+    "area": {
+      "src": "/images/locations/interior.webp",
+      "alt": "Freshly finished interior"
+    },
+    "quote": {
+      "src": "/images/interior-reference/hallway.webp",
+      "alt": "White doors and trim in a hallway"
+    }
+  },
+  "/interior-painting/ceiling-painting": {
+    "hero": {
+      "src": "/images/interior-reference/ceiling.webp",
+      "alt": "Illustrative ceiling painting finish"
+    },
+    "overview": {
+      "src": "/images/interior-reference/hallway.webp",
+      "alt": "Interior finish detail for ceiling painting"
+    },
+    "related": {
+      "/interior-painting/wall-painting": {
+        "src": "/images/home-v3/interior-overview.webp",
+        "alt": "Illustrative wall painting finish"
+      },
+      "/interior-painting/trim-baseboard-painting": {
+        "src": "/images/interior-reference/trim.webp",
+        "alt": "Illustrative trim & baseboard painting finish"
+      },
+      "/interior-painting/interior-door-painting": {
+        "src": "/images/interior-reference/door.webp",
+        "alt": "Illustrative interior door painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/interior-reference/painter.webp",
+      "alt": "Painter carefully finishing interior trim with floor protection"
+    },
+    "scope": [
+      {
+        "src": "/images/v2/living.webp",
+        "alt": "Coordinated interior colour inspiration"
+      },
+      {
+        "src": "/images/subservice-reference/interior-protection.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/subservice-reference/interior-application.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/about/office.webp",
+        "alt": "Coordinated commercial reception"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/cabinet/builtins.webp",
+        "alt": "Painted built-ins and room trim"
+      },
+      {
+        "src": "/images/home-v3/interior.webp",
+        "alt": "Soft blue living room walls"
+      },
+      {
+        "src": "/images/approved-home/living.webp",
+        "alt": "Bright painted living room"
+      }
+    ],
+    "area": {
+      "src": "/images/locations/interior.webp",
+      "alt": "Freshly finished interior"
+    },
+    "quote": {
+      "src": "/images/interior-reference/stairs.webp",
+      "alt": "Painted staircase"
+    }
+  },
+  "/interior-painting/trim-baseboard-painting": {
+    "hero": {
+      "src": "/images/interior-reference/trim.webp",
+      "alt": "Illustrative trim & baseboard painting finish"
+    },
+    "overview": {
+      "src": "/images/interior-reference/hallway.webp",
+      "alt": "Interior finish detail for trim & baseboard painting"
+    },
+    "related": {
+      "/interior-painting/wall-painting": {
+        "src": "/images/home-v3/interior-overview.webp",
+        "alt": "Illustrative wall painting finish"
+      },
+      "/interior-painting/ceiling-painting": {
+        "src": "/images/interior-reference/ceiling.webp",
+        "alt": "Illustrative ceiling painting finish"
+      },
+      "/interior-painting/interior-door-painting": {
+        "src": "/images/interior-reference/door.webp",
+        "alt": "Illustrative interior door painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/interior-reference/painter.webp",
+      "alt": "Painter carefully finishing interior trim with floor protection"
+    },
+    "scope": [
+      {
+        "src": "/images/about/office.webp",
+        "alt": "Coordinated commercial reception"
+      },
+      {
+        "src": "/images/subservice-reference/interior-protection.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/subservice-reference/interior-application.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/cabinet/builtins.webp",
+        "alt": "Painted built-ins and room trim"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/home-v3/interior.webp",
+        "alt": "Soft blue living room walls"
+      },
+      {
+        "src": "/images/approved-home/living.webp",
+        "alt": "Bright painted living room"
+      },
+      {
+        "src": "/images/v2/living.webp",
+        "alt": "White fireplace and room trim"
+      }
+    ],
+    "area": {
+      "src": "/images/locations/interior.webp",
+      "alt": "Freshly finished interior"
+    },
+    "quote": {
+      "src": "/images/interior-reference/stairs.webp",
+      "alt": "Painted staircase"
+    }
+  },
+  "/interior-painting/interior-door-painting": {
+    "hero": {
+      "src": "/images/interior-reference/door.webp",
+      "alt": "Illustrative interior door painting finish"
+    },
+    "overview": {
+      "src": "/images/interior-reference/hallway.webp",
+      "alt": "Interior finish detail for interior door painting"
+    },
+    "related": {
+      "/interior-painting/wall-painting": {
+        "src": "/images/home-v3/interior-overview.webp",
+        "alt": "Illustrative wall painting finish"
+      },
+      "/interior-painting/ceiling-painting": {
+        "src": "/images/interior-reference/ceiling.webp",
+        "alt": "Illustrative ceiling painting finish"
+      },
+      "/interior-painting/trim-baseboard-painting": {
+        "src": "/images/interior-reference/trim.webp",
+        "alt": "Illustrative trim & baseboard painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/interior-reference/painter.webp",
+      "alt": "Painter carefully finishing interior trim with floor protection"
+    },
+    "scope": [
+      {
+        "src": "/images/cabinet/builtins.webp",
+        "alt": "Painted built-ins and room trim"
+      },
+      {
+        "src": "/images/subservice-reference/interior-protection.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/subservice-reference/interior-application.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/home-v3/interior.webp",
+        "alt": "Soft blue living room walls"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/approved-home/living.webp",
+        "alt": "Bright painted living room"
+      },
+      {
+        "src": "/images/v2/living.webp",
+        "alt": "White fireplace and room trim"
+      },
+      {
+        "src": "/images/locations/interior.webp",
+        "alt": "Freshly finished interior"
+      }
+    ],
+    "area": {
+      "src": "/images/interior-reference/stairs.webp",
+      "alt": "Painted staircase"
+    },
+    "quote": {
+      "src": "/images/interior-reference/dining.webp",
+      "alt": "Sage dining room walls"
+    }
+  },
+  "/interior-painting/stair-railing-painting": {
+    "hero": {
+      "src": "/images/interior-reference/stairs.webp",
+      "alt": "Illustrative stair & railing painting finish"
+    },
+    "overview": {
+      "src": "/images/interior-reference/trim.webp",
+      "alt": "Interior finish detail for stair & railing painting"
+    },
+    "related": {
+      "/interior-painting/wall-painting": {
+        "src": "/images/home-v3/interior-overview.webp",
+        "alt": "Illustrative wall painting finish"
+      },
+      "/interior-painting/ceiling-painting": {
+        "src": "/images/interior-reference/ceiling.webp",
+        "alt": "Illustrative ceiling painting finish"
+      },
+      "/interior-painting/trim-baseboard-painting": {
+        "src": "/images/interior-reference/hallway.webp",
+        "alt": "Interior finish detail for trim & baseboard painting"
+      }
+    },
+    "process": {
+      "src": "/images/interior-reference/painter.webp",
+      "alt": "Painter carefully finishing interior trim with floor protection"
+    },
+    "scope": [
+      {
+        "src": "/images/subservice-reference/interior-protection.webp",
+        "alt": "Protected furniture and flooring before painting"
+      },
+      {
+        "src": "/images/subservice-reference/interior-application.webp",
+        "alt": "Roller application to an interior wall"
+      },
+      {
+        "src": "/images/home-v3/interior.webp",
+        "alt": "Soft blue living room walls"
+      },
+      {
+        "src": "/images/approved-home/living.webp",
+        "alt": "Bright painted living room"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/v2/living.webp",
+        "alt": "White fireplace and room trim"
+      },
+      {
+        "src": "/images/locations/interior.webp",
+        "alt": "Freshly finished interior"
+      },
+      {
+        "src": "/images/interior-reference/door.webp",
+        "alt": "Charcoal interior door"
+      }
+    ],
+    "area": {
+      "src": "/images/interior-reference/dining.webp",
+      "alt": "Sage dining room walls"
+    },
+    "quote": {
+      "src": "/images/about/office.webp",
+      "alt": "Coordinated commercial reception"
+    }
+  },
+  "/interior-painting/whole-home-painting": {
+    "hero": {
+      "src": "/images/approved-home/living.webp",
+      "alt": "Illustrative whole-home painting finish"
+    },
+    "overview": {
+      "src": "/images/interior-reference/hallway.webp",
+      "alt": "Interior finish detail for whole-home painting"
+    },
+    "related": {
+      "/interior-painting/wall-painting": {
+        "src": "/images/home-v3/interior-overview.webp",
+        "alt": "Illustrative wall painting finish"
+      },
+      "/interior-painting/ceiling-painting": {
+        "src": "/images/interior-reference/ceiling.webp",
+        "alt": "Illustrative ceiling painting finish"
+      },
+      "/interior-painting/trim-baseboard-painting": {
+        "src": "/images/interior-reference/trim.webp",
+        "alt": "Illustrative trim & baseboard painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/interior-reference/painter.webp",
+      "alt": "Painter carefully finishing interior trim with floor protection"
+    },
+    "scope": [
+      {
+        "src": "/images/interior-reference/dining.webp",
+        "alt": "Coordinated interior colour inspiration"
+      },
+      {
+        "src": "/images/subservice-reference/interior-protection.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/subservice-reference/interior-application.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/home-v3/interior.webp",
+        "alt": "Soft blue living room walls"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/v2/living.webp",
+        "alt": "White fireplace and room trim"
+      },
+      {
+        "src": "/images/locations/interior.webp",
+        "alt": "Freshly finished interior"
+      },
+      {
+        "src": "/images/interior-reference/door.webp",
+        "alt": "Charcoal interior door"
+      }
+    ],
+    "area": {
+      "src": "/images/interior-reference/stairs.webp",
+      "alt": "Painted staircase"
+    },
+    "quote": {
+      "src": "/images/about/office.webp",
+      "alt": "Coordinated commercial reception"
+    }
+  },
+  "/interior-painting/commercial-interior-painting": {
+    "hero": {
+      "src": "/images/about/office.webp",
+      "alt": "Illustrative commercial interior painting finish"
+    },
+    "overview": {
+      "src": "/images/interior-reference/hallway.webp",
+      "alt": "Interior finish detail for commercial interior painting"
+    },
+    "related": {
+      "/interior-painting/wall-painting": {
+        "src": "/images/home-v3/interior-overview.webp",
+        "alt": "Illustrative wall painting finish"
+      },
+      "/interior-painting/ceiling-painting": {
+        "src": "/images/interior-reference/ceiling.webp",
+        "alt": "Illustrative ceiling painting finish"
+      },
+      "/interior-painting/trim-baseboard-painting": {
+        "src": "/images/interior-reference/trim.webp",
+        "alt": "Illustrative trim & baseboard painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/interior-reference/painter.webp",
+      "alt": "Painter carefully finishing interior trim with floor protection"
+    },
+    "scope": [
+      {
+        "src": "/images/home-v3/interior.webp",
+        "alt": "Soft blue living room walls"
+      },
+      {
+        "src": "/images/subservice-reference/interior-protection.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/subservice-reference/interior-application.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/approved-home/living.webp",
+        "alt": "Bright painted living room"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/v2/living.webp",
+        "alt": "White fireplace and room trim"
+      },
+      {
+        "src": "/images/locations/interior.webp",
+        "alt": "Freshly finished interior"
+      },
+      {
+        "src": "/images/interior-reference/door.webp",
+        "alt": "Charcoal interior door"
+      }
+    ],
+    "area": {
+      "src": "/images/interior-reference/stairs.webp",
+      "alt": "Painted staircase"
+    },
+    "quote": {
+      "src": "/images/interior-reference/dining.webp",
+      "alt": "Sage dining room walls"
+    }
+  },
+  "/cabinet-painting": {
+    "hero": {
+      "src": "/images/approved-home/cabinet-feature.webp",
+      "alt": "Slate blue painted kitchen cabinets with brass handles"
+    },
+    "overview": {
+      "src": "/images/cabinet-subservices/finish.webp",
+      "alt": "Close detail of a painted cabinet door"
+    },
+    "related": {
+      "/cabinet-painting/kitchen-cabinet-painting": {
+        "src": "/images/cabinet/kitchen.webp",
+        "alt": "Kitchen Cabinet Painting colour inspiration"
+      },
+      "/cabinet-painting/bathroom-vanity-painting": {
+        "src": "/images/cabinet/vanity.webp",
+        "alt": "Bathroom Vanity Painting colour inspiration"
+      },
+      "/cabinet-painting/cabinet-doors-drawer-fronts": {
+        "src": "/images/cabinet/doors.webp",
+        "alt": "Cabinet Door & Drawer Front Painting colour inspiration"
+      },
+      "/cabinet-painting/cabinet-frames-boxes-end-panels": {
+        "src": "/images/cabinet/box.webp",
+        "alt": "Cabinet Frame & Box Painting colour inspiration"
+      },
+      "/cabinet-painting/built-in-cabinetry-painting": {
+        "src": "/images/cabinet/builtins.webp",
+        "alt": "Built-In Cabinetry Painting colour inspiration"
+      }
+    },
+    "process": {
+      "src": "/images/cabinet-subservices/preparation.webp",
+      "alt": "Cabinet component preparation"
+    },
+    "scope": [
+      {
+        "src": "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      },
+      {
+        "src": "/images/company/supplementary/cabinet-finish.webp",
+        "alt": "Cabinet finish illustration"
+      },
+      {
+        "src": "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      },
+      {
+        "src": "/images/company/054-bathroom-vanity-painting-1024x683.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/company/056-cabinet-doors-drawer-fronts-1024x683.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      },
+      {
+        "src": "/images/company/supplementary/cabinet-boxes.webp",
+        "alt": "Cabinet boxes illustration"
+      },
+      {
+        "src": "/images/company/055-built-in-cabinetry-1024x683.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      }
+    ],
+    "area": {
+      "src": "/images/company/060-chatgpt-image-sep-5-2026-06-53-43-pm-1024x704.webp",
+      "alt": "Cabinet finish inspiration supplied for the website"
+    },
+    "quote": {
+      "src": "/images/company/057-cabinet-painting-faqs.webp",
+      "alt": "Cabinet finish inspiration supplied for the website"
+    }
+  },
+  "/cabinet-painting/kitchen-cabinet-painting": {
+    "hero": {
+      "src": "/images/cabinet/kitchen.webp",
+      "alt": "Kitchen Cabinet Painting colour inspiration"
+    },
+    "overview": {
+      "src": "/images/cabinet/doors.webp",
+      "alt": "Kitchen Cabinet Painting finish detail"
+    },
+    "related": {
+      "/cabinet-painting/bathroom-vanity-painting": {
+        "src": "/images/cabinet/vanity.webp",
+        "alt": "Bathroom Vanity Painting colour inspiration"
+      },
+      "/cabinet-painting/cabinet-doors-drawer-fronts": {
+        "src": "/images/cabinet-subservices/finish.webp",
+        "alt": "Cabinet Door & Drawer Front Painting finish detail"
+      },
+      "/cabinet-painting/cabinet-frames-boxes-end-panels": {
+        "src": "/images/cabinet/box.webp",
+        "alt": "Cabinet Frame & Box Painting colour inspiration"
+      }
+    },
+    "process": {
+      "src": "/images/cabinet-subservices/preparation.webp",
+      "alt": "Careful preparation of cabinet components"
+    },
+    "scope": [
+      {
+        "src": "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      },
+      {
+        "src": "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      },
+      {
+        "src": "/images/company/060-chatgpt-image-sep-5-2026-06-53-43-pm-1024x704.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      },
+      {
+        "src": "/images/company/061-chatgpt-image-sep-5-2026-10-53-28-pm-1024x683.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/company/supplementary/cabinet-preparation.webp",
+        "alt": "Cabinet preparation illustration"
+      },
+      {
+        "src": "/images/company/supplementary/cabinet-finish.webp",
+        "alt": "Cabinet finish illustration"
+      },
+      {
+        "src": "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      }
+    ],
+    "area": {
+      "src": "/images/company/054-bathroom-vanity-painting-1024x683.webp",
+      "alt": "Cabinet finish inspiration supplied for the website"
+    },
+    "quote": {
+      "src": "/images/company/056-cabinet-doors-drawer-fronts-1024x683.webp",
+      "alt": "Cabinet finish inspiration supplied for the website"
+    }
+  },
+  "/cabinet-painting/bathroom-vanity-painting": {
+    "hero": {
+      "src": "/images/cabinet/vanity.webp",
+      "alt": "Bathroom Vanity Painting colour inspiration"
+    },
+    "overview": {
+      "src": "/images/approved-home/vanity.webp",
+      "alt": "Bathroom Vanity Painting finish detail"
+    },
+    "related": {
+      "/cabinet-painting/kitchen-cabinet-painting": {
+        "src": "/images/cabinet/kitchen.webp",
+        "alt": "Kitchen Cabinet Painting colour inspiration"
+      },
+      "/cabinet-painting/cabinet-doors-drawer-fronts": {
+        "src": "/images/cabinet/doors.webp",
+        "alt": "Cabinet Door & Drawer Front Painting colour inspiration"
+      },
+      "/cabinet-painting/cabinet-frames-boxes-end-panels": {
+        "src": "/images/cabinet/box.webp",
+        "alt": "Cabinet Frame & Box Painting colour inspiration"
+      }
+    },
+    "process": {
+      "src": "/images/cabinet-subservices/preparation.webp",
+      "alt": "Careful preparation of cabinet components"
+    },
+    "scope": [
+      {
+        "src": "/images/company/054-bathroom-vanity-painting-1024x683.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      },
+      {
+        "src": "/images/company/057-cabinet-painting-faqs.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      },
+      {
+        "src": "/images/cabinet-subservices/finish.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/company/supplementary/cabinet-vanity-detail.webp",
+        "alt": "Cabinet vanity detail illustration"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/company/supplementary/cabinet-frames.webp",
+        "alt": "Cabinet frames illustration"
+      },
+      {
+        "src": "/images/company/supplementary/cabinet-preparation.webp",
+        "alt": "Cabinet preparation illustration"
+      },
+      {
+        "src": "/images/company/supplementary/cabinet-finish.webp",
+        "alt": "Cabinet finish illustration"
+      }
+    ],
+    "area": {
+      "src": "/images/company/supplementary/cabinet-boxes.webp",
+      "alt": "Cabinet boxes illustration"
+    },
+    "quote": {
+      "src": "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
+      "alt": "Cabinet finish inspiration supplied for the website"
+    }
+  },
+  "/cabinet-painting/cabinet-doors-drawer-fronts": {
+    "hero": {
+      "src": "/images/cabinet/doors.webp",
+      "alt": "Cabinet Door & Drawer Front Painting colour inspiration"
+    },
+    "overview": {
+      "src": "/images/cabinet-subservices/finish.webp",
+      "alt": "Cabinet Door & Drawer Front Painting finish detail"
+    },
+    "related": {
+      "/cabinet-painting/kitchen-cabinet-painting": {
+        "src": "/images/cabinet/kitchen.webp",
+        "alt": "Kitchen Cabinet Painting colour inspiration"
+      },
+      "/cabinet-painting/bathroom-vanity-painting": {
+        "src": "/images/cabinet/vanity.webp",
+        "alt": "Bathroom Vanity Painting colour inspiration"
+      },
+      "/cabinet-painting/cabinet-frames-boxes-end-panels": {
+        "src": "/images/cabinet/box.webp",
+        "alt": "Cabinet Frame & Box Painting colour inspiration"
+      }
+    },
+    "process": {
+      "src": "/images/cabinet-subservices/preparation.webp",
+      "alt": "Careful preparation of cabinet components"
+    },
+    "scope": [
+      {
+        "src": "/images/company/056-cabinet-doors-drawer-fronts-1024x683.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      },
+      {
+        "src": "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      },
+      {
+        "src": "/images/company/060-chatgpt-image-sep-5-2026-06-53-43-pm-1024x704.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      },
+      {
+        "src": "/images/company/061-chatgpt-image-sep-5-2026-10-53-28-pm-1024x683.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/company/supplementary/cabinet-preparation.webp",
+        "alt": "Cabinet preparation illustration"
+      },
+      {
+        "src": "/images/company/supplementary/cabinet-finish.webp",
+        "alt": "Cabinet finish illustration"
+      },
+      {
+        "src": "/images/company/supplementary/cabinet-end-panels.webp",
+        "alt": "Cabinet end panels illustration"
+      }
+    ],
+    "area": {
+      "src": "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
+      "alt": "Cabinet finish inspiration supplied for the website"
+    },
+    "quote": {
+      "src": "/images/company/054-bathroom-vanity-painting-1024x683.webp",
+      "alt": "Cabinet finish inspiration supplied for the website"
+    }
+  },
+  "/cabinet-painting/cabinet-frames-boxes-end-panels": {
+    "hero": {
+      "src": "/images/cabinet/box.webp",
+      "alt": "Cabinet Frame & Box Painting colour inspiration"
+    },
+    "overview": {
+      "src": "/images/cabinet-subservices/finish.webp",
+      "alt": "Cabinet Frame & Box Painting finish detail"
+    },
+    "related": {
+      "/cabinet-painting/kitchen-cabinet-painting": {
+        "src": "/images/cabinet/kitchen.webp",
+        "alt": "Kitchen Cabinet Painting colour inspiration"
+      },
+      "/cabinet-painting/bathroom-vanity-painting": {
+        "src": "/images/cabinet/vanity.webp",
+        "alt": "Bathroom Vanity Painting colour inspiration"
+      },
+      "/cabinet-painting/cabinet-doors-drawer-fronts": {
+        "src": "/images/cabinet/doors.webp",
+        "alt": "Cabinet Door & Drawer Front Painting colour inspiration"
+      }
+    },
+    "process": {
+      "src": "/images/cabinet-subservices/preparation.webp",
+      "alt": "Careful preparation of cabinet components"
+    },
+    "scope": [
+      {
+        "src": "/images/company/supplementary/cabinet-frames.webp",
+        "alt": "Cabinet frames illustration"
+      },
+      {
+        "src": "/images/company/supplementary/cabinet-boxes.webp",
+        "alt": "Cabinet boxes illustration"
+      },
+      {
+        "src": "/images/company/supplementary/cabinet-end-panels.webp",
+        "alt": "Cabinet end panels illustration"
+      },
+      {
+        "src": "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/company/supplementary/cabinet-preparation.webp",
+        "alt": "Cabinet preparation illustration"
+      },
+      {
+        "src": "/images/company/supplementary/cabinet-finish.webp",
+        "alt": "Cabinet finish illustration"
+      },
+      {
+        "src": "/images/company/060-chatgpt-image-sep-5-2026-06-53-43-pm-1024x704.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      }
+    ],
+    "area": {
+      "src": "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
+      "alt": "Cabinet finish inspiration supplied for the website"
+    },
+    "quote": {
+      "src": "/images/company/054-bathroom-vanity-painting-1024x683.webp",
+      "alt": "Cabinet finish inspiration supplied for the website"
+    }
+  },
+  "/cabinet-painting/built-in-cabinetry-painting": {
+    "hero": {
+      "src": "/images/cabinet/builtins.webp",
+      "alt": "Built-In Cabinetry Painting colour inspiration"
+    },
+    "overview": {
+      "src": "/images/v2/living.webp",
+      "alt": "Built-In Cabinetry Painting finish detail"
+    },
+    "related": {
+      "/cabinet-painting/kitchen-cabinet-painting": {
+        "src": "/images/cabinet/kitchen.webp",
+        "alt": "Kitchen Cabinet Painting colour inspiration"
+      },
+      "/cabinet-painting/bathroom-vanity-painting": {
+        "src": "/images/cabinet/vanity.webp",
+        "alt": "Bathroom Vanity Painting colour inspiration"
+      },
+      "/cabinet-painting/cabinet-doors-drawer-fronts": {
+        "src": "/images/cabinet/doors.webp",
+        "alt": "Cabinet Door & Drawer Front Painting colour inspiration"
+      }
+    },
+    "process": {
+      "src": "/images/cabinet-subservices/preparation.webp",
+      "alt": "Careful preparation of cabinet components"
+    },
+    "scope": [
+      {
+        "src": "/images/company/055-built-in-cabinetry-1024x683.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
+      },
+      {
+        "src": "/images/company/supplementary/cabinet-builtins-detail.webp",
+        "alt": "Cabinet builtins detail illustration"
+      },
+      {
+        "src": "/images/cabinet-subservices/finish.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/company/supplementary/cabinet-frames.webp",
+        "alt": "Cabinet frames illustration"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/company/supplementary/cabinet-boxes.webp",
+        "alt": "Cabinet boxes illustration"
+      },
+      {
+        "src": "/images/company/supplementary/cabinet-preparation.webp",
+        "alt": "Cabinet preparation illustration"
+      },
+      {
+        "src": "/images/company/supplementary/cabinet-finish.webp",
+        "alt": "Cabinet finish illustration"
+      }
+    ],
+    "area": {
+      "src": "/images/company/supplementary/cabinet-end-panels.webp",
+      "alt": "Cabinet end panels illustration"
+    },
+    "quote": {
+      "src": "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
+      "alt": "Cabinet finish inspiration supplied for the website"
+    }
+  }
+}
