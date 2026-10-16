@@ -20,3 +20,7 @@
 @media(max-width:1199px){.wps-header .wps-area-top h2{font-size:27px}.wps-header .wps-region-grid h3{font-size:20px}.wps-header .wps-menu-bottom{display:none}}
 @media(max-width:599px){.wps-footer .wps-footer-brand p{font-size:17px;margin:22px 0 26px}.wps-footer .wps-footer-cta>svg{display:block;width:34px;height:38px}.wps-footer .wps-footer-cta p{display:block;font-size:15px;line-height:1.5;margin:10px 0 0}.wps-footer .wps-footer-bottom p{font-size:13px}}
 @media(max-width:359px){.wps-footer .wps-footer-cta>svg{width:27px;height:32px}}
+/* Original supplied logo: preserve the image and its proportions. */
+.wps-header .wps-wordmark{display:block;width:clamp(220px,19vw,300px);max-width:calc(100% - 60px);flex:0 1 auto;line-height:0;letter-spacing:0}.wps-header .wps-wordmark img,.wps-footer .wps-wordmark img{display:block;width:100%;height:auto;max-width:100%;object-fit:contain;aspect-ratio:1024/237}.wps-footer .wps-wordmark{display:block;width:100%;max-width:300px;background:white;padding:10px 12px;border-radius:5px;line-height:0;letter-spacing:0;white-space:normal}
+@media(max-width:1199px){.wps-header .wps-wordmark{width:260px;flex-shrink:1}}
+@media(max-width:599px){.wps-header .wps-wordmark{width:250px;max-width:calc(100% - 56px)}.wps-footer .wps-wordmark{max-width:300px}}
