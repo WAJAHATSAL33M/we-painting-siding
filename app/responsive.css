@@ -26,7 +26,7 @@ main .text-link{min-height:44px;line-height:1.5}
  .cabinet-page .section .cab-quote-strip>svg{display:none}
  .cabinet-page .section .cab-quote-strip>div:last-child{grid-column:1;justify-items:start}
  .cabinet-page .section .cab-three{grid-template-columns:minmax(0,1fr)}
- .contact-form :is(input:not([type=checkbox]):not([type=radio]),textarea),.quote-form :is(input,select,textarea),.stay-touch input,.blog-search input{font-size:16px}
+ .contact-form :is(input:not([type=checkbox]):not([type=radio]),textarea),.quote-form :is(input,select,textarea),.stay-touch input,.blog-search input{font-size:15.04px}
  .contact-form fieldset label{min-height:44px}
  .footer-main>div>a:not(.footer-brand){min-height:44px;display:flex;align-items:center;margin:0}
  .footer-bottom>div>a{min-height:44px;display:flex;align-items:center}
@@ -50,7 +50,7 @@ main .text-link{min-height:44px;line-height:1.5}
  .header .header-inner{padding-inline:16px;gap:10px}
  .header .locations-group .nav-panel-links{grid-template-columns:minmax(0,1fr)}
  main .actions>.button{width:100%;justify-content:center}
- .hero .hero-copy h1{font-size:38px;letter-spacing:-1.5px}
+ .hero .hero-copy h1{font-size:30.4px;letter-spacing:-1.5px}
  .hero .benefits.compact,.hero-media .glass-band .benefits{grid-template-columns:minmax(0,1fr)}
  .hero .benefits.compact>div,.hero-media .glass-band .benefits>div{flex-direction:row;align-items:center}
  .process-steps,.about-bottom .benefits,.services-bottom .benefits{grid-template-columns:minmax(0,1fr)}

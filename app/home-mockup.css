@@ -2,7 +2,7 @@
 .mockup-home{--gutter:clamp(22px,4vw,60px);--section-space:56px;padding-bottom:0}
 .mockup-home> :is(.section,.scene){margin-top:0;padding:56px var(--gutter);border:0;min-height:0}
 .mockup-home>.full-band{margin-top:0;padding:28px var(--gutter);height:auto}
-.mockup-home h2{font-size:clamp(32px,3.5vw,50px);line-height:1.13;letter-spacing:-1.6px}
+.mockup-home h2{font-size:clamp(25.6px,2.8vw,40px);line-height:1.13;letter-spacing:-1.6px}
 .mockup-home h3{letter-spacing:-.5px}
 .mockup-home p{font-size:14px;line-height:1.7}
 .mockup-home .button{min-height:50px;border-radius:6px;padding:14px 24px;font-size:13px;line-height:1.5;justify-content:center;letter-spacing:0;text-transform:none;gap:20px}
@@ -23,8 +23,8 @@
 /* Hero photo fills its half, with the soft paper edge shown in the mockup. */
 .mockup-home>.hero{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:0;padding:0;align-items:stretch;background:#fff;isolation:isolate}
 .mockup-home .hero-copy{grid-column:1;grid-row:1;position:relative;z-index:2;padding:64px 0 48px var(--gutter);align-self:center;max-width:none}
-.mockup-home .hero h1{font-size:clamp(40px,4.8vw,66px);line-height:1.07;letter-spacing:-2px}
-.mockup-home .hero-copy>p{font-size:17px;line-height:1.65;max-width:540px;margin:22px 0}
+.mockup-home .hero h1{font-size:clamp(32px,3.84vw,52.8px);line-height:1.07;letter-spacing:-2px}
+.mockup-home .hero-copy>p{font-size:15.98px;line-height:1.65;max-width:540px;margin:22px 0}
 .mockup-home .desktop-break{display:none}
 .mockup-home .hero-media{grid-column:2;grid-row:1;display:block;position:relative;min-width:0}
 .mockup-home .hero-media .scene-photo{height:100%;min-height:510px;position:relative!important;width:100%!important;overflow:hidden}
@@ -41,7 +41,7 @@
 .mockup-home .service-columns{gap:24px}
 .mockup-home .service-columns article{background:#fff;border-radius:8px;overflow:hidden;padding:0 28px 28px}
 .mockup-home .service-image{width:calc(100% + 56px);max-width:none;margin:0 -28px 24px;height:320px}
-.mockup-home .service-columns h3{font-size:26px;letter-spacing:-.8px}
+.mockup-home .service-columns h3{font-size:22.88px;letter-spacing:-.8px}
 .mockup-home .service-columns h3 em{color:var(--ink)}
 .mockup-home .service-columns p{margin:16px 0 20px}
 .mockup-home .services-bottom{padding-top:24px;padding-bottom:48px}
@@ -54,7 +54,7 @@
 .mockup-home .exterior .feature-media{grid-column:1;grid-row:1;display:block;height:100%;min-height:420px}
 .mockup-home .exterior .feature-media .scene-photo{height:100%;min-height:420px}
 .mockup-home .feature-copy>p{margin:18px 0}
-.mockup-home .feature .subtitle{font-size:19px;color:var(--blue);font-weight:600;line-height:1.5}
+.mockup-home .feature .subtitle{font-size:16.72px;color:var(--blue);font-weight:600;line-height:1.5}
 .mockup-home .exterior>.feature-center{grid-column:1/-1;grid-row:2;padding:20px 0 0;border:0}
 .mockup-home .exterior>.feature-center .benefits{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
 .mockup-home .exterior>.feature-center .benefits>div{flex-direction:column;align-items:center;text-align:center;padding:12px;border-right:1px solid var(--line);gap:14px}
@@ -87,7 +87,7 @@
 .mockup-home .process-steps article:last-child:before{right:0}
 .mockup-home .process-steps .number{position:static;display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#d9ebfa;color:var(--blue);font-size:14px;margin:0}
 .mockup-home .process-steps .circle-icon{background:none;border:0;margin:0;width:36px;height:36px;padding:0;color:var(--blue)}
-.mockup-home .process-steps h3{font-size:17px;text-align:left;margin:0;max-width:none}
+.mockup-home .process-steps h3{font-size:15.98px;text-align:left;margin:0;max-width:none}
 .mockup-home .process-steps p{font-size:12px;text-align:left;margin:0;max-width:none}
 .mockup-home .step-caption{font-size:8px;letter-spacing:.5px;margin-top:0}
 .mockup-home .step-photo{height:135px;border-radius:4px;margin-top:auto}
@@ -97,7 +97,7 @@
 .mockup-home .commitment>div:first-child{border-radius:6px 0 0 6px}
 .mockup-home .commitment>div:last-child{border-radius:0 6px 6px 0;display:flex;flex-direction:column;justify-content:center}
 .mockup-home .commitment img{height:220px;border-radius:4px}
-.mockup-home .commitment h3{font-size:30px}
+.mockup-home .commitment h3{font-size:24px}
 /* Guides: large featured card next to an editorial grid of five existing guides. */
 .mockup-home .knowledge{background:var(--light)}
 .mockup-home .knowledge-top{display:block;margin-bottom:28px}
@@ -107,7 +107,7 @@
 .mockup-home .knowledge-photo{display:flex;flex-direction:column;gap:0;overflow:hidden;background:#fff;border-radius:6px}
 .mockup-home .knowledge-photo>img{height:340px;flex:1;min-height:280px;object-fit:cover}
 .mockup-home .resource-card{padding:28px;border:0;background:#fff}
-.mockup-home .resource-card h3{font-size:27px}
+.mockup-home .resource-card h3{font-size:23.76px}
 .mockup-home .resource-card>svg{color:var(--blue);margin-bottom:16px}
 .mockup-home .guide-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:18px;padding:0}
 .mockup-home .guide-grid article{grid-column:span 2;background:#fff;border-radius:6px;overflow:hidden;padding:0 18px 20px;display:flex;flex-direction:column}
@@ -116,7 +116,7 @@
 .mockup-home .guide-grid article>div{display:flex;align-items:center;gap:10px;padding:0}
 .mockup-home .guide-grid .number{position:static;font-size:10px;color:var(--blue)}
 .mockup-home .guide-grid article>div>svg{width:22px;height:22px;color:var(--blue)}
-.mockup-home .guide-grid h3{font-size:17px;margin:12px 0 0}
+.mockup-home .guide-grid h3{font-size:15.98px;margin:12px 0 0}
 .mockup-home .guide-grid p{font-size:12px;margin:12px 0 18px}
 .mockup-home .guide-grid .text-link{font-size:11px}
 /* Portfolio: working comparison and a compact five-image gallery. */
@@ -133,7 +133,7 @@
 .mockup-home .ba-images img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;user-select:none}
 .mockup-home .ba-after-image{clip-path:inset(0 0 0 var(--position))}
 .mockup-home .ba-divider{position:absolute;left:var(--position);top:0;bottom:0;background:var(--blue);width:3px;transform:translateX(-50%);pointer-events:none}
-.mockup-home .ba-divider span{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:var(--blue);color:#fff;font-size:25px;border:2px solid white}
+.mockup-home .ba-divider span{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:var(--blue);color:#fff;font-size:22px;border:2px solid white}
 .mockup-home .ba-images input{position:absolute;inset:0;width:100%;height:100%;opacity:0;margin:0;cursor:ew-resize;touch-action:pan-y;z-index:2}
 .mockup-home .ba-images:focus-within{outline:3px solid var(--blue);outline-offset:-3px}
 .mockup-home .ba-comparison figcaption{display:flex;justify-content:space-between;padding:12px 18px;background:var(--light);font-size:11px}
@@ -150,10 +150,10 @@
 .mockup-home .about-photo{height:420px}
 .mockup-home .about-copy>p{margin:18px 0}
 .mockup-home .about-aside{gap:18px;grid-template-columns:1fr 1.15fr 1fr;align-items:stretch}
-.mockup-home .about-aside>.dark-card{background:var(--navy);font-size:27px;font-weight:700;line-height:1.25;padding:28px;justify-content:start;border-radius:5px}
+.mockup-home .about-aside>.dark-card{background:var(--navy);font-size:23.76px;font-weight:700;line-height:1.25;padding:28px;justify-content:start;border-radius:5px}
 .mockup-home .about-aside>img{height:100%;min-height:230px;border-radius:5px}
 .mockup-home .quote-card{background:#fff;border-radius:5px;padding:28px;display:flex;flex-direction:column;justify-content:center}
-.mockup-home .quote-card p{font-size:17px;color:var(--ink);line-height:1.6}
+.mockup-home .quote-card p{font-size:15.98px;color:var(--ink);line-height:1.6}
 .mockup-home .quote-card svg{color:var(--blue)}
 .mockup-home .about-bottom{background:var(--light);padding-top:0;padding-bottom:48px}
 .mockup-home .about-bottom .benefits{background:#fff;border-radius:6px;padding:26px;grid-template-columns:repeat(5,minmax(0,1fr));gap:22px}
@@ -180,7 +180,7 @@
 .mockup-home .quote-copy>.benefits>div{flex-direction:column;align-items:start;gap:12px}
 .mockup-home .quote-copy>.scene-photo{height:300px;margin-top:28px;border-radius:4px}
 .mockup-home .quote-form{grid-column:2;grid-row:1;background:#fff;border:1px solid #e1e8ee;border-radius:8px;padding:32px;gap:20px;align-self:start}
-.mockup-home .quote-form h3{font-size:29px}
+.mockup-home .quote-form h3{font-size:23.2px}
 .mockup-home .quote-form .form-grid{display:grid;grid-template-columns:1fr;gap:20px}
 .mockup-home .quote-form input,.mockup-home .quote-form select,.mockup-home .quote-form textarea{border:1px solid #ccd7e2;border-radius:5px;background:#fff;font-size:14px;padding:13px}
 .mockup-home .quote-form .button{margin-top:0}
@@ -193,8 +193,8 @@
  .mockup-header .nav-category{padding:14px 12px;text-align:left}
  .mockup-header .header-inner>.button{order:3}
  .mockup-home .hero-copy{padding-block:44px}
- .mockup-home .hero h1{font-size:48px}
- .mockup-home .hero-copy>p{font-size:15px}
+ .mockup-home .hero h1{font-size:38.4px}
+ .mockup-home .hero-copy>p{font-size:14.1px}
  .mockup-home .hero-benefit-band{grid-template-columns:1fr}
  .mockup-home .hero-benefit-band .benefits>div{flex-direction:row;align-items:center}
  .mockup-home .feature{gap:24px;grid-template-columns:1fr 1fr}
@@ -206,7 +206,7 @@
  .mockup-home .guide-grid article,.mockup-home .guide-grid article:nth-child(-n+2){grid-column:auto}
  .mockup-home .guide-grid article:last-child{grid-column:1/-1}
  .mockup-home .project-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
- .mockup-home .about-aside>.dark-card{font-size:23px;padding:24px}
+ .mockup-home .about-aside>.dark-card{font-size:20.24px;padding:24px}
  .mockup-home .quote-card{padding:24px}
  .mockup-home .about-bottom .benefits{grid-template-columns:repeat(3,minmax(0,1fr))}
 }
@@ -216,18 +216,18 @@
  .mockup-header .header-brand{width:180px}
  .mockup-header .header-inner>.button{display:none}
  .mockup-header .menu-toggle{font-size:0;min-width:44px;background:none;border:0;padding:10px;color:var(--ink)}
- .mockup-header .menu-toggle span{font-size:24px}
+ .mockup-header .menu-toggle span{font-size:21.12px}
  .mockup-home> :is(.section,.scene){padding:36px var(--gutter);margin-top:0}
  .mockup-home>.full-band{padding:22px var(--gutter)}
- .mockup-home h2{font-size:32px;letter-spacing:-1px}
+ .mockup-home h2{font-size:25.6px;letter-spacing:-1px}
  .mockup-home p{font-size:13px}
  .mockup-home .button{font-size:12px;min-height:48px;padding:13px 18px}
  .mockup-home .actions{gap:14px}
  .mockup-home .mini-assurance{font-size:8px}
  .mockup-home>.hero{padding:0;grid-template-columns:minmax(0,1fr);gap:0}
  .mockup-home .hero-copy{padding:32px var(--gutter);grid-column:1;grid-row:1;order:initial}
- .mockup-home .hero h1{font-size:39px;letter-spacing:-1.3px}
- .mockup-home .hero-copy>p{font-size:15px;line-height:1.65;margin:18px 0}
+ .mockup-home .hero h1{font-size:31.2px;letter-spacing:-1.3px}
+ .mockup-home .hero-copy>p{font-size:14.1px;line-height:1.65;margin:18px 0}
  .mockup-home .hero .actions{display:grid;grid-template-columns:1fr}
  .mockup-home .hero-media{grid-column:1;grid-row:2;order:initial}
  .mockup-home .hero-media .scene-photo{height:300px;min-height:0}
@@ -239,7 +239,7 @@
  .mockup-home .service-columns{grid-template-columns:1fr;gap:22px}
  .mockup-home .service-columns article{padding:0 20px 24px}
  .mockup-home .service-image{height:240px;width:calc(100% + 40px);margin:0 -20px 20px}
- .mockup-home .service-columns h3{font-size:24px}
+ .mockup-home .service-columns h3{font-size:21.12px}
  .mockup-home .services{padding-bottom:0}
  .mockup-home .services-bottom .benefits{grid-template-columns:1fr;padding:8px 20px;gap:0}
  .mockup-home .services-bottom .benefits>div{flex-direction:row;align-items:center;text-align:left;padding:18px 0;border-right:0;border-bottom:1px solid #d1e1ee;gap:18px}
@@ -254,7 +254,7 @@
  .mockup-home .cabinets .feature-copy> :not(.feature-center){grid-column:1;grid-row:auto;order:0;margin-block:0}
  .mockup-home .cabinets .feature-media{grid-row:auto;order:1}
  .mockup-home .cabinets .feature-center{grid-column:1;order:2;padding:0}
- .mockup-home .feature .subtitle{font-size:17px}
+ .mockup-home .feature .subtitle{font-size:15.98px}
  .mockup-home .exterior-list{padding-top:0}
  .mockup-home .service-icons{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
  .mockup-home .service-icons>a{padding:12px 10px;gap:10px;font-size:10px;min-height:76px}
@@ -269,14 +269,14 @@
  .mockup-home .process-steps article:last-child:before{display:none}
  .mockup-home .process-steps .number{grid-column:1;grid-row:1/5;z-index:1}
  .mockup-home .process-steps .circle-icon{grid-column:2;grid-row:1;margin:0}
- .mockup-home .process-steps h3{grid-column:2;grid-row:2;font-size:16px}
+ .mockup-home .process-steps h3{grid-column:2;grid-row:2;font-size:15.04px}
  .mockup-home .process-steps p{grid-column:2;grid-row:3;font-size:12px}
  .mockup-home .process-steps .step-caption{grid-column:2;grid-row:4;font-size:8px}
  .mockup-home .step-photo{grid-column:3;grid-row:1/5;height:90px;margin:0;align-self:start}
  .mockup-home .commitment{grid-template-columns:1fr;gap:0;padding-top:0}
  .mockup-home .commitment>div{padding:20px!important;border-radius:0!important}
  .mockup-home .commitment img{height:200px}
- .mockup-home .commitment h3{font-size:27px}
+ .mockup-home .commitment h3{font-size:23.76px}
  .mockup-home .knowledge-top{margin-bottom:24px}
  .mockup-home .knowledge-grid{grid-template-columns:1fr;gap:22px}
  .mockup-home .knowledge-photo>img{height:240px;min-height:0;flex:none}
@@ -285,7 +285,7 @@
  .mockup-home .guide-grid article,.mockup-home .guide-grid article:nth-child(-n+2),.mockup-home .guide-grid article:last-child{grid-column:1;display:grid;grid-template-columns:86px minmax(0,1fr);gap:8px 14px;padding:16px}
  .mockup-home .guide-photo{width:86px;max-width:100%;height:80px;margin:0;grid-column:1;grid-row:1/5;border-radius:4px}
  .mockup-home .guide-grid article>div{grid-column:2}
- .mockup-home .guide-grid h3{grid-column:2;font-size:15px;margin:0}
+ .mockup-home .guide-grid h3{grid-column:2;font-size:14.1px;margin:0}
  .mockup-home .guide-grid p{grid-column:2;margin:0;font-size:11px}
  .mockup-home .guide-grid .text-link{grid-column:2;min-height:32px}
  .mockup-home .work-top{gap:24px}
@@ -302,9 +302,9 @@
  .mockup-home .about-copy{grid-column:1;grid-row:1;order:initial}
  .mockup-home .about-photo{grid-column:1;grid-row:2;order:initial;height:300px}
  .mockup-home .about-aside{grid-column:1;grid-row:3;order:initial;grid-template-columns:1fr;gap:16px}
- .mockup-home .about-aside>.dark-card{font-size:28px;padding:26px}
+ .mockup-home .about-aside>.dark-card{font-size:22.4px;padding:26px}
  .mockup-home .about-aside>img{height:220px;min-height:0}
- .mockup-home .quote-card p{font-size:17px}
+ .mockup-home .quote-card p{font-size:15.98px}
  .mockup-home .about-bottom{padding-top:0}
  .mockup-home .about-bottom .benefits{grid-template-columns:1fr;gap:0;padding:8px 20px}
  .mockup-home .about-bottom .benefits>div{flex-direction:row;align-items:center;text-align:left;gap:18px;padding:18px 0;border-bottom:1px solid #dce5ee}
@@ -320,11 +320,11 @@
  .mockup-home .quote-copy>.benefits>div{flex-direction:row;align-items:center;gap:18px}
  .mockup-home .quote-copy>.scene-photo{height:220px}
  .mockup-home .quote-form{padding:24px;gap:18px}
- .mockup-home .quote-form h3{font-size:26px}
- .mockup-home .quote-form input,.mockup-home .quote-form select,.mockup-home .quote-form textarea{font-size:16px}
+ .mockup-home .quote-form h3{font-size:22.88px}
+ .mockup-home .quote-form input,.mockup-home .quote-form select,.mockup-home .quote-form textarea{font-size:15.04px}
 }
 @media(max-width:360px){
- .mockup-home .hero h1{font-size:35px}
+ .mockup-home .hero h1{font-size:28px}
  .mockup-home .process-steps article{grid-template-columns:30px minmax(0,1fr) 60px;column-gap:10px}
  .mockup-home .step-photo{height:70px}
  .mockup-header .header-brand{width:160px}
@@ -342,7 +342,7 @@
  .mockup-home .work>.actions>.button{width:100%}
 }
 .mockup-home .faq-list summary>i{font-size:0;min-width:20px;text-align:center}
-.mockup-home .faq-list summary>i:after{content:'+';font-size:24px;line-height:1;color:var(--ink)}
+.mockup-home .faq-list summary>i:after{content:'+';font-size:21.12px;line-height:1;color:var(--ink)}
 .mockup-home .faq-list details[open] summary>i:after{content:'−'}
 /* Full-width section backgrounds with a wider, centered content area. */
 .mockup-home{max-width:none;--gutter:max(clamp(22px,3vw,48px),calc((100vw - 1560px)/2))}

@@ -1,6 +1,6 @@
 .contact-page .contact-intro{margin-top:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;align-items:start}
-.contact-page h1{font-size:clamp(44px,4.4vw,68px);line-height:1.04;letter-spacing:-2.5px;margin:0}
-.contact-page p:not(.eyebrow){font-size:15px;line-height:1.7}
+.contact-page h1{font-size:clamp(35.2px,3.52vw,54.4px);line-height:1.04;letter-spacing:-2.5px;margin:0}
+.contact-page p:not(.eyebrow){font-size:14.1px;line-height:1.7}
 .contact-intro-copy{min-width:0}
 .contact-intro-copy>p:not(.eyebrow){margin:24px 0}
 .contact-page .benefits{gap:24px;align-items:flex-start}
@@ -10,7 +10,7 @@
 .contact-intro .benefits{margin:28px 0}
 .contact-preparation{height:300px}
 .contact-form{background:#fff;border:1px solid #dce7f0;border-radius:12px;padding:32px;display:flex;flex-direction:column;gap:22px;min-width:0;scroll-margin-top:30px}
-.contact-page .contact-form h2{font-size:30px;letter-spacing:-1px;line-height:1.2;margin:0 0 4px}
+.contact-page .contact-form h2{font-size:24px;letter-spacing:-1px;line-height:1.2;margin:0 0 4px}
 .contact-field-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 18px}
 .contact-form label{min-width:0;margin:0;display:block;font-size:12px;font-weight:600;line-height:1.5}
 .contact-form label>span,.contact-form legend>span{color:#b32222}
@@ -38,8 +38,8 @@
 .contact-steps article{text-align:center;min-width:0}
 .contact-step-icon{position:relative;width:100px;height:100px;background:#e3f1fb;border-radius:50%;margin:0 auto 24px;display:flex;align-items:center;justify-content:center}
 .contact-step-icon svg{width:44px;height:44px;color:var(--ink)}
-.contact-step-icon b{position:absolute;left:-8px;top:0;background:var(--blue);color:white;width:38px;height:38px;display:flex;align-items:center;justify-content:center;border-radius:50%;font-size:15px}
-.contact-steps h3{font-size:19px;letter-spacing:-.5px}
+.contact-step-icon b{position:absolute;left:-8px;top:0;background:var(--blue);color:white;width:38px;height:38px;display:flex;align-items:center;justify-content:center;border-radius:50%;font-size:14.1px}
+.contact-steps h3{font-size:16.72px;letter-spacing:-.5px}
 .contact-page .contact-steps p{font-size:14px;margin-bottom:0}
 .contact-how-bottom{display:flex;justify-content:space-between;align-items:center;gap:28px;margin-top:40px;padding:28px;background:var(--light)}
 .contact-how-bottom>div,.contact-area-motto{display:flex;gap:22px;align-items:center}
@@ -54,13 +54,13 @@
 .contact-service-cards>article>img{height:200px}
 .contact-service-content{padding:24px}
 .contact-service-content>svg{width:32px;height:32px;display:block;margin-bottom:18px}
-.contact-service-content h3{font-size:24px;letter-spacing:-.7px}
+.contact-service-content h3{font-size:21.12px;letter-spacing:-.7px}
 .contact-page .contact-service-content p{font-size:13px;margin:14px 0 18px}
 .contact-service-content ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
 .contact-service-content li{position:relative;padding-left:20px;font-size:12px;line-height:1.5;color:var(--body)}
 .contact-service-content li:before{content:'✓';position:absolute;left:0;color:var(--blue);font-weight:700}
 .contact-service-areas{padding:24px;border:1px solid #d4e2ec;background:#e5f2fc;min-width:0}
-.contact-service-areas h3{font-size:27px;letter-spacing:-.9px}
+.contact-service-areas h3{font-size:23.76px;letter-spacing:-.9px}
 .contact-page .contact-service-areas>p{font-size:13px}
 .contact-area-list{padding:0;list-style:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 16px;margin:24px 0;font-size:12px;color:var(--body)}
 .contact-area-list li{line-height:1.5;border-left:2px solid #aad4ef;padding-left:8px;min-width:0;overflow-wrap:anywhere}
@@ -99,7 +99,7 @@
 }
 @media(max-width:760px){
 .contact-page .contact-intro,.contact-closing-grid,.contact-service-heading{grid-template-columns:minmax(0,1fr);gap:28px}
-.contact-page h1{font-size:clamp(40px,7.5vw,56px)}
+.contact-page h1{font-size:clamp(32px,6vw,44.8px)}
 .contact-intro .benefits{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .contact-intro .benefits>div{flex-direction:column;gap:12px}
 .contact-preparation{height:280px}
@@ -120,13 +120,13 @@
 .contact-field-grid,.contact-choice-grid,.contact-service-cards{grid-template-columns:1fr}
 .contact-choice-grid>fieldset+fieldset{border:0;padding-left:0;display:flex;gap:20px;flex-wrap:wrap}
 .contact-choice-grid>fieldset+fieldset label+label{margin:0}
-.contact-page .contact-form h2{font-size:27px}
+.contact-page .contact-form h2{font-size:23.76px}
 .contact-service-cards>article>img{height:230px}
 .contact-steps{grid-template-columns:1fr;gap:32px}
 .contact-steps article{display:grid;grid-template-columns:80px 1fr;gap:12px 20px;text-align:left}
 .contact-step-icon{width:72px;height:72px;grid-row:1 / span 2;margin:0}
 .contact-step-icon svg{width:32px;height:32px}.contact-step-icon b{width:28px;height:28px;font-size:12px;left:-6px;top:-4px}
-.contact-steps h3{font-size:18px}.contact-page .contact-steps p{margin:0}
+.contact-steps h3{font-size:15.84px}.contact-page .contact-steps p{margin:0}
 .contact-service-areas .contact-area-list,.contact-area-list{grid-template-columns:1fr 1fr}
 .contact-page .contact-intro .benefits strong,.contact-page .contact-closing-grid .benefits strong{font-size:11px}
 .contact-closing-areas{padding:24px}
