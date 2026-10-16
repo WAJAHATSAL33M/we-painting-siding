@@ -1,3 +1,4 @@
+import {SiteFooter} from './site-chrome';
 import {Navigation} from './approved-homepage';
 import {Icon} from './site-home';
 import ServiceRequest from './service-request';
@@ -10,7 +11,7 @@ function Photo({photo,eager=false,className=''}){return <img className={classNam
 function Heading({children,accent}){return <h2>{children}{accent&&<> <em>{accent}</em></>}</h2>}
 const slug=c=>c.toLowerCase().replaceAll(' ','-');
 const origin='https://we-painting-siding.vercel.app';
-export function ServiceFooter(){return <footer className="sp-footer"><div className="ah-container"><div className="sp-footer-grid"><div><a className="ah-wordmark" href="/" aria-label="We Paint Siding home">WePaint<span>Siding</span><small>.com</small></a><p>Exterior and interior painting for homes and commercial spaces across Southern Ontario.</p></div><nav aria-label="Explore"><h2>Explore</h2><a href="/">Home</a><a href="/about">About Us</a><a href="/contact">Contact Us</a></nav><nav aria-label="Painting services"><h2>Painting Services</h2><a href="/exterior-painting">Exterior Painting</a><a href="/interior-painting">Interior Painting</a><a className="sp-child" href="/cabinet-painting">Cabinet Painting</a></nav><nav aria-label="Service areas"><h2>Service Areas</h2>{['Burlington','Oakville','Hamilton','Toronto'].map(c=><a href={'/locations/'+slug(c)} key={c}>{c}</a>)}<a href="/locations">View All Areas</a></nav></div><div className="sp-legal"><p>© {new Date().getFullYear()} WePaintSiding.com. All rights reserved.</p><a href="/privacy-policy">Privacy Policy</a><a href="/sitemap">Sitemap</a></div></div></footer>}
+export function ServiceFooter(){return <SiteFooter/>}
 
 export default function ServiceTemplate({service:s}){
  const m=media[s.path];
