@@ -9,8 +9,8 @@ const entries=[
 {id:'stucco',title:'Stucco Exterior Update',type:'Exterior Painting',detail:'A fresh colour for a textured exterior.',href:'/exterior-painting/exterior-stucco-painting'},
 {id:'garage',title:'Garage Door Colour Refresh',type:'Exterior Painting',detail:'A new focal point at the front of the home.',href:'/exterior-painting/exterior-window-door-painting'},
 {id:'study',title:'Walls & Ceiling Refresh',type:'Interior Painting',detail:'A lighter palette for an everyday workspace.',sub:'Walls & Trim',href:'/interior-painting/wall-painting'},
-{id:'kitchen',title:'Kitchen Cabinet Colour Change',type:'Interior Painting',detail:'A new finish while keeping the kitchen layout.',sub:'Cabinets',href:'/cabinet-painting/kitchen-cabinet-painting'},
-{id:'doors',title:'Interior Doors & Trim',type:'Interior Painting',detail:'A coordinated finish from room to room.',sub:'Walls & Trim',href:'/interior-painting/interior-door-painting'},
+{id:'kitchen',title:'Kitchen Cabinet Colour Change',type:'Interior Painting',detail:'A new finish while keeping the kitchen layout.',sub:'Cabinets',href:'/cabinet-painting'},
+{id:'doors',title:'Interior Doors & Trim',type:'Interior Painting',detail:'A coordinated finish from room to room.',sub:'Walls & Trim',href:'/interior-painting/door-painting'},
 {id:'trim',title:'Exterior Trim Details',type:'Exterior Painting',detail:'Crisp colour transitions around the roofline.',href:'/exterior-painting/eavestrough-fascia-painting'},
 {id:'deck',title:'Outdoor Wood Refresh',type:'Exterior Painting',detail:'Compare a refreshed finish on exterior wood.',href:'/exterior-painting/wood-siding-painting'},
 {id:'door',title:'A Welcoming Entrance',type:'Exterior Painting',detail:'An entrance colour that sets the tone.',href:'/exterior-painting/exterior-window-door-painting'}];

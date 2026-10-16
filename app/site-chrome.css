@@ -29,3 +29,6 @@
 @media(max-width:1199px){
  body :is(input:not([type=checkbox]):not([type=radio]):not([type=file]),select,textarea){font-size:16px!important}
 }
+
+/* Two core service columns; cabinet painting is one interior service. */
+.wps-header .wps-desktop-services{grid-template-columns:repeat(2,minmax(0,1fr))}

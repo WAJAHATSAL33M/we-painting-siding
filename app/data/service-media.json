@@ -693,11 +693,11 @@
         "src": "/images/interior-reference/ceiling.webp",
         "alt": "Illustrative ceiling painting finish"
       },
-      "/interior-painting/trim-baseboard-painting": {
+      "/interior-painting/trim-painting": {
         "src": "/images/interior-reference/trim.webp",
         "alt": "Illustrative trim & baseboard painting finish"
       },
-      "/interior-painting/interior-door-painting": {
+      "/interior-painting/door-painting": {
         "src": "/images/interior-reference/door.webp",
         "alt": "Illustrative interior door painting finish"
       }
@@ -761,11 +761,11 @@
         "src": "/images/home-v3/interior-overview.webp",
         "alt": "Illustrative wall painting finish"
       },
-      "/interior-painting/trim-baseboard-painting": {
+      "/interior-painting/trim-painting": {
         "src": "/images/interior-reference/trim.webp",
         "alt": "Illustrative trim & baseboard painting finish"
       },
-      "/interior-painting/interior-door-painting": {
+      "/interior-painting/door-painting": {
         "src": "/images/interior-reference/door.webp",
         "alt": "Illustrative interior door painting finish"
       }
@@ -815,7 +815,7 @@
       "alt": "Painted staircase"
     }
   },
-  "/interior-painting/trim-baseboard-painting": {
+  "/interior-painting/trim-painting": {
     "hero": {
       "src": "/images/interior-reference/trim.webp",
       "alt": "Illustrative trim & baseboard painting finish"
@@ -833,7 +833,7 @@
         "src": "/images/interior-reference/ceiling.webp",
         "alt": "Illustrative ceiling painting finish"
       },
-      "/interior-painting/interior-door-painting": {
+      "/interior-painting/door-painting": {
         "src": "/images/interior-reference/door.webp",
         "alt": "Illustrative interior door painting finish"
       }
@@ -883,7 +883,7 @@
       "alt": "Painted staircase"
     }
   },
-  "/interior-painting/interior-door-painting": {
+  "/interior-painting/door-painting": {
     "hero": {
       "src": "/images/interior-reference/door.webp",
       "alt": "Illustrative interior door painting finish"
@@ -901,7 +901,7 @@
         "src": "/images/interior-reference/ceiling.webp",
         "alt": "Illustrative ceiling painting finish"
       },
-      "/interior-painting/trim-baseboard-painting": {
+      "/interior-painting/trim-painting": {
         "src": "/images/interior-reference/trim.webp",
         "alt": "Illustrative trim & baseboard painting finish"
       }
@@ -951,82 +951,69 @@
       "alt": "Sage dining room walls"
     }
   },
-  "/interior-painting/stair-railing-painting": {
+  "/cabinet-painting": {
     "hero": {
-      "src": "/images/interior-reference/stairs.webp",
-      "alt": "Illustrative stair & railing painting finish"
+      "src": "/images/approved-home/cabinet-feature.webp",
+      "alt": "Slate blue painted kitchen cabinets with brass handles"
     },
     "overview": {
-      "src": "/images/interior-reference/trim.webp",
-      "alt": "Interior finish detail for stair & railing painting"
+      "src": "/images/cabinet-subservices/finish.webp",
+      "alt": "Close detail of a painted cabinet door"
     },
-    "related": {
-      "/interior-painting/wall-painting": {
-        "src": "/images/home-v3/interior-overview.webp",
-        "alt": "Illustrative wall painting finish"
-      },
-      "/interior-painting/ceiling-painting": {
-        "src": "/images/interior-reference/ceiling.webp",
-        "alt": "Illustrative ceiling painting finish"
-      },
-      "/interior-painting/trim-baseboard-painting": {
-        "src": "/images/interior-reference/hallway.webp",
-        "alt": "Interior finish detail for trim & baseboard painting"
-      }
-    },
+    "related": {},
     "process": {
-      "src": "/images/interior-reference/painter.webp",
-      "alt": "Painter carefully finishing interior trim with floor protection"
+      "src": "/images/cabinet-subservices/preparation.webp",
+      "alt": "Cabinet component preparation"
     },
     "scope": [
       {
-        "src": "/images/subservice-reference/interior-protection.webp",
-        "alt": "Protected furniture and flooring before painting"
+        "src": "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
       },
       {
-        "src": "/images/subservice-reference/interior-application.webp",
-        "alt": "Roller application to an interior wall"
+        "src": "/images/company/supplementary/cabinet-finish.webp",
+        "alt": "Cabinet finish illustration"
       },
       {
-        "src": "/images/home-v3/interior.webp",
-        "alt": "Soft blue living room walls"
+        "src": "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
       },
       {
-        "src": "/images/approved-home/living.webp",
-        "alt": "Bright painted living room"
+        "src": "/images/company/054-bathroom-vanity-painting-1024x683.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
       }
     ],
     "gallery": [
       {
-        "src": "/images/v2/living.webp",
-        "alt": "White fireplace and room trim"
+        "src": "/images/company/056-cabinet-doors-drawer-fronts-1024x683.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
       },
       {
-        "src": "/images/locations/interior.webp",
-        "alt": "Freshly finished interior"
+        "src": "/images/company/supplementary/cabinet-boxes.webp",
+        "alt": "Cabinet boxes illustration"
       },
       {
-        "src": "/images/interior-reference/door.webp",
-        "alt": "Charcoal interior door"
+        "src": "/images/company/055-built-in-cabinetry-1024x683.webp",
+        "alt": "Cabinet finish inspiration supplied for the website"
       }
     ],
     "area": {
-      "src": "/images/interior-reference/dining.webp",
-      "alt": "Sage dining room walls"
+      "src": "/images/company/060-chatgpt-image-sep-5-2026-06-53-43-pm-1024x704.webp",
+      "alt": "Cabinet finish inspiration supplied for the website"
     },
     "quote": {
-      "src": "/images/about/office.webp",
-      "alt": "Coordinated commercial reception"
+      "src": "/images/company/057-cabinet-painting-faqs.webp",
+      "alt": "Cabinet finish inspiration supplied for the website"
     }
   },
-  "/interior-painting/whole-home-painting": {
+  "/interior-painting/basement-painting": {
     "hero": {
       "src": "/images/approved-home/living.webp",
-      "alt": "Illustrative whole-home painting finish"
+      "alt": "Bright interior colour inspiration for a finished basement"
     },
     "overview": {
       "src": "/images/interior-reference/hallway.webp",
-      "alt": "Interior finish detail for whole-home painting"
+      "alt": "Coordinated walls and trim in a finished interior"
     },
     "related": {
       "/interior-painting/wall-painting": {
@@ -1037,7 +1024,7 @@
         "src": "/images/interior-reference/ceiling.webp",
         "alt": "Illustrative ceiling painting finish"
       },
-      "/interior-painting/trim-baseboard-painting": {
+      "/interior-painting/trim-painting": {
         "src": "/images/interior-reference/trim.webp",
         "alt": "Illustrative trim & baseboard painting finish"
       }
@@ -1085,490 +1072,6 @@
     "quote": {
       "src": "/images/about/office.webp",
       "alt": "Coordinated commercial reception"
-    }
-  },
-  "/interior-painting/commercial-interior-painting": {
-    "hero": {
-      "src": "/images/about/office.webp",
-      "alt": "Illustrative commercial interior painting finish"
-    },
-    "overview": {
-      "src": "/images/interior-reference/hallway.webp",
-      "alt": "Interior finish detail for commercial interior painting"
-    },
-    "related": {
-      "/interior-painting/wall-painting": {
-        "src": "/images/home-v3/interior-overview.webp",
-        "alt": "Illustrative wall painting finish"
-      },
-      "/interior-painting/ceiling-painting": {
-        "src": "/images/interior-reference/ceiling.webp",
-        "alt": "Illustrative ceiling painting finish"
-      },
-      "/interior-painting/trim-baseboard-painting": {
-        "src": "/images/interior-reference/trim.webp",
-        "alt": "Illustrative trim & baseboard painting finish"
-      }
-    },
-    "process": {
-      "src": "/images/interior-reference/painter.webp",
-      "alt": "Painter carefully finishing interior trim with floor protection"
-    },
-    "scope": [
-      {
-        "src": "/images/home-v3/interior.webp",
-        "alt": "Soft blue living room walls"
-      },
-      {
-        "src": "/images/subservice-reference/interior-protection.webp",
-        "alt": "Illustrative painting finish and surface detail"
-      },
-      {
-        "src": "/images/subservice-reference/interior-application.webp",
-        "alt": "Illustrative painting finish and surface detail"
-      },
-      {
-        "src": "/images/approved-home/living.webp",
-        "alt": "Bright painted living room"
-      }
-    ],
-    "gallery": [
-      {
-        "src": "/images/v2/living.webp",
-        "alt": "White fireplace and room trim"
-      },
-      {
-        "src": "/images/locations/interior.webp",
-        "alt": "Freshly finished interior"
-      },
-      {
-        "src": "/images/interior-reference/door.webp",
-        "alt": "Charcoal interior door"
-      }
-    ],
-    "area": {
-      "src": "/images/interior-reference/stairs.webp",
-      "alt": "Painted staircase"
-    },
-    "quote": {
-      "src": "/images/interior-reference/dining.webp",
-      "alt": "Sage dining room walls"
-    }
-  },
-  "/cabinet-painting": {
-    "hero": {
-      "src": "/images/approved-home/cabinet-feature.webp",
-      "alt": "Slate blue painted kitchen cabinets with brass handles"
-    },
-    "overview": {
-      "src": "/images/cabinet-subservices/finish.webp",
-      "alt": "Close detail of a painted cabinet door"
-    },
-    "related": {
-      "/cabinet-painting/kitchen-cabinet-painting": {
-        "src": "/images/cabinet/kitchen.webp",
-        "alt": "Kitchen Cabinet Painting colour inspiration"
-      },
-      "/cabinet-painting/bathroom-vanity-painting": {
-        "src": "/images/cabinet/vanity.webp",
-        "alt": "Bathroom Vanity Painting colour inspiration"
-      },
-      "/cabinet-painting/cabinet-doors-drawer-fronts": {
-        "src": "/images/cabinet/doors.webp",
-        "alt": "Cabinet Door & Drawer Front Painting colour inspiration"
-      },
-      "/cabinet-painting/cabinet-frames-boxes-end-panels": {
-        "src": "/images/cabinet/box.webp",
-        "alt": "Cabinet Frame & Box Painting colour inspiration"
-      },
-      "/cabinet-painting/built-in-cabinetry-painting": {
-        "src": "/images/cabinet/builtins.webp",
-        "alt": "Built-In Cabinetry Painting colour inspiration"
-      }
-    },
-    "process": {
-      "src": "/images/cabinet-subservices/preparation.webp",
-      "alt": "Cabinet component preparation"
-    },
-    "scope": [
-      {
-        "src": "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      },
-      {
-        "src": "/images/company/supplementary/cabinet-finish.webp",
-        "alt": "Cabinet finish illustration"
-      },
-      {
-        "src": "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      },
-      {
-        "src": "/images/company/054-bathroom-vanity-painting-1024x683.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      }
-    ],
-    "gallery": [
-      {
-        "src": "/images/company/056-cabinet-doors-drawer-fronts-1024x683.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      },
-      {
-        "src": "/images/company/supplementary/cabinet-boxes.webp",
-        "alt": "Cabinet boxes illustration"
-      },
-      {
-        "src": "/images/company/055-built-in-cabinetry-1024x683.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      }
-    ],
-    "area": {
-      "src": "/images/company/060-chatgpt-image-sep-5-2026-06-53-43-pm-1024x704.webp",
-      "alt": "Cabinet finish inspiration supplied for the website"
-    },
-    "quote": {
-      "src": "/images/company/057-cabinet-painting-faqs.webp",
-      "alt": "Cabinet finish inspiration supplied for the website"
-    }
-  },
-  "/cabinet-painting/kitchen-cabinet-painting": {
-    "hero": {
-      "src": "/images/cabinet/kitchen.webp",
-      "alt": "Kitchen Cabinet Painting colour inspiration"
-    },
-    "overview": {
-      "src": "/images/cabinet/doors.webp",
-      "alt": "Kitchen Cabinet Painting finish detail"
-    },
-    "related": {
-      "/cabinet-painting/bathroom-vanity-painting": {
-        "src": "/images/cabinet/vanity.webp",
-        "alt": "Bathroom Vanity Painting colour inspiration"
-      },
-      "/cabinet-painting/cabinet-doors-drawer-fronts": {
-        "src": "/images/cabinet-subservices/finish.webp",
-        "alt": "Cabinet Door & Drawer Front Painting finish detail"
-      },
-      "/cabinet-painting/cabinet-frames-boxes-end-panels": {
-        "src": "/images/cabinet/box.webp",
-        "alt": "Cabinet Frame & Box Painting colour inspiration"
-      }
-    },
-    "process": {
-      "src": "/images/cabinet-subservices/preparation.webp",
-      "alt": "Careful preparation of cabinet components"
-    },
-    "scope": [
-      {
-        "src": "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      },
-      {
-        "src": "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      },
-      {
-        "src": "/images/company/060-chatgpt-image-sep-5-2026-06-53-43-pm-1024x704.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      },
-      {
-        "src": "/images/company/061-chatgpt-image-sep-5-2026-10-53-28-pm-1024x683.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      }
-    ],
-    "gallery": [
-      {
-        "src": "/images/company/supplementary/cabinet-preparation.webp",
-        "alt": "Cabinet preparation illustration"
-      },
-      {
-        "src": "/images/company/supplementary/cabinet-finish.webp",
-        "alt": "Cabinet finish illustration"
-      },
-      {
-        "src": "/images/company/062-freshly-painted-kitchen-cabinet-project-819x1024.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      }
-    ],
-    "area": {
-      "src": "/images/company/054-bathroom-vanity-painting-1024x683.webp",
-      "alt": "Cabinet finish inspiration supplied for the website"
-    },
-    "quote": {
-      "src": "/images/company/056-cabinet-doors-drawer-fronts-1024x683.webp",
-      "alt": "Cabinet finish inspiration supplied for the website"
-    }
-  },
-  "/cabinet-painting/bathroom-vanity-painting": {
-    "hero": {
-      "src": "/images/cabinet/vanity.webp",
-      "alt": "Bathroom Vanity Painting colour inspiration"
-    },
-    "overview": {
-      "src": "/images/approved-home/vanity.webp",
-      "alt": "Bathroom Vanity Painting finish detail"
-    },
-    "related": {
-      "/cabinet-painting/kitchen-cabinet-painting": {
-        "src": "/images/cabinet/kitchen.webp",
-        "alt": "Kitchen Cabinet Painting colour inspiration"
-      },
-      "/cabinet-painting/cabinet-doors-drawer-fronts": {
-        "src": "/images/cabinet/doors.webp",
-        "alt": "Cabinet Door & Drawer Front Painting colour inspiration"
-      },
-      "/cabinet-painting/cabinet-frames-boxes-end-panels": {
-        "src": "/images/cabinet/box.webp",
-        "alt": "Cabinet Frame & Box Painting colour inspiration"
-      }
-    },
-    "process": {
-      "src": "/images/cabinet-subservices/preparation.webp",
-      "alt": "Careful preparation of cabinet components"
-    },
-    "scope": [
-      {
-        "src": "/images/company/054-bathroom-vanity-painting-1024x683.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      },
-      {
-        "src": "/images/company/057-cabinet-painting-faqs.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      },
-      {
-        "src": "/images/cabinet-subservices/finish.webp",
-        "alt": "Illustrative painting finish and surface detail"
-      },
-      {
-        "src": "/images/company/supplementary/cabinet-vanity-detail.webp",
-        "alt": "Cabinet vanity detail illustration"
-      }
-    ],
-    "gallery": [
-      {
-        "src": "/images/company/supplementary/cabinet-frames.webp",
-        "alt": "Cabinet frames illustration"
-      },
-      {
-        "src": "/images/company/supplementary/cabinet-preparation.webp",
-        "alt": "Cabinet preparation illustration"
-      },
-      {
-        "src": "/images/company/supplementary/cabinet-finish.webp",
-        "alt": "Cabinet finish illustration"
-      }
-    ],
-    "area": {
-      "src": "/images/company/supplementary/cabinet-boxes.webp",
-      "alt": "Cabinet boxes illustration"
-    },
-    "quote": {
-      "src": "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
-      "alt": "Cabinet finish inspiration supplied for the website"
-    }
-  },
-  "/cabinet-painting/cabinet-doors-drawer-fronts": {
-    "hero": {
-      "src": "/images/cabinet/doors.webp",
-      "alt": "Cabinet Door & Drawer Front Painting colour inspiration"
-    },
-    "overview": {
-      "src": "/images/cabinet-subservices/finish.webp",
-      "alt": "Cabinet Door & Drawer Front Painting finish detail"
-    },
-    "related": {
-      "/cabinet-painting/kitchen-cabinet-painting": {
-        "src": "/images/cabinet/kitchen.webp",
-        "alt": "Kitchen Cabinet Painting colour inspiration"
-      },
-      "/cabinet-painting/bathroom-vanity-painting": {
-        "src": "/images/cabinet/vanity.webp",
-        "alt": "Bathroom Vanity Painting colour inspiration"
-      },
-      "/cabinet-painting/cabinet-frames-boxes-end-panels": {
-        "src": "/images/cabinet/box.webp",
-        "alt": "Cabinet Frame & Box Painting colour inspiration"
-      }
-    },
-    "process": {
-      "src": "/images/cabinet-subservices/preparation.webp",
-      "alt": "Careful preparation of cabinet components"
-    },
-    "scope": [
-      {
-        "src": "/images/company/056-cabinet-doors-drawer-fronts-1024x683.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      },
-      {
-        "src": "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      },
-      {
-        "src": "/images/company/060-chatgpt-image-sep-5-2026-06-53-43-pm-1024x704.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      },
-      {
-        "src": "/images/company/061-chatgpt-image-sep-5-2026-10-53-28-pm-1024x683.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      }
-    ],
-    "gallery": [
-      {
-        "src": "/images/company/supplementary/cabinet-preparation.webp",
-        "alt": "Cabinet preparation illustration"
-      },
-      {
-        "src": "/images/company/supplementary/cabinet-finish.webp",
-        "alt": "Cabinet finish illustration"
-      },
-      {
-        "src": "/images/company/supplementary/cabinet-end-panels.webp",
-        "alt": "Cabinet end panels illustration"
-      }
-    ],
-    "area": {
-      "src": "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
-      "alt": "Cabinet finish inspiration supplied for the website"
-    },
-    "quote": {
-      "src": "/images/company/054-bathroom-vanity-painting-1024x683.webp",
-      "alt": "Cabinet finish inspiration supplied for the website"
-    }
-  },
-  "/cabinet-painting/cabinet-frames-boxes-end-panels": {
-    "hero": {
-      "src": "/images/cabinet/box.webp",
-      "alt": "Cabinet Frame & Box Painting colour inspiration"
-    },
-    "overview": {
-      "src": "/images/cabinet-subservices/finish.webp",
-      "alt": "Cabinet Frame & Box Painting finish detail"
-    },
-    "related": {
-      "/cabinet-painting/kitchen-cabinet-painting": {
-        "src": "/images/cabinet/kitchen.webp",
-        "alt": "Kitchen Cabinet Painting colour inspiration"
-      },
-      "/cabinet-painting/bathroom-vanity-painting": {
-        "src": "/images/cabinet/vanity.webp",
-        "alt": "Bathroom Vanity Painting colour inspiration"
-      },
-      "/cabinet-painting/cabinet-doors-drawer-fronts": {
-        "src": "/images/cabinet/doors.webp",
-        "alt": "Cabinet Door & Drawer Front Painting colour inspiration"
-      }
-    },
-    "process": {
-      "src": "/images/cabinet-subservices/preparation.webp",
-      "alt": "Careful preparation of cabinet components"
-    },
-    "scope": [
-      {
-        "src": "/images/company/supplementary/cabinet-frames.webp",
-        "alt": "Cabinet frames illustration"
-      },
-      {
-        "src": "/images/company/supplementary/cabinet-boxes.webp",
-        "alt": "Cabinet boxes illustration"
-      },
-      {
-        "src": "/images/company/supplementary/cabinet-end-panels.webp",
-        "alt": "Cabinet end panels illustration"
-      },
-      {
-        "src": "/images/company/059-chatgpt-image-sep-5-2026-06-39-15-pm-1024x704.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      }
-    ],
-    "gallery": [
-      {
-        "src": "/images/company/supplementary/cabinet-preparation.webp",
-        "alt": "Cabinet preparation illustration"
-      },
-      {
-        "src": "/images/company/supplementary/cabinet-finish.webp",
-        "alt": "Cabinet finish illustration"
-      },
-      {
-        "src": "/images/company/060-chatgpt-image-sep-5-2026-06-53-43-pm-1024x704.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      }
-    ],
-    "area": {
-      "src": "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
-      "alt": "Cabinet finish inspiration supplied for the website"
-    },
-    "quote": {
-      "src": "/images/company/054-bathroom-vanity-painting-1024x683.webp",
-      "alt": "Cabinet finish inspiration supplied for the website"
-    }
-  },
-  "/cabinet-painting/built-in-cabinetry-painting": {
-    "hero": {
-      "src": "/images/cabinet/builtins.webp",
-      "alt": "Built-In Cabinetry Painting colour inspiration"
-    },
-    "overview": {
-      "src": "/images/v2/living.webp",
-      "alt": "Built-In Cabinetry Painting finish detail"
-    },
-    "related": {
-      "/cabinet-painting/kitchen-cabinet-painting": {
-        "src": "/images/cabinet/kitchen.webp",
-        "alt": "Kitchen Cabinet Painting colour inspiration"
-      },
-      "/cabinet-painting/bathroom-vanity-painting": {
-        "src": "/images/cabinet/vanity.webp",
-        "alt": "Bathroom Vanity Painting colour inspiration"
-      },
-      "/cabinet-painting/cabinet-doors-drawer-fronts": {
-        "src": "/images/cabinet/doors.webp",
-        "alt": "Cabinet Door & Drawer Front Painting colour inspiration"
-      }
-    },
-    "process": {
-      "src": "/images/cabinet-subservices/preparation.webp",
-      "alt": "Careful preparation of cabinet components"
-    },
-    "scope": [
-      {
-        "src": "/images/company/055-built-in-cabinetry-1024x683.webp",
-        "alt": "Cabinet finish inspiration supplied for the website"
-      },
-      {
-        "src": "/images/company/supplementary/cabinet-builtins-detail.webp",
-        "alt": "Cabinet builtins detail illustration"
-      },
-      {
-        "src": "/images/cabinet-subservices/finish.webp",
-        "alt": "Illustrative painting finish and surface detail"
-      },
-      {
-        "src": "/images/company/supplementary/cabinet-frames.webp",
-        "alt": "Cabinet frames illustration"
-      }
-    ],
-    "gallery": [
-      {
-        "src": "/images/company/supplementary/cabinet-boxes.webp",
-        "alt": "Cabinet boxes illustration"
-      },
-      {
-        "src": "/images/company/supplementary/cabinet-preparation.webp",
-        "alt": "Cabinet preparation illustration"
-      },
-      {
-        "src": "/images/company/supplementary/cabinet-finish.webp",
-        "alt": "Cabinet finish illustration"
-      }
-    ],
-    "area": {
-      "src": "/images/company/supplementary/cabinet-end-panels.webp",
-      "alt": "Cabinet end panels illustration"
-    },
-    "quote": {
-      "src": "/images/company/058-chatgpt-image-sep-5-2026-02-10-15-am.webp",
-      "alt": "Cabinet finish inspiration supplied for the website"
     }
   }
 }
