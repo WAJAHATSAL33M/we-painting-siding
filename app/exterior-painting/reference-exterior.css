@@ -130,3 +130,5 @@
 @media(prefers-reduced-motion:reduce){.re-exterior .re-service-grid article:hover{transform:none}}
 
 .re-exterior :is(.re-intro,.re-process,.re-gallery,.re-area-panel,.re-faq) h2>em{display:block}
+.re-exterior .service-local-copy .re-lead{font-size:14px;line-height:1.8;margin-top:16px}
+.re-exterior .re-areas .re-lead a{color:var(--ah-blue);text-decoration:underline;text-underline-offset:3px}
