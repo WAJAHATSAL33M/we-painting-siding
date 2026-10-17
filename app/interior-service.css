@@ -151,11 +151,3 @@
 @media(max-width:1099px){.ip-detail .ip-scope-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ip-detail .ip-scope-grid>article{display:grid;grid-template-columns:92px minmax(0,1fr);align-items:stretch}.ip-detail .ip-scope-grid>article>img{width:92px;height:100%;max-height:none;aspect-ratio:auto}.ip-detail .ip-scope-grid>article>div{padding:18px}.ip-detail .ip-steps>article{grid-template-columns:1fr}}
 @media(max-width:799px){.ip-detail .ip-hero-grid{gap:0}.ip-detail .ip-hero-copy{padding:26px}.ip-detail .ip-hero-visual>img{max-height:320px}.ip-detail .ip-enquiry-aside{grid-template-columns:1fr 1fr;align-items:center}.ip-detail .ip-enquiry-aside>div{padding:20px}.ip-detail .ip-hero-copy>p:not(.ip-label){max-width:70ch}.ip-detail .ip-steps>article{grid-template-columns:30px minmax(0,1fr)}}
 @media(max-width:599px){.ip-detail .ip-section{padding-block:30px}.ip-detail .ip-hero{padding-bottom:24px}.ip-detail .ip-hero-copy{padding:24px 20px}.ip-detail .ip-hero-copy h1>span{margin-top:12px}.ip-detail .ip-hero-visual>img{aspect-ratio:1.7;max-height:240px}.ip-detail .ip-hero-notes{margin-top:14px;padding-top:14px}.ip-detail .ip-scope-grid{grid-template-columns:1fr;gap:14px}.ip-detail .ip-scope-grid>article{grid-template-columns:76px minmax(0,1fr)}.ip-detail .ip-scope-grid>article>img{width:76px}.ip-detail .ip-scope-grid>article>div{padding:16px}.ip-detail .ip-steps>article{padding:16px}.ip-detail .sp-form{padding:22px 18px;gap:15px}.ip-detail .ip-enquiry-aside{grid-template-columns:1fr}.ip-detail .ip-enquiry-aside>figure>img{max-height:220px}}
-
-/* Expanded service copy follows the existing sections without fixed heights. */
-.ip-detail .ip-intro>p+p{margin-top:14px}
-.ip-detail .ip-cost-copy{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:28px;margin-top:24px;padding:22px;background:white;border:1px solid var(--ah-rule);border-radius:5px;align-items:start}
-.ip-detail .ip-cost-copy h3{font-size:20px;line-height:1.4}
-.ip-detail .ip-cost-copy p{font-size:14px;line-height:1.8}
-@media(max-width:799px){.ip-detail .ip-cost-copy{grid-template-columns:1fr;gap:12px;padding:20px}}
-.ip-detail .ip-coverage-grid>div>p a{color:var(--ah-blue);text-decoration:underline;text-underline-offset:3px}

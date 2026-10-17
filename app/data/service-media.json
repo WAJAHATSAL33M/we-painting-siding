@@ -2,7 +2,7 @@
   "/exterior-painting/spray-painting": {
     "hero": {
       "src": "/images/subservices/spray-painting/hero.webp",
-      "alt": "House prepared for exterior spray painting, with windows masked beside dark siding"
+      "alt": "Illustrative exterior spray painting finish"
     },
     "overview": {
       "src": "/images/subservices/spray-painting/detail.webp",
@@ -70,7 +70,7 @@
   "/exterior-painting/aluminum-painting": {
     "hero": {
       "src": "/images/subservices/aluminum-painting/hero.webp",
-      "alt": "Blue-gray aluminum siding with white window trim on a landscaped bungalow"
+      "alt": "Illustrative aluminum siding painting finish"
     },
     "overview": {
       "src": "/images/subservices/aluminum-painting/detail.webp",
@@ -138,7 +138,7 @@
   "/exterior-painting/siding-painting": {
     "hero": {
       "src": "/images/subservices/siding-painting/hero.webp",
-      "alt": "Navy house siding coordinated with white trim and a covered front entrance"
+      "alt": "Illustrative siding painting finish"
     },
     "overview": {
       "src": "/images/subservices/siding-painting/detail.webp",
@@ -206,7 +206,7 @@
   "/exterior-painting/vinyl-siding-painting": {
     "hero": {
       "src": "/images/subservices/vinyl-siding-painting/hero.webp",
-      "alt": "Muted green vinyl siding with white trim and garage doors on a two-storey house"
+      "alt": "Illustrative vinyl siding painting finish"
     },
     "overview": {
       "src": "/images/subservices/vinyl-siding-painting/detail.webp",
@@ -274,7 +274,7 @@
   "/exterior-painting/brick-painting": {
     "hero": {
       "src": "/images/subservices/brick-painting/hero.webp",
-      "alt": "Cream painted brick exterior with dark windows and an arched front entrance"
+      "alt": "Illustrative brick painting finish"
     },
     "overview": {
       "src": "/images/subservices/brick-painting/detail.webp",
@@ -342,7 +342,7 @@
   "/exterior-painting/exterior-stucco-painting": {
     "hero": {
       "src": "/images/subservices/exterior-stucco-painting/hero.webp",
-      "alt": "Light stucco exterior with dark trim and a sheltered entrance"
+      "alt": "Illustrative exterior stucco painting finish"
     },
     "overview": {
       "src": "/images/subservices/exterior-stucco-painting/detail.webp",
@@ -410,7 +410,7 @@
   "/exterior-painting/wood-siding-painting": {
     "hero": {
       "src": "/images/subservices/wood-siding-painting/hero.webp",
-      "alt": "Painted wood siding beside a timber porch and white window casings"
+      "alt": "Illustrative wood siding painting finish"
     },
     "overview": {
       "src": "/images/subservices/wood-siding-painting/detail.webp",
@@ -478,7 +478,7 @@
   "/exterior-painting/eavestrough-fascia-painting": {
     "hero": {
       "src": "/images/subservices/eavestrough-fascia-painting/hero.webp",
-      "alt": "Contrasting fascia and roofline details above a painted blue house exterior"
+      "alt": "Illustrative eavestrough & fascia painting finish"
     },
     "overview": {
       "src": "/images/subservices/eavestrough-fascia-painting/detail.webp",
@@ -546,7 +546,7 @@
   "/exterior-painting/exterior-window-door-painting": {
     "hero": {
       "src": "/images/subservices/exterior-window-door-painting/hero.webp",
-      "alt": "Dark painted front door with sidelights, white trim and brass exterior lights"
+      "alt": "Illustrative exterior window & door painting finish"
     },
     "overview": {
       "src": "/images/subservices/exterior-window-door-painting/detail.webp",
@@ -614,7 +614,7 @@
   "/exterior-painting/commercial-painting": {
     "hero": {
       "src": "/images/subservices/commercial-painting/hero.webp",
-      "alt": "Commercial building exterior with dark fascia, light wall panels and glazed entrances"
+      "alt": "Illustrative commercial exterior painting finish"
     },
     "overview": {
       "src": "/images/subservices/commercial-painting/detail.webp",
@@ -682,7 +682,7 @@
   "/interior-painting/wall-painting": {
     "hero": {
       "src": "/images/home-v3/interior-overview.webp",
-      "alt": "Soft blue painted living room walls beside white trim and a fireplace"
+      "alt": "Illustrative wall painting finish"
     },
     "overview": {
       "src": "/images/home-v3/interior.webp",
@@ -750,7 +750,7 @@
   "/interior-painting/ceiling-painting": {
     "hero": {
       "src": "/images/interior-reference/ceiling.webp",
-      "alt": "Smooth white painted ceiling with recessed lights and crown moulding"
+      "alt": "Illustrative ceiling painting finish"
     },
     "overview": {
       "src": "/images/interior-reference/hallway.webp",
@@ -818,7 +818,7 @@
   "/interior-painting/trim-painting": {
     "hero": {
       "src": "/images/interior-reference/trim.webp",
-      "alt": "White painted baseboard and door casing against a muted interior wall"
+      "alt": "Illustrative trim & baseboard painting finish"
     },
     "overview": {
       "src": "/images/interior-reference/hallway.webp",
@@ -886,7 +886,7 @@
   "/interior-painting/door-painting": {
     "hero": {
       "src": "/images/interior-reference/door.webp",
-      "alt": "Charcoal painted interior door surrounded by white casing in a bright hallway"
+      "alt": "Illustrative interior door painting finish"
     },
     "overview": {
       "src": "/images/interior-reference/hallway.webp",
@@ -954,7 +954,7 @@
   "/cabinet-painting": {
     "hero": {
       "src": "/images/approved-home/cabinet-feature.webp",
-      "alt": "Slate blue painted kitchen cabinets and island with brass handles and pale worktops"
+      "alt": "Slate blue painted kitchen cabinets with brass handles"
     },
     "overview": {
       "src": "/images/cabinet-subservices/finish.webp",
@@ -1009,7 +1009,7 @@
   "/interior-painting/basement-painting": {
     "hero": {
       "src": "/images/approved-home/living.webp",
-      "alt": "Bright living space with light walls and coordinated trim, shown as basement colour inspiration"
+      "alt": "Bright interior colour inspiration for a finished basement"
     },
     "overview": {
       "src": "/images/interior-reference/hallway.webp",
