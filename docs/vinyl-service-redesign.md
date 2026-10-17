@@ -1,23 +1,33 @@
-# Vinyl siding painting: focused service page pilot
+# Vinyl siding: local service page pilot
 
-Scope: `/exterior-painting/vinyl-siding-painting` only. Other service layouts and all core page designs are retained. Existing metadata and canonical generation stay in the route. The new component renders service and breadcrumb structured data for this page.
+Scope: `/exterior-painting/vinyl-siding-painting` only. Shared navigation, footer, Poppins, navy/blue palette and core page gutters are retained. No brushes, signatures or numbered section eyebrows.
 
-## Source audit
+## Benchmark and design decisions
 
-The homepage, `about/reference-about.js`, `locations/local-page.js` and Contact use the approved Poppins/navy/blue system with broad image-and-copy compositions, clear section rhythm and shared navigation/footer. The current service wrapper delegates every service to `components/interior-service-template.js`. That template uses eight sections, repeated scope/process/gallery blocks, section labels, numbered feature lists and a large request area. Its `interior-service.css` also reduces heading sizes and spacing relative to About. This is a source-level comparison; browser screenshots of the previous page were not available.
+Reviewed first-party service page content on 2026-10-17:
 
-The pilot uses the existing brand tokens, `ah-container`, full shared `SiteHeader`/`SiteFooter`, and five sections: service introduction; suitability and included surfaces; vinyl preparation and colour planning; FAQs with local and complementary-service links; closing project invitation. The hero and editorial image/copy sections follow the scale and rhythm of core pages. The preparation section uses the established navy background. No brush decorations, signatures or numbered section labels are introduced.
+- Five Star Painting: https://www.fivestarpainting.com/residential/exteriors/painting-vinyl-siding/
+- CertaPro York: https://certapro.com/york/vinyl-aluminum-siding-services/
+- CertaPro Toronto: https://certapro.com/toronto/residential-painting/services/vinyl-siding-painting/
+- Home Painters Toronto: https://www.homepainterstoronto.com/vinyl-windows-and-siding-painting/
 
-## Service content research
+The useful pattern is an explicit service/location headline, an early estimate path, service-specific scope, project evidence, preparation information and practical questions. This is a content/hierarchy review, not a visual browser audit or a claim that these sites rank highest globally.
 
-- Benjamin Moore, Painting Vinyl Siding and Trim: https://www.benjaminmoore.com/en-ca/contractors/job-solutions/professional-how-to-guides/painting-vinyl-siding — remove contamination, rinse and dry, assess primer requirements, follow siding manufacturer guidance and the exact coating instructions.
-- Sherwin-Williams, How to Repair Warped Vinyl Siding: https://www.sherwin-williams.com/en-us/project-center/maintenance-repair/how-to-repair-warped-vinyl-siding — dark colour heat absorption and system-specific colour limits matter; painting does not repair warped siding.
-- Google Search Central, Creating Helpful, Reliable, People-First Content: https://developers.google.com/search/docs/fundamentals/creating-helpful-content — write for the visitor’s decision, with descriptive headings and useful topic detail instead of adding generic text to hit a word count.
+The implementation has five main sections: direct local-service hero and community starter; service scope with company before/after photos; four-step preparation process; local coverage and service-specific project draft form; FAQs and complementary services. An anchor strip supports browsing. The hero selection carries into the quote form through React context. A mobile action hides while the quote area or footer is visible.
 
-Sources reviewed 2026-10-17. The page paraphrases relevant guidance without implying brand affiliation, specifying a product for every property, guaranteeing savings or fabricating project evidence. Existing illustrative vinyl imagery was inspected before reuse. Local copy names Southern Ontario and links to existing community pages; it does not invent offices or claim coverage availability without a project discussion.
+The supplied company photo pair is labelled before/after, with no drag overlay because its camera positions differ. No unverified project location, rating, warranty, response time or office is introduced. The other two photos are illustrative. The directory contains 25 communities; coverage availability is confirmed for each property.
+
+The form exports a local ZIP containing the project brief and selected photo bytes. It does not send an enquiry and explicitly says so before submission and in its result message. Real delivery requires a separately configured recipient/backend.
+
+## Technical content
+
+Benjamin Moore vinyl painting guidance and Sherwin-Williams warped vinyl guidance informed cautious preparation and colour text. Suitability, product instructions and siding manufacturer limitations must be checked; painting is not presented as a repair for damaged siding.
+
+- https://www.benjaminmoore.com/en-ca/contractors/job-solutions/professional-how-to-guides/painting-vinyl-siding
+- https://www.sherwin-williams.com/en-us/project-center/maintenance-repair/how-to-repair-warped-vinyl-siding
 
 ## Validation and limits
 
-Production Next.js build, generated HTML/metadata/structured-data checks, internal destination and anchor checks, FAQ semantics, local image and dimension checks, and isolation checks for other service routes. Responsive CSS contracts cover stacked layouts, flexible grids, mobile CTA width, touch targets and reduced motion. Available-width calculations cover 320, 360, 390, 430, 600, 768, 820, 900, 1024, 1280, 1440 and 1920 px. These calculations and CSS assertions are not rendered browser tests. The environment lacks the supported browser-control capability, so device screenshots, overflow measurements and visual device sign-off are not claimed.
+Production build generates all 65 routes. `python scripts/check-vinyl-page.py` checks generated HTML, five sections, FAQ semantics, form labels, 25 community choices, metadata, structured data, internal links/anchors, image dimensions and isolation of other service routes. CSS contract and available-width checks cover 320–1920 px, including mobile, tablet and desktop breakpoints. A ZIP payload round-trip verifies the helper preserves brief and photo bytes.
 
-Run `python scripts/check-vinyl-page.py` after a production build with the three referenced images present. A scratch-only build memory-telemetry fallback is used when `/proc/self/statm` is unavailable; that helper is not deployed.
+These checks do not constitute rendered device testing. The managed environment lacks the supported browser-control capability; device screenshots, measured browser overflow, visual alignment and interactive browser sign-off remain unverified. A scratch-only memory telemetry fallback enables the build when `/proc/self/statm` is absent; it is not deployed.

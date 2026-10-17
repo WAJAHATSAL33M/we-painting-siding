@@ -44,7 +44,13 @@ ids=[n.attrs['id'] for n in doc.all() if 'id' in n.attrs]
 check(len(ids)==len(set(ids)),'No duplicate IDs')
 check('Online enquiry delivery is not connected yet' in main.text(),'Honest enquiry status')
 check(not any(s in main.text() for s in ['undefined','[object Object]','Lorem ipsum']),'No unresolved content')
-check(not main.all('form'),'Closing CTA must use the existing contact flow')
+check(len(main.all('form'))==1,'One service-specific project form')
+check(main.all('input',name='Service')[0].attrs.get('value')=='Vinyl Siding Painting','Draft retains service context')
+for field in main.all('input')+main.all('textarea')+main.all('select'):
+    if field.attrs.get('type')=='hidden' or field.attrs.get('name')=='website':continue
+    check(bool(field.attrs.get('id')) and bool(main.all('label',**{'for':field.attrs.get('id')})),'Visible form control has an associated label')
+check(len(main.all('select')[0].all('option'))==27,'All 25 communities and fallback options are present')
+check('Southern Ontario' in main.all('h1')[0].text(),'Location-specific H1')
 check(doc.all('link',rel='canonical')[0].attrs['href']=='https://we-painting-siding.vercel.app'+route,'Canonical retains existing URL')
 graph=json.loads(doc.all('script',type='application/ld+json')[0].text())['@graph']
 check(graph[0]['name']=='Vinyl Siding Painting','Service structured data')
@@ -68,15 +74,15 @@ for a in main.all('a'):
 # Check that the pilot is the only route using this design.
 for name in ['spray-painting','brick-painting','aluminum-painting','siding-painting']:
     other=(directory/('exterior-painting/'+name+'.html')).read_text()
-    check('ip-detail' in other and 'class="approved-site vs-page"' not in other,'Other service layout is preserved: '+name)
+    check('ip-detail' in other and 'vl-hero-grid' not in other,'Other service layout is preserved: '+name)
 
 css=(ROOT/'app/exterior-painting/[service]/vinyl-page.css').read_text()
 check('@media(max-width:899px)' in css and '@media(max-width:599px)' in css,'Tablet and mobile breakpoints')
 tablet=css.split('@media(max-width:899px)',1)[1].split('@media(max-width:599px)',1)[0]
-check(all('.vs-page '+name in tablet for name in ['.vs-hero-grid','.vs-editorial','.vs-process-grid','.vs-question-grid','.vs-close-grid']),'All main grids collapse on tablet')
+check(all('.vl-page '+name in tablet for name in ['.vl-hero-grid','.vl-service-grid','.vl-quote-grid','.vl-faq-grid','.vl-section-heading']),'All main grids collapse on tablet')
 check('grid-template-columns:minmax(0,1fr)' in tablet,'Stacked grids can shrink without min-content overflow')
 mobile=css.split('@media(max-width:599px)',1)[1]
-check('.vs-page .vs-actions>.ah-button{width:100%' in mobile,'Mobile CTA fills available width')
+check('.vl-page .vl-hero-actions>.ah-button{width:100%' in mobile,'Mobile CTA fills available width')
 check('prefers-reduced-motion:reduce' in css,'Reduced motion supported')
 check('min-height:44px' in css,'Text links provide touch targets')
 check(not re.search(r'(?<![-\w])(?:min-width|width):[3-9]\d\dpx',css),'No rigid wide content widths')
