@@ -28,7 +28,7 @@ class Document(HTMLParser):
             if self.stack[i].tag==tag:self.stack=self.stack[:i];break
     def handle_data(self,data):self.stack[-1].children.append(data)
 
-script="""import fs from 'node:fs';let src=fs.readFileSync('app/data/service-pages.js','utf8');for(const [name,file] of [['exterior','exterior-subservices'],['cabinets','cabinet-subservices']])src=src.replace(new RegExp('import '+name+\" from '[^']+';\"),'const '+name+'='+fs.readFileSync('app/data/'+file+'.json','utf8')+';');const m=await import('data:text/javascript;base64,'+Buffer.from(src).toString('base64'));console.log(JSON.stringify(m.allServices.map(s=>({path:s.path,title:s.title,category:s.category,related:m.relatedServices(s).map(p=>p.path)}))));"""
+script="""import fs from 'node:fs';let src=fs.readFileSync('app/data/service-pages.js','utf8');for(const [name,file] of [['exterior','exterior-subservices'],['cabinets','cabinet-subservices'],['metaTitles','service-meta-titles']])src=src.replace(new RegExp('import '+name+\" from '[^']+';\"),'const '+name+'='+fs.readFileSync('app/data/'+file+'.json','utf8')+';');const m=await import('data:text/javascript;base64,'+Buffer.from(src).toString('base64'));console.log(JSON.stringify(m.allServices.map(s=>({path:s.path,title:s.title,category:s.category,related:m.relatedServices(s).map(p=>p.path)}))));"""
 services=json.loads(subprocess.check_output(['node','--input-type=module','-e',script],cwd=ROOT,text=True))
 inventory=Path(sys.argv[1]) if len(sys.argv)>1 else None
 known=set(json.loads(inventory.read_text())) if inventory else set()
@@ -42,12 +42,12 @@ def page(path):
         cache[path]=Document(file.read_text()).root if file.exists() else None
     return cache[path]
 for service in services:
-    route=service['path']; doc=page(route)
+    route=service['path']; pilot=route.endswith('/vinyl-siding-painting'); doc=page(route)
     check(doc is not None,route+': missing generated page')
     if doc is None:continue
     main=doc.find('main')[0]
     sections=[c for c in main.children if isinstance(c,Node) and c.tag=='section']
-    check(len(sections)==8,route+': expected eight sections')
+    check(len(sections)==(10 if pilot else 8),route+': incorrect section count')
     check(len(main.find('h1'))==1,route+': expected one H1')
     check(service['title'] in main.find('h1')[0].text(),route+': wrong H1')
     title=doc.find('title')[0].text();description=doc.find('meta',name='description')[0].attrs['content']
@@ -57,10 +57,14 @@ for service in services:
     schema=json.loads(doc.find('script',type='application/ld+json')[0].text())['@graph']
     check(schema[0]['name']==service['title'],route+': wrong service schema')
     check(schema[1]['itemListElement'][-1]['item'].endswith(route),route+': incorrect breadcrumb schema')
-    form=main.find('form')[0];field=form.find('input',name='Service')[0]
-    check(field.attrs.get('value')==service['title'] and 'readonly' in field.attrs,route+': service form mismatch')
+    form=main.find('form')[0]
+    if pilot:
+        check(form.find('input',name='Service')[0].attrs.get('value')==service['title'],route+': service form mismatch')
+    else:
+        options=form.find('select',name='Service')[0].find('option')
+        check(any(o.attrs.get('value')==service['title'] and 'selected' in o.attrs for o in options),route+': default service selection mismatch')
     for field in form.find():
-        if field.tag in {'input','textarea','select'} and field.attrs.get('name')!='website':
+        if field.tag in {'input','textarea','select'} and field.attrs.get('name')!='website' and field.attrs.get('type')!='hidden':
             check(field.attrs.get('id') and bool(form.find('label',**{'for':field.attrs['id']})),route+': unlabeled field '+str(field.attrs.get('name')))
     ids=[n.attrs['id'] for n in doc.find() if 'id' in n.attrs]
     check(len(ids)==len(set(ids)),route+': duplicate HTML IDs')
@@ -77,14 +81,15 @@ for service in services:
         check(dest is not None,route+': broken link '+href)
         if dest and parsed.fragment:check(bool(dest.find(id=unquote(parsed.fragment))),route+': missing anchor '+href)
     check(all(p!=route and page(p) for p in service['related']),route+': invalid related service')
-    check(len(main.find('details'))==5,route+': expected five FAQs')
+    check(len(main.find('details'))==(6 if pilot else 9),route+': expected FAQ and scope disclosures')
     check('undefined' not in main.text() and '[object Object]' not in main.text(),route+': unresolved content')
-    check('service-site' in doc.find('div')[0].attrs.get('class','') or any('service-site' in n.attrs.get('class','') for n in doc.find('div')),route+': missing template scope')
+    check(pilot or 'service-site' in doc.find('div')[0].attrs.get('class','') or any('service-site' in n.attrs.get('class','') for n in doc.find('div')),route+': missing template scope')
 
-check(len(services)==23,'Expected 23 distinct service pages')
+check(len(services)==16,'Expected 16 distinct service pages')
 check(len({s['path'] for s in services})==len(services),'Duplicate service paths')
 xml=(ROOT/'.next/server/app/sitemap.xml.body').read_text() if (ROOT/'.next/server/app/sitemap.xml.body').exists() else ''
 check(all('https://we-painting-siding.vercel.app'+s['path'] in xml for s in services),'XML sitemap missing services')
 if errors:
     print('\n'.join(errors));sys.exit(1)
-print(json.dumps({'service_pages':len(services),'sections_per_page':8,'unique_titles':len(titles),'unique_descriptions':len(descriptions),'referenced_images':len(images),'validated_internal_links':links,'faq_answers':len(services)*5,'sitemap':'all service routes present','result':'passed'},indent=2))
+print(json.dumps({'service_pages':len(services),'sections_per_page':'10 on vinyl pilot, 8 on other services','unique_titles':len(titles),'unique_descriptions':len(descriptions),'referenced_images':len(images),'validated_internal_links':links,'faq_answers':len(services)*5+1,'sitemap':'all service routes present','result':'passed'},indent=2))
+

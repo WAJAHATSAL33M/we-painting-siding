@@ -1,72 +1,4 @@
 {
-  "/exterior-painting/spray-painting": {
-    "hero": {
-      "src": "/images/subservices/spray-painting/hero.webp",
-      "alt": "Illustrative exterior spray painting finish"
-    },
-    "overview": {
-      "src": "/images/subservices/spray-painting/detail.webp",
-      "alt": "Surface detail for exterior spray painting"
-    },
-    "related": {
-      "/exterior-painting/aluminum-painting": {
-        "src": "/images/subservices/aluminum-painting/hero.webp",
-        "alt": "Illustrative aluminum siding painting finish"
-      },
-      "/exterior-painting/siding-painting": {
-        "src": "/images/subservices/siding-painting/hero.webp",
-        "alt": "Illustrative siding painting finish"
-      },
-      "/exterior-painting/vinyl-siding-painting": {
-        "src": "/images/subservices/vinyl-siding-painting/hero.webp",
-        "alt": "Illustrative vinyl siding painting finish"
-      }
-    },
-    "process": {
-      "src": "/images/company/105-white-house-exterior-spray-painting.webp",
-      "alt": "Painted spray painting project"
-    },
-    "scope": [
-      {
-        "src": "/images/company/102-after-house-painting-brick-siding-1024x576-1-1.webp",
-        "alt": "Painted spray painting project"
-      },
-      {
-        "src": "/images/company/071-masking-exterior-house-spray-painter.webp",
-        "alt": "Painting preparation and application"
-      },
-      {
-        "src": "/images/approved-home/detail.webp",
-        "alt": "Illustrative painting finish and surface detail"
-      },
-      {
-        "src": "/images/company/106-yellow-house-lakeshore-spray-painting.webp",
-        "alt": "Painted spray painting project"
-      }
-    ],
-    "gallery": [
-      {
-        "src": "/images/exterior/house.webp",
-        "alt": "Coordinated exterior colour and finish inspiration"
-      },
-      {
-        "src": "/images/company/104-grey-aluminum-siding-painting-front.webp",
-        "alt": "Painted spray painting project"
-      },
-      {
-        "src": "/images/company/035-stunning-house-with-fresh-white-siding.webp",
-        "alt": "Painted aluminum siding project"
-      }
-    ],
-    "area": {
-      "src": "/images/company/040-img-1144.webp",
-      "alt": "Painting preparation and application"
-    },
-    "quote": {
-      "src": "/images/about/team.webp",
-      "alt": "Illustrative exterior finish and coordinated property details"
-    }
-  },
   "/exterior-painting/aluminum-painting": {
     "hero": {
       "src": "/images/subservices/aluminum-painting/hero.webp",
@@ -489,7 +421,7 @@
         "src": "/images/subservices/siding-painting/hero.webp",
         "alt": "Illustrative siding painting finish"
       },
-      "/exterior-painting/exterior-window-door-painting": {
+      "/exterior-painting/window-painting": {
         "src": "/images/subservices/exterior-window-door-painting/hero.webp",
         "alt": "Illustrative exterior window & door painting finish"
       },
@@ -543,7 +475,7 @@
       "alt": "Illustrative exterior finish and coordinated property details"
     }
   },
-  "/exterior-painting/exterior-window-door-painting": {
+  "/exterior-painting/window-painting": {
     "hero": {
       "src": "/images/subservices/exterior-window-door-painting/hero.webp",
       "alt": "Illustrative exterior window & door painting finish"
@@ -1072,6 +1004,74 @@
     "quote": {
       "src": "/images/about/office.webp",
       "alt": "Coordinated commercial reception"
+    }
+  },
+  "/exterior-painting/door-painting": {
+    "hero": {
+      "src": "/images/subservices/exterior-window-door-painting/hero.webp",
+      "alt": "Illustrative exterior window & door painting finish"
+    },
+    "overview": {
+      "src": "/images/subservices/exterior-window-door-painting/detail.webp",
+      "alt": "Surface detail for exterior window & door painting"
+    },
+    "related": {
+      "/exterior-painting/siding-painting": {
+        "src": "/images/subservices/siding-painting/hero.webp",
+        "alt": "Illustrative siding painting finish"
+      },
+      "/exterior-painting/eavestrough-fascia-painting": {
+        "src": "/images/subservices/eavestrough-fascia-painting/hero.webp",
+        "alt": "Illustrative eavestrough & fascia painting finish"
+      },
+      "/exterior-painting/spray-painting": {
+        "src": "/images/subservices/spray-painting/hero.webp",
+        "alt": "Illustrative exterior spray painting finish"
+      }
+    },
+    "process": {
+      "src": "/images/approved-home/painter.webp",
+      "alt": "Painter preparing and finishing exterior surfaces"
+    },
+    "scope": [
+      {
+        "src": "/images/company/184-img-0229.webp",
+        "alt": "Painted window and door project"
+      },
+      {
+        "src": "/images/company/203-img-9942.webp",
+        "alt": "Painting preparation and application"
+      },
+      {
+        "src": "/images/approved-home/detail.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      {
+        "src": "/images/company/191-img-0681.webp",
+        "alt": "Painted window and door project"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/company/204-img-9948.webp",
+        "alt": "Painted window and door project"
+      },
+      {
+        "src": "/images/company/180-img-0202.webp",
+        "alt": "Painted window and door project"
+      },
+      {
+        "src": "/images/company/200-img-6941.webp",
+        "alt": "Painted window and door project"
+      }
+    ],
+    "area": {
+      "src": "/images/company/209-exterior-vinyl-windows-painted-black.webp",
+      "alt": "Painting preparation and application"
+    },
+    "quote": {
+      "src": "/images/approved-home/door.webp",
+      "alt": "Illustrative exterior finish and coordinated property details"
     }
   }
 }

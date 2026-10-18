@@ -1,0 +1,13 @@
+# Approved ten-section vinyl pilot and exterior catalogue
+
+Implemented on `/exterior-painting/vinyl-siding-painting` only. Other sub-services retain their existing page layout. The ten approved image sections are represented in order: service hero, suitability, included scope, preparation process, colour planning, illustrative transformation, quote factors/timing, local communities, FAQs, project draft form. Navy/blue Poppins styling, broad gutters, rectangular buttons, aligned editorial grids and section-specific image frames follow the mockups. Small screens reflow content without fixed section heights or clipping.
+
+Five new high-resolution generated photographic assets are stored in `public/images/vinyl-design/`, converted to WebP without resizing. The before/after concept is labelled illustrative. New photographs reproduce the reference subject and compositions; they are not extracted screenshots. No brushes or signature accents.
+
+The shared exterior catalogue defines ten entries: Siding Painting with Aluminum/Vinyl/Wood nested below it, Brick Painting & Staining, Stucco Painting, Soffit/Fascia/Eavestrough Painting, Window Painting, Door Painting, Commercial Painting. Header desktop/mobile trees and footer consume it, along with homepage and exterior directories. New separate window and door routes use tailored content. Existing matching URLs remain stable. Spray Painting permanently redirects to the main exterior page; the old combined window/door route permanently redirects to Window Painting. Both retired URLs are excluded from route generation and sitemap. Existing image directories are retained independently of public service names.
+
+The community selector carries its value into the form. The form supports photo selection/drop/removal, type/count/size checks, native required/email validation, and a ZIP download containing the service, city, details and actual photo bytes. It clearly states that no online delivery is connected.
+
+Validation: production build; generated HTML links and anchors across the site; image references checked against repository inventory; ten pilot sections; six FAQ disclosures; labels, IDs, canonical and Service/Breadcrumb schema; ten live exterior routes; nested service menus; sitemap and permanent redirects. CSS is parsed for syntax and responsive contracts at tablet/mobile breakpoints. ZIP payload round-trip checks actual brief/photo bytes.
+
+The managed environment lacks supported browser control. No rendered screenshot comparison, measured device overflow or pixel-perfect sign-off is claimed. Source proportions and CSS were checked; desktop/tablet/mobile visual approval remains outstanding.

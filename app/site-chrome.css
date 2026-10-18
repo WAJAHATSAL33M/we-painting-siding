@@ -32,3 +32,15 @@
 
 /* Two core service columns; cabinet painting is one interior service. */
 .wps-header .wps-desktop-services{grid-template-columns:repeat(2,minmax(0,1fr))}
+
+
+/* The exterior catalogue has one parent service and three siding sub-services. */
+.wps-header .wps-exterior-tree,.wps-footer .wps-exterior-tree{list-style:none;padding:0;margin:0}
+.wps-header .wps-exterior-tree>li>a{display:flex;align-items:center;min-height:42px;padding:9px 12px;font-size:13px;line-height:1.45;border-radius:3px}
+.wps-header .wps-exterior-tree>li>a:hover,.wps-header .wps-exterior-tree>li>ul a:hover{background:#edf5fa;color:#0073bc}
+.wps-header .wps-exterior-tree>li>ul{list-style:none;margin:0 0 5px 23px;padding:0 0 0 14px;border-left:1px solid #cbdde9}
+.wps-header .wps-exterior-tree>li>ul a{display:flex;align-items:center;min-height:40px;padding:7px 10px;font-size:12px;line-height:1.45}
+.wps-footer .wps-exterior-tree>li>a{display:block}
+.wps-footer .wps-exterior-tree ul{list-style:none;padding:0 0 0 12px;margin:0 0 6px;border-left:1px solid #426178}
+.wps-footer .wps-exterior-tree ul a{font-size:11px;line-height:1.5}
+@media(max-width:1199px){.wps-header .wps-mobile-services .wps-exterior-tree{padding:0 12px 10px}.wps-header .wps-mobile-services .wps-exterior-tree a{min-height:44px}.wps-header .wps-mobile-services .wps-exterior-tree>li>ul a{font-size:12px}}

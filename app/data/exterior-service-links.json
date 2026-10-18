@@ -1,42 +1,55 @@
 [
   {
-    "slug": "spray-painting",
-    "title": "Exterior Spray Painting"
+    "slug": "siding-painting",
+    "title": "Siding Painting",
+    "icon": "siding"
   },
   {
     "slug": "aluminum-painting",
-    "title": "Aluminum Siding Painting"
-  },
-  {
-    "slug": "siding-painting",
-    "title": "Siding Painting"
+    "title": "Aluminum Siding Painting",
+    "parent": "siding-painting",
+    "icon": "layers"
   },
   {
     "slug": "vinyl-siding-painting",
-    "title": "Vinyl Siding Painting"
-  },
-  {
-    "slug": "brick-painting",
-    "title": "Brick Painting"
-  },
-  {
-    "slug": "exterior-stucco-painting",
-    "title": "Exterior Stucco Painting"
+    "title": "Vinyl Siding Painting",
+    "parent": "siding-painting",
+    "icon": "home"
   },
   {
     "slug": "wood-siding-painting",
-    "title": "Wood Siding Painting"
+    "title": "Wood Siding Painting",
+    "parent": "siding-painting",
+    "icon": "wood"
+  },
+  {
+    "slug": "brick-painting",
+    "title": "Brick Painting & Staining",
+    "icon": "brick"
+  },
+  {
+    "slug": "exterior-stucco-painting",
+    "title": "Stucco Painting",
+    "icon": "stucco"
   },
   {
     "slug": "eavestrough-fascia-painting",
-    "title": "Eavestrough & Fascia Painting"
+    "title": "Soffit, Fascia & Eavestrough Painting",
+    "icon": "paint"
   },
   {
-    "slug": "exterior-window-door-painting",
-    "title": "Exterior Window & Door Painting"
+    "slug": "window-painting",
+    "title": "Window Painting",
+    "icon": "building"
+  },
+  {
+    "slug": "door-painting",
+    "title": "Door Painting",
+    "icon": "door"
   },
   {
     "slug": "commercial-painting",
-    "title": "Commercial Exterior Painting"
+    "title": "Commercial Painting",
+    "icon": "building"
   }
 ]
