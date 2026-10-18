@@ -44,3 +44,16 @@
 .wps-footer .wps-exterior-tree ul{list-style:none;padding:0 0 0 12px;margin:0 0 6px;border-left:1px solid #426178}
 .wps-footer .wps-exterior-tree ul a{font-size:11px;line-height:1.5}
 @media(max-width:1199px){.wps-header .wps-mobile-services .wps-exterior-tree{padding:0 12px 10px}.wps-header .wps-mobile-services .wps-exterior-tree a{min-height:44px}.wps-header .wps-mobile-services .wps-exterior-tree>li>ul a{font-size:12px}}
+
+/* Collapsed siding sub-menu shared by desktop, tablet, mobile and footer. */
+.wps-header .wps-service-parent,.wps-footer .wps-service-parent{display:flex;align-items:center;gap:8px}
+.wps-header .wps-service-parent>a{display:flex;align-items:center;flex:1;min-height:44px;padding:9px 12px;font-size:13px;line-height:1.45;border-radius:3px}
+.wps-header .wps-service-parent>a:hover{color:#0073bc;background:#edf5fa}
+.wps-header .wps-service-parent>button,.wps-footer .wps-service-parent>button{display:inline-flex;align-items:center;justify-content:center;flex:none;width:44px;height:44px;padding:0;border:1px solid transparent;border-radius:3px;background:transparent;color:inherit;cursor:pointer}
+.wps-header .wps-service-parent>button:hover{background:#edf5fa;color:#0073bc}
+.wps-footer .wps-service-parent>a{flex:1;margin:0}
+.wps-footer .wps-service-parent>button:hover{background:#ffffff12}
+.wps-service-parent>button .wps-chevron{transition:transform .18s}
+.wps-service-parent>button[aria-expanded=true] .wps-chevron{transform:rotate(225deg)}
+.wps-header .wps-exterior-tree ul[hidden],.wps-footer .wps-exterior-tree ul[hidden]{display:none!important}
+@media(prefers-reduced-motion:reduce){.wps-service-parent>button .wps-chevron{transition:none}}

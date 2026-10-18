@@ -73,6 +73,11 @@ for path,page in pages.items():
   if tree:
    check(len(tree[0].all('a'))==10,path+': menu includes ten services')
    check(len(tree[0].all('ul'))==1 and len(tree[0].all('ul')[0].all('a'))==3,path+': siding has three nested children')
+   for menu in [n for n in page.all('ul') if 'wps-exterior-tree' in n.attrs.get('class','')]:
+    buttons=menu.all('button');children=menu.all('ul')
+    check(len(buttons)==1 and buttons[0].attrs.get('aria-expanded')=='false',path+': siding toggle starts collapsed')
+    check(len(children)==1 and 'hidden' in children[0].attrs,path+': siding children start hidden')
+    if buttons and children:check(buttons[0].attrs.get('aria-controls')==children[0].attrs.get('id'),path+': toggle controls its own submenu')
 for s in catalogue:
  r='/exterior-painting/'+s['slug'];check(r in pages,'Service exists: '+r)
  if r in pages:
