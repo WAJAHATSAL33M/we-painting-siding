@@ -3,7 +3,6 @@ import interiors from '../data/interior-service-links.json';
 import {useEffect,useId,useRef,useState} from 'react';
 import {usePathname} from 'next/navigation';
 import exterior from '../data/exterior-service-links.json';
-import cabinets from '../data/cabinet-service-links.json';
 import cities from '../data/locations.json';
 
 const regions=[['Toronto & York',['toronto','etobicoke','north-york','vaughan','markham','richmond-hill','newmarket','aurora','king-city']],['Halton & Peel',['burlington','oakville','milton','mississauga','caledon']],['Hamilton & Brantford',['hamilton','brantford']],['Waterloo & Wellington',['guelph','waterloo','kitchener','cambridge']],['Niagara',['st-catharines','niagara-falls','welland']],['More communities',['barrie','london']]];

@@ -1,6 +1,5 @@
 import PageShell from '../support/page-shell';
 import exterior from '../data/exterior-service-links.json';
-import cabinets from '../data/cabinet-service-links.json';
 import {allServices} from '../data/service-pages';
 import locations from '../data/locations.json';
 import posts from '../data/blog-posts.json';

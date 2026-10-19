@@ -28,7 +28,7 @@ class Document(HTMLParser):
             if self.stack[i].tag==tag:self.stack=self.stack[:i];break
     def handle_data(self,data):self.stack[-1].children.append(data)
 
-script="""import fs from 'node:fs';let src=fs.readFileSync('app/data/service-pages.js','utf8');for(const [name,file] of [['exterior','exterior-subservices'],['cabinets','cabinet-subservices'],['metaTitles','service-meta-titles'],['interiorTemplate','interior-template-content']])src=src.replace(new RegExp('import '+name+\" from '[^']+';\"),'const '+name+'='+fs.readFileSync('app/data/'+file+'.json','utf8')+';');const m=await import('data:text/javascript;base64,'+Buffer.from(src).toString('base64'));console.log(JSON.stringify(m.allServices.map(s=>({path:s.path,title:s.title,category:s.category,related:m.relatedServices(s).map(p=>p.path)}))));"""
+script="""import fs from 'node:fs';let src=fs.readFileSync('app/data/service-pages.js','utf8');for(const [name,file] of [['exterior','exterior-subservices'],['metaTitles','service-meta-titles'],['interiorTemplate','interior-template-content']])src=src.replace(new RegExp('import '+name+\" from '[^']+';\"),'const '+name+'='+fs.readFileSync('app/data/'+file+'.json','utf8')+';');const m=await import('data:text/javascript;base64,'+Buffer.from(src).toString('base64'));console.log(JSON.stringify(m.allServices.map(s=>({path:s.path,title:s.title,category:s.category,related:m.relatedServices(s).map(p=>p.path)}))));"""
 services=json.loads(subprocess.check_output(['node','--input-type=module','-e',script],cwd=ROOT,text=True))
 inventory=Path(sys.argv[1]) if len(sys.argv)>1 else None
 known=set(json.loads(inventory.read_text())) if inventory else set()
