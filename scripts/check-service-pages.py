@@ -33,7 +33,7 @@ services=json.loads(subprocess.check_output(['node','--input-type=module','-e',s
 inventory=Path(sys.argv[1]) if len(sys.argv)>1 else None
 known=set(json.loads(inventory.read_text())) if inventory else set()
 errors=[];titles=set();descriptions=set();images=set();links=0
-cache={}
+cache={};exterior_pattern=None;exterior_heroes=set();exterior_copy=set()
 def check(condition,message):
     if not condition:errors.append(message)
 def page(path):
@@ -42,12 +42,20 @@ def page(path):
         cache[path]=Document(file.read_text()).root if file.exists() else None
     return cache[path]
 for service in services:
-    route=service['path']; pilot=route.endswith('/vinyl-siding-painting'); doc=page(route)
+    route=service['path']; pilot=service['category']=='exterior'; doc=page(route)
     check(doc is not None,route+': missing generated page')
     if doc is None:continue
     main=doc.find('main')[0]
     sections=[c for c in main.children if isinstance(c,Node) and c.tag=='section']
     check(len(sections)==(10 if pilot else 8),route+': incorrect section count')
+    if pilot:
+        pattern=[n.attrs.get('class') for n in sections]
+        if exterior_pattern is None:exterior_pattern=pattern
+        check(pattern==exterior_pattern,route+': shared exterior section layout differs')
+        hero=main.find('img')[0].attrs['src']
+        check(hero not in exterior_heroes,route+': duplicate exterior hero image');exterior_heroes.add(hero)
+        check(main.text() not in exterior_copy,route+': duplicate service body');exterior_copy.add(main.text())
+        check(bool(main.find('h3',id='vp-form-title')) and service['title'].split(' Painting')[0] in main.find('h3',id='vp-form-title')[0].text(),route+': form heading does not match service')
     check(len(main.find('h1'))==1,route+': expected one H1')
     check(service['title'] in main.find('h1')[0].text(),route+': wrong H1')
     title=doc.find('title')[0].text();description=doc.find('meta',name='description')[0].attrs['content']
@@ -91,5 +99,5 @@ xml=(ROOT/'.next/server/app/sitemap.xml.body').read_text() if (ROOT/'.next/serve
 check(all('https://we-painting-siding.vercel.app'+s['path'] in xml for s in services),'XML sitemap missing services')
 if errors:
     print('\n'.join(errors));sys.exit(1)
-print(json.dumps({'service_pages':len(services),'sections_per_page':'10 on vinyl pilot, 8 on other services','unique_titles':len(titles),'unique_descriptions':len(descriptions),'referenced_images':len(images),'validated_internal_links':links,'faq_answers':len(services)*5+1,'sitemap':'all service routes present','result':'passed'},indent=2))
+print(json.dumps({'exterior_pages_using_shared_layout':len(exterior_heroes),'unique_exterior_hero_images':len(exterior_heroes),'service_pages':len(services),'sections_per_page':'10 exterior, 8 interior','unique_titles':len(titles),'unique_descriptions':len(descriptions),'referenced_images':len(images),'validated_internal_links':links,'faq_answers':len(services)*5+10,'sitemap':'all service routes present','result':'passed'},indent=2))
 

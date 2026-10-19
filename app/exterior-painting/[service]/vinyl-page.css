@@ -214,3 +214,6 @@
 .vp-page .vp-comparison-half.vp-after>img{margin-left:-100%}
 .vp-page .vp-comparison-half figcaption{position:absolute;left:14px;top:14px;background:#e6f2fd;color:var(--ah-navy);border-radius:3px;padding:7px 12px;font-size:12px;font-weight:600}
 @media(max-width:599px){.vp-page .vp-comparison{grid-template-columns:minmax(0,1fr);gap:18px}.vp-page .vp-comparison-half figcaption{font-size:11px;left:10px;top:10px}}
+
+/* Individual project images use the same two frames as the vinyl concept. */
+.vp-page .vp-photo-pair .vp-comparison-half>img{width:100%;max-width:100%;margin-left:0;object-fit:cover}

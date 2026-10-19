@@ -477,12 +477,16 @@
   },
   "/exterior-painting/window-painting": {
     "hero": {
-      "src": "/images/subservices/exterior-window-door-painting/hero.webp",
-      "alt": "Illustrative exterior window & door painting finish"
+      "src": "/images/subservices/window-painting/hero.webp",
+      "alt": "Illustrative charcoal exterior window frames on a pale masonry house",
+      "width": 1536,
+      "height": 1024
     },
     "overview": {
-      "src": "/images/subservices/exterior-window-door-painting/detail.webp",
-      "alt": "Surface detail for exterior window & door painting"
+      "src": "/images/subservices/window-painting/detail.webp",
+      "alt": "Illustrative brush application to a masked exterior timber window frame",
+      "width": 1536,
+      "height": 1024
     },
     "related": {
       "/exterior-painting/siding-painting": {
@@ -508,8 +512,10 @@
         "alt": "Painted window and door project"
       },
       {
-        "src": "/images/company/203-img-9942.webp",
-        "alt": "Painting preparation and application"
+        "src": "/images/subservices/window-painting/detail.webp",
+        "alt": "Illustrative brush application to a masked exterior timber window frame",
+        "width": 1536,
+        "height": 1024
       },
       {
         "src": "/images/approved-home/detail.webp",
@@ -522,12 +528,16 @@
     ],
     "gallery": [
       {
-        "src": "/images/company/204-img-9948.webp",
-        "alt": "Painted window and door project"
+        "src": "/images/subservices/window-painting/hero.webp",
+        "alt": "Illustrative charcoal exterior window frames on a pale masonry house",
+        "width": 1536,
+        "height": 1024
       },
       {
-        "src": "/images/company/180-img-0202.webp",
-        "alt": "Painted window and door project"
+        "src": "/images/subservices/window-painting/detail.webp",
+        "alt": "Illustrative brush application to a masked exterior timber window frame",
+        "width": 1536,
+        "height": 1024
       },
       {
         "src": "/images/company/200-img-6941.webp",
@@ -1008,12 +1018,14 @@
   },
   "/exterior-painting/door-painting": {
     "hero": {
-      "src": "/images/subservices/exterior-window-door-painting/hero.webp",
-      "alt": "Illustrative exterior window & door painting finish"
+      "src": "/images/approved-home/door.webp",
+      "alt": "Illustrative dark painted double entrance doors with brass handles",
+      "width": 1536,
+      "height": 1024
     },
     "overview": {
       "src": "/images/subservices/exterior-window-door-painting/detail.webp",
-      "alt": "Surface detail for exterior window & door painting"
+      "alt": "Illustrative close detail of paint applied to an exterior door beside protected hardware"
     },
     "related": {
       "/exterior-painting/siding-painting": {
@@ -1039,8 +1051,8 @@
         "alt": "Painted window and door project"
       },
       {
-        "src": "/images/company/203-img-9942.webp",
-        "alt": "Painting preparation and application"
+        "src": "/images/subservices/exterior-window-door-painting/detail.webp",
+        "alt": "Illustrative close detail of paint applied to an exterior door beside protected hardware"
       },
       {
         "src": "/images/approved-home/detail.webp",

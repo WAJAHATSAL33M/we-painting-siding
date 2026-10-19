@@ -1,0 +1,1235 @@
+{
+  "siding-painting": {
+    "accent": "Siding",
+    "rest": " Painting",
+    "lead": "Keep the siding you like. Give the exterior a colour that feels considered.",
+    "overviewLead": "A siding repaint starts with the material, not a one-size-fits-all product. Wood, metal and vinyl need different decisions.",
+    "good": [
+      "The existing panels are sound and securely fitted.",
+      "You want to coordinate the elevations with the roof and masonry.",
+      "The material can be cleaned and prepared for a compatible finish."
+    ],
+    "repairs": [
+      "Loose, split or swollen panels need separate attention.",
+      "Recurring moisture or damaged joints need assessment.",
+      "Mixed materials may require different preparation and products."
+    ],
+    "local": "A mixed-material home can have different exposure on each side. Share photographs of the front, rear and side elevations so access, condition and colour transitions can be considered together.",
+    "extraQ": "Can one colour work across different siding materials?",
+    "extraA": "A coordinated colour may be possible, but the coating and preparation can differ by material. Compare suitable samples on each substrate and review any colour restrictions before agreeing on the work.",
+    "surface": "siding",
+    "projectTitle": "Siding Painting",
+    "heroIntro": "Siding painting can update your home’s exterior while retaining sound existing panels. We identify the siding material, inspect its condition and recommend preparation, colour and coating options suited to your property in Southern Ontario.",
+    "overview1": "Wood, aluminum, vinyl and other siding products do not need the same treatment. Existing coatings, moisture, panel damage and manufacturer requirements all affect the plan. Knowing the material is the first step toward deciding whether painting is a suitable option.",
+    "overview2": "We discuss full exterior repaints and smaller siding updates, including how the colour will work with the roof, masonry and trim. Preparation and application are tailored to the substrate rather than treating every wall as the same surface.",
+    "overviewStart": "Start with the ",
+    "overviewAccent": "siding material.",
+    "goodTitle": "A refresh may suit your property",
+    "repairTitle": "Address these issues first",
+    "overviewButton": "Discuss Your Project",
+    "scopeIntro": "Your siding painting scope brings the included surfaces, preparation and finishing requirements together.",
+    "scope": [
+      [
+        "home",
+        "Main siding panels",
+        "Decide whether you want all elevations repainted or a smaller refresh with coordinated trim and accents.",
+        "vinyl-detail"
+      ],
+      [
+        "shield",
+        "Preparation & protection",
+        "Clean and dry the siding, remove unstable coating, and complete the agreed preparation and any necessary priming.",
+        "vinyl-preparation"
+      ],
+      [
+        "paint",
+        "Application & review",
+        "Use a coating and application method suited to the identified siding material and its existing finish.",
+        "vinyl-house"
+      ]
+    ],
+    "processIntro": "Plan siding painting around your siding, their condition, access and suitable working conditions.",
+    "assess": "Vinyl colour restrictions, aluminum chalking and wood movement require different preparation and product choices.",
+    "prepare": "Clean and dry the siding, remove unstable coating, and complete the agreed preparation and any necessary priming.",
+    "apply": "Use a coating and application method suited to the identified siding material and its existing finish.",
+    "colourStart": "Choose a finish that",
+    "colourAccent": "works with your property.",
+    "colourFeatures": [
+      [
+        "home",
+        "Read the whole elevation",
+        "Compare your proposed siding colour with the roofing, masonry and fixed window colours. Include all wall materials when reviewing samples."
+      ],
+      [
+        "layers",
+        "Match the coating to the material",
+        "Wood movement, aluminum chalking and vinyl heat limits are different issues. Identify each material before choosing the finish."
+      ],
+      [
+        "door",
+        "Connect corners and transitions",
+        "Plan where each colour stops at gables, corners and changes of material. Define any trim as a separate included surface."
+      ]
+    ],
+    "colourNote": "Samples need to suit the existing siding, previous finishes and selected product system. Review compatibility and preparation before committing.",
+    "galleryIntro": "Explore siding painting imagery from our company collection and the finishing details to discuss for your own property.",
+    "galleryNotes": [
+      "Peeling, swelling, cracks and moisture damage need assessment. Painting will not repair failing siding panels.",
+      "Decide whether you want all elevations repainted or a smaller refresh with coordinated trim and accents.",
+      "Use a coating and application method suited to the identified siding material and its existing finish."
+    ],
+    "costIntro": "Your siding painting quote reflects the included siding, existing condition, preparation and practical access.",
+    "costSize": "Identify the main siding panels, gables and upper elevations and other components to include. Photos and measurements help define the extent of the work.",
+    "costCondition": "Peeling, swelling, cracks and moisture damage need assessment. Painting will not repair failing siding panels. Clean and dry the siding, remove unstable coating, and complete the agreed preparation and any necessary priming.",
+    "costAccess": "Height, planting, fixtures and neighbouring surfaces influence protection and access to the siding.",
+    "costFinish": "Vinyl colour restrictions, aluminum chalking and wood movement require different preparation and product choices.",
+    "drying": "The siding need appropriate preparation and drying before application. Follow the selected system’s requirements.",
+    "access": "Discuss gates, planting and working space around the siding before the schedule is agreed.",
+    "areaLead": "Planning siding painting in Southern Ontario? Start with your community and the siding you want refreshed.",
+    "faqIntro": "Practical answers about siding, preparation, finishes and local project planning.",
+    "quoteStart": "Tell us about your siding.",
+    "quoteIntro": "Share your community, the siding to include, their current condition and a few photos. Those details help define your siding painting project.",
+    "quoteCondition": "Describe the existing siding, previous finishes and any damaged or worn areas.",
+    "quoteIdeas": "Share finish ideas and list the siding or related details you want included.",
+    "formTitle": "Plan Your Siding Painting Project",
+    "formLabel": "Which siding would you like refreshed? *",
+    "formPhotos": "Add photos of your siding",
+    "formPlaceholder": "Decide whether you want all elevations repainted or a smaller refresh with coordinated trim and accents.",
+    "faqs": [
+      [
+        "Can my siding be painted?",
+        "Peeling, swelling, cracks and moisture damage need assessment. Painting will not repair failing siding panels. Vinyl colour restrictions, aluminum chalking and wood movement require different preparation and product choices."
+      ],
+      [
+        "Can one colour work across different siding materials?",
+        "A coordinated colour may be possible, but the coating and preparation can differ by material. Compare suitable samples on each substrate and review any colour restrictions before agreeing on the work."
+      ],
+      [
+        "What preparation is included?",
+        "Clean and dry the siding, remove unstable coating, and complete the agreed preparation and any necessary priming. Protection and any repairs are defined in the agreed scope."
+      ],
+      [
+        "What affects a siding painting quote?",
+        "Decide whether you want all elevations repainted or a smaller refresh with coordinated trim and accents. Surface area, condition, protection and access affect the work required."
+      ],
+      [
+        "Can related exterior details be included?",
+        "Siding corners and details and related exterior trim can be discussed where suitable. Different materials may need separate preparation and coating systems."
+      ],
+      [
+        "Do you serve my Southern Ontario community?",
+        "Explore our directory of 25 communities across the GTA, Golden Horseshoe and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ]
+    ],
+    "heroButton": "Plan Your Painting Project",
+    "finishFact": "Material-specific finishes",
+    "assessCaption": "Review the siding, existing finish and product guidance before planning preparation and application.",
+    "coordinate": "Coordinate the siding with adjoining exterior details. Confirm each material, included component and finish separately in the project scope.",
+    "galleryNote0": "Peeling, swelling, cracks and moisture damage need assessment. Painting will not repair failing siding panels.",
+    "galleryNote1": "Decide whether you want all elevations repainted or a smaller refresh with coordinated trim and accents.",
+    "galleryNote2": "Use a coating and application method suited to the identified siding material and its existing finish.",
+    "galleryCaption0": "Company project detail",
+    "galleryCaption1": "Company finish example",
+    "galleryDisclaimer": "Company project photographs. Separate examples, not a before-and-after pair.",
+    "costTitle": "siding painting",
+    "areaTitle": "Siding Painting,",
+    "conditionTitle": "Existing surface condition",
+    "scopeAccent": "repaint includes."
+  },
+  "aluminum-painting": {
+    "accent": "Aluminum Siding",
+    "rest": " Painting",
+    "lead": "Refresh tired metal siding with preparation that starts beneath the new colour.",
+    "overviewLead": "Fading does not always mean aluminum panels need replacing. Check the existing finish, chalking and metal condition before planning a repaint.",
+    "good": [
+      "Aluminum panels remain sound and firmly installed.",
+      "Faded factory colour is the main concern.",
+      "Chalk and loose coating can be removed before painting."
+    ],
+    "repairs": [
+      "Corrosion, dents and loose panels need assessment.",
+      "Bare metal may need specific preparation and priming.",
+      "A coating cannot resolve leaks or poor panel installation."
+    ],
+    "local": "Sun-exposed and sheltered aluminum elevations can weather differently. Include close-ups of chalky areas and exposed metal alongside wider photos, plus your Southern Ontario community and access details.",
+    "extraQ": "Does chalky aluminum need special preparation?",
+    "extraA": "Chalky residue can prevent a new coating from bonding. Cleaning, rinsing and drying need to leave a sound surface; exposed metal and remaining finishes then guide any priming and coating decisions.",
+    "surface": "aluminum siding",
+    "projectTitle": "Aluminum Siding Painting",
+    "heroIntro": "Aluminum siding painting gives sound metal panels a fresh colour without replacing the exterior. We assess chalking, previous coatings and exposed metal, then plan cleaning and a compatible finish for your Southern Ontario property.",
+    "overview1": "Yes, sound aluminum siding can often be repainted. A faded factory finish does not automatically mean the panels need replacement. The assessment checks coating adhesion, dents, corrosion and repairs before deciding what painting can reasonably improve.",
+    "overview2": "Chalky residue needs particular attention because new paint must adhere to the surface beneath it. Cleaning, drying and any required priming are followed by a coating suitable for aluminum. Matching nearby trim helps make the finished exterior feel cohesive.",
+    "overviewStart": "Is painting right for your ",
+    "overviewAccent": "aluminum siding?",
+    "goodTitle": "A refresh may suit your property",
+    "repairTitle": "Address these issues first",
+    "overviewButton": "Discuss Your Project",
+    "scopeIntro": "Your aluminum siding painting scope brings the included surfaces, preparation and finishing requirements together.",
+    "scope": [
+      [
+        "home",
+        "Aluminum lap siding",
+        "Compare repainting with replacement based on the panels’ condition, the colour you want and any repairs needed.",
+        "vinyl-detail"
+      ],
+      [
+        "shield",
+        "Preparation & protection",
+        "Remove chalk and surface contamination, deal with loose coating, and prime exposed metal or other areas as the product requires.",
+        "vinyl-preparation"
+      ],
+      [
+        "paint",
+        "Application & review",
+        "Apply a compatible exterior coating evenly across the prepared panels, including edges and profiles within the agreed scope.",
+        "vinyl-house"
+      ]
+    ],
+    "processIntro": "Plan aluminum siding painting around your aluminum siding, their condition, access and suitable working conditions.",
+    "assess": "Confirm the siding is aluminum and review the existing finish before choosing cleaning, primer and coating products.",
+    "prepare": "Remove chalk and surface contamination, deal with loose coating, and prime exposed metal or other areas as the product requires.",
+    "apply": "Apply a compatible exterior coating evenly across the prepared panels, including edges and profiles within the agreed scope.",
+    "colourStart": "Choose a finish that",
+    "colourAccent": "works with your property.",
+    "colourFeatures": [
+      [
+        "home",
+        "Coordinate the long wall lines",
+        "View samples beside the roof, masonry and existing metal trim. Broad lap panels can make a shade appear different from a small chip."
+      ],
+      [
+        "layers",
+        "Check chalking and adhesion first",
+        "A fresh colour needs a sound prepared surface. Remove residue and review exposed metal before selecting a compatible primer and finish."
+      ],
+      [
+        "door",
+        "Plan the metal details",
+        "Corners and surrounding metal trim can be discussed with the siding. Define the included components rather than assuming every metal surface is covered."
+      ]
+    ],
+    "colourNote": "Samples need to suit the existing aluminum siding, previous finishes and selected product system. Review compatibility and preparation before committing.",
+    "galleryIntro": "Explore aluminum siding painting imagery from our company collection and the finishing details to discuss for your own property.",
+    "galleryNotes": [
+      "Chalking, peeling and exposed metal affect adhesion. Damaged panels or corrosion may require repair beyond painting.",
+      "Compare repainting with replacement based on the panels’ condition, the colour you want and any repairs needed.",
+      "Apply a compatible exterior coating evenly across the prepared panels, including edges and profiles within the agreed scope."
+    ],
+    "costIntro": "Your aluminum siding painting quote reflects the included aluminum siding, existing condition, preparation and practical access.",
+    "costSize": "Identify the aluminum lap siding, metal siding details and other components to include. Photos and measurements help define the extent of the work.",
+    "costCondition": "Chalking, peeling and exposed metal affect adhesion. Damaged panels or corrosion may require repair beyond painting. Remove chalk and surface contamination, deal with loose coating, and prime exposed metal or other areas as the product requires.",
+    "costAccess": "Height, planting, fixtures and neighbouring surfaces influence protection and access to the aluminum siding.",
+    "costFinish": "Confirm the siding is aluminum and review the existing finish before choosing cleaning, primer and coating products.",
+    "drying": "The aluminum siding need appropriate preparation and drying before application. Follow the selected system’s requirements.",
+    "access": "Discuss gates, planting and working space around the aluminum siding before the schedule is agreed.",
+    "areaLead": "Planning aluminum siding painting in Southern Ontario? Start with your community and the aluminum siding you want refreshed.",
+    "faqIntro": "Practical answers about aluminum siding, preparation, finishes and local project planning.",
+    "quoteStart": "Tell us about your aluminum siding.",
+    "quoteIntro": "Share your community, the aluminum siding to include, their current condition and a few photos. Those details help define your aluminum siding painting project.",
+    "quoteCondition": "Describe the existing aluminum siding, previous finishes and any damaged or worn areas.",
+    "quoteIdeas": "Share finish ideas and list the aluminum siding or related details you want included.",
+    "formTitle": "Plan Your Aluminum Siding Painting Project",
+    "formLabel": "Which aluminum siding would you like refreshed? *",
+    "formPhotos": "Add photos of your aluminum siding",
+    "formPlaceholder": "Compare repainting with replacement based on the panels’ condition, the colour you want and any repairs needed.",
+    "faqs": [
+      [
+        "Can my aluminum siding be painted?",
+        "Chalking, peeling and exposed metal affect adhesion. Damaged panels or corrosion may require repair beyond painting. Confirm the siding is aluminum and review the existing finish before choosing cleaning, primer and coating products."
+      ],
+      [
+        "Does chalky aluminum need special preparation?",
+        "Chalky residue can prevent a new coating from bonding. Cleaning, rinsing and drying need to leave a sound surface; exposed metal and remaining finishes then guide any priming and coating decisions."
+      ],
+      [
+        "What preparation is included?",
+        "Remove chalk and surface contamination, deal with loose coating, and prime exposed metal or other areas as the product requires. Protection and any repairs are defined in the agreed scope."
+      ],
+      [
+        "What affects a aluminum siding painting quote?",
+        "Compare repainting with replacement based on the panels’ condition, the colour you want and any repairs needed. Surface area, condition, protection and access affect the work required."
+      ],
+      [
+        "Can related exterior details be included?",
+        "Fascia and related metal trim and selected walls or full exteriors can be discussed where suitable. Different materials may need separate preparation and coating systems."
+      ],
+      [
+        "Do you serve my Southern Ontario community?",
+        "Explore our directory of 25 communities across the GTA, Golden Horseshoe and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ]
+    ],
+    "heroButton": "Plan Your Painting Project",
+    "finishFact": "Material-specific finishes",
+    "assessCaption": "Review the aluminum siding, existing finish and product guidance before planning preparation and application.",
+    "coordinate": "Coordinate the aluminum siding with adjoining exterior details. Confirm each material, included component and finish separately in the project scope.",
+    "galleryNote0": "Chalking, peeling and exposed metal affect adhesion. Damaged panels or corrosion may require repair beyond painting.",
+    "galleryNote1": "Compare repainting with replacement based on the panels’ condition, the colour you want and any repairs needed.",
+    "galleryNote2": "Apply a compatible exterior coating evenly across the prepared panels, including edges and profiles within the agreed scope.",
+    "galleryCaption0": "Company project detail",
+    "galleryCaption1": "Company finish example",
+    "galleryDisclaimer": "Company project photographs. Separate examples, not a before-and-after pair.",
+    "costTitle": "aluminum siding painting",
+    "areaTitle": "Aluminum Siding Painting,",
+    "conditionTitle": "Existing surface condition",
+    "scopeAccent": "repaint includes."
+  },
+  "wood-siding-painting": {
+    "accent": "Wood Siding",
+    "rest": " Painting",
+    "lead": "Bring fresh colour to your wood exterior while respecting the boards underneath.",
+    "overviewLead": "Wood siding needs a finish planned around moisture, movement and the coating already on the boards.",
+    "good": [
+      "The boards are sound and moisture concerns are resolved.",
+      "Existing paint can be prepared to a stable surface.",
+      "You want to refresh the colour without changing the cladding."
+    ],
+    "repairs": [
+      "Soft, decayed or split boards may need repair or replacement.",
+      "Moisture sources need attention before coating.",
+      "A transparent stain may not suit previously opaque-painted wood."
+    ],
+    "local": "Shaded wood walls, exposed end grain and areas near planting can have different moisture conditions. Share those details with your city and photos so the preparation is based on the boards you have.",
+    "extraQ": "Can old painted wood be changed to a transparent stain?",
+    "extraA": "Not usually by simply coating over the paint. Transparent finishes rely on the underlying wood appearance and absorption. Removing an opaque finish can be substantial work, and the condition of the boards may still limit the result.",
+    "surface": "wood siding",
+    "projectTitle": "Wood Siding Painting",
+    "heroIntro": "Wood siding painting refreshes clapboard, boards and suitable exterior timber with a coordinated finish. We review peeling paint, bare areas and moisture damage before planning the preparation and coating system for your Southern Ontario property.",
+    "overview1": "Wood expands and contracts with changing conditions, so the existing coating and timber condition need close attention. Loose paint, exposed grain, soft boards and damp areas all affect the scope. Rotten or failing sections need repair before a new finish is applied.",
+    "overview2": "We discuss the look you want and whether paint or another suitable finish fits the siding. Bare wood and staining may need specific priming, while old coatings need preparation for adhesion. Colour, access and drying conditions are reviewed with the project plan.",
+    "overviewStart": "Is painting right for your ",
+    "overviewAccent": "wood siding?",
+    "goodTitle": "A refresh may suit your property",
+    "repairTitle": "Address these issues first",
+    "overviewButton": "Discuss Your Project",
+    "scopeIntro": "Your wood siding painting scope brings the included surfaces, preparation and finishing requirements together.",
+    "scope": [
+      [
+        "home",
+        "Clapboard and lap siding",
+        "Discuss colour, visible grain and maintenance expectations before deciding on the finish.",
+        "vinyl-detail"
+      ],
+      [
+        "shield",
+        "Preparation & protection",
+        "Remove unstable paint, smooth prepared edges, address agreed repairs, and prime bare or stained areas as required.",
+        "vinyl-preparation"
+      ],
+      [
+        "paint",
+        "Application & review",
+        "Apply a suitable exterior wood coating with attention to grain, joints and the product’s drying requirements.",
+        "vinyl-house"
+      ]
+    ],
+    "processIntro": "Plan wood siding painting around your wood siding, their condition, access and suitable working conditions.",
+    "assess": "The wood species, previous finish and exposure influence primer and coating selection.",
+    "prepare": "Remove unstable paint, smooth prepared edges, address agreed repairs, and prime bare or stained areas as required.",
+    "apply": "Apply a suitable exterior wood coating with attention to grain, joints and the product’s drying requirements.",
+    "colourStart": "Choose a finish that",
+    "colourAccent": "works with your property.",
+    "colourFeatures": [
+      [
+        "home",
+        "Work with the character of the boards",
+        "Texture, grain and the existing coating influence the finished appearance. Review samples beside trim and other fixed materials."
+      ],
+      [
+        "layers",
+        "Compare paint and stain honestly",
+        "The existing finish limits the options. Moving from an opaque coating to a transparent stain can require substantial preparation and may not be practical."
+      ],
+      [
+        "door",
+        "Define edges and end details",
+        "Agree on board faces, corners and accessible edges. Discuss repairs and joints before choosing the preparation and coating approach."
+      ]
+    ],
+    "colourNote": "Samples need to suit the existing wood siding, previous finishes and selected product system. Review compatibility and preparation before committing.",
+    "galleryIntro": "Explore wood siding painting imagery from our company collection and the finishing details to discuss for your own property.",
+    "galleryNotes": [
+      "Soft wood, rot, persistent dampness and peeling coatings need attention before painting begins.",
+      "Discuss colour, visible grain and maintenance expectations before deciding on the finish.",
+      "Apply a suitable exterior wood coating with attention to grain, joints and the product’s drying requirements."
+    ],
+    "costIntro": "Your wood siding painting quote reflects the included wood siding, existing condition, preparation and practical access.",
+    "costSize": "Identify the clapboard and lap siding, wooden gables and panels and other components to include. Photos and measurements help define the extent of the work.",
+    "costCondition": "Soft wood, rot, persistent dampness and peeling coatings need attention before painting begins. Remove unstable paint, smooth prepared edges, address agreed repairs, and prime bare or stained areas as required.",
+    "costAccess": "Height, planting, fixtures and neighbouring surfaces influence protection and access to the wood siding.",
+    "costFinish": "The wood species, previous finish and exposure influence primer and coating selection.",
+    "drying": "The wood siding need appropriate preparation and drying before application. Follow the selected system’s requirements.",
+    "access": "Discuss gates, planting and working space around the wood siding before the schedule is agreed.",
+    "areaLead": "Planning wood siding painting in Southern Ontario? Start with your community and the wood siding you want refreshed.",
+    "faqIntro": "Practical answers about wood siding, preparation, finishes and local project planning.",
+    "quoteStart": "Tell us about your wood siding.",
+    "quoteIntro": "Share your community, the wood siding to include, their current condition and a few photos. Those details help define your wood siding painting project.",
+    "quoteCondition": "Describe the existing wood siding, previous finishes and any damaged or worn areas.",
+    "quoteIdeas": "Share finish ideas and list the wood siding or related details you want included.",
+    "formTitle": "Plan Your Wood Siding Painting Project",
+    "formLabel": "Which wood siding would you like refreshed? *",
+    "formPhotos": "Add photos of your wood siding",
+    "formPlaceholder": "Discuss colour, visible grain and maintenance expectations before deciding on the finish.",
+    "faqs": [
+      [
+        "Can my wood siding be painted?",
+        "Soft wood, rot, persistent dampness and peeling coatings need attention before painting begins. The wood species, previous finish and exposure influence primer and coating selection."
+      ],
+      [
+        "Can old painted wood be changed to a transparent stain?",
+        "Not usually by simply coating over the paint. Transparent finishes rely on the underlying wood appearance and absorption. Removing an opaque finish can be substantial work, and the condition of the boards may still limit the result."
+      ],
+      [
+        "What preparation is included?",
+        "Remove unstable paint, smooth prepared edges, address agreed repairs, and prime bare or stained areas as required. Protection and any repairs are defined in the agreed scope."
+      ],
+      [
+        "What affects a wood siding painting quote?",
+        "Discuss colour, visible grain and maintenance expectations before deciding on the finish. Surface area, condition, protection and access affect the work required."
+      ],
+      [
+        "Can related exterior details be included?",
+        "Exterior wood trim and selected boards or full elevations can be discussed where suitable. Different materials may need separate preparation and coating systems."
+      ],
+      [
+        "Do you serve my Southern Ontario community?",
+        "Explore our directory of 25 communities across the GTA, Golden Horseshoe and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ]
+    ],
+    "heroButton": "Plan Your Painting Project",
+    "finishFact": "Material-specific finishes",
+    "assessCaption": "Review the wood siding, existing finish and product guidance before planning preparation and application.",
+    "coordinate": "Coordinate the wood siding with adjoining exterior details. Confirm each material, included component and finish separately in the project scope.",
+    "galleryNote0": "Soft wood, rot, persistent dampness and peeling coatings need attention before painting begins.",
+    "galleryNote1": "Discuss colour, visible grain and maintenance expectations before deciding on the finish.",
+    "galleryNote2": "Apply a suitable exterior wood coating with attention to grain, joints and the product’s drying requirements.",
+    "galleryCaption0": "Company project detail",
+    "galleryCaption1": "Company finish example",
+    "galleryDisclaimer": "Company project photographs. Separate examples, not a before-and-after pair.",
+    "costTitle": "wood siding painting",
+    "areaTitle": "Wood Siding Painting,",
+    "conditionTitle": "Existing surface condition",
+    "scopeAccent": "repaint includes."
+  },
+  "brick-painting": {
+    "accent": "Brick",
+    "rest": " Painting & Staining",
+    "lead": "Explore a new masonry colour with the brick, mortar and moisture conditions in mind.",
+    "overviewLead": "Painting and staining create different effects on brick. The right starting point is a sound, suitable masonry surface and a clear understanding of the finish you want.",
+    "good": [
+      "Brick and mortar are sound, with moisture sources addressed.",
+      "You want an opaque finish or a suitable stain approach.",
+      "The proposed system can be tested on the actual masonry."
+    ],
+    "repairs": [
+      "Dampness, salt deposits and damaged brick faces need assessment.",
+      "Failing mortar requires attention before a decorative treatment.",
+      "Existing sealers or coatings may limit stain absorption."
+    ],
+    "local": "Masonry condition varies around a property, especially near grade, roof drainage and sheltered walls. Include photos of salt deposits, repairs or damp patches when planning your Southern Ontario project.",
+    "extraQ": "What is the difference between brick paint and stain?",
+    "extraA": "Paint typically forms an opaque surface coating. A suitable masonry stain changes colour differently and depends on the brick’s absorption, existing treatments and the specific system. Neither treatment replaces moisture investigation or masonry repairs.",
+    "surface": "brick exteriors",
+    "projectTitle": "Brick Painting & Staining",
+    "heroIntro": "Brick painting and staining offer different ways to update suitable masonry. We review the brick, mortar, moisture and existing finishes before discussing which approach suits your Southern Ontario property.",
+    "overview1": "Painting can create an opaque, coordinated finish, while a compatible masonry stain may retain more of the brick’s variation. The options depend on the masonry, previous treatments and whether a test area accepts the proposed product.",
+    "overview2": "Moisture, damaged faces, salt deposits and failing mortar need attention before either treatment. We discuss the scope, product requirements and a suitable sample area rather than treating colour as a repair for masonry problems.",
+    "overviewStart": "Paint or stain? Start with ",
+    "overviewAccent": "your brick.",
+    "goodTitle": "A refresh may suit your property",
+    "repairTitle": "Address these issues first",
+    "overviewButton": "Discuss Your Project",
+    "scopeIntro": "Your brick painting & staining scope brings the included surfaces, preparation and finishing requirements together.",
+    "scope": [
+      [
+        "home",
+        "Exterior brick walls",
+        "Compare the appearance, surface condition and future maintenance of paint and stain before choosing an approach.",
+        "vinyl-detail"
+      ],
+      [
+        "shield",
+        "Preparation & protection",
+        "Review moisture and repair needs, clean suitable masonry and let it dry. Agree on product-specific preparation and any test area before painting or staining.",
+        "vinyl-preparation"
+      ],
+      [
+        "paint",
+        "Application & review",
+        "Apply the selected masonry paint or stain in suitable conditions, following its preparation, coverage and drying instructions.",
+        "vinyl-house"
+      ]
+    ],
+    "processIntro": "Plan brick painting & staining around your brick exteriors, their condition, access and suitable working conditions.",
+    "assess": "Brick and mortar are porous. Paint forms a surface coating; a suitable masonry stain changes colour differently and depends on absorption, existing coatings and the exact product system.",
+    "prepare": "Review moisture and repair needs, clean suitable masonry and let it dry. Agree on product-specific preparation and any test area before painting or staining.",
+    "apply": "Apply the selected masonry paint or stain in suitable conditions, following its preparation, coverage and drying instructions.",
+    "colourStart": "Choose a finish that",
+    "colourAccent": "works with your property.",
+    "colourFeatures": [
+      [
+        "home",
+        "Compare opacity and variation",
+        "Paint can create an opaque finish; a compatible masonry stain may retain more variation. Samples should reflect the intended effect."
+      ],
+      [
+        "layers",
+        "Test the actual brick",
+        "Porosity and previous treatments affect absorption and adhesion. Review a suitable test area before committing to a paint or stain system."
+      ],
+      [
+        "door",
+        "Coordinate mortar and surrounding materials",
+        "View the proposed masonry colour beside the roof, stone, windows and entrance. Define which details will remain untouched."
+      ]
+    ],
+    "colourNote": "Samples need to suit the existing brick exteriors, previous finishes and selected product system. Review compatibility and preparation before committing.",
+    "galleryIntro": "Explore brick painting & staining imagery from our company collection and the finishing details to discuss for your own property.",
+    "galleryNotes": [
+      "Moisture, salt deposits, damaged faces and failing mortar need assessment before coating the brick.",
+      "Compare the appearance, surface condition and future maintenance of paint and stain before choosing an approach.",
+      "Apply the selected masonry paint or stain in suitable conditions, following its preparation, coverage and drying instructions."
+    ],
+    "costIntro": "Your brick painting & staining quote reflects the included brick exteriors, existing condition, preparation and practical access.",
+    "costSize": "Identify the exterior brick walls, brick staining test areas and other components to include. Photos and measurements help define the extent of the work.",
+    "costCondition": "Moisture, salt deposits, damaged faces and failing mortar need assessment before coating the brick. Review moisture and repair needs, clean suitable masonry and let it dry. Agree on product-specific preparation and any test area before painting or staining.",
+    "costAccess": "Height, planting, fixtures and neighbouring surfaces influence protection and access to the brick exteriors.",
+    "costFinish": "Brick and mortar are porous. Paint forms a surface coating; a suitable masonry stain changes colour differently and depends on absorption, existing coatings and the exact product system.",
+    "drying": "The brick exteriors need appropriate preparation and drying before application. Follow the selected system’s requirements.",
+    "access": "Discuss gates, planting and working space around the brick exteriors before the schedule is agreed.",
+    "areaLead": "Planning brick painting & staining in Southern Ontario? Start with your community and the brick exteriors you want refreshed.",
+    "faqIntro": "Practical answers about brick exteriors, preparation, finishes and local project planning.",
+    "quoteStart": "Tell us about your brick exteriors.",
+    "quoteIntro": "Share your community, the brick exteriors to include, their current condition and a few photos. Those details help define your brick painting & staining project.",
+    "quoteCondition": "Describe the existing brick exteriors, previous finishes and any damaged or worn areas.",
+    "quoteIdeas": "Share finish ideas and list the brick exteriors or related details you want included.",
+    "formTitle": "Plan Your Brick Painting & Staining Project",
+    "formLabel": "Which brick exteriors would you like refreshed? *",
+    "formPhotos": "Add photos of your brick exteriors",
+    "formPlaceholder": "Compare the appearance, surface condition and future maintenance of paint and stain before choosing an approach.",
+    "faqs": [
+      [
+        "Can my brick exteriors be painted?",
+        "Moisture, salt deposits, damaged faces and failing mortar need assessment before coating the brick. Brick and mortar are porous. Paint forms a surface coating; a suitable masonry stain changes colour differently and depends on absorption, existing coatings and the exact product system."
+      ],
+      [
+        "What is the difference between brick paint and stain?",
+        "Paint typically forms an opaque surface coating. A suitable masonry stain changes colour differently and depends on the brick’s absorption, existing treatments and the specific system. Neither treatment replaces moisture investigation or masonry repairs."
+      ],
+      [
+        "What preparation is included?",
+        "Review moisture and repair needs, clean suitable masonry and let it dry. Agree on product-specific preparation and any test area before painting or staining. Protection and any repairs are defined in the agreed scope."
+      ],
+      [
+        "What affects a brick painting & staining quote?",
+        "Compare the appearance, surface condition and future maintenance of paint and stain before choosing an approach. Surface area, condition, protection and access affect the work required."
+      ],
+      [
+        "Can related exterior details be included?",
+        "Masonry entrance features and selected brick accents can be discussed where suitable. Different materials may need separate preparation and coating systems."
+      ],
+      [
+        "Do you serve my Southern Ontario community?",
+        "Explore our directory of 25 communities across the GTA, Golden Horseshoe and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ]
+    ],
+    "heroButton": "Plan Your Painting Project",
+    "finishFact": "Material-specific finishes",
+    "assessCaption": "Review the brick exteriors, existing finish and product guidance before planning preparation and application.",
+    "coordinate": "Coordinate the brick exteriors with adjoining exterior details. Confirm each material, included component and finish separately in the project scope.",
+    "galleryNote0": "Moisture, salt deposits, damaged faces and failing mortar need assessment before coating the brick.",
+    "galleryNote1": "Compare the appearance, surface condition and future maintenance of paint and stain before choosing an approach.",
+    "galleryNote2": "Apply the selected masonry paint or stain in suitable conditions, following its preparation, coverage and drying instructions.",
+    "galleryCaption0": "Company project detail",
+    "galleryCaption1": "Company finish example",
+    "galleryDisclaimer": "Company project photographs. Separate examples, not a before-and-after pair.",
+    "costTitle": "brick painting & staining",
+    "areaTitle": "Brick Painting & Staining,",
+    "conditionTitle": "Existing surface condition",
+    "scopeAccent": "finish project includes."
+  },
+  "exterior-stucco-painting": {
+    "accent": "Stucco",
+    "rest": " Painting",
+    "lead": "Renew the colour of textured walls with preparation that respects the existing finish.",
+    "overviewLead": "Stucco painting is about more than covering a textured surface. Cracks, moisture and existing coatings need to be understood before a finish is selected.",
+    "good": [
+      "The stucco is sound and stable.",
+      "The texture is worth keeping and the colour needs refreshing.",
+      "Surface repairs and a compatible coating can be defined."
+    ],
+    "repairs": [
+      "Loose or hollow areas need assessment before painting.",
+      "Active cracks and moisture sources require attention.",
+      "A new finish cannot correct underlying wall-system failures."
+    ],
+    "local": "Rain exposure, shaded elevations and previous patching can affect stucco preparation. Share your location and clear views of cracks or worn areas, along with overall wall photographs.",
+    "extraQ": "Will a new coating repair stucco cracks?",
+    "extraA": "A decorative coating does not resolve movement, water entry or loose stucco. The cause and extent of cracking need assessment first, with suitable repairs agreed separately before the finish is applied.",
+    "surface": "stucco surfaces",
+    "projectTitle": "Stucco Painting",
+    "heroIntro": "Exterior stucco painting renews suitable textured walls while retaining their character. We check cracks, moisture concerns and existing coatings, then plan preparation and coverage around the stucco finish on your home or commercial property.",
+    "overview1": "Stucco has texture and porosity that affect coating coverage. The assessment identifies the wall system, the current finish and any cracks or damaged areas. Those details help determine whether cleaning, repair, priming or a different coating approach is needed.",
+    "overview2": "A new colour can bring a dated stucco exterior into balance with windows, doors and trim. We plan application around the texture and product requirements, paying attention to recesses and edges. Water entry and structural movement need separate resolution before painting.",
+    "overviewStart": "Is a new finish right for your ",
+    "overviewAccent": "stucco?",
+    "goodTitle": "A refresh may suit your property",
+    "repairTitle": "Address these issues first",
+    "overviewButton": "Discuss Your Project",
+    "scopeIntro": "Your stucco painting scope brings the included surfaces, preparation and finishing requirements together.",
+    "scope": [
+      [
+        "home",
+        "Textured stucco walls",
+        "Consider the existing texture and surrounding materials when choosing a new stucco colour.",
+        "vinyl-detail"
+      ],
+      [
+        "shield",
+        "Preparation & protection",
+        "Clean and dry the walls, identify required crack repairs, and prepare the stucco according to the selected coating system.",
+        "vinyl-preparation"
+      ],
+      [
+        "paint",
+        "Application & review",
+        "Apply even coverage into the texture using the method and film build required by the product.",
+        "vinyl-house"
+      ]
+    ],
+    "processIntro": "Plan stucco painting around your stucco surfaces, their condition, access and suitable working conditions.",
+    "assess": "The wall system and previous finish guide coating selection. Not every textured wall needs the same product.",
+    "prepare": "Clean and dry the walls, identify required crack repairs, and prepare the stucco according to the selected coating system.",
+    "apply": "Apply even coverage into the texture using the method and film build required by the product.",
+    "colourStart": "Choose a finish that",
+    "colourAccent": "works with your property.",
+    "colourFeatures": [
+      [
+        "home",
+        "See colour across the texture",
+        "Light and shadow can change how a shade reads on textured stucco. Compare samples in different parts of the elevation."
+      ],
+      [
+        "layers",
+        "Specify for the existing wall system",
+        "The stucco type, repairs and previous coating guide compatibility. Follow the selected system rather than assuming every masonry product suits every wall."
+      ],
+      [
+        "door",
+        "Keep architectural details distinct",
+        "Define bands, reveals, trim and adjoining materials in the scope. The colour plan should show where finishes and textures change."
+      ]
+    ],
+    "colourNote": "Samples need to suit the existing stucco surfaces, previous finishes and selected product system. Review compatibility and preparation before committing.",
+    "galleryIntro": "Explore stucco painting imagery from our company collection and the finishing details to discuss for your own property.",
+    "galleryNotes": [
+      "Cracks, staining and damp areas can indicate problems that painting alone will not resolve.",
+      "Consider the existing texture and surrounding materials when choosing a new stucco colour.",
+      "Apply even coverage into the texture using the method and film build required by the product."
+    ],
+    "costIntro": "Your stucco painting quote reflects the included stucco surfaces, existing condition, preparation and practical access.",
+    "costSize": "Identify the textured stucco walls, gables and upper sections and other components to include. Photos and measurements help define the extent of the work.",
+    "costCondition": "Cracks, staining and damp areas can indicate problems that painting alone will not resolve. Clean and dry the walls, identify required crack repairs, and prepare the stucco according to the selected coating system.",
+    "costAccess": "Height, planting, fixtures and neighbouring surfaces influence protection and access to the stucco surfaces.",
+    "costFinish": "The wall system and previous finish guide coating selection. Not every textured wall needs the same product.",
+    "drying": "The stucco surfaces need appropriate preparation and drying before application. Follow the selected system’s requirements.",
+    "access": "Discuss gates, planting and working space around the stucco surfaces before the schedule is agreed.",
+    "areaLead": "Planning stucco painting in Southern Ontario? Start with your community and the stucco surfaces you want refreshed.",
+    "faqIntro": "Practical answers about stucco surfaces, preparation, finishes and local project planning.",
+    "quoteStart": "Tell us about your stucco surfaces.",
+    "quoteIntro": "Share your community, the stucco surfaces to include, their current condition and a few photos. Those details help define your stucco painting project.",
+    "quoteCondition": "Describe the existing stucco surfaces, previous finishes and any damaged or worn areas.",
+    "quoteIdeas": "Share finish ideas and list the stucco surfaces or related details you want included.",
+    "formTitle": "Plan Your Stucco Painting Project",
+    "formLabel": "Which stucco surfaces would you like refreshed? *",
+    "formPhotos": "Add photos of your stucco surfaces",
+    "formPlaceholder": "Consider the existing texture and surrounding materials when choosing a new stucco colour.",
+    "faqs": [
+      [
+        "Can my stucco surfaces be painted?",
+        "Cracks, staining and damp areas can indicate problems that painting alone will not resolve. The wall system and previous finish guide coating selection. Not every textured wall needs the same product."
+      ],
+      [
+        "Will a new coating repair stucco cracks?",
+        "A decorative coating does not resolve movement, water entry or loose stucco. The cause and extent of cracking need assessment first, with suitable repairs agreed separately before the finish is applied."
+      ],
+      [
+        "What preparation is included?",
+        "Clean and dry the walls, identify required crack repairs, and prepare the stucco according to the selected coating system. Protection and any repairs are defined in the agreed scope."
+      ],
+      [
+        "What affects a stucco painting quote?",
+        "Consider the existing texture and surrounding materials when choosing a new stucco colour. Surface area, condition, protection and access affect the work required."
+      ],
+      [
+        "Can related exterior details be included?",
+        "Stucco entrance features and adjacent exterior accents can be discussed where suitable. Different materials may need separate preparation and coating systems."
+      ],
+      [
+        "Do you serve my Southern Ontario community?",
+        "Explore our directory of 25 communities across the GTA, Golden Horseshoe and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ]
+    ],
+    "heroButton": "Plan Your Painting Project",
+    "finishFact": "Material-specific finishes",
+    "assessCaption": "Review the stucco surfaces, existing finish and product guidance before planning preparation and application.",
+    "coordinate": "Coordinate the stucco surfaces with adjoining exterior details. Confirm each material, included component and finish separately in the project scope.",
+    "galleryNote0": "Cracks, staining and damp areas can indicate problems that painting alone will not resolve.",
+    "galleryNote1": "Consider the existing texture and surrounding materials when choosing a new stucco colour.",
+    "galleryNote2": "Apply even coverage into the texture using the method and film build required by the product.",
+    "galleryCaption0": "Company project detail",
+    "galleryCaption1": "Company finish example",
+    "galleryDisclaimer": "Company project photographs. Separate examples, not a before-and-after pair.",
+    "costTitle": "stucco painting",
+    "areaTitle": "Stucco Painting,",
+    "conditionTitle": "Existing surface condition",
+    "scopeAccent": "repaint includes."
+  },
+  "eavestrough-fascia-painting": {
+    "accent": "Soffit, Fascia",
+    "rest": " & Eavestrough Painting",
+    "lead": "Give the roofline a coordinated finish without overlooking ventilation and drainage.",
+    "overviewLead": "Soffits, fascia and eavestroughs have different materials and functions. A clear painting scope respects those differences while bringing the roofline together.",
+    "good": [
+      "Roofline components are sound and securely fitted.",
+      "The visible finish needs refreshing or coordinating.",
+      "Ventilation and drainage can be protected throughout the work."
+    ],
+    "repairs": [
+      "Leaks and drainage problems need separate attention.",
+      "Rotten fascia or loose components may need repair.",
+      "Vent openings, joints and outlets must not be obstructed."
+    ],
+    "local": "Roof height, planting and narrow side passages can affect access to the roofline. Photos taken from each side of the property help clarify equipment, protection and the components to include.",
+    "extraQ": "Does painting include gutter repairs or cleaning?",
+    "extraA": "The painting scope identifies preparation of included exterior faces. Leaks, blocked drainage, loose fixings and other repairs need separate discussion; a new finish does not solve those problems.",
+    "surface": "soffits, fascia and eavestroughs",
+    "projectTitle": "Soffit, Fascia & Eavestrough Painting",
+    "heroIntro": "Coordinate the roofline with soffit, fascia and eavestrough painting for suitable exterior surfaces. We assess the material, existing coatings, access and condition before defining the finish.",
+    "overview1": "Soffits, fascia and eavestroughs can be made from different materials. We assess sound coatings, exposed metal and timber condition to plan the appropriate preparation and finish for each included component.",
+    "overview2": "A colour change should not interfere with soffit ventilation or gutter drainage. Leaks, rotten wood and loose components need separate attention before painting is considered.",
+    "overviewStart": "Refresh the ",
+    "overviewAccent": "details overhead.",
+    "goodTitle": "A refresh may suit your property",
+    "repairTitle": "Address these issues first",
+    "overviewButton": "Discuss Your Project",
+    "scopeIntro": "Your soffit, fascia & eavestrough painting scope brings the included surfaces, preparation and finishing requirements together.",
+    "scope": [
+      [
+        "home",
+        "Suitable soffit surfaces",
+        "List the soffits, fascia boards and eavestrough faces to include. Preserve ventilation, drainage and access to joints and outlets.",
+        "vinyl-detail"
+      ],
+      [
+        "shield",
+        "Preparation & protection",
+        "Clean the components, remove unstable coating, prepare exposed areas and protect roofing, walls and openings.",
+        "vinyl-preparation"
+      ],
+      [
+        "paint",
+        "Application & review",
+        "Apply a compatible finish to the agreed exterior faces while keeping drainage and ventilation clear.",
+        "vinyl-house"
+      ]
+    ],
+    "processIntro": "Plan soffit, fascia & eavestrough painting around your soffits, fascia and eavestroughs, their condition, access and suitable working conditions.",
+    "assess": "Aluminum, other metals and wood need different primers and preparation; the existing material guides the choice.",
+    "prepare": "Clean the components, remove unstable coating, prepare exposed areas and protect roofing, walls and openings.",
+    "apply": "Apply a compatible finish to the agreed exterior faces while keeping drainage and ventilation clear.",
+    "colourStart": "Choose a finish that",
+    "colourAccent": "works with your property.",
+    "colourFeatures": [
+      [
+        "home",
+        "Read the roofline from the street",
+        "Compare soffit, fascia and eavestrough colours with the roof, siding and window trim. Discuss whether the details should blend or contrast."
+      ],
+      [
+        "layers",
+        "Identify each material",
+        "Coated metal, vinyl and timber can need different preparation. Confirm the substrate and existing finish before specifying products."
+      ],
+      [
+        "door",
+        "Agree on the visible components",
+        "Define soffit panels, fascia faces, gutter exteriors and downspouts separately. Keep ventilation, drainage and moving joints functional."
+      ]
+    ],
+    "colourNote": "Samples need to suit the existing soffits, fascia and eavestroughs, previous finishes and selected product system. Review compatibility and preparation before committing.",
+    "galleryIntro": "Explore soffit, fascia & eavestrough painting imagery from our company collection and the finishing details to discuss for your own property.",
+    "galleryNotes": [
+      "Leaks, corrosion, loose components and damaged boards need assessment before painting.",
+      "List the soffits, fascia boards and eavestrough faces to include. Preserve ventilation, drainage and access to joints and outlets.",
+      "Apply a compatible finish to the agreed exterior faces while keeping drainage and ventilation clear."
+    ],
+    "costIntro": "Your soffit, fascia & eavestrough painting quote reflects the included soffits, fascia and eavestroughs, existing condition, preparation and practical access.",
+    "costSize": "Identify the suitable soffit surfaces, fascia boards and faces and other components to include. Photos and measurements help define the extent of the work.",
+    "costCondition": "Leaks, corrosion, loose components and damaged boards need assessment before painting. Clean the components, remove unstable coating, prepare exposed areas and protect roofing, walls and openings.",
+    "costAccess": "Height, planting, fixtures and neighbouring surfaces influence protection and access to the soffits, fascia and eavestroughs.",
+    "costFinish": "Aluminum, other metals and wood need different primers and preparation; the existing material guides the choice.",
+    "drying": "The soffits, fascia and eavestroughs need appropriate preparation and drying before application. Follow the selected system’s requirements.",
+    "access": "Discuss gates, planting and working space around the soffits, fascia and eavestroughs before the schedule is agreed.",
+    "areaLead": "Planning soffit, fascia & eavestrough painting in Southern Ontario? Start with your community and the soffits, fascia and eavestroughs you want refreshed.",
+    "faqIntro": "Practical answers about soffits, fascia and eavestroughs, preparation, finishes and local project planning.",
+    "quoteStart": "Tell us about your soffits, fascia and eavestroughs.",
+    "quoteIntro": "Share your community, the soffits, fascia and eavestroughs to include, their current condition and a few photos. Those details help define your soffit, fascia & eavestrough painting project.",
+    "quoteCondition": "Describe the existing soffits, fascia and eavestroughs, previous finishes and any damaged or worn areas.",
+    "quoteIdeas": "Share finish ideas and list the soffits, fascia and eavestroughs or related details you want included.",
+    "formTitle": "Plan Your Soffit, Fascia & Eavestrough Painting Project",
+    "formLabel": "Which soffits, fascia and eavestroughs would you like refreshed? *",
+    "formPhotos": "Add photos of your soffits, fascia and eavestroughs",
+    "formPlaceholder": "List the soffits, fascia boards and eavestrough faces to include. Preserve ventilation, drainage and access to joints and outlets.",
+    "faqs": [
+      [
+        "Can my soffits, fascia and eavestroughs be painted?",
+        "Leaks, corrosion, loose components and damaged boards need assessment before painting. Aluminum, other metals and wood need different primers and preparation; the existing material guides the choice."
+      ],
+      [
+        "Does painting include gutter repairs or cleaning?",
+        "The painting scope identifies preparation of included exterior faces. Leaks, blocked drainage, loose fixings and other repairs need separate discussion; a new finish does not solve those problems."
+      ],
+      [
+        "What preparation is included?",
+        "Clean the components, remove unstable coating, prepare exposed areas and protect roofing, walls and openings. Protection and any repairs are defined in the agreed scope."
+      ],
+      [
+        "What affects a soffit, fascia & eavestrough painting quote?",
+        "List the soffits, fascia boards and eavestrough faces to include. Preserve ventilation, drainage and access to joints and outlets. Surface area, condition, protection and access affect the work required."
+      ],
+      [
+        "Can related exterior details be included?",
+        "Eavestrough exterior faces and roofline edges and details can be discussed where suitable. Different materials may need separate preparation and coating systems."
+      ],
+      [
+        "Do you serve my Southern Ontario community?",
+        "Explore our directory of 25 communities across the GTA, Golden Horseshoe and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ]
+    ],
+    "heroButton": "Plan Your Painting Project",
+    "finishFact": "Material-specific finishes",
+    "assessCaption": "Review the soffits, fascia and eavestroughs, existing finish and product guidance before planning preparation and application.",
+    "coordinate": "Coordinate the soffits, fascia and eavestroughs with adjoining exterior details. Confirm each material, included component and finish separately in the project scope.",
+    "galleryNote0": "Leaks, corrosion, loose components and damaged boards need assessment before painting.",
+    "galleryNote1": "List the soffits, fascia boards and eavestrough faces to include. Preserve ventilation, drainage and access to joints and outlets.",
+    "galleryNote2": "Apply a compatible finish to the agreed exterior faces while keeping drainage and ventilation clear.",
+    "galleryCaption0": "Company project detail",
+    "galleryCaption1": "Company finish example",
+    "galleryDisclaimer": "Company project photographs. Separate examples, not a before-and-after pair.",
+    "costTitle": "soffit, fascia & eavestrough painting",
+    "areaTitle": "Soffit, Fascia & Eavestrough Painting,",
+    "conditionTitle": "Existing surface condition",
+    "scopeAccent": "repaint includes."
+  },
+  "window-painting": {
+    "accent": "Window",
+    "rest": " Painting",
+    "lead": "Refresh the frames that shape your exterior, with clean edges and careful protection.",
+    "overviewLead": "Exterior window painting starts with the frame material and existing finish. The plan must preserve glass, seals, drainage and normal operation.",
+    "good": [
+      "Frames and surrounding trim are sound.",
+      "The existing coating can be prepared for a compatible finish.",
+      "You want a coordinated frame colour without replacing suitable windows."
+    ],
+    "repairs": [
+      "Failed seals and glazing need separate attention.",
+      "Rot, swelling or damaged frames may need repair.",
+      "Paint should not obstruct tracks, seals or drainage openings."
+    ],
+    "local": "Upper-storey frames and windows behind planting need a clear access plan. Share your community, window count and photos showing both the full openings and worn frame details.",
+    "extraQ": "Can every type of window frame be painted?",
+    "extraA": "No single approach suits every frame. Material, factory finish, condition, colour restrictions and manufacturer guidance determine suitability. Glass, seals and moving hardware are protected rather than painted.",
+    "surface": "window frames",
+    "projectTitle": "Window Painting",
+    "heroIntro": "Window painting refreshes suitable exterior frames, sashes and trim. We assess materials, existing coatings and operation before defining the areas to paint and protect.",
+    "overview1": "Window painting refreshes suitable exterior frames, sashes and trim. We assess materials, existing coatings and operation before defining the areas to paint and protect.",
+    "overview2": "Confirm the included frames, sashes, casings and fixed trim. Plan access and preserve the operation of each window. The scope identifies preparation, colours and any repairs that need to happen separately.",
+    "overviewStart": "Start with the frames ",
+    "overviewAccent": "you already have.",
+    "goodTitle": "A refresh may suit your property",
+    "repairTitle": "Address these issues first",
+    "overviewButton": "Discuss Your Project",
+    "scopeIntro": "Your window painting scope brings the included surfaces, preparation and finishing requirements together.",
+    "scope": [
+      [
+        "home",
+        "Frames & fixed trim",
+        "Confirm the included frames, sashes, casings and fixed trim. Plan access and preserve the operation of each window.",
+        "vinyl-detail"
+      ],
+      [
+        "shield",
+        "Preparation & protection",
+        "Clean and prepare sound existing finishes, protect glass, seals and hardware, and prime where the material and coating require it.",
+        "vinyl-preparation"
+      ],
+      [
+        "paint",
+        "Application & review",
+        "Apply a compatible exterior finish to the agreed components without coating moving hardware, weather seals or drainage openings.",
+        "vinyl-house"
+      ]
+    ],
+    "processIntro": "Plan window painting around your window frames, their condition, access and suitable working conditions.",
+    "assess": "Wood, metal, composite and factory finishes require individual preparation and compatibility checks. Glass, seals and hardware are protected.",
+    "prepare": "Clean and prepare sound existing finishes, protect glass, seals and hardware, and prime where the material and coating require it.",
+    "apply": "Apply a compatible exterior finish to the agreed components without coating moving hardware, weather seals or drainage openings.",
+    "colourStart": "Choose a finish that",
+    "colourAccent": "works with your property.",
+    "colourFeatures": [
+      [
+        "home",
+        "Frame the features you are keeping",
+        "Compare frame samples with the siding, brick, roof and other windows. Agree whether all openings or selected elevations are included."
+      ],
+      [
+        "layers",
+        "Check frame and factory-finish compatibility",
+        "Wood, metal, vinyl and factory coatings need individual assessment. Colour restrictions and product guidance may affect what is suitable."
+      ],
+      [
+        "door",
+        "Separate fixed trim from opening components",
+        "Define frames, sashes, casings and surrounding trim. Keep seals, hardware and drainage points protected and operable."
+      ]
+    ],
+    "colourNote": "Samples need to suit the existing window frames, previous finishes and selected product system. Review compatibility and preparation before committing.",
+    "galleryIntro": "Explore exterior window colour and application details to discuss for your own property.",
+    "galleryNotes": [
+      "Loose coatings, moisture damage and failed materials need assessment before painting. A new finish does not repair seals, glazing, alignment or structural damage.",
+      "Confirm the included frames, sashes, casings and fixed trim. Plan access and preserve the operation of each window.",
+      "Apply a compatible exterior finish to the agreed components without coating moving hardware, weather seals or drainage openings."
+    ],
+    "costIntro": "Your window painting quote reflects the included window frames, existing condition, preparation and practical access.",
+    "costSize": "Identify the frames & fixed trim, suitable opening components and other components to include. Photos and measurements help define the extent of the work.",
+    "costCondition": "Loose coatings, moisture damage and failed materials need assessment before painting. A new finish does not repair seals, glazing, alignment or structural damage. Clean and prepare sound existing finishes, protect glass, seals and hardware, and prime where the material and coating require it.",
+    "costAccess": "Height, planting, fixtures and neighbouring surfaces influence protection and access to the window frames.",
+    "costFinish": "Wood, metal, composite and factory finishes require individual preparation and compatibility checks. Glass, seals and hardware are protected.",
+    "drying": "The window frames need appropriate preparation and drying before application. Follow the selected system’s requirements.",
+    "access": "Discuss gates, planting and working space around the window frames before the schedule is agreed.",
+    "areaLead": "Planning window painting in Southern Ontario? Start with your community and the window frames you want refreshed.",
+    "faqIntro": "Practical answers about window frames, preparation, finishes and local project planning.",
+    "quoteStart": "Tell us about your window frames.",
+    "quoteIntro": "Share your community, the window frames to include, their current condition and a few photos. Those details help define your window painting project.",
+    "quoteCondition": "Describe the existing window frames, previous finishes and any damaged or worn areas.",
+    "quoteIdeas": "Share finish ideas and list the window frames or related details you want included.",
+    "formTitle": "Plan Your Window Painting Project",
+    "formLabel": "Which window frames would you like refreshed? *",
+    "formPhotos": "Add photos of your window frames",
+    "formPlaceholder": "Confirm the included frames, sashes, casings and fixed trim. Plan access and preserve the operation of each window.",
+    "faqs": [
+      [
+        "Can my window frames be painted?",
+        "Loose coatings, moisture damage and failed materials need assessment before painting. A new finish does not repair seals, glazing, alignment or structural damage. Wood, metal, composite and factory finishes require individual preparation and compatibility checks. Glass, seals and hardware are protected."
+      ],
+      [
+        "Can every type of window frame be painted?",
+        "No single approach suits every frame. Material, factory finish, condition, colour restrictions and manufacturer guidance determine suitability. Glass, seals and moving hardware are protected rather than painted."
+      ],
+      [
+        "What preparation is included?",
+        "Clean and prepare sound existing finishes, protect glass, seals and hardware, and prime where the material and coating require it. Protection and any repairs are defined in the agreed scope."
+      ],
+      [
+        "What affects a window painting quote?",
+        "Confirm the included frames, sashes, casings and fixed trim. Plan access and preserve the operation of each window. Surface area, condition, protection and access affect the work required."
+      ],
+      [
+        "Can related exterior details be included?",
+        "Agreed edges & details and coordinated exterior colour can be discussed where suitable. Different materials may need separate preparation and coating systems."
+      ],
+      [
+        "Do you serve my Southern Ontario community?",
+        "Explore our directory of 25 communities across the GTA, Golden Horseshoe and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ]
+    ],
+    "heroButton": "Plan Your Painting Project",
+    "finishFact": "Material-specific finishes",
+    "assessCaption": "Review the window frames, existing finish and product guidance before planning preparation and application.",
+    "coordinate": "Coordinate the window frames with adjoining exterior details. Confirm each material, included component and finish separately in the project scope.",
+    "galleryNote0": "Loose coatings, moisture damage and failed materials need assessment before painting. A new finish does not repair seals, glazing, alignment or structural damage.",
+    "galleryNote1": "Confirm the included frames, sashes, casings and fixed trim. Plan access and preserve the operation of each window.",
+    "galleryNote2": "Apply a compatible exterior finish to the agreed components without coating moving hardware, weather seals or drainage openings.",
+    "galleryCaption0": "Window finish inspiration",
+    "galleryCaption1": "Frame application detail",
+    "galleryDisclaimer": "Illustrative window finish and application imagery, not a before-and-after pair.",
+    "costTitle": "window painting",
+    "areaTitle": "Window Painting,",
+    "conditionTitle": "Existing surface condition",
+    "scopeAccent": "repaint includes."
+  },
+  "door-painting": {
+    "accent": "Door",
+    "rest": " Painting",
+    "lead": "Create a welcoming entrance with a finish planned for the door you already have.",
+    "overviewLead": "An exterior door is both a focal point and a working part of your home. Painting needs to account for material, hardware, edges and drying arrangements.",
+    "good": [
+      "The door and frame are sound and functioning properly.",
+      "A compatible coating can be applied to the existing finish.",
+      "You want a new entrance colour with a clearly defined scope."
+    ],
+    "repairs": [
+      "Sticking, alignment or structural problems need separate attention.",
+      "Damaged skins and unstable coatings need assessment.",
+      "Seals, locks and other hardware must remain functional."
+    ],
+    "local": "Door projects need practical access and drying arrangements. Include your community, door count and photos of faces, edges and worn areas so those details can be discussed before work starts.",
+    "extraQ": "Will I be able to use my entrance while the door is painted?",
+    "extraA": "Access and drying arrangements depend on the door, application method and coating. Agree on hardware handling, working position and when the finish can be touched or returned to normal use before the project begins.",
+    "surface": "exterior doors",
+    "projectTitle": "Door Painting",
+    "heroIntro": "Door painting creates a considered entrance colour on suitable exterior doors. We review the door material, existing finish, hardware and drying arrangements before planning the work.",
+    "overview1": "Door painting creates a considered entrance colour on suitable exterior doors. We review the door material, existing finish, hardware and drying arrangements before planning the work.",
+    "overview2": "Confirm the included door faces, edges, frames and trim. Agree on hardware handling, access and drying time. The scope identifies preparation, colours and any repairs that need to happen separately.",
+    "overviewStart": "Make more of the entrance ",
+    "overviewAccent": "you keep.",
+    "goodTitle": "A refresh may suit your property",
+    "repairTitle": "Address these issues first",
+    "overviewButton": "Discuss Your Project",
+    "scopeIntro": "Your door painting scope brings the included surfaces, preparation and finishing requirements together.",
+    "scope": [
+      [
+        "home",
+        "Exterior door faces",
+        "Confirm the included door faces, edges, frames and trim. Agree on hardware handling, access and drying time.",
+        "vinyl-detail"
+      ],
+      [
+        "shield",
+        "Preparation & protection",
+        "Clean and prepare sound existing finishes, protect glass, seals and hardware, and prime where the material and coating require it.",
+        "vinyl-preparation"
+      ],
+      [
+        "paint",
+        "Application & review",
+        "Apply a compatible exterior finish to the agreed components without coating moving hardware, weather seals or drainage openings.",
+        "vinyl-house"
+      ]
+    ],
+    "processIntro": "Plan door painting around your exterior doors, their condition, access and suitable working conditions.",
+    "assess": "Wood, metal, composite and factory finishes require individual preparation and compatibility checks. Glass, seals and hardware are protected.",
+    "prepare": "Clean and prepare sound existing finishes, protect glass, seals and hardware, and prime where the material and coating require it.",
+    "apply": "Apply a compatible exterior finish to the agreed components without coating moving hardware, weather seals or drainage openings.",
+    "colourStart": "Choose a finish that",
+    "colourAccent": "works with your property.",
+    "colourFeatures": [
+      [
+        "home",
+        "Choose the entrance focal point",
+        "View door colours beside brick, siding, glazing and the porch. Check how the sample looks in the entrance’s actual light."
+      ],
+      [
+        "layers",
+        "Review the door material and finish",
+        "Timber, steel, composite and factory finishes may need different preparation. Confirm the proposed coating against the existing surface."
+      ],
+      [
+        "door",
+        "Define faces, edges and frames",
+        "Agree on one face or both, accessible edges, frames and any garage doors. Discuss hardware handling and the return to everyday use."
+      ]
+    ],
+    "colourNote": "Samples need to suit the existing exterior doors, previous finishes and selected product system. Review compatibility and preparation before committing.",
+    "galleryIntro": "Explore door painting imagery from our company collection and the finishing details to discuss for your own property.",
+    "galleryNotes": [
+      "Loose coatings, moisture damage and failed materials need assessment before painting. A new finish does not repair seals, glazing, alignment or structural damage.",
+      "Confirm the included door faces, edges, frames and trim. Agree on hardware handling, access and drying time.",
+      "Apply a compatible exterior finish to the agreed components without coating moving hardware, weather seals or drainage openings."
+    ],
+    "costIntro": "Your door painting quote reflects the included exterior doors, existing condition, preparation and practical access.",
+    "costSize": "Identify the exterior door faces, agreed door edges and other components to include. Photos and measurements help define the extent of the work.",
+    "costCondition": "Loose coatings, moisture damage and failed materials need assessment before painting. A new finish does not repair seals, glazing, alignment or structural damage. Clean and prepare sound existing finishes, protect glass, seals and hardware, and prime where the material and coating require it.",
+    "costAccess": "Height, planting, fixtures and neighbouring surfaces influence protection and access to the exterior doors.",
+    "costFinish": "Wood, metal, composite and factory finishes require individual preparation and compatibility checks. Glass, seals and hardware are protected.",
+    "drying": "The exterior doors need appropriate preparation and drying before application. Follow the selected system’s requirements.",
+    "access": "Discuss gates, planting and working space around the exterior doors before the schedule is agreed.",
+    "areaLead": "Planning door painting in Southern Ontario? Start with your community and the exterior doors you want refreshed.",
+    "faqIntro": "Practical answers about exterior doors, preparation, finishes and local project planning.",
+    "quoteStart": "Tell us about your exterior doors.",
+    "quoteIntro": "Share your community, the exterior doors to include, their current condition and a few photos. Those details help define your door painting project.",
+    "quoteCondition": "Describe the existing exterior doors, previous finishes and any damaged or worn areas.",
+    "quoteIdeas": "Share finish ideas and list the exterior doors or related details you want included.",
+    "formTitle": "Plan Your Door Painting Project",
+    "formLabel": "Which exterior doors would you like refreshed? *",
+    "formPhotos": "Add photos of your exterior doors",
+    "formPlaceholder": "Confirm the included door faces, edges, frames and trim. Agree on hardware handling, access and drying time.",
+    "faqs": [
+      [
+        "Can my exterior doors be painted?",
+        "Loose coatings, moisture damage and failed materials need assessment before painting. A new finish does not repair seals, glazing, alignment or structural damage. Wood, metal, composite and factory finishes require individual preparation and compatibility checks. Glass, seals and hardware are protected."
+      ],
+      [
+        "Will I be able to use my entrance while the door is painted?",
+        "Access and drying arrangements depend on the door, application method and coating. Agree on hardware handling, working position and when the finish can be touched or returned to normal use before the project begins."
+      ],
+      [
+        "What preparation is included?",
+        "Clean and prepare sound existing finishes, protect glass, seals and hardware, and prime where the material and coating require it. Protection and any repairs are defined in the agreed scope."
+      ],
+      [
+        "What affects a door painting quote?",
+        "Confirm the included door faces, edges, frames and trim. Agree on hardware handling, access and drying time. Surface area, condition, protection and access affect the work required."
+      ],
+      [
+        "Can related exterior details be included?",
+        "Frames & entrance trim and garage doors by agreement can be discussed where suitable. Different materials may need separate preparation and coating systems."
+      ],
+      [
+        "Do you serve my Southern Ontario community?",
+        "Explore our directory of 25 communities across the GTA, Golden Horseshoe and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ]
+    ],
+    "heroButton": "Plan Your Painting Project",
+    "finishFact": "Material-specific finishes",
+    "assessCaption": "Review the exterior doors, existing finish and product guidance before planning preparation and application.",
+    "coordinate": "Coordinate the exterior doors with adjoining exterior details. Confirm each material, included component and finish separately in the project scope.",
+    "galleryNote0": "Loose coatings, moisture damage and failed materials need assessment before painting. A new finish does not repair seals, glazing, alignment or structural damage.",
+    "galleryNote1": "Confirm the included door faces, edges, frames and trim. Agree on hardware handling, access and drying time.",
+    "galleryNote2": "Apply a compatible exterior finish to the agreed components without coating moving hardware, weather seals or drainage openings.",
+    "galleryCaption0": "Company project detail",
+    "galleryCaption1": "Company finish example",
+    "galleryDisclaimer": "Company project photographs. Separate examples, not a before-and-after pair.",
+    "costTitle": "door painting",
+    "areaTitle": "Door Painting,",
+    "conditionTitle": "Existing surface condition",
+    "scopeAccent": "repaint includes."
+  },
+  "commercial-painting": {
+    "accent": "Commercial",
+    "rest": " Painting",
+    "lead": "Refresh your building’s exterior with a scope planned around the way the property operates.",
+    "overviewLead": "Commercial exterior painting needs coordination as well as surface preparation. Materials, public access, operating hours and protection all shape the work.",
+    "good": [
+      "The included wall systems and finishes are suitable for coating.",
+      "Work zones and access arrangements can be agreed.",
+      "You want a coordinated building finish with a defined scope."
+    ],
+    "repairs": [
+      "Active water entry and failing materials need assessment.",
+      "Damaged masonry, metal or cladding may need separate repairs.",
+      "Painting cannot replace structural or building-envelope work."
+    ],
+    "local": "Share the Southern Ontario property location, operating hours and public access needs. Wider elevation photos and close-ups of deteriorated areas help plan work zones, protection and sequencing.",
+    "extraQ": "Can painting be coordinated around business access?",
+    "extraA": "Entrances, operating hours, neighbouring uses and work zones should be discussed when defining the scope. The proposed sequence identifies protection and any access restrictions; availability is confirmed for the individual project.",
+    "surface": "commercial exteriors",
+    "projectTitle": "Commercial Painting",
+    "heroIntro": "Commercial exterior painting refreshes suitable storefronts, offices and multi-unit buildings. We plan the surfaces, access and site protection around your property’s use, with preparation and coatings matched to the existing materials and agreed scope.",
+    "overview1": "A commercial repaint needs more than a colour choice. Public access, tenant needs, deliveries and neighbouring properties all affect the work plan. We review the building’s surfaces and previous coatings before discussing a practical schedule and preparation requirements.",
+    "overview2": "The scope identifies walls, trim, doors and other included details, along with access equipment and areas that need protection. Coatings are selected for the substrate and exposure. Repairs, signage removal and other work are confirmed separately rather than assumed to be included.",
+    "overviewStart": "Plan a finish for your ",
+    "overviewAccent": "commercial property.",
+    "goodTitle": "A refresh may suit your building",
+    "repairTitle": "Address these issues first",
+    "overviewButton": "Discuss Your Building",
+    "scopeIntro": "Your commercial painting scope brings the included surfaces, preparation and finishing requirements together.",
+    "scope": [
+      [
+        "home",
+        "Storefronts and retail exteriors",
+        "Share operating hours, tenant requirements, colour standards and priority areas when planning the project.",
+        "vinyl-detail"
+      ],
+      [
+        "shield",
+        "Preparation & protection",
+        "Confirm access and site protection, clean the substrate, remove failing coatings and complete the agreed surface preparation.",
+        "vinyl-preparation"
+      ],
+      [
+        "paint",
+        "Application & review",
+        "Apply a compatible exterior system within the agreed work zones, following product conditions and drying requirements.",
+        "vinyl-house"
+      ]
+    ],
+    "processIntro": "Plan commercial painting around your commercial exteriors, their condition, access and suitable working conditions.",
+    "assess": "Metal, masonry, stucco and siding each need a coating system suited to the building’s surfaces.",
+    "prepare": "Confirm access and site protection, clean the substrate, remove failing coatings and complete the agreed surface preparation.",
+    "apply": "Apply a compatible exterior system within the agreed work zones, following product conditions and drying requirements.",
+    "colourStart": "Choose a finish that",
+    "colourAccent": "works with your building.",
+    "colourFeatures": [
+      [
+        "home",
+        "Coordinate with the building identity",
+        "Review colours alongside signage, glazing, fixed materials and any property requirements. Agree on samples and included elevations."
+      ],
+      [
+        "layers",
+        "Specify by substrate",
+        "A commercial exterior can combine masonry, metal and siding. Each substrate and existing coating needs an appropriate preparation and finish plan."
+      ],
+      [
+        "door",
+        "Plan transitions and public-facing details",
+        "Define entrances, trims and colour changes clearly. The scope should identify protection and interfaces with signs, fixtures and occupied spaces."
+      ]
+    ],
+    "colourNote": "Samples need to suit the existing commercial exteriors, previous finishes and selected product system. Review compatibility and preparation before committing.",
+    "galleryIntro": "Explore commercial painting imagery from our company collection and the finishing details to discuss for your own building.",
+    "galleryNotes": [
+      "Existing coating failure, moisture damage and repairs affect the scope and need review before painting.",
+      "Share operating hours, tenant requirements, colour standards and priority areas when planning the project.",
+      "Apply a compatible exterior system within the agreed work zones, following product conditions and drying requirements."
+    ],
+    "costIntro": "Your commercial painting quote reflects the included commercial exteriors, existing condition, preparation and practical access.",
+    "costSize": "Identify the storefronts and retail exteriors, office building elevations and other components to include. Photos and measurements help define the extent of the work.",
+    "costCondition": "Existing coating failure, moisture damage and repairs affect the scope and need review before painting. Confirm access and site protection, clean the substrate, remove failing coatings and complete the agreed surface preparation.",
+    "costAccess": "Entrances, operating hours and public access affect work zones and protection.",
+    "costFinish": "Metal, masonry, stucco and siding each need a coating system suited to the building’s surfaces.",
+    "drying": "The commercial exteriors need appropriate preparation and drying before application. Follow the selected system’s requirements.",
+    "access": "Agree on operating hours, entrances, occupied areas and protection around the building.",
+    "areaLead": "Planning commercial painting in Southern Ontario? Start with your community and the commercial exteriors you want refreshed.",
+    "faqIntro": "Practical answers about commercial exteriors, preparation, finishes and local project planning.",
+    "quoteStart": "Tell us about your building.",
+    "quoteIntro": "Share your community, the commercial exteriors to include, their current condition and a few photos. Those details help define your commercial painting project.",
+    "quoteCondition": "Describe the existing commercial exteriors, previous finishes and any damaged or worn areas.",
+    "quoteIdeas": "Share finish ideas and list the commercial exteriors or related details you want included.",
+    "formTitle": "Plan Your Commercial Painting Project",
+    "formLabel": "Which commercial exteriors would you like refreshed? *",
+    "formPhotos": "Add photos of your commercial exteriors",
+    "formPlaceholder": "Share operating hours, tenant requirements, colour standards and priority areas when planning the project.",
+    "faqs": [
+      [
+        "Can my commercial exteriors be painted?",
+        "Existing coating failure, moisture damage and repairs affect the scope and need review before painting. Metal, masonry, stucco and siding each need a coating system suited to the building’s surfaces."
+      ],
+      [
+        "Can painting be coordinated around business access?",
+        "Entrances, operating hours, neighbouring uses and work zones should be discussed when defining the scope. The proposed sequence identifies protection and any access restrictions; availability is confirmed for the individual project."
+      ],
+      [
+        "What preparation is included?",
+        "Confirm access and site protection, clean the substrate, remove failing coatings and complete the agreed surface preparation. Protection and any repairs are defined in the agreed scope."
+      ],
+      [
+        "What affects a commercial painting quote?",
+        "Share operating hours, tenant requirements, colour standards and priority areas when planning the project. Surface area, condition, protection and access affect the work required."
+      ],
+      [
+        "Can related exterior details be included?",
+        "Multi-unit property exteriors and selected walls and exterior details can be discussed where suitable. Different materials may need separate preparation and coating systems."
+      ],
+      [
+        "Do you serve my Southern Ontario community?",
+        "Explore our directory of 25 communities across the GTA, Golden Horseshoe and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ]
+    ],
+    "heroButton": "Plan Your Building Project",
+    "finishFact": "Material-specific finishes",
+    "assessCaption": "Review the commercial exteriors, existing finish and product guidance before planning preparation and application.",
+    "coordinate": "Coordinate the commercial exteriors with adjoining exterior details. Confirm each material, included component and finish separately in the project scope.",
+    "galleryNote0": "Existing coating failure, moisture damage and repairs affect the scope and need review before painting.",
+    "galleryNote1": "Share operating hours, tenant requirements, colour standards and priority areas when planning the project.",
+    "galleryNote2": "Apply a compatible exterior system within the agreed work zones, following product conditions and drying requirements.",
+    "galleryCaption0": "Company project detail",
+    "galleryCaption1": "Company finish example",
+    "galleryDisclaimer": "Company project photographs. Separate examples, not a before-and-after pair.",
+    "costTitle": "commercial painting",
+    "areaTitle": "Commercial Painting,",
+    "conditionTitle": "Existing surface condition",
+    "scopeAccent": "repaint includes."
+  }
+}
