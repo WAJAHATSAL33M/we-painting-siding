@@ -1,0 +1,858 @@
+{
+  "basement-painting": {
+    "accent": "Basement",
+    "rest": " Painting",
+    "lead": "Make the lower level feel like part of the home.",
+    "heading": [
+      "A brighter basement starts with ",
+      "sound, dry surfaces."
+    ],
+    "overview": "A finished basement has its own light, ceiling heights and access. Start by reviewing the existing walls and any history of dampness before choosing a decorative finish.",
+    "good": [
+      "Finished surfaces are sound and dry.",
+      "You want coordinated wall, ceiling and trim colours.",
+      "The rooms and stairwell can be protected and accessed."
+    ],
+    "care": [
+      "Resolve dampness and water entry before painting.",
+      "Investigate efflorescence, stains and unstable coatings.",
+      "Identify low ceilings, bulkheads and tight stairwell access."
+    ],
+    "colour": [
+      [
+        "Light that changes downstairs",
+        "Compare samples under the lighting you actually use. Smaller windows and lower ceilings can change how a wall colour feels."
+      ],
+      [
+        "One connected lower level",
+        "Plan room-to-room transitions, stairwell walls and bulkheads together, with clear stopping points."
+      ],
+      [
+        "A coating suited to the surface",
+        "Drywall, masonry and existing finishes need individual assessment. A decorative paint is not a waterproofing system."
+      ]
+    ],
+    "local": "Tell us your community, the finished rooms to include and how the basement is accessed. Wider photos and close-ups of stains help separate decorative work from moisture or repair concerns.",
+    "cost": "Room count, stairwells, bulkheads and the condition of existing finishes affect preparation and access.",
+    "timing": "Resolve moisture sources, allow suitable drying and agree on access before scheduling the decorative work.",
+    "photoPrompt": "Finished rooms, stairwell walls, bulkheads and any stains or damaged areas.",
+    "scopeNote": "Only suitable dry surfaces are included. Moisture investigation, waterproofing and larger repairs are discussed separately.",
+    "title": "Basement Painting",
+    "surface": "basement walls, ceilings and trim",
+    "intro": "Give your basement a brighter, more welcoming feel with coordinated wall, ceiling and trim finishes. We review light, room use and surface condition before planning preparation and colour.",
+    "paragraphs": [
+      "Finished drywall, masonry and previously coated surfaces need individual assessment. We confirm which surfaces are suitable and select a compatible coating system.",
+      "Identify finished rooms, stairwell walls, ceilings, doors and trim to include. Share ceiling heights, access and any history of moisture."
+    ],
+    "condition": "Damp patches, efflorescence, flaking coatings and musty areas need assessment. Resolve moisture sources and allow surfaces to dry before painting; a decorative coating is not waterproofing.",
+    "material": "Finished drywall, masonry and previously coated surfaces need individual assessment. We confirm which surfaces are suitable and select a compatible coating system.",
+    "goals": "Identify finished rooms, stairwell walls, ceilings, doors and trim to include. Share ceiling heights, access and any history of moisture.",
+    "scope": [
+      [
+        "Finished basement walls",
+        "Refresh suitable finished walls with colours chosen for lower-level light."
+      ],
+      [
+        "Basement ceilings",
+        "Assess existing ceilings and define included bulkheads and edges."
+      ],
+      [
+        "Agreed doors & trim",
+        "Coordinate suitable doors, baseboards and casings in the written scope."
+      ],
+      [
+        "Connecting hallways",
+        "Plan colour transitions and access around adjoining finished spaces."
+      ]
+    ],
+    "process": [
+      [
+        "search",
+        "Assess & define",
+        "Finished drywall, masonry and previously coated surfaces need individual assessment. We confirm which surfaces are suitable and select a compatible coating system. Identify finished rooms, stairwell walls, ceilings, doors and trim to include. Share ceiling heights, access and any history of moisture."
+      ],
+      [
+        "shield",
+        "Protect & prepare",
+        "Protect flooring and furnishings, clean suitable surfaces, complete agreed minor repairs and prime as required by the surface and coating system."
+      ],
+      [
+        "paint",
+        "Apply & allow to cure",
+        "Apply the agreed interior finishes with suitable ventilation, drying intervals and clear edges around included rooms and surfaces."
+      ]
+    ],
+    "faqs": [
+      [
+        "Can my basement walls, ceilings and trim be painted?",
+        "Damp patches, efflorescence, flaking coatings and musty areas need assessment. Resolve moisture sources and allow surfaces to dry before painting; a decorative coating is not waterproofing. Finished drywall, masonry and previously coated surfaces need individual assessment. We confirm which surfaces are suitable and select a compatible coating system."
+      ],
+      [
+        "Can painting fix a damp basement?",
+        "No. Painting is a finish, not a solution for water entry or persistent dampness. The moisture source and any damage must be assessed and resolved before suitable dry surfaces are prepared and painted."
+      ],
+      [
+        "What preparation is included?",
+        "Protect flooring and furnishings, clean suitable surfaces, complete agreed minor repairs and prime as required by the surface and coating system."
+      ],
+      [
+        "What affects my basement painting quote?",
+        "Room count, stairwells, bulkheads and the condition of existing finishes affect preparation and access. Identify finished rooms, stairwell walls, ceilings, doors and trim to include. Share ceiling heights, access and any history of moisture."
+      ],
+      [
+        "How do I plan access and everyday use?",
+        "Resolve moisture sources, allow suitable drying and agree on access before scheduling the decorative work."
+      ],
+      [
+        "Do you serve my Southern Ontario community?",
+        "Explore the 25-community directory across the GTA, Golden Horseshoe and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ]
+    ],
+    "images": {
+      "hero": {
+        "src": "/images/interior-design/basement-room.webp",
+        "alt": "Illustrative finished basement with high-set windows and coordinated walls and ceiling",
+        "width": 1536,
+        "height": 1024
+      },
+      "overview": {
+        "src": "/images/interior-reference/hallway.webp",
+        "alt": "Coordinated walls and trim in a finished interior"
+      },
+      "process": {
+        "src": "/images/subservice-reference/interior-protection.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      "colour": {
+        "src": "/images/interior-reference/dining.webp",
+        "alt": "Coordinated interior colour inspiration"
+      },
+      "galleryA": {
+        "src": "/images/v2/living.webp",
+        "alt": "White fireplace and room trim"
+      },
+      "galleryB": {
+        "src": "/images/locations/interior.webp",
+        "alt": "Freshly finished interior"
+      },
+      "quote": {
+        "src": "/images/interior-reference/door.webp",
+        "alt": "Charcoal interior door"
+      }
+    }
+  },
+  "wall-painting": {
+    "accent": "Wall",
+    "rest": " Painting",
+    "lead": "Bring rooms together with colour chosen for the way you live.",
+    "heading": [
+      "Fresh colour, planned around ",
+      "your walls."
+    ],
+    "overview": "A single room, feature wall or connected living area can change with a considered finish. The light, existing surface and everyday use guide the preparation and sheen.",
+    "good": [
+      "Walls have a sound, suitable existing finish.",
+      "You want to refresh a room or coordinate connected spaces.",
+      "Furniture and belongings can be arranged for protection."
+    ],
+    "care": [
+      "Resolve active leaks before treating stains.",
+      "Review cracks and unstable coatings before painting.",
+      "Define wallpaper removal or substantial repairs separately."
+    ],
+    "colour": [
+      [
+        "Follow the light through the room",
+        "View samples in daylight and evening light before choosing. Large wall areas can read differently from a small chip."
+      ],
+      [
+        "Choose sheen for daily use",
+        "Compare the product’s appearance and care guidance with room use, light and existing imperfections."
+      ],
+      [
+        "Plan edges and colour transitions",
+        "Agree which walls change colour and how they meet ceilings, trim, stairwells and adjoining rooms."
+      ]
+    ],
+    "local": "Share your Southern Ontario community, room list and photos showing furniture, ceiling height and existing wall condition. Include any feature-wall or colour-transition ideas.",
+    "cost": "Room sizes, colour changes, wall condition and the amount of protection shape a wall-painting scope.",
+    "timing": "Discuss room access, ventilation, drying intervals and furniture arrangements before work begins.",
+    "photoPrompt": "Room views, feature walls, colour transitions and close-ups of dents or stains.",
+    "scopeNote": "Ceilings, doors and trim can be coordinated, but each included surface is listed separately.",
+    "title": "Wall Painting",
+    "surface": "interior walls",
+    "intro": "Refresh a single room, a feature wall or the walls throughout your home. We plan colours, preparation and sheen around the light, wall condition and everyday use of each space.",
+    "paragraphs": [
+      "Plaster, drywall and previously painted surfaces can need different preparation. We review the existing coating and agree on a suitable primer and finish.",
+      "Identify rooms, feature walls and colour transitions, and note where the existing trim and ceiling colour will remain."
+    ],
+    "condition": "Dents, nail holes, loose coatings and stains affect preparation. Larger cracks or signs of active moisture need assessment before a new finish is applied.",
+    "material": "Plaster, drywall and previously painted surfaces can need different preparation. We review the existing coating and agree on a suitable primer and finish.",
+    "goals": "Identify rooms, feature walls and colour transitions, and note where the existing trim and ceiling colour will remain.",
+    "scope": [
+      [
+        "Room walls",
+        "Include the room walls and colour changes listed in your quote."
+      ],
+      [
+        "Feature walls",
+        "Plan a contrasting colour with clear stopping points and transitions."
+      ],
+      [
+        "Hallways & connecting spaces",
+        "Coordinate connected walls, stairwell access and adjoining rooms."
+      ],
+      [
+        "Agreed wall repairs",
+        "Confirm minor filling, stain treatment and any repairs separately."
+      ]
+    ],
+    "process": [
+      [
+        "search",
+        "Assess & define",
+        "Plaster, drywall and previously painted surfaces can need different preparation. We review the existing coating and agree on a suitable primer and finish. Identify rooms, feature walls and colour transitions, and note where the existing trim and ceiling colour will remain."
+      ],
+      [
+        "shield",
+        "Protect & prepare",
+        "Protect floors and furnishings, fill agreed minor imperfections, prepare edges and prime areas as required by the coating system."
+      ],
+      [
+        "paint",
+        "Apply & allow to cure",
+        "Apply an interior wall finish suited to the room and surface, following coverage and drying instructions."
+      ]
+    ],
+    "faqs": [
+      [
+        "Can my interior walls be painted?",
+        "Dents, nail holes, loose coatings and stains affect preparation. Larger cracks or signs of active moisture need assessment before a new finish is applied. Plaster, drywall and previously painted surfaces can need different preparation. We review the existing coating and agree on a suitable primer and finish."
+      ],
+      [
+        "Which sheen is right for interior walls?",
+        "Room use, light and the product system guide the choice. A more washable finish may suit busy spaces, while lower sheens can change how imperfections appear. Compare samples and product care guidance before choosing."
+      ],
+      [
+        "What preparation is included?",
+        "Protect floors and furnishings, fill agreed minor imperfections, prepare edges and prime areas as required by the coating system."
+      ],
+      [
+        "What affects my wall painting quote?",
+        "Room sizes, colour changes, wall condition and the amount of protection shape a wall-painting scope. Identify rooms, feature walls and colour transitions, and note where the existing trim and ceiling colour will remain."
+      ],
+      [
+        "How do I plan access and everyday use?",
+        "Discuss room access, ventilation, drying intervals and furniture arrangements before work begins."
+      ],
+      [
+        "Do you serve my Southern Ontario community?",
+        "Explore the 25-community directory across the GTA, Golden Horseshoe and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ]
+    ],
+    "images": {
+      "hero": {
+        "src": "/images/home-v3/interior-overview.webp",
+        "alt": "Illustrative wall painting finish"
+      },
+      "overview": {
+        "src": "/images/home-v3/interior.webp",
+        "alt": "Interior finish detail for wall painting"
+      },
+      "process": {
+        "src": "/images/subservice-reference/interior-protection.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      "colour": {
+        "src": "/images/interior-reference/dining.webp",
+        "alt": "Coordinated interior colour inspiration"
+      },
+      "galleryA": {
+        "src": "/images/cabinet/builtins.webp",
+        "alt": "Painted built-ins and room trim"
+      },
+      "galleryB": {
+        "src": "/images/approved-home/living.webp",
+        "alt": "Bright painted living room"
+      },
+      "quote": {
+        "src": "/images/v2/living.webp",
+        "alt": "White fireplace and room trim"
+      }
+    }
+  },
+  "ceiling-painting": {
+    "accent": "Ceiling",
+    "rest": " Painting",
+    "lead": "A consistent finish overhead can change the feel of the whole room.",
+    "heading": [
+      "Look up to a ",
+      "more considered finish."
+    ],
+    "overview": "Ceiling light, texture and existing coatings affect the result. Review the surface and any visible marks before deciding how to prepare and finish it.",
+    "good": [
+      "The existing ceiling finish is sound and suitable.",
+      "You want a coordinated colour across connected ceiling areas.",
+      "The room can be protected and safely accessed."
+    ],
+    "care": [
+      "Resolve leaks before addressing water stains.",
+      "Assess loose texture and failing coatings.",
+      "Suspect older materials need appropriate assessment before disturbance."
+    ],
+    "colour": [
+      [
+        "Read the ceiling in the room’s light",
+        "Natural and directional light can make texture and patching more visible. Review the actual room conditions."
+      ],
+      [
+        "Consider sheen and continuity",
+        "Select a suitable ceiling finish and agree where connected ceilings, coves and bulkheads begin and end."
+      ],
+      [
+        "Treat stains as a preparation question",
+        "A new colour alone may not stop marks returning. Resolve the source and discuss suitable preparation or stain treatment."
+      ]
+    ],
+    "local": "Include your community, ceiling heights and photos showing texture, coves, bulkheads and stains. Those details help define access and protection before an estimate.",
+    "cost": "Ceiling height, connected areas, texture, existing marks and the access equipment affect the work.",
+    "timing": "Plan protection, access and drying around the room’s use. Repairs and stain causes need attention first.",
+    "photoPrompt": "Whole ceiling views, texture, bulkheads, high areas and any water staining.",
+    "scopeNote": "Texture removal, structural repairs and investigation of suspect older materials are separate from decorative painting.",
+    "title": "Ceiling Painting",
+    "surface": "ceilings",
+    "intro": "A clean ceiling colour can make the whole room feel more settled. We assess existing texture, coatings and visible marks, then plan protection and preparation for the ceilings in your scope.",
+    "paragraphs": [
+      "Smooth, textured and previously coated ceilings are assessed separately. Suspect older materials need appropriate assessment before any disturbance.",
+      "Share ceiling height, room access and whether coves, bulkheads or connected ceilings should be included."
+    ],
+    "condition": "Stains, flaking and cracking need review. If a stain comes from a leak, its cause needs to be resolved before preparation and painting.",
+    "material": "Smooth, textured and previously coated ceilings are assessed separately. Suspect older materials need appropriate assessment before any disturbance.",
+    "goals": "Share ceiling height, room access and whether coves, bulkheads or connected ceilings should be included.",
+    "scope": [
+      [
+        "Smooth ceilings",
+        "Refresh included smooth ceilings with a coordinated finish."
+      ],
+      [
+        "Suitable textured ceilings",
+        "Assess texture and existing coatings before agreeing on preparation."
+      ],
+      [
+        "Bulkheads & coves",
+        "Define edges, bulkheads and adjoining details in the scope."
+      ],
+      [
+        "Connecting ceiling areas",
+        "Review open-plan areas and colour continuity across connected spaces."
+      ]
+    ],
+    "process": [
+      [
+        "search",
+        "Assess & define",
+        "Smooth, textured and previously coated ceilings are assessed separately. Suspect older materials need appropriate assessment before any disturbance. Share ceiling height, room access and whether coves, bulkheads or connected ceilings should be included."
+      ],
+      [
+        "shield",
+        "Protect & prepare",
+        "Protect the room, assess the existing finish and complete agreed surface preparation and stain treatment where appropriate."
+      ],
+      [
+        "paint",
+        "Apply & allow to cure",
+        "Apply a suitable ceiling finish with the method and recoat intervals specified for the product and surface."
+      ]
+    ],
+    "faqs": [
+      [
+        "Can my ceilings be painted?",
+        "Stains, flaking and cracking need review. If a stain comes from a leak, its cause needs to be resolved before preparation and painting. Smooth, textured and previously coated ceilings are assessed separately. Suspect older materials need appropriate assessment before any disturbance."
+      ],
+      [
+        "Will painting hide a ceiling water stain?",
+        "A new finish alone may not stop a stain returning. Resolve the source of moisture first, allow the area to dry and assess any damage. Appropriate stain treatment can then be discussed as part of preparation."
+      ],
+      [
+        "What preparation is included?",
+        "Protect the room, assess the existing finish and complete agreed surface preparation and stain treatment where appropriate."
+      ],
+      [
+        "What affects my ceiling painting quote?",
+        "Ceiling height, connected areas, texture, existing marks and the access equipment affect the work. Share ceiling height, room access and whether coves, bulkheads or connected ceilings should be included."
+      ],
+      [
+        "How do I plan access and everyday use?",
+        "Plan protection, access and drying around the room’s use. Repairs and stain causes need attention first."
+      ],
+      [
+        "Do you serve my Southern Ontario community?",
+        "Explore the 25-community directory across the GTA, Golden Horseshoe and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ]
+    ],
+    "images": {
+      "hero": {
+        "src": "/images/interior-reference/ceiling.webp",
+        "alt": "Illustrative ceiling painting finish"
+      },
+      "overview": {
+        "src": "/images/interior-reference/hallway.webp",
+        "alt": "Interior finish detail for ceiling painting"
+      },
+      "process": {
+        "src": "/images/subservice-reference/interior-protection.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      "colour": {
+        "src": "/images/v2/living.webp",
+        "alt": "Coordinated interior colour inspiration"
+      },
+      "galleryA": {
+        "src": "/images/cabinet/builtins.webp",
+        "alt": "Painted built-ins and room trim"
+      },
+      "galleryB": {
+        "src": "/images/home-v3/interior.webp",
+        "alt": "Soft blue living room walls"
+      },
+      "quote": {
+        "src": "/images/approved-home/living.webp",
+        "alt": "Bright painted living room"
+      }
+    }
+  },
+  "trim-painting": {
+    "accent": "Trim",
+    "rest": " Painting",
+    "lead": "Clean, coordinated details that frame your rooms.",
+    "heading": [
+      "Give everyday details ",
+      "a fresh finish."
+    ],
+    "overview": "Baseboards, casings and mouldings bring structure to an interior. Define the profiles and rooms to include, then review the material and existing coating.",
+    "good": [
+      "Trim is sound and securely installed.",
+      "You want to coordinate baseboards, casings or mouldings.",
+      "Adjoining floors and wall finishes can be protected."
+    ],
+    "care": [
+      "Swollen MDF or decayed material may need replacement.",
+      "Assess open joints and unstable paint.",
+      "Confirm repairs and wall touch-ups separately."
+    ],
+    "colour": [
+      [
+        "Connect the walls and fixed details",
+        "View trim colour beside walls, doors, flooring and other woodwork that will remain."
+      ],
+      [
+        "Compare finish and sheen",
+        "The product and profile affect appearance and cleaning. Review samples and curing requirements."
+      ],
+      [
+        "Define every profile",
+        "List baseboards, window and door casings, rails and decorative mouldings so the scope is clear."
+      ]
+    ],
+    "local": "Share your location, room list and photos showing the trim profiles, joints and adjoining floors. Include any areas with swelling or failing paint.",
+    "cost": "The amount of trim, profile complexity, existing finish and access around furniture affect preparation and application.",
+    "timing": "Plan protection and drying so painted profiles can be left clear before normal use and cleaning.",
+    "photoPrompt": "Baseboards, casings, decorative profiles, joints and worn edges.",
+    "scopeNote": "Wall repainting, replacement trim and larger repairs are agreed separately. Define any touch-ups before work begins.",
+    "title": "Trim Painting",
+    "surface": "trim and baseboards",
+    "intro": "Refresh the details that frame your interior. We coordinate baseboards, casings and suitable mouldings with your wall colours, while planning preparation around the existing material and finish.",
+    "paragraphs": [
+      "Solid wood, MDF and previously finished trim can require different primers and preparation. Swollen or damaged material may need replacement.",
+      "List baseboards, casings, crown moulding and other profiles so the quote identifies the exact lengths and rooms included."
+    ],
+    "condition": "Scuffs, open joints, damaged edges and unstable paint affect the work needed. Repairs and any joint treatment should be agreed before coating.",
+    "material": "Solid wood, MDF and previously finished trim can require different primers and preparation. Swollen or damaged material may need replacement.",
+    "goals": "List baseboards, casings, crown moulding and other profiles so the quote identifies the exact lengths and rooms included.",
+    "scope": [
+      [
+        "Baseboards",
+        "Coordinate baseboards with the room’s walls and flooring."
+      ],
+      [
+        "Door & window casings",
+        "Include the casing faces and profiles identified for each opening."
+      ],
+      [
+        "Crown & decorative mouldings",
+        "Review access and detail work around decorative profiles."
+      ],
+      [
+        "Other agreed interior trim",
+        "Identify rails, panels and other suitable fixed trim separately."
+      ]
+    ],
+    "process": [
+      [
+        "search",
+        "Assess & define",
+        "Solid wood, MDF and previously finished trim can require different primers and preparation. Swollen or damaged material may need replacement. List baseboards, casings, crown moulding and other profiles so the quote identifies the exact lengths and rooms included."
+      ],
+      [
+        "shield",
+        "Protect & prepare",
+        "Clean the trim, protect adjacent flooring and walls, prepare sound existing coatings and prime as needed."
+      ],
+      [
+        "paint",
+        "Apply & allow to cure",
+        "Apply the selected trim finish with attention to profiles, edges and the product’s drying and curing instructions."
+      ]
+    ],
+    "faqs": [
+      [
+        "Can my trim and baseboards be painted?",
+        "Scuffs, open joints, damaged edges and unstable paint affect the work needed. Repairs and any joint treatment should be agreed before coating. Solid wood, MDF and previously finished trim can require different primers and preparation. Swollen or damaged material may need replacement."
+      ],
+      [
+        "Can you paint trim without painting the walls?",
+        "Yes, the scope can focus on suitable trim. We review the adjoining wall finish, masking and edges, and discuss any touch-ups separately so you know what is included."
+      ],
+      [
+        "What preparation is included?",
+        "Clean the trim, protect adjacent flooring and walls, prepare sound existing coatings and prime as needed."
+      ],
+      [
+        "What affects my trim painting quote?",
+        "The amount of trim, profile complexity, existing finish and access around furniture affect preparation and application. List baseboards, casings, crown moulding and other profiles so the quote identifies the exact lengths and rooms included."
+      ],
+      [
+        "How do I plan access and everyday use?",
+        "Plan protection and drying so painted profiles can be left clear before normal use and cleaning."
+      ],
+      [
+        "Do you serve my Southern Ontario community?",
+        "Explore the 25-community directory across the GTA, Golden Horseshoe and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ]
+    ],
+    "images": {
+      "hero": {
+        "src": "/images/interior-reference/trim.webp",
+        "alt": "Illustrative trim & baseboard painting finish"
+      },
+      "overview": {
+        "src": "/images/interior-reference/hallway.webp",
+        "alt": "Interior finish detail for trim & baseboard painting"
+      },
+      "process": {
+        "src": "/images/subservice-reference/interior-protection.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      "colour": {
+        "src": "/images/about/office.webp",
+        "alt": "Coordinated commercial reception"
+      },
+      "galleryA": {
+        "src": "/images/home-v3/interior.webp",
+        "alt": "Soft blue living room walls"
+      },
+      "galleryB": {
+        "src": "/images/approved-home/living.webp",
+        "alt": "Bright painted living room"
+      },
+      "quote": {
+        "src": "/images/v2/living.webp",
+        "alt": "White fireplace and room trim"
+      }
+    }
+  },
+  "door-painting": {
+    "accent": "Interior Door",
+    "rest": " Painting",
+    "lead": "A coordinated finish for the doors that connect your rooms.",
+    "heading": [
+      "Refresh the opening, ",
+      "keep the character."
+    ],
+    "overview": "Door construction, existing coatings and everyday access guide the work. Confirm which faces, edges and frames are included before choosing a finish.",
+    "good": [
+      "Doors and frames are sound and working properly.",
+      "The existing finish can be prepared for a compatible coating.",
+      "You want one door refreshed or a coordinated group."
+    ],
+    "care": [
+      "Painting does not correct sticking or alignment.",
+      "Damaged skins or loose finishes need assessment.",
+      "Protect seals, hinges, latches and other working hardware."
+    ],
+    "colour": [
+      [
+        "Coordinate the door and surrounding trim",
+        "Compare door colour with casings, baseboards and the walls on both sides."
+      ],
+      [
+        "Review the material and finish",
+        "Timber, composite and factory finishes can require different preparation. Confirm compatibility before specifying products."
+      ],
+      [
+        "Agree on faces and edges",
+        "List door count, one face or both, frames and closet doors. Include drying and access arrangements in the plan."
+      ]
+    ],
+    "local": "Tell us your community, door count and the rooms involved. Photos of door profiles, frames and worn edges help define protection and preparation.",
+    "cost": "Door count, panel profiles, included faces, frames and existing finish affect the project scope.",
+    "timing": "Agree on access and drying arrangements so doors and hardware return to use according to the coating guidance.",
+    "photoPrompt": "Door faces, profiles, frames, edges and damaged finish.",
+    "scopeNote": "Alignment, sticking, structural repairs and hardware changes need separate agreement.",
+    "title": "Door Painting",
+    "surface": "interior doors",
+    "intro": "Update the doors that connect your rooms. From a coordinated neutral to a darker focal point, we review door materials, existing coatings and access before agreeing on the finish.",
+    "paragraphs": [
+      "Solid timber, composite and factory-finished doors have different preparation needs. Existing finishes and product compatibility guide the approach.",
+      "Confirm door count, both faces or one, edges, frames and whether closet doors are included."
+    ],
+    "condition": "Worn edges, loose coatings and damaged door skins need assessment. Painting changes the finish; it does not correct sticking, alignment or structural damage.",
+    "material": "Solid timber, composite and factory-finished doors have different preparation needs. Existing finishes and product compatibility guide the approach.",
+    "goals": "Confirm door count, both faces or one, edges, frames and whether closet doors are included.",
+    "scope": [
+      [
+        "Door faces",
+        "Specify whether one face or both faces of each door are included."
+      ],
+      [
+        "Agreed door edges",
+        "Confirm the edges to be painted and any clearance concerns."
+      ],
+      [
+        "Frames & casings",
+        "Coordinate suitable frames and casings as a separate included item."
+      ],
+      [
+        "Closet & connecting doors",
+        "Identify closet, panelled and other door types during assessment."
+      ]
+    ],
+    "process": [
+      [
+        "search",
+        "Assess & define",
+        "Solid timber, composite and factory-finished doors have different preparation needs. Existing finishes and product compatibility guide the approach. Confirm door count, both faces or one, edges, frames and whether closet doors are included."
+      ],
+      [
+        "shield",
+        "Protect & prepare",
+        "Protect surrounding surfaces and hardware, clean and prepare the existing finish and prime where needed."
+      ],
+      [
+        "paint",
+        "Apply & allow to cure",
+        "Apply a suitable door coating and plan drying time so faces, edges and hardware can return to use appropriately."
+      ]
+    ],
+    "faqs": [
+      [
+        "Can my interior doors be painted?",
+        "Worn edges, loose coatings and damaged door skins need assessment. Painting changes the finish; it does not correct sticking, alignment or structural damage. Solid timber, composite and factory-finished doors have different preparation needs. Existing finishes and product compatibility guide the approach."
+      ],
+      [
+        "Will doors need to be removed?",
+        "The method depends on door construction, access and the coating process. We discuss hardware handling, painting position and drying arrangements before confirming the scope."
+      ],
+      [
+        "What preparation is included?",
+        "Protect surrounding surfaces and hardware, clean and prepare the existing finish and prime where needed."
+      ],
+      [
+        "What affects my door painting quote?",
+        "Door count, panel profiles, included faces, frames and existing finish affect the project scope. Confirm door count, both faces or one, edges, frames and whether closet doors are included."
+      ],
+      [
+        "How do I plan access and everyday use?",
+        "Agree on access and drying arrangements so doors and hardware return to use according to the coating guidance."
+      ],
+      [
+        "Do you serve my Southern Ontario community?",
+        "Explore the 25-community directory across the GTA, Golden Horseshoe and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ]
+    ],
+    "images": {
+      "hero": {
+        "src": "/images/interior-reference/door.webp",
+        "alt": "Illustrative interior door painting finish"
+      },
+      "overview": {
+        "src": "/images/interior-reference/hallway.webp",
+        "alt": "Interior finish detail for interior door painting"
+      },
+      "process": {
+        "src": "/images/subservice-reference/interior-protection.webp",
+        "alt": "Illustrative painting finish and surface detail"
+      },
+      "colour": {
+        "src": "/images/cabinet/builtins.webp",
+        "alt": "Painted built-ins and room trim"
+      },
+      "galleryA": {
+        "src": "/images/approved-home/living.webp",
+        "alt": "Bright painted living room"
+      },
+      "galleryB": {
+        "src": "/images/v2/living.webp",
+        "alt": "White fireplace and room trim"
+      },
+      "quote": {
+        "src": "/images/locations/interior.webp",
+        "alt": "Freshly finished interior"
+      }
+    }
+  },
+  "cabinet-painting": {
+    "accent": "Cabinet",
+    "rest": " Painting",
+    "lead": "A fresh finish for the cabinetry that already works for you.",
+    "heading": [
+      "Keep the layout. ",
+      "Reconsider the finish."
+    ],
+    "overview": "Sound kitchen cabinets, bathroom vanities and built-in storage can be considered for a new colour. Review the material, existing finish and components before planning a cabinet coating.",
+    "good": [
+      "The cabinetry is sound and still meets your storage needs.",
+      "The material and existing finish suit a compatible coating.",
+      "You want coordinated visible surfaces without changing the layout."
+    ],
+    "care": [
+      "Swollen, peeling or damaged material needs assessment.",
+      "Structural problems may point toward repair or replacement.",
+      "Interiors, shelves and hardware changes need a separate scope."
+    ],
+    "colour": [
+      [
+        "Start with worktops and flooring",
+        "Compare cabinet samples with counters, backsplash, flooring and other fixed finishes."
+      ],
+      [
+        "Specify a cabinetry coating",
+        "Adhesion, preparation and curing matter for surfaces handled every day. Confirm the system against the existing material."
+      ],
+      [
+        "Define the visible components",
+        "Agree on doors, drawer fronts, exposed frames, end panels and built-ins. Cabinet interiors are discussed separately."
+      ]
+    ],
+    "local": "Share your Southern Ontario community and photos of the installed cabinetry, full room and worn areas. Identify kitchens, vanities and built-ins so the components and room access can be discussed.",
+    "cost": "The number of doors and drawer fronts, exposed frame and panel area, condition and room protection affect the work.",
+    "timing": "Discuss room access, ventilation and the coating’s drying and curing guidance before returning the cabinetry to everyday use.",
+    "photoPrompt": "Installed cabinets, visible frames and panels, complete room views and worn areas.",
+    "scopeNote": "Cabinet interiors, shelves, repairs and hardware changes are discussed separately.",
+    "title": "Cabinet Painting",
+    "surface": "cabinetry",
+    "intro": "Refresh suitable kitchen cabinets, bathroom vanities and built-in storage with a coordinated painted finish. Cabinet painting is part of our interior painting service, with preparation and coverage defined for the cabinetry you have.",
+    "paragraphs": [
+      "Compare colour samples with flooring, worktops and other fixed materials before choosing a cabinet finish. A suitable coating can update the appearance while retaining sound existing storage.",
+      "Doors, drawer fronts, frames and exposed panels need a clear scope. Cabinet interiors, shelves, repairs and hardware changes are discussed separately."
+    ],
+    "condition": "Peeling films, swelling, moisture damage and structural problems may need repair or replacement before painting is considered.",
+    "material": "Wood, MDF, laminate and factory finishes need individual assessment for adhesion and coating compatibility.",
+    "goals": "Identify the cabinet components you want included and how you need to use the room during painting and curing.",
+    "scope": [
+      [
+        "Kitchen cabinets",
+        "Review kitchen cabinet doors, drawers and visible fixed surfaces."
+      ],
+      [
+        "Bathroom vanities",
+        "Assess moisture exposure, existing finishes and vanity condition."
+      ],
+      [
+        "Doors & drawer fronts",
+        "Coordinate suitable fronts, edges and agreed hardware handling."
+      ],
+      [
+        "Frames & built-in storage",
+        "Define exposed frames, end panels and built-in components."
+      ]
+    ],
+    "process": [
+      [
+        "search",
+        "Assess the installed cabinetry",
+        "Review material, existing finish, adhesion and condition. Define visible doors, drawer fronts, frames, end panels and any built-in storage to include."
+      ],
+      [
+        "shield",
+        "Protect the room & prepare",
+        "Agree on access and protect floors, worktops and adjoining finishes. Clean and prepare suitable surfaces, with priming specified for the existing material and coating system."
+      ],
+      [
+        "paint",
+        "Finish & follow curing guidance",
+        "Use a compatible cabinetry coating on the agreed surfaces. Follow the system’s drying, curing and cleaning guidance before everyday handling."
+      ]
+    ],
+    "faqs": [
+      [
+        "Can my cabinetry be painted?",
+        "Peeling films, swelling, moisture damage and structural problems may need repair or replacement before painting is considered. Wood, MDF, laminate and factory finishes need individual assessment for adhesion and coating compatibility."
+      ],
+      [
+        "Is painting or replacing cabinets the better option?",
+        "Painting can suit sound cabinets that meet your storage needs. Damaged boxes, failing materials or a layout that no longer works may point toward repairs or replacement. Assess those needs before comparing options."
+      ],
+      [
+        "What preparation is included?",
+        "Clean, prepare and prime the included cabinet surfaces according to the material and selected coating system. Protect surrounding fixtures and agree on component handling."
+      ],
+      [
+        "What affects my cabinet painting quote?",
+        "The number of doors and drawer fronts, exposed frame and panel area, condition and room protection affect the work. Identify the cabinet components you want included and how you need to use the room during painting and curing."
+      ],
+      [
+        "How do I plan access and everyday use?",
+        "Discuss room access, ventilation and the coating’s drying and curing guidance before returning the cabinetry to everyday use."
+      ],
+      [
+        "Do you serve my Southern Ontario community?",
+        "Explore the 25-community directory across the GTA, Golden Horseshoe and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ]
+    ],
+    "images": {
+      "hero": {
+        "src": "/images/approved-home/cabinet-feature.webp",
+        "alt": "Installed blue-grey kitchen cabinetry and island",
+        "width": 1672,
+        "height": 941
+      },
+      "overview": {
+        "src": "/images/cabinet/kitchen.webp",
+        "alt": "Complete installed white kitchen cabinets with navy island",
+        "width": 1440,
+        "height": 960
+      },
+      "process": {
+        "src": "/images/interior-design/cabinet-protection.webp",
+        "alt": "Illustrative protection around complete installed cabinetry with doors attached",
+        "width": 1536,
+        "height": 1024
+      },
+      "colour": {
+        "src": "/images/interior-design/cabinet-detail.webp",
+        "alt": "Illustrative finish detail on an attached, closed cabinet door",
+        "width": 1536,
+        "height": 1024
+      },
+      "galleryA": {
+        "src": "/images/cabinet/builtins.webp",
+        "alt": "Complete installed white built-in storage and shelving",
+        "width": 1440,
+        "height": 960
+      },
+      "galleryB": {
+        "src": "/images/approved-home/vanity.webp",
+        "alt": "Complete navy bathroom vanity with attached doors and drawers",
+        "width": 1536,
+        "height": 1024
+      },
+      "quote": {
+        "src": "/images/interior-design/cabinet-room.webp",
+        "alt": "Illustrative finished kitchen with all cabinet fronts attached",
+        "width": 1536,
+        "height": 1024
+      }
+    }
+  }
+}

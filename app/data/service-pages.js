@@ -1,3 +1,4 @@
+import interiorTemplate from './interior-template-content.json';
 import metaTitles from './service-meta-titles.json';
 import exterior from './exterior-subservices.json';
 import cabinets from './cabinet-subservices.json';
@@ -50,5 +51,5 @@ export function serviceFaqs(s){return [
  ['What affects my '+s.title.toLowerCase()+' quote?','The amount of '+s.surface+', their condition, preparation and access affect the scope. '+s.goals+' Share photos and your city or postal code so those details can be reviewed together.'],
  ['Do you serve my Southern Ontario community?','Explore our service area directory for communities across the GTA, Golden Horseshoe and surrounding Southern Ontario areas. Include your city or postal code and project details to confirm availability.']
  ]}
-export function serviceMetadata(s){return {title:metaTitles[s.path]||s.title+' in Southern Ontario | We Paint Siding',description:s.description,alternates:{canonical:'https://we-painting-siding.vercel.app'+s.path},openGraph:{title:metaTitles[s.path]||s.title+' | We Paint Siding',description:s.description,url:'https://we-painting-siding.vercel.app'+s.path,images:[{url:'https://we-painting-siding.vercel.app'+s.photos[0].src,alt:s.photos[0].alt}]}}}
+export function serviceMetadata(s){const hero=s.category==='interior'?interiorTemplate[s.slug].images.hero:s.photos[0];return {title:metaTitles[s.path]||s.title+' in Southern Ontario | We Paint Siding',description:s.description,alternates:{canonical:'https://we-painting-siding.vercel.app'+s.path},openGraph:{title:metaTitles[s.path]||s.title+' | We Paint Siding',description:s.description,url:'https://we-painting-siding.vercel.app'+s.path,images:[{url:'https://we-painting-siding.vercel.app'+hero.src,alt:hero.alt}]}}}
 
