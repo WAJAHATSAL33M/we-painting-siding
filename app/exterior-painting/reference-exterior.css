@@ -130,3 +130,17 @@
 @media(prefers-reduced-motion:reduce){.re-exterior .re-service-grid article:hover{transform:none}}
 
 .re-exterior :is(.re-intro,.re-process,.re-gallery,.re-area-panel,.re-faq) h2>em{display:block}
+
+
+/* Main service pages use the same tablet reflow as the detail pages. */
+@media(max-width:1024px){
+.re-exterior .re-hero-grid,.re-exterior .re-split,.re-exterior .re-faq .re-split{grid-template-columns:minmax(0,1fr);min-height:0}
+.re-exterior .re-hero-copy{padding:32px}
+.re-exterior .re-hero-photo{min-height:0}
+.re-exterior .re-hero-photo img,.re-exterior .re-split>img{height:auto;min-height:0;max-height:440px;aspect-ratio:1.75;object-fit:cover}
+}
+@media(max-width:599px){
+.re-exterior .re-actions,.re-exterior .re-service-grid{grid-template-columns:minmax(0,1fr)}
+.re-exterior .re-hero-copy{padding:24px}
+.re-exterior .re-hero-photo img,.re-exterior .re-split>img{aspect-ratio:1.4;max-height:360px}
+}

@@ -217,3 +217,40 @@
 
 /* Individual project images use the same two frames as the vinyl concept. */
 .vp-page .vp-photo-pair .vp-comparison-half>img{width:100%;max-width:100%;margin-left:0;object-fit:cover}
+
+/* Inset service heroes retain the normal page gutters at every width. */
+.vp-page .vp-hero-grid{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:48px;align-items:center;padding:32px var(--vp-pad) 48px}
+.vp-page .vp-hero-copy{padding:0}
+.vp-page .vp-hero .vp-breadcrumb{margin-bottom:36px}
+.vp-page .vp-hero-photo{height:clamp(540px,45vw,720px);min-height:0;max-height:none;border-radius:4px;object-fit:cover}
+@media(max-width:1199px){.vp-page .vp-hero-grid{gap:32px}}
+@media(max-width:1024px){
+.vp-page .vp-hero-grid,.vp-page .vp-overview-grid,.vp-page .vp-scope-grid,.vp-page .vp-process-grid,.vp-page .vp-colour-grid,.vp-page .vp-area-grid,.vp-page .vp-faq-grid,.vp-page .vp-quote-grid,.vp-page .vp-cost-grid{grid-template-columns:minmax(0,1fr);gap:30px}
+.vp-page .vp-hero-copy{padding:0}
+.vp-page .vp-hero-photo{height:auto;min-height:0;max-height:480px;aspect-ratio:1.7;object-position:center}
+.vp-page .vp-assess-photo{display:flex;flex-direction:column}
+.vp-page .vp-assess-photo>img,.vp-page .vp-process-grid>img,.vp-page .vp-colour-photo,.vp-page .vp-area-visual>img{height:auto;min-height:0;max-height:420px;aspect-ratio:1.75;flex:none;object-fit:cover}
+.vp-page .vp-assess-photo figcaption{padding:24px;align-items:start}
+.vp-page .vp-colour-copy{padding-top:0}
+.vp-page .vp-area-grid{align-items:start}
+.vp-page .vp-location-start{margin:0;padding:24px}
+.vp-page .vp-cost-grid{padding-right:var(--vp-pad);gap:0}
+.vp-page .vp-timing{margin-inline:0}
+.vp-page .vp-work-heading{grid-template-columns:minmax(0,1fr);gap:20px}
+}
+@media(max-width:767px){
+.vp-page .vp-section{padding-block:36px}
+.vp-page .vp-project-notes,.vp-page .vp-cost-factors,.vp-page .vp-timing,.vp-page .vp-quote-notes,.vp-page .vp-fields{grid-template-columns:minmax(0,1fr)}
+.vp-page .vp-project-notes>div+div{border-left:0;border-top:1px solid #d4e0e8;padding:22px 0 0}
+.vp-page .vp-timing .vp-feature,.vp-page .vp-quote-notes .vp-feature{display:flex}
+.vp-page .vp-timing .vp-feature h3,.vp-page .vp-quote-notes h3{margin-top:0}
+.vp-page .vp-timing .vp-feature+.vp-feature{border-top:1px solid #bcd5e5;padding-top:24px}
+.vp-page .vp-location-start{display:block}
+.vp-page .vp-location-start .ah-button{margin-top:14px}
+}
+@media(max-width:599px){
+.vp-page .vp-hero-grid{padding-block:24px 32px;gap:26px}
+.vp-page .vp-hero-photo,.vp-page .vp-assess-photo>img,.vp-page .vp-process-grid>img,.vp-page .vp-colour-photo,.vp-page .vp-area-visual>img{aspect-ratio:1.4;max-height:360px}
+.vp-page .vp-hero .vp-breadcrumb{margin-bottom:28px}
+.vp-page .vp-location-start{margin:0;padding:20px}
+}
