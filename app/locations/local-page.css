@@ -167,3 +167,5 @@
 @media(max-width:359px){.lc-location .lc-interior-links{grid-template-columns:1fr}.lc-location .lc-local-cards article{grid-template-columns:1fr}.lc-location .lc-local-cards img{grid-row:auto;aspect-ratio:2.5;height:auto;max-height:130px}.lc-location .lc-hero-marks{display:grid}}
 @media(prefers-reduced-motion:reduce){.lc-location *{scroll-behavior:auto;transition:none!important}}
 .lc-location .lm-project .lm-split>div>.lc-label{font-size:11px;line-height:1.5;margin:0 0 12px;color:var(--ah-blue)}
+/* Keep section labels compact despite inherited location-page paragraph styles. */
+.lc-location main section .lc-label{font-size:11px;line-height:1.5;margin:0 0 12px}
