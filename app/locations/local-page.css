@@ -169,3 +169,34 @@
 .lc-location .lm-project .lm-split>div>.lc-label{font-size:11px;line-height:1.5;margin:0 0 12px;color:var(--ah-blue)}
 /* Keep section labels compact despite inherited location-page paragraph styles. */
 .lc-location main section .lc-label{font-size:11px;line-height:1.5;margin:0 0 12px}
+
+/* Restore the previous city hero while retaining the compact sections below. */
+.lc-location main>.lm-hero{padding:0;background:#f4f9fc;display:block}
+.lc-location .lm-hero:after{display:block;background:linear-gradient(90deg,#f4f9fc 0 37%,#f4f9fcf5 45%,#f4f9fc99 55%,#f4f9fc00 73%)}
+.lc-location .lm-hero-inner{padding-block:30px 42px;min-height:570px}
+.lc-location .lm-hero-copy{width:53%;max-width:790px;padding:0}
+.lc-location .lm-hero-copy h1{font-size:clamp(35.2px,4.24vw,68.8px);line-height:1.04;color:var(--ah-navy)}
+.lc-location .lm-hero-copy h1 em{color:var(--ah-blue)}
+.lc-location .lm-hero-copy>p:not(.lc-label){font-size:clamp(14.96px,1.32vw,20.24px);line-height:1.4;color:var(--ah-body);margin:25px 0;max-width:none}
+.lc-location .lm-hero .lm-breadcrumb{gap:16px;margin-bottom:35px;font-size:13px}
+.lc-location .lm-hero .lm-actions{margin-block:28px;gap:14px;align-items:stretch}
+.lc-location .lm-hero .ah-button{min-height:54px;font-size:14px;padding:15px 18px}
+.lc-location .lm-hero .lc-hero-marks{border:0;padding:0;gap:24px;color:var(--ah-navy)}
+.lc-location .lm-hero .lc-hero-marks>span{font-size:14px;gap:10px}
+.lc-location .lm-hero .lc-hero-marks svg{color:var(--ah-blue)}
+.lc-location .lm-hero-copy>p.lc-small{font-size:14px;line-height:1.55;margin-block:18px}
+@media(max-width:1199px){.lc-location .lm-hero-copy{width:56%}}
+@media(max-width:899px){.lc-location .lm-hero-copy{width:60%}.lc-location .lm-hero-inner{min-height:520px}}
+@media(max-width:599px){
+ .lc-location main>.lm-hero{display:flex;flex-direction:column}
+ .lc-location .lm-hero:after{display:none}
+ .lc-location .lm-hero-photo{position:relative;inset:auto;height:280px;z-index:0;order:2}
+ .lc-location .lm-hero-copy{width:100%}
+ .lc-location .lm-hero-inner{padding-block:20px 28px;min-height:0}
+ .lc-location .lm-hero .lm-breadcrumb{margin-bottom:25px}
+ .lc-location .lm-hero-copy h1{font-size:32px}
+ .lc-location .lm-hero-copy>p:not(.lc-label){font-size:15.84px}
+ .lc-location .lm-hero .lc-hero-marks{gap:14px}
+ .lc-location .lm-hero .lc-hero-marks>span{font-size:13px}
+ .lc-location .lm-hero-copy>p.lc-small{font-size:13px}
+}
