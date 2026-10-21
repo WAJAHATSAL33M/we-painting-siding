@@ -32,30 +32,6 @@
 .wps-header .wps-desktop-services{grid-template-columns:repeat(2,minmax(0,1fr))}
 
 
-/* The exterior catalogue has one parent service and three siding sub-services. */
-.wps-header .wps-exterior-tree,.wps-footer .wps-exterior-tree{list-style:none;padding:0;margin:0}
-.wps-header .wps-exterior-tree>li>a{display:flex;align-items:center;min-height:42px;padding:9px 12px;font-size:13px;line-height:1.45;border-radius:3px}
-.wps-header .wps-exterior-tree>li>a:hover,.wps-header .wps-exterior-tree>li>ul a:hover{background:#edf5fa;color:#0073bc}
-.wps-header .wps-exterior-tree>li>ul{list-style:none;margin:0 0 5px 23px;padding:0 0 0 14px;border-left:1px solid #cbdde9}
-.wps-header .wps-exterior-tree>li>ul a{display:flex;align-items:center;min-height:40px;padding:7px 10px;font-size:12px;line-height:1.45}
-.wps-footer .wps-exterior-tree>li>a{display:block}
-.wps-footer .wps-exterior-tree ul{list-style:none;padding:0 0 0 12px;margin:0 0 6px;border-left:1px solid #426178}
-.wps-footer .wps-exterior-tree ul a{font-size:11px;line-height:1.5}
-@media(max-width:1199px){.wps-header .wps-mobile-services .wps-exterior-tree{padding:0 12px 10px}.wps-header .wps-mobile-services .wps-exterior-tree a{min-height:44px}.wps-header .wps-mobile-services .wps-exterior-tree>li>ul a{font-size:12px}}
-
-/* Collapsed siding sub-menu shared by desktop, tablet, mobile and footer. */
-.wps-header .wps-service-parent,.wps-footer .wps-service-parent{display:flex;align-items:center;gap:8px}
-.wps-header .wps-service-parent>a{display:flex;align-items:center;flex:1;min-height:44px;padding:9px 12px;font-size:13px;line-height:1.45;border-radius:3px}
-.wps-header .wps-service-parent>a:hover{color:#0073bc;background:#edf5fa}
-.wps-header .wps-service-parent>button,.wps-footer .wps-service-parent>button{display:inline-flex;align-items:center;justify-content:center;flex:none;width:44px;height:44px;padding:0;border:1px solid transparent;border-radius:3px;background:transparent;color:inherit;cursor:pointer}
-.wps-header .wps-service-parent>button:hover{background:#edf5fa;color:#0073bc}
-.wps-footer .wps-service-parent>a{flex:1;margin:0}
-.wps-footer .wps-service-parent>button:hover{background:#ffffff12}
-.wps-service-parent>button .wps-chevron{transition:transform .18s}
-.wps-service-parent>button[aria-expanded=true] .wps-chevron{transform:rotate(225deg)}
-.wps-header .wps-exterior-tree ul[hidden],.wps-footer .wps-exterior-tree ul[hidden]{display:none!important}
-@media(prefers-reduced-motion:reduce){.wps-service-parent>button .wps-chevron{transition:none}}
-
 /* Clean shared footer: direct navigation without a separate promotional banner. */
 .wps-footer{padding-block:36px 24px}
 .wps-footer-grid{padding:0 0 24px}
@@ -67,4 +43,88 @@
  .wps-footer-mobile summary{padding-block:19px}
  .wps-footer-bottom{padding-top:22px}
  .wps-footer-bottom nav{margin-top:16px}
+}
+
+/* Open service directory: siding materials are visible, without another toggle. */
+.wps-header .wps-exterior-directory,.wps-footer .wps-exterior-directory{list-style:none;padding:0;margin:0}
+.wps-header .wps-exterior-directory>li>a{display:flex;align-items:center;min-height:40px;padding:8px 12px;font-size:13px;line-height:1.5;border-radius:4px;color:#394e65}
+.wps-header .wps-exterior-directory>li>a:hover{background:#edf5fa;color:var(--wc-blue)}
+.wps-header .wps-exterior-directory .wps-siding-group{padding:8px 10px 12px;margin-bottom:8px;border-radius:5px;background:#edf5fa;border:1px solid #d9e7f1}
+.wps-header .wps-exterior-directory .wps-siding-group>a{font-weight:600;padding:2px 2px 8px;min-height:34px;color:var(--wc-navy)}
+.wps-header .wps-exterior-directory .wps-siding-group>ul{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;list-style:none;margin:0;padding:0}
+.wps-header .wps-siding-group>ul a{display:flex;align-items:center;justify-content:center;min-height:44px;padding:8px;text-align:center;font-size:11px;line-height:1.45;background:white;color:#36546c;border:1px solid #d4e3ee;border-radius:4px}
+.wps-header .wps-siding-group>ul a:hover{color:var(--wc-blue);border-color:var(--wc-blue)}
+.wps-header .wps-area-grid-icon{display:grid;grid-template-columns:repeat(2,4px);gap:3px;margin:0}
+.wps-header .wps-area-grid-icon i{width:4px;height:4px;background:currentColor;border-radius:1px}
+.wps-header .wps-area-toggle[aria-expanded=true] .wps-area-grid-icon{color:var(--wc-blue)}
+.wps-header .wps-mobile-category{padding-block:18px;border-bottom:1px solid #dce7ef}
+.wps-header .wps-mobile-category h2{display:flex;align-items:center;gap:12px;font-size:16px;line-height:1.4;letter-spacing:-.025em;margin:0 0 12px;color:var(--wc-navy)}
+.wps-header .wps-mobile-category h2 svg{width:25px;height:25px;color:var(--wc-blue)}
+.wps-header .wps-mobile-category h2 a{padding-block:8px}
+.wps-header .wps-mobile-interior-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px 12px}
+.wps-header .wps-mobile-interior-links>a{display:flex;align-items:center;min-height:44px;font-size:13px;line-height:1.5;padding:8px;color:#394e65}
+.wps-header .wps-mobile-category>.wps-mobile-overview{display:inline-flex;align-items:center;min-height:44px;margin-top:8px;font-size:12px;font-weight:600;color:var(--wc-blue)}
+@media(max-width:1199px){
+ .wps-header .wps-mobile-services{margin-left:0;padding-left:0;border:0}
+ .wps-header .wps-area-toggle{min-width:44px}
+ .wps-header .wps-mobile-category .wps-exterior-directory>li>a{min-height:44px}
+ .wps-header .wps-nav-trigger:after{content:'Explore';position:static;background:none;height:auto;width:auto;margin-left:auto;color:#688196;font-size:11px;font-weight:400;display:block}
+ .wps-header .wps-nav-trigger[aria-expanded=true]:after{content:'Close';display:block}
+}
+@media(max-width:359px){
+ .wps-header .wps-exterior-directory .wps-siding-group>ul{grid-template-columns:1fr}
+ .wps-header .wps-mobile-interior-links{grid-template-columns:1fr}
+}
+/* A quiet brand row and four open directories replace the old accordion footer. */
+.wps-footer.wps-footer-v2{background:#071f32;border-top:3px solid #0078cf;padding:0;color:#d2e0eb}
+.wps-footer-v2 .wps-footer-intro{display:grid;grid-template-columns:minmax(200px,270px) minmax(0,1fr) auto;gap:clamp(24px,4vw,64px);align-items:center;padding-block:30px;border-bottom:1px solid #ffffff20}
+.wps-footer-v2 .wps-wordmark{width:100%;max-width:270px;padding:10px 12px;border-radius:4px}
+.wps-footer-v2 .wps-footer-intro>p{font-size:14px;line-height:1.7;margin:0;color:#c0d3e1}
+.wps-footer-v2 .wps-footer-intro>p>strong{font-weight:500;color:white}
+.wps-footer-v2 .wps-footer-local{display:flex;align-items:center;gap:14px;padding-left:26px;border-left:1px solid #ffffff26}
+.wps-footer-v2 .wps-footer-local>svg{width:32px;height:32px;color:#63baf0;flex:none}
+.wps-footer-v2 .wps-footer-local span{display:block;color:#9bb7cb;font-size:10px;text-transform:uppercase;letter-spacing:.13em;line-height:1.6}
+.wps-footer-v2 .wps-footer-local strong{display:block;color:white;font-size:15px;font-weight:600;margin-top:3px}
+.wps-footer-v2 .wps-footer-local a{display:inline-flex;align-items:center;min-height:32px;font-size:12px;color:#83ccfa}
+.wps-footer-v2 .wps-footer-grid{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(0,1fr) minmax(0,.85fr) minmax(0,.95fr);gap:clamp(24px,3vw,48px);padding:30px 0 28px}
+.wps-footer-v2 .wps-footer-column{min-width:0}
+.wps-footer-v2 .wps-footer-column h2{font-size:14px;line-height:1.4;font-weight:600;letter-spacing:0;color:#fff;margin:0 0 16px;padding-bottom:12px;border-bottom:1px solid #ffffff24}
+.wps-footer-v2 .wps-footer-column>a,.wps-footer-v2 .wps-exterior-directory>li>a{display:flex;align-items:center;font-size:12px;line-height:1.5;color:#c0d3e1;padding:7px 0;min-height:34px;margin:0;overflow-wrap:break-word}
+.wps-footer-v2 .wps-footer-column>a:hover,.wps-footer-v2 .wps-exterior-directory a:hover,.wps-footer-v2 .wps-footer-local a:hover{color:white;text-decoration:underline;text-underline-offset:4px}
+.wps-footer-v2 .wps-footer-exterior .wps-exterior-directory{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px}
+.wps-footer-v2 .wps-exterior-directory .wps-siding-group{grid-column:1/-1;padding:0 0 12px;margin:0 0 7px;border-bottom:1px solid #ffffff16}
+.wps-footer-v2 .wps-exterior-directory .wps-siding-group>a{font-weight:600;color:white;padding-top:0}
+.wps-footer-v2 .wps-siding-group>ul{display:flex;flex-wrap:wrap;list-style:none;gap:7px;margin:4px 0 0;padding:0;border:0}
+.wps-footer-v2 .wps-siding-group>ul a{display:flex;align-items:center;min-height:36px;padding:7px 10px;background:#12364d;border:1px solid #294a61;border-radius:4px;color:#d3eafa;font-size:11px;line-height:1.5}
+.wps-footer-v2 .wps-footer-column>a:last-child[href="/exterior-painting"],.wps-footer-v2 .wps-footer-areas>a:last-child{font-size:11px;font-weight:600;color:#83ccfa;margin-top:10px}
+.wps-footer-v2 .wps-footer-bottom{display:flex;justify-content:space-between;align-items:center;gap:16px 24px;border-top:1px solid #ffffff20;padding:18px 0 22px;margin:0;text-align:left}
+.wps-footer-v2 .wps-footer-bottom p{font-size:11px;color:#9eb9cb;margin:0;line-height:1.6}
+.wps-footer-v2 .wps-footer-bottom nav{display:flex;flex-wrap:wrap;gap:4px 18px;justify-content:flex-end;margin:0}
+.wps-footer-v2 .wps-footer-bottom nav>a{font-size:10px;color:#afc7d8;line-height:1.5;padding:7px 0;border:0;min-height:30px;display:flex;align-items:center}
+.wps-footer-v2 :is(a,button):focus-visible{outline:2px solid #83ccfa;outline-offset:4px}
+@media(max-width:1099px){
+ .wps-footer-v2 .wps-footer-intro{grid-template-columns:minmax(180px,240px) minmax(0,1fr);gap:22px 36px}
+ .wps-footer-v2 .wps-footer-local{grid-column:2;grid-row:1/3;align-self:center}
+ .wps-footer-v2 .wps-footer-intro>p{grid-column:1;font-size:13px}
+ .wps-footer-v2 .wps-footer-grid{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:26px 40px}
+ .wps-footer-v2 .wps-footer-bottom{align-items:start}
+}
+@media(max-width:599px){
+ .wps-footer-v2 .wps-footer-intro{grid-template-columns:1fr;gap:18px;padding-block:26px}
+ .wps-footer-v2 .wps-wordmark{max-width:250px}
+ .wps-footer-v2 .wps-footer-intro>p{font-size:13px;grid-column:auto}
+ .wps-footer-v2 .wps-footer-local{grid-row:auto;grid-column:auto;border-left:0;padding:0;gap:12px}
+ .wps-footer-v2 .wps-footer-local>svg{width:26px;height:26px}
+ .wps-footer-v2 .wps-footer-local strong{font-size:14px}
+ .wps-footer-v2 .wps-footer-local a{min-height:40px}
+ .wps-footer-v2 .wps-footer-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 22px;padding-block:26px}
+ .wps-footer-v2 .wps-footer-exterior{grid-column:1/-1}
+ .wps-footer-v2 .wps-footer-column h2{font-size:14px;margin-bottom:12px;padding-bottom:10px}
+ .wps-footer-v2 .wps-footer-column>a,.wps-footer-v2 .wps-exterior-directory>li>a{min-height:44px;padding-block:10px;font-size:12px}
+ .wps-footer-v2 .wps-siding-group>ul a{min-height:44px;padding:9px 11px;font-size:11px}
+ .wps-footer-v2 .wps-footer-areas{grid-column:1/-1}
+ .wps-footer-v2 .wps-footer-areas>a{display:inline-flex;margin-right:18px}
+ .wps-footer-v2 .wps-footer-bottom{display:block;padding-block:20px}
+ .wps-footer-v2 .wps-footer-bottom nav{justify-content:flex-start;gap:4px 18px;margin-top:12px}
+ .wps-footer-v2 .wps-footer-bottom nav>a{min-height:36px;font-size:10px;padding:8px 0}
 }

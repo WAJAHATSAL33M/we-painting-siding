@@ -68,16 +68,15 @@ for path,page in pages.items():
  catalogue=json.loads((ROOT/'app/data/exterior-service-links.json').read_text())
  header=page.all('header')[0] if page.all('header') else None
  if header:
-  tree=[n for n in header.all('ul') if 'wps-exterior-tree' in n.attrs.get('class','')]
-  check(bool(tree),path+': nested exterior menu exists')
+  tree=[n for n in header.all('ul') if 'wps-exterior-directory' in n.attrs.get('class','')]
+  check(bool(tree),path+': open exterior directory exists')
   if tree:
    check(len(tree[0].all('a'))==10,path+': menu includes ten services')
-   check(len(tree[0].all('ul'))==1 and len(tree[0].all('ul')[0].all('a'))==3,path+': siding has three nested children')
-   for menu in [n for n in page.all('ul') if 'wps-exterior-tree' in n.attrs.get('class','')]:
+   check(len(tree[0].all('ul'))==1 and len(tree[0].all('ul')[0].all('a'))==3,path+': siding has three grouped material links')
+   for menu in [n for n in page.all('ul') if 'wps-exterior-directory' in n.attrs.get('class','')]:
     buttons=menu.all('button');children=menu.all('ul')
-    check(len(buttons)==1 and buttons[0].attrs.get('aria-expanded')=='false',path+': siding toggle starts collapsed')
-    check(len(children)==1 and 'hidden' in children[0].attrs,path+': siding children start hidden')
-    if buttons and children:check(buttons[0].attrs.get('aria-controls')==children[0].attrs.get('id'),path+': toggle controls its own submenu')
+    check(not buttons,path+': siding directory needs no extra click')
+    check(len(children)==1 and 'hidden' not in children[0].attrs,path+': siding material links stay visible')
 for s in catalogue:
  r='/exterior-painting/'+s['slug'];check(r in pages,'Service exists: '+r)
  if r in pages:
