@@ -155,3 +155,5 @@ body .approved-site main :is(.ah-field-row, .lm-form-two, .lm-form-three, .vp-fi
 }
 /* City content keeps the compact rhythm established for local service pages. */
 body .approved-site.lc-location main > .lm-section { padding-block: clamp(30px, 3vw, 40px); }
+body .approved-site.ra-about .ra-story-media { align-self: center; height: auto; max-height: none; }
+body .approved-site.vp-page .vp-scope-grid { align-items: start; }
