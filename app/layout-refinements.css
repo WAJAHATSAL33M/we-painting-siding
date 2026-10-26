@@ -1,0 +1,157 @@
+/* Shared presentation fixes for the current page templates. */
+body .approved-site {
+  --wps-section-space: clamp(36px, 3.6vw, 52px);
+  --wps-layout-gap: clamp(24px, 3vw, 40px);
+}
+body .approved-site main :is(section, article, aside, figure, form, nav, div) { min-width: 0; }
+body .approved-site main :is(h1, h2, h3, p, a, summary, label) { overflow-wrap: break-word; }
+body .approved-site main :is(.ah-section, .ra-section, .re-section, .lm-section, .ow-section, .ed-section) {
+  padding-block: var(--wps-section-space);
+}
+body .approved-home main :is(.ah-services, .ah-exterior, .ah-faq) { padding-bottom: 0; }
+body .approved-site main :is(.ah-heading-row, .ra-story-grid, .re-split, .in-heading-row) { gap: var(--wps-layout-gap); }
+body .approved-site main :is(.ah-actions, .lm-actions, .re-actions, .fq-actions) { flex-wrap: wrap; }
+body .approved-site main :is(.ah-button, .ah-text-link, .vp-link) { max-width: 100%; white-space: normal; }
+
+/* Six interior services form complete rows, with no orphaned wide card. */
+body .approved-home .ah-cabinet-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+body .approved-home .ah-cabinet-grid h3 { min-height: 0; }
+body .approved-home .ah-cabinet-grid > a:last-child { grid-column: auto; display: flex; gap: 0; }
+body .approved-home .ah-cabinet-grid > a:last-child > svg { grid-row: auto; margin-bottom: 16px; }
+body .approved-home .ah-cabinet-grid > a:last-child p { grid-column: auto; }
+body .approved-home .ah-process-grid article { padding: 24px 22px; }
+body .approved-home .ah-process-grid h3 { min-height: 0; margin-bottom: 14px; }
+body .approved-home .ah-exterior h2 { white-space: normal; }
+body .approved-home .ah-exterior-main { align-items: center; }
+body .approved-home .ah-exterior-main > img { min-height: 0; height: clamp(340px, 34vw, 460px); }
+body .approved-home .ah-about-main { align-items: center; }
+body .approved-home .ah-about-photo { min-height: 0; height: clamp(380px, 36vw, 480px); }
+body .approved-home .ah-quote-grid { align-items: start; }
+body .approved-home .ah-quote-copy > img { margin-top: 0; max-height: 320px; }
+body .approved-home .ah-quote-copy > .ah-marks { margin-bottom: 24px; }
+
+/* Guides use two complete rows instead of a stretched, half-empty feature panel. */
+body .approved-home .ah-knowledge-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; align-items: stretch; }
+body .approved-home .ah-guide-grid { display: contents; }
+body .approved-home .ah-guide-grid article { display: flex; flex-direction: column; grid-column: auto; gap: 0; padding: 0; overflow: hidden; }
+body .approved-home .ah-guide-feature > img,
+body .approved-home .ah-guide-photo img,
+body .approved-home .ah-guide-wide .ah-guide-photo img { height: 180px; min-height: 0; aspect-ratio: auto; }
+body .approved-home .ah-guide-wide .ah-guide-photo { height: auto; }
+body .approved-home .ah-guide-feature > div { flex: 1; padding: 24px; }
+body .approved-home .ah-guide-feature h3 { font-size: 23px; }
+body .approved-home .ah-guide-feature p { font-size: 14px; }
+body .approved-home .ah-guide-feature .ah-button { margin-top: 8px; }
+body .approved-home .ah-guide-content,
+body .approved-home .ah-guide-wide .ah-guide-content { padding: 24px; gap: 14px; flex: 1; align-items: start; }
+body .approved-home .ah-guide-content > svg { width: 28px; height: 28px; }
+body .approved-home .ah-guide-grid h3 { font-size: 18px; }
+body .approved-home .ah-guide-grid p { font-size: 14px; }
+
+/* About: images support their copy without dictating oversized section heights. */
+body .approved-site.ra-about .ra-hero-grid > img { height: clamp(420px, 40vw, 540px); min-height: 0; }
+body .approved-site.ra-about .ra-hero-copy { padding-block: 40px; }
+body .approved-site.ra-about .ra-story-media > img:first-child { height: clamp(340px, 34vw, 440px); min-height: 0; }
+body .approved-site.ra-about .ra-approach > img { height: clamp(360px, 36vw, 480px); min-height: 0; align-self: center; }
+body .approved-site.ra-about .ra-close > img { min-height: 0; max-height: 480px; }
+body .approved-site.ra-about .ra-value-grid article { padding: 26px; }
+
+/* Main service pages: balanced service rows and bounded supporting photography. */
+@media (min-width: 1200px) {
+  body .approved-site.re-exterior:not(.ri-interior) .re-service-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+body .approved-site.ri-interior .ri-services .re-service-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+body .approved-site.re-exterior .re-split > img { height: auto; max-height: 480px; aspect-ratio: 1.25; align-self: center; }
+body .approved-site.re-exterior .re-process .re-split { align-items: center; }
+body .approved-site.ri-interior .ri-cabinet-photo { min-height: 0; height: 480px; align-self: center; }
+body .approved-site.ri-interior .ri-edge-split > img { max-height: 620px; align-self: center; }
+body .approved-site.re-exterior .re-service-grid article > div { padding: 20px; }
+body .approved-site.re-exterior .re-service-grid p { font-size: 14px; }
+
+/* Sub-services: prevent the longer neighboring column from stretching empty panels. */
+body .approved-site.vp-page .vp-cost-grid,
+body .approved-site.vp-page .vp-area-grid { align-items: start; }
+body .approved-site.vp-page .vp-cost-copy { padding-block: 30px; }
+body .approved-site.vp-page .vp-process-grid { align-items: center; }
+body .approved-site.vp-page .vp-process-grid > img { height: auto; min-height: 0; max-height: 480px; aspect-ratio: 1.25; }
+body .approved-site.vp-page .vp-assess-photo { align-self: start; }
+body .approved-site.vp-page .vp-assess-photo > img { flex: none; min-height: 0; max-height: 440px; height: auto; aspect-ratio: 1.35; }
+body .approved-site.in-page .in-overview-grid > figure > img,
+body .approved-site.in-page .in-colour-grid > figure > img { height: auto; max-height: 440px; aspect-ratio: 1.35; }
+body .approved-site.in-page .in-local-plan .vp-location-start { margin-top: 0; }
+
+/* Locations and FAQ: content-sized panels, clear map edges and compact support areas. */
+body .approved-site.lm-locations .lm-region-grid { align-items: start; }
+body .approved-site.lm-locations .lm-faq-photos { align-self: start; grid-template-rows: auto; }
+body .approved-site.lm-locations .lm-faq-photos img { height: auto; max-height: 240px; }
+body .approved-site.lm-locations .lm-plan-grid { align-items: center; }
+body .approved-site.lm-locations .lm-plan-grid > img { height: auto; max-height: 480px; aspect-ratio: 1.3; }
+body .approved-site.lc-location .lm-hero-inner { min-height: 0; padding-block: 34px 40px; }
+body .approved-site .wps-area-map { align-self: start; }
+body .approved-site .wps-area-map > iframe { flex: none; height: 340px; min-height: 0; }
+body .approved-site.fq-site .fq-grid { align-items: start; }
+body .approved-site.fq-site .fq-sidebar { align-self: start; }
+body .approved-site.fq-site .fq-help { margin-top: 0; padding-block: var(--wps-section-space); }
+body .approved-site.rc-contact .rc-area-grid { align-items: start; }
+body .approved-site.rc-contact .rc-area-photo > img { flex: none; min-height: 0; max-height: 400px; }
+body .approved-site.rc-contact .rc-next { padding-block: var(--wps-section-space); }
+body .approved-site.editorial-site .ed-sidebar { align-self: start; }
+body .approved-site main :is(.ah-field-row, .lm-form-two, .lm-form-three, .vp-fields) { min-width: 0; }
+
+@media (max-width: 1199px) {
+  body .approved-home .ah-knowledge-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  body .approved-site.re-exterior .re-service-grid,
+  body .approved-site.ri-interior .ri-services .re-service-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 899px) {
+  body .approved-site.lc-location main > .lm-hero { display: flex; flex-direction: column; }
+  body .approved-site.lc-location .lm-hero:after { display: none; }
+  body .approved-site.lc-location .lm-hero-copy { width: 100%; }
+  body .approved-site.lc-location .lm-hero-photo { position: relative; inset: auto; height: 280px; z-index: 0; order: 2; }
+}
+@media (max-width: 767px) {
+  body .approved-site { --wps-section-space: 32px; --wps-layout-gap: 24px; }
+  body .approved-site main :is(.ah-heading-row, .ah-work-heading) { margin-bottom: 24px; }
+  body .approved-home .ah-cabinet-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  body .approved-home .ah-exterior-main > img { height: auto; max-height: 320px; aspect-ratio: 1.4; }
+  body .approved-home .ah-about-photo { height: 340px; }
+  body .approved-home .ah-process-grid article { padding: 20px 18px; }
+  body .approved-home .ah-quote-copy > img { max-height: 260px; aspect-ratio: 1.8; }
+  body .approved-site.ra-about .ra-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr); }
+  body .approved-site.ra-about .ra-hero-copy { padding-block: 28px; }
+  body .approved-site.ra-about .ra-hero-grid > img { height: 280px; }
+  body .approved-site.ra-about .ra-story-media > img:first-child,
+  body .approved-site.ra-about .ra-approach > img { height: auto; max-height: 340px; aspect-ratio: 1.35; }
+  body .approved-site.ra-about .ra-close > img { height: 280px; }
+  body .approved-site.re-exterior .re-split > img,
+  body .approved-site.ri-interior .ri-edge-split > img,
+  body .approved-site.vp-page .vp-process-grid > img,
+  body .approved-site.vp-page .vp-assess-photo > img,
+  body .approved-site.in-page .in-overview-grid > figure > img,
+  body .approved-site.in-page .in-colour-grid > figure > img { height: auto; min-height: 0; max-height: 320px; aspect-ratio: 1.4; }
+  body .approved-site.ri-interior .ri-cabinet-photo { height: 340px; }
+  body .approved-site.ri-interior .ri-cabinet-photo > img { height: 100%; max-height: none; }
+  body .approved-site.vp-page .vp-cost-copy { padding-block: 28px; }
+  body .approved-site.lc-location .lm-hero-inner { padding-block: 24px 28px; }
+  body .approved-site .wps-area-map > iframe { height: 280px; }
+  body .approved-site .wps-map-heading { flex-wrap: wrap; }
+  body .approved-site .wps-map-heading > div { flex-basis: calc(100% - 46px); }
+  body .approved-site .wps-map-heading > a { margin-left: auto; }
+}
+@media (max-width: 599px) {
+  body .approved-home .ah-knowledge-grid { grid-template-columns: minmax(0, 1fr); }
+  body .approved-home .ah-guide-feature > img,
+  body .approved-home .ah-guide-photo img,
+  body .approved-home .ah-guide-wide .ah-guide-photo img { height: auto; aspect-ratio: 1.8; max-height: 220px; }
+  body .approved-home .ah-guide-content,
+  body .approved-home .ah-guide-wide .ah-guide-content { padding: 22px; }
+  body .approved-site.re-exterior .re-service-grid,
+  body .approved-site.ri-interior .ri-services .re-service-grid { grid-template-columns: minmax(0, 1fr); }
+  body .approved-site main :is(.ah-field-row, .lm-form-two, .lm-form-three, .vp-fields) { grid-template-columns: minmax(0, 1fr); }
+  body .approved-site main :is(input:not([type=checkbox]):not([type=radio]):not([type=range]), textarea, select) { font-size: 16px; }
+}
+@media (max-width: 380px) {
+  body .approved-home .ah-cabinet-grid { grid-template-columns: minmax(0, 1fr); }
+}
+/* City content keeps the compact rhythm established for local service pages. */
+body .approved-site.lc-location main > .lm-section { padding-block: clamp(30px, 3vw, 40px); }
