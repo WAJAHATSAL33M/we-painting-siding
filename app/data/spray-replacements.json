@@ -12,8 +12,8 @@
     "height": 1024
   },
   "/images/interior-reference/painter.webp": {
-    "src": "/images/spray/interior-door-spray.webp",
-    "alt": "Illustrative spray painting of a detached interior door in a protected work area",
+    "src": "/images/spray/installed-interior-door-spray.webp",
+    "alt": "Illustrative spray finishing of an interior door attached to its hinges and frame",
     "width": 1536,
     "height": 1024
   },
@@ -132,8 +132,26 @@
     "height": 1024
   },
   "/images/cabinet/doors.webp": {
-    "src": "/images/spray/cabinet-spray.webp",
-    "alt": "Illustrative professional spray finishing of a shaker cabinet door in a ventilated booth",
+    "src": "/images/spray/installed-cabinet-spray.webp",
+    "alt": "Illustrative spray finishing of installed kitchen cabinetry with doors attached",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/spray/interior-door-spray.webp": {
+    "src": "/images/spray/installed-interior-door-spray.webp",
+    "alt": "Illustrative spray finishing of an interior door attached to its hinges and frame",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/spray/cabinet-spray.webp": {
+    "src": "/images/spray/installed-cabinet-spray.webp",
+    "alt": "Illustrative spray finishing of installed kitchen cabinetry with doors attached",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/company/supplementary/cabinet-preparation.webp": {
+    "src": "/images/interior-design/cabinet-protection.webp",
+    "alt": "Illustrative protected kitchen with cabinetry and doors installed",
     "width": 1536,
     "height": 1024
   }
