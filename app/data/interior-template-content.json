@@ -120,8 +120,10 @@
         "alt": "Coordinated walls and trim in a finished interior"
       },
       "process": {
-        "src": "/images/subservice-reference/interior-protection.webp",
-        "alt": "Illustrative painting finish and surface detail"
+        "src": "/images/spray/interior-wall-spray.webp",
+        "alt": "Illustrative professional airless spray painting in a protected interior room",
+        "width": 1536,
+        "height": 1024
       },
       "colour": {
         "src": "/images/interior-reference/dining.webp",
@@ -260,8 +262,10 @@
         "alt": "Interior finish detail for wall painting"
       },
       "process": {
-        "src": "/images/subservice-reference/interior-protection.webp",
-        "alt": "Illustrative painting finish and surface detail"
+        "src": "/images/spray/interior-wall-spray.webp",
+        "alt": "Illustrative professional airless spray painting in a protected interior room",
+        "width": 1536,
+        "height": 1024
       },
       "colour": {
         "src": "/images/interior-reference/dining.webp",
@@ -680,8 +684,10 @@
         "alt": "Interior finish detail for interior door painting"
       },
       "process": {
-        "src": "/images/subservice-reference/interior-protection.webp",
-        "alt": "Illustrative painting finish and surface detail"
+        "src": "/images/spray/interior-door-spray.webp",
+        "alt": "Illustrative airless spray finishing of an interior door in a protected work area",
+        "width": 1536,
+        "height": 1024
       },
       "colour": {
         "src": "/images/cabinet/builtins.webp",

@@ -1,3 +1,4 @@
+import CompanyImage from './company-image';
 import {SiteHeader,SiteFooter} from './site-chrome';
 import {Icon} from './site-home';
 import profiles from '../data/interior-template-content.json';
@@ -8,7 +9,7 @@ const origin='https://we-painting-siding.vercel.app';
 function Arrow(){return <svg className="vp-arrow" viewBox="0 0 28 16" fill="none" aria-hidden="true"><path d="M1 8h24M19 2l6 6-6 6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/></svg>}
 function Link({href='#quote',children}){return <a className="vp-link" href={href}>{children}<Arrow/></a>}
 function Button({href='#quote',children}){return <a href={href} className="ah-button">{children}<Arrow/></a>}
-function Photo({photo,priority=false,className=''}){const dim=photoMetadata[photo.src]||{width:photo.width||1440,height:photo.height||960};return <img className={className} src={photo.src} alt={photo.alt} width={dim.width} height={dim.height} loading={priority?'eager':'lazy'} fetchPriority={priority?'high':undefined} decoding="async"/>}
+function Photo({photo,priority=false,className=''}){const dim=photoMetadata[photo.src]||{width:photo.width||1440,height:photo.height||960};return <CompanyImage className={className} src={photo.src} alt={photo.alt} width={dim.width} height={dim.height} loading={priority?'eager':'lazy'} fetchPriority={priority?'high':undefined} decoding="async"/>}
 function Feature({icon,title,children}){return <div className="vp-feature"><span className="vp-icon"><Icon name={icon}/></span><div><h3>{title}</h3><p>{children}</p></div></div>}
 function Checks({items}){return <ul className="vp-checks">{items.map(t=><li key={t}><span aria-hidden="true">✓</span>{t}</li>)}</ul>}
 export default function InteriorDetailPage({service:s}){const c=profiles[s.slug],images=c.images,related=relatedServices(s),crumbs=[['Home','/'],['Interior Painting','/interior-painting'],[s.title,s.path]],schema={'@context':'https://schema.org','@graph':[{'@type':'Service',name:s.title,serviceType:s.title,description:s.description,url:origin+s.path,provider:{'@type':'Organization',name:'We Paint Siding',url:origin},areaServed:{'@type':'Place',name:'Southern Ontario'}},{'@type':'BreadcrumbList',itemListElement:crumbs.map(([name,path],i)=>({'@type':'ListItem',position:i+1,name,item:origin+path}))}]};return <ProjectProvider><div className="approved-site vp-page in-page"><a className="ah-skip" href="#main-content">Skip to content</a><SiteHeader quoteHref="#quote"/><main id="main-content">

@@ -1,10 +1,12 @@
 'use client';
+import CompanyImage from '../components/company-image';
+
 import {SiteFooter} from '../components/site-chrome';
 import {useState} from 'react';
 import {Navigation,SocialIcon} from '../components/approved-homepage';
 import {Icon} from '../components/site-home';
 const photos={hero:'/images/approved-home/painter.webp',story:'/images/approved-home/house.webp',detail:'/images/approved-home/vanity.webp',community:'/images/about-reference/community.webp',exterior:'/images/contact/house.webp',interior:'/images/approved-home/kitchen.webp',team:'/images/about-reference/team.webp',cta:'/images/v2/house.webp'};
-function Photo({name,alt,eager=false,className=''}){return <img className={className} src={photos[name]} alt={alt} width="1536" height="1024" loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined}/>}
+function Photo({name,alt,eager=false,className=''}){return <CompanyImage className={className} src={photos[name]} alt={alt} width="1536" height="1024" loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined}/>}
 function Arrow(){return <svg className="ah-arrow" viewBox="0 0 28 16" fill="none" aria-hidden="true"><path d="M1 8h24M19 2l6 6-6 6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/></svg>}
 function Button({href,children,outline=false}){return <a className={'ah-button'+(outline?' ra-outline':'')} href={href}>{children}<Arrow/></a>}
 function PaintIcon({name}){return name==='prepare'?<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M8 34v-6c0-8 5-14 12-16m8 0c7 2 12 8 12 16v6M20 20V8h8v12M6 34h36v7H6z"/></svg>:<Icon name={name}/>}

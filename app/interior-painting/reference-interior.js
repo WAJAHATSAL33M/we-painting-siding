@@ -1,4 +1,6 @@
 'use client';
+import CompanyImage from '../components/company-image';
+
 import AreaMap from '../components/area-map';
 
 import {SiteFooter} from '../components/site-chrome';
@@ -7,7 +9,7 @@ import {Icon} from '../components/site-home';
 const quote='/contact#quote';
 function Arrow(){return <svg className="ah-arrow" viewBox="0 0 28 16" fill="none" aria-hidden="true"><path d="M1 8h24M19 2l6 6-6 6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/></svg>}
 function Button({href=quote,children,outline=false}){return <a href={href} className={'ah-button'+(outline?' ah-outline':'')}>{children}<Arrow/></a>}
-function Photo({src,alt,priority=false}){return <img src={'/images/'+src+'.webp'} alt={alt} width="1536" height="1024" loading={priority?'eager':'lazy'} fetchPriority={priority?'high':undefined}/>}
+function Photo({src,alt,priority=false}){return <CompanyImage src={'/images/'+src+'.webp'} alt={alt} width="1536" height="1024" loading={priority?'eager':'lazy'} fetchPriority={priority?'high':undefined}/>}
 function Heading({first,second}){return <h2>{first} <em>{second}</em></h2>}
 function Mark({name}){if(name==='bucket')return <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true"><ellipse cx="16" cy="7" rx="11" ry="4"/><path d="M5 7v20c0 5 22 5 22 0V7M11 20l3 3 7-8"/></svg>;if(name==='review')return <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true"><rect x="5" y="3" width="22" height="27" rx="2"/><path d="M11 10h10M10 20l4 4 9-9"/></svg>;return <Icon name={name}/>}
 const services=[

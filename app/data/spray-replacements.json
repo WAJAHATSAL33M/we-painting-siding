@@ -1,0 +1,140 @@
+{
+  "/images/v2/painter.webp": {
+    "src": "/images/spray/exterior-spray-team.webp",
+    "alt": "Illustrative spray-painting team working on carefully masked exterior siding",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/v2/tools.webp": {
+    "src": "/images/spray/siding-spray-detail.webp",
+    "alt": "Illustrative close-up of airless spray application beside masked exterior window trim",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/interior-reference/painter.webp": {
+    "src": "/images/spray/interior-door-spray.webp",
+    "alt": "Illustrative spray painting of a detached interior door in a protected work area",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/subservice-reference/interior-application.webp": {
+    "src": "/images/spray/interior-wall-spray.webp",
+    "alt": "Illustrative airless spray application on an interior wall with windows and floors protected",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/subservice-reference/interior-protection.webp": {
+    "src": "/images/spray/interior-spray-preparation.webp",
+    "alt": "Illustrative protected interior room prepared for spraying with airless equipment",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/approved-home/painter.webp": {
+    "src": "/images/spray/siding-spray.webp",
+    "alt": "Illustrative professional airless spray painting on protected blue-gray exterior siding",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/approved-home/tools.webp": {
+    "src": "/images/spray/exterior-spray-equipment.webp",
+    "alt": "Illustrative airless paint sprayer, hose and spray gun on a protected porch",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/approved-home/detail.webp": {
+    "src": "/images/spray/siding-spray-detail.webp",
+    "alt": "Illustrative close-up of airless spray application beside masked exterior window trim",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/contact/tools.webp": {
+    "src": "/images/spray/exterior-spray-equipment.webp",
+    "alt": "Illustrative airless paint sprayer, hose and spray gun on a protected porch",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/about/team.webp": {
+    "src": "/images/spray/exterior-spray-team.webp",
+    "alt": "Illustrative spray-painting team working on carefully masked exterior siding",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/about/detail.webp": {
+    "src": "/images/spray/window-trim-spray.webp",
+    "alt": "Illustrative professional spray finishing of white exterior window trim with surrounding surfaces masked",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/subservices/exterior-window-door-painting/detail.webp": {
+    "src": "/images/spray/exterior-door-spray.webp",
+    "alt": "Illustrative airless spray finishing of a navy exterior door on a protected porch",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/subservices/vinyl-siding-painting/detail.webp": {
+    "src": "/images/spray/siding-spray.webp",
+    "alt": "Illustrative professional airless spray painting on protected blue-gray exterior siding",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/subservices/wood-siding-painting/detail.webp": {
+    "src": "/images/spray/siding-spray-detail.webp",
+    "alt": "Illustrative close-up of airless spray application beside masked exterior window trim",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/subservices/aluminum-painting/detail.webp": {
+    "src": "/images/spray/siding-spray.webp",
+    "alt": "Illustrative professional airless spray painting on protected blue-gray exterior siding",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/subservices/exterior-stucco-painting/detail.webp": {
+    "src": "/images/spray/stucco-spray.webp",
+    "alt": "Illustrative airless spray application on a stucco wall beside a protected window",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/subservices/eavestrough-fascia-painting/detail.webp": {
+    "src": "/images/spray/fascia-spray.webp",
+    "alt": "Illustrative spray finishing of exterior fascia from a secure scaffold platform",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/subservices/window-painting/detail.webp": {
+    "src": "/images/spray/window-trim-spray.webp",
+    "alt": "Illustrative professional spray finishing of white exterior window trim with surrounding surfaces masked",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/subservices/brick-painting/detail.webp": {
+    "src": "/images/spray/masonry-spray.webp",
+    "alt": "Illustrative professional spray application of masonry coating to an exterior brick wall",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/subservices/siding-painting/detail.webp": {
+    "src": "/images/spray/siding-spray.webp",
+    "alt": "Illustrative professional airless spray painting on protected blue-gray exterior siding",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/subservices/commercial-painting/detail.webp": {
+    "src": "/images/spray/commercial-spray.webp",
+    "alt": "Illustrative airless spray finishing of commercial metal cladding beside masked storefront glass",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/company/211-back-brushing.webp": {
+    "src": "/images/spray/exterior-spray-team.webp",
+    "alt": "Illustrative spray-painting team working on carefully masked exterior siding",
+    "width": 1536,
+    "height": 1024
+  },
+  "/images/cabinet/doors.webp": {
+    "src": "/images/spray/cabinet-spray.webp",
+    "alt": "Illustrative professional spray finishing of a shaker cabinet door in a ventilated booth",
+    "width": 1536,
+    "height": 1024
+  }
+}

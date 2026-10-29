@@ -1,4 +1,6 @@
 'use client';
+import CompanyImage from '../components/company-image';
+
 import AreaMap from '../components/area-map';
 
 import interior from '../data/interior-service-links.json';
@@ -11,7 +13,7 @@ import locations from '../data/locations.json';
 import LocationRequest from './location-request';
 function Arrow(){return <svg className="ah-arrow" viewBox="0 0 28 16" fill="none" aria-hidden="true"><path d="M1 8h24M19 2l6 6-6 6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/></svg>}
 function Button({href='#local-project',children,outline=false}){return <a className={'ah-button'+(outline?' lm-outline':'')} href={href}>{children}<Arrow/></a>}
-function Photo({src,alt,eager=false}){return <img src={'/images/'+src+'.webp'} alt={alt} width="1536" height="1024" loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined}/>}
+function Photo({src,alt,eager=false}){return <CompanyImage src={'/images/'+src+'.webp'} alt={alt} width="1536" height="1024" loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined}/>}
 function Mark({name}){if(name==='pin')return <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true"><path d="M26 13c0 8-10 17-10 17S6 21 6 13a10 10 0 1 1 20 0Z"/><circle cx="16" cy="12" r="3.5"/></svg>;if(name==='clipboard')return <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true"><path d="M10 5H5v25h22V5h-5M11 3h10v6H11zM10 16l3 3 4-5M20 16h3M10 24h13"/></svg>;return <Icon name={name}/>}
 const slug=s=>s.toLowerCase().replaceAll(' ','-').replaceAll('.','');
 

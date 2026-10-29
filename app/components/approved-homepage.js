@@ -1,4 +1,6 @@
 'use client';
+import CompanyImage from './company-image';
+
 import {useEffect,useRef,useState} from 'react';
 import {SiteHeader,SiteFooter} from './site-chrome';
 import {Icon} from './site-home';
@@ -9,7 +11,7 @@ const image=(name)=>name.includes('/')?'/images/'+name+'.webp':'/images/approved
 const imageDimensions={'approved-home/cabinet-feature':[1672,941],'approved-home/detail':[1672,941],'subservices/siding-painting/detail':[1440,960],'subservice-reference/surface-assessment':[1440,960],'v2/brick':[1254,1254],'subservices/wood-siding-painting/hero':[1440,810],'about/team':[1600,900]};
 function Arrow(){return <svg className="ah-arrow" viewBox="0 0 28 16" fill="none" aria-hidden="true"><path d="M1 8h24M19 2l6 6-6 6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/></svg>}
 function Button({href='#quote',children='Get a Free Quote',outline=false}){return <a className={'ah-button'+(outline?' ah-outline':'')} href={href}>{children}<Arrow/></a>}
-function Photo({name,alt,className='',priority=false,position}){const [width,height]=imageDimensions[name]||[1536,1024];return <img className={className} src={image(name)} alt={alt} width={width} height={height} loading={priority?undefined:'lazy'} fetchPriority={priority?'high':undefined} decoding="async" style={position?{objectPosition:position}:undefined}/>}
+function Photo({name,alt,className='',priority=false,position}){const [width,height]=imageDimensions[name]||[1536,1024];return <CompanyImage className={className} src={image(name)} alt={alt} width={width} height={height} loading={priority?undefined:'lazy'} fetchPriority={priority?'high':undefined} decoding="async" style={position?{objectPosition:position}:undefined}/>}
 function Wordmark({footer=false}){return <a className={'ah-wordmark'+(footer?' ah-wordmark-light':'')} href="/" aria-label="We Paint Siding home">WePaint<span>Siding</span><small>.com</small></a>}
 function Marks({items,className=''}){return <div className={'ah-marks '+className}>{items.map(([icon,title,copy])=><div key={title}><Icon name={icon}/><div><strong>{title}</strong>{copy&&<p>{copy}</p>}</div></div>)}</div>}
 const benefits=[['shield','Protect Your Property'],['home','Beautiful Results'],['paint','Professional Craftsmanship'],['people','Serving Ontario Communities']];

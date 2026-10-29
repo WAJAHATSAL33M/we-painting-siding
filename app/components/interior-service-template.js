@@ -1,3 +1,4 @@
+import CompanyImage from './company-image';
 import {SiteHeader,SiteFooter} from './site-chrome';
 import {Icon} from './site-home';
 import AreaMap from './area-map';
@@ -5,7 +6,7 @@ import ServiceRequest from './service-request';
 import media from '../data/service-media.json';
 import {allServices,relatedServices,serviceFaqs,featuredCities} from '../data/service-pages';
 
-function Photo({photo,priority=false,...props}){return <img {...props} src={photo.src} alt={photo.alt} width="1536" height="1024" loading={priority?'eager':'lazy'} fetchPriority={priority?'high':undefined} decoding="async"/>}
+function Photo({photo,priority=false,...props}){return <CompanyImage {...props} src={photo.src} alt={photo.alt} width="1536" height="1024" loading={priority?'eager':'lazy'} fetchPriority={priority?'high':undefined} decoding="async"/>}
 function Link({href='#quote',children,outline=false}){return <a className={'ah-button'+(outline?' ip-outline':'')} href={href}>{children}<span aria-hidden="true">↗</span></a>}
 const citySlug=c=>c.toLowerCase().replaceAll(' ','-');
 export default function InteriorServiceTemplate({service:s}){

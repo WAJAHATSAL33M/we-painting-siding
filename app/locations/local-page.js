@@ -1,3 +1,4 @@
+import CompanyImage from '../components/company-image';
 import AreaMap from '../components/area-map';
 import interiors from '../data/interior-service-links.json';
 import {Navigation} from '../components/approved-homepage';
@@ -11,7 +12,7 @@ const groups=[['burlington','oakville','milton','mississauga','caledon'],['hamil
 const homes=['exterior/house','approved-home/house','approved-home/slate-house','contact/house','v2/house'];
 const rooms=['approved-home/living','home-v3/interior','locations/interior','interior-reference/dining'];
 const neighbourhoods=['about-reference/community','locations/community','locations-reference/lakeshore'];
-function Photo({src,alt,eager=false,className=''}){return <img className={className} src={'/images/'+src+'.webp'} alt={alt} width="1536" height="1024" loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined}/>}
+function Photo({src,alt,eager=false,className=''}){return <CompanyImage className={className} src={'/images/'+src+'.webp'} alt={alt} width="1536" height="1024" loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined}/>}
 function Button({children,href='#local-project',outline=false}){return <a className={'ah-button'+(outline?' lm-outline':'')} href={href}>{children}<Arrow/></a>}
 function Feature({icon,title,children}){return <div className="lc-feature"><span><Icon name={icon}/></span><div><h3>{title}</h3><p>{children}</p></div></div>}
 export default function LocalPage({city,local}){const c=city.name,i=locations.findIndex(x=>x.slug===city.slug),group=groups.find(g=>g.includes(city.slug))||groups[0],near=(city.slug==='burlington'?['oakville','hamilton','milton']:group.filter(s=>s!==city.slug).slice(0,3)).map(s=>locations.find(x=>x.slug===s));const hero=homes[i%homes.length],faqHouse=homes[(i+1)%homes.length],room=rooms[i%rooms.length],faqRoom=rooms[(i+1)%rooms.length];const faqs=[

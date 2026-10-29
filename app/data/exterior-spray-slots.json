@@ -1,0 +1,326 @@
+{
+  "siding-painting": {
+    "overview": {
+      "src": "/images/spray/siding-spray.webp",
+      "alt": "Illustrative professional airless spray painting on protected blue-gray exterior siding",
+      "width": 1536,
+      "height": 1024
+    },
+    "scope-0": {
+      "src": "/images/vinyl-design/vinyl-detail.webp",
+      "alt": "Illustrative finished siding painting surface and architectural details",
+      "width": 1536,
+      "height": 1024
+    },
+    "scope-1": {
+      "src": "/images/spray/exterior-spray-equipment.webp",
+      "alt": "Illustrative airless paint sprayer, hose and spray gun on a protected porch",
+      "width": 1536,
+      "height": 1024
+    },
+    "coordinate": {
+      "src": "/images/spray/window-trim-spray.webp",
+      "alt": "Illustrative professional spray finishing of white exterior window trim with surrounding surfaces masked",
+      "width": 1536,
+      "height": 1024
+    },
+    "process": {
+      "src": "/images/spray/exterior-spray-team.webp",
+      "alt": "Illustrative spray-painting team working on carefully masked exterior siding",
+      "width": 1536,
+      "height": 1024
+    },
+    "faq": {
+      "src": "/images/subservices/aluminum-painting/hero.webp",
+      "alt": "Illustrative finished siding painting surface and architectural details",
+      "width": 1440,
+      "height": 810
+    }
+  },
+  "aluminum-painting": {
+    "overview": {
+      "src": "/images/spray/siding-spray.webp",
+      "alt": "Illustrative professional airless spray painting on protected blue-gray exterior siding",
+      "width": 1536,
+      "height": 1024
+    },
+    "scope-0": {
+      "src": "/images/vinyl-design/vinyl-detail.webp",
+      "alt": "Illustrative finished aluminum painting surface and architectural details",
+      "width": 1536,
+      "height": 1024
+    },
+    "coordinate": {
+      "src": "/images/spray/window-trim-spray.webp",
+      "alt": "Illustrative professional spray finishing of white exterior window trim with surrounding surfaces masked",
+      "width": 1536,
+      "height": 1024
+    },
+    "faq": {
+      "src": "/images/subservices/vinyl-siding-painting/hero.webp",
+      "alt": "Illustrative finished aluminum painting surface and architectural details",
+      "width": 1440,
+      "height": 960
+    }
+  },
+  "wood-siding-painting": {
+    "overview": {
+      "src": "/images/spray/siding-spray-detail.webp",
+      "alt": "Illustrative close-up of airless spray application beside masked exterior window trim",
+      "width": 1536,
+      "height": 1024
+    },
+    "scope-0": {
+      "src": "/images/before-after/wood-after.webp",
+      "alt": "Illustrative finished wood siding painting surface and architectural details",
+      "width": 1536,
+      "height": 1024
+    },
+    "scope-1": {
+      "src": "/images/spray/exterior-spray-equipment.webp",
+      "alt": "Illustrative airless paint sprayer, hose and spray gun on a protected porch",
+      "width": 1536,
+      "height": 1024
+    },
+    "coordinate": {
+      "src": "/images/spray/window-trim-spray.webp",
+      "alt": "Illustrative professional spray finishing of white exterior window trim with surrounding surfaces masked",
+      "width": 1536,
+      "height": 1024
+    },
+    "process": {
+      "src": "/images/spray/exterior-spray-team.webp",
+      "alt": "Illustrative spray-painting team working on carefully masked exterior siding",
+      "width": 1536,
+      "height": 1024
+    },
+    "faq": {
+      "src": "/images/approved-home/slate-house.webp",
+      "alt": "Illustrative finished wood siding painting surface and architectural details",
+      "width": 1536,
+      "height": 1024
+    }
+  },
+  "brick-painting": {
+    "overview": {
+      "src": "/images/spray/masonry-spray.webp",
+      "alt": "Illustrative professional spray application of masonry coating to an exterior brick wall",
+      "width": 1536,
+      "height": 1024
+    },
+    "scope-0": {
+      "src": "/images/approved-home/brick.webp",
+      "alt": "Illustrative finished brick painting surface and architectural details",
+      "width": 1536,
+      "height": 1024
+    },
+    "coordinate": {
+      "src": "/images/spray/window-trim-spray.webp",
+      "alt": "Illustrative professional spray finishing of white exterior window trim with surrounding surfaces masked",
+      "width": 1536,
+      "height": 1024
+    },
+    "faq": {
+      "src": "/images/before-after/brick-after.webp",
+      "alt": "Illustrative finished brick painting surface and architectural details",
+      "width": 1536,
+      "height": 1024
+    }
+  },
+  "exterior-stucco-painting": {
+    "overview": {
+      "src": "/images/spray/stucco-spray.webp",
+      "alt": "Illustrative airless spray application on a stucco wall beside a protected window",
+      "width": 1536,
+      "height": 1024
+    },
+    "scope-0": {
+      "src": "/images/before-after/stucco-after.webp",
+      "alt": "Illustrative finished exterior stucco painting surface and architectural details",
+      "width": 1536,
+      "height": 1024
+    },
+    "scope-1": {
+      "src": "/images/spray/exterior-spray-equipment.webp",
+      "alt": "Illustrative airless paint sprayer, hose and spray gun on a protected porch",
+      "width": 1536,
+      "height": 1024
+    },
+    "coordinate": {
+      "src": "/images/spray/window-trim-spray.webp",
+      "alt": "Illustrative professional spray finishing of white exterior window trim with surrounding surfaces masked",
+      "width": 1536,
+      "height": 1024
+    },
+    "process": {
+      "src": "/images/vinyl-design/vinyl-preparation.webp",
+      "alt": "Illustrative window protection and masking before exterior spray painting",
+      "width": 1536,
+      "height": 1024
+    },
+    "faq": {
+      "src": "/images/subservices/brick-painting/hero.webp",
+      "alt": "Illustrative finished exterior stucco painting surface and architectural details",
+      "width": 1440,
+      "height": 960
+    }
+  },
+  "eavestrough-fascia-painting": {
+    "overview": {
+      "src": "/images/spray/fascia-spray.webp",
+      "alt": "Illustrative spray finishing of exterior fascia from a secure scaffold platform",
+      "width": 1536,
+      "height": 1024
+    },
+    "scope-0": {
+      "src": "/images/before-after/trim-after.webp",
+      "alt": "Illustrative finished eavestrough fascia painting surface and architectural details",
+      "width": 1536,
+      "height": 1024
+    },
+    "scope-1": {
+      "src": "/images/spray/exterior-spray-equipment.webp",
+      "alt": "Illustrative airless paint sprayer, hose and spray gun on a protected porch",
+      "width": 1536,
+      "height": 1024
+    },
+    "coordinate": {
+      "src": "/images/spray/window-trim-spray.webp",
+      "alt": "Illustrative professional spray finishing of white exterior window trim with surrounding surfaces masked",
+      "width": 1536,
+      "height": 1024
+    },
+    "process": {
+      "src": "/images/vinyl-design/vinyl-preparation.webp",
+      "alt": "Illustrative window protection and masking before exterior spray painting",
+      "width": 1536,
+      "height": 1024
+    },
+    "faq": {
+      "src": "/images/approved-home/house.webp",
+      "alt": "Illustrative finished eavestrough fascia painting surface and architectural details",
+      "width": 1536,
+      "height": 1024
+    }
+  },
+  "window-painting": {
+    "overview": {
+      "src": "/images/spray/window-trim-spray.webp",
+      "alt": "Illustrative professional spray finishing of white exterior window trim with surrounding surfaces masked",
+      "width": 1536,
+      "height": 1024
+    },
+    "scope-0": {
+      "src": "/images/approved-home/brick.webp",
+      "alt": "Illustrative finished window painting surface and architectural details",
+      "width": 1536,
+      "height": 1024
+    },
+    "scope-1": {
+      "src": "/images/spray/exterior-spray-equipment.webp",
+      "alt": "Illustrative airless paint sprayer, hose and spray gun on a protected porch",
+      "width": 1536,
+      "height": 1024
+    },
+    "coordinate": {
+      "src": "/images/spray/fascia-spray.webp",
+      "alt": "Illustrative spray finishing of exterior fascia from a secure scaffold platform",
+      "width": 1536,
+      "height": 1024
+    },
+    "process": {
+      "src": "/images/vinyl-design/vinyl-preparation.webp",
+      "alt": "Illustrative window protection and masking before exterior spray painting",
+      "width": 1536,
+      "height": 1024
+    },
+    "after": {
+      "src": "/images/v2/brick.webp",
+      "alt": "Illustrative finished window painting surface and architectural details",
+      "width": 1254,
+      "height": 1254
+    },
+    "faq": {
+      "src": "/images/vinyl-design/vinyl-detail.webp",
+      "alt": "Illustrative finished window painting surface and architectural details",
+      "width": 1536,
+      "height": 1024
+    }
+  },
+  "door-painting": {
+    "overview": {
+      "src": "/images/spray/exterior-door-spray.webp",
+      "alt": "Illustrative airless spray finishing of a navy exterior door on a protected porch",
+      "width": 1536,
+      "height": 1024
+    },
+    "scope-0": {
+      "src": "/images/before-after/door-after.webp",
+      "alt": "Illustrative finished door painting surface and architectural details",
+      "width": 1536,
+      "height": 1024
+    },
+    "scope-1": {
+      "src": "/images/spray/exterior-spray-equipment.webp",
+      "alt": "Illustrative airless paint sprayer, hose and spray gun on a protected porch",
+      "width": 1536,
+      "height": 1024
+    },
+    "coordinate": {
+      "src": "/images/spray/window-trim-spray.webp",
+      "alt": "Illustrative professional spray finishing of white exterior window trim with surrounding surfaces masked",
+      "width": 1536,
+      "height": 1024
+    },
+    "process": {
+      "src": "/images/vinyl-design/vinyl-preparation.webp",
+      "alt": "Illustrative window protection and masking before exterior spray painting",
+      "width": 1536,
+      "height": 1024
+    },
+    "faq": {
+      "src": "/images/v2/door.webp",
+      "alt": "Illustrative finished door painting surface and architectural details",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  "commercial-painting": {
+    "overview": {
+      "src": "/images/spray/commercial-spray.webp",
+      "alt": "Illustrative airless spray finishing of commercial metal cladding beside masked storefront glass",
+      "width": 1536,
+      "height": 1024
+    },
+    "scope-0": {
+      "src": "/images/exterior/commercial.webp",
+      "alt": "Illustrative finished commercial painting surface and architectural details",
+      "width": 1536,
+      "height": 1024
+    },
+    "scope-1": {
+      "src": "/images/spray/exterior-spray-equipment.webp",
+      "alt": "Illustrative airless paint sprayer, hose and spray gun on a protected porch",
+      "width": 1536,
+      "height": 1024
+    },
+    "coordinate": {
+      "src": "/images/spray/window-trim-spray.webp",
+      "alt": "Illustrative professional spray finishing of white exterior window trim with surrounding surfaces masked",
+      "width": 1536,
+      "height": 1024
+    },
+    "process": {
+      "src": "/images/vinyl-design/vinyl-preparation.webp",
+      "alt": "Illustrative window protection and masking before exterior spray painting",
+      "width": 1536,
+      "height": 1024
+    },
+    "faq": {
+      "src": "/images/about/office.webp",
+      "alt": "Illustrative finished commercial painting surface and architectural details",
+      "width": 1536,
+      "height": 1024
+    }
+  }
+}
