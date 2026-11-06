@@ -17,7 +17,7 @@
 .gr-section.gr-single .gr-profiles{grid-template-columns:minmax(0,1fr)}
 .gr-section.gr-single .gr-profile{grid-template-columns:48px minmax(0,1fr) minmax(180px,.6fr);align-items:center}
 .gr-section.gr-single .gr-google-link{grid-column:3;border-top:0;border-left:1px solid var(--ah-rule,#d4e0e8);padding:10px 0 10px 24px}
-.gr-section .gr-review-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:22px;align-items:start}
+.gr-section .gr-review-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin-top:14px;align-items:start}
 .gr-section .gr-review{padding:24px;margin:0;background:white;border:1px solid var(--ah-rule,#d4e0e8);border-radius:6px}
 .gr-section .gr-review figcaption{display:flex;gap:12px;align-items:center}
 .gr-section .gr-avatar{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--ah-pale);font-size:16px;font-weight:600;flex:none}
@@ -32,3 +32,10 @@
 @media(max-width:1000px){.gr-section .gr-review-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.gr-section .gr-profile{padding:20px;gap:14px}.gr-section.gr-single .gr-profile{grid-template-columns:48px minmax(0,1fr)}.gr-section.gr-single .gr-google-link{grid-column:2;border-left:0;border-top:1px solid var(--ah-rule);padding:14px 0 0}}
 @media(max-width:650px){.gr-section .gr-heading{grid-template-columns:minmax(0,1fr);gap:16px;margin-bottom:22px}.gr-section .gr-profiles,.gr-section .gr-review-grid{grid-template-columns:minmax(0,1fr);gap:14px}.gr-section .gr-profile{padding:18px;grid-template-columns:40px minmax(0,1fr);gap:12px}.gr-section .gr-profile-icon{width:40px;height:40px}.gr-section.gr-single .gr-profile{grid-template-columns:40px minmax(0,1fr)}.gr-section .gr-google-link,.gr-section.gr-single .gr-google-link{grid-column:1/-1;padding-top:13px}.approved-site .gr-section h2{font-size:27px}.gr-section .gr-review{padding:20px}}
 @media(prefers-reduced-motion:reduce){.gr-section .gr-profile{transition:none}}
+
+.approved-site .gr-section .gr-rating{display:flex;align-items:baseline;flex-wrap:wrap;gap:7px;font-size:12px;line-height:1.5;margin-top:10px;color:var(--ah-navy)}
+.gr-section .gr-rating>span:first-child{color:#936400;font-size:17px}
+.gr-section .gr-rating>strong{font-size:20px;font-weight:700;letter-spacing:-.03em}
+.approved-site .gr-section .gr-excerpts-heading{font-size:16px;line-height:1.4;margin-top:24px;letter-spacing:-.02em}
+.gr-section.gr-single .gr-review-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:650px){.gr-section.gr-single .gr-review-grid{grid-template-columns:minmax(0,1fr)}}

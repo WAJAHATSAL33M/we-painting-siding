@@ -18,27 +18,22 @@ Both supplied share links resolve to the corresponding Google Maps listings:
 - Main: `https://maps.app.goo.gl/6XL7bj2AhuF3Mf1j9`, We Paint Siding, Maps feature `0x882b74952c6e3c15:0xc1508a15b52e6db1`.
 - Oakville: `https://maps.app.goo.gl/v5gkLXhfxVoAtqZY7`, We Paint Siding Oakville, Maps feature `0x882b43042248eba5:0x9918475cd9292ec1`.
 
-The available Google responses did not expose current individual review text, dates, stars or aggregate totals. Third-party listings showed conflicting/outdated counts. Consequently this release shows real Google profile cards and links only. It does not display invented testimonials, stale aggregate counts, guessed stars/dates, or placeholder review cards.
+Direct public Google Maps browser verification succeeded after the text-only retrieval attempt. The displayed snapshots are main 4.9 / 5 from 54 reviews, and Oakville 5.0 / 5 from 11 reviews, checked on 6 November 2026. These replace conflicting older directory counts.
 
-## Completing selected review cards
+Two short, exact excerpts per profile were verified with visible reviewer names and five-star ratings:
 
-User-supplied screenshots or copied review details are needed. Request about three reviews per profile, each with the author, exact text, date as displayed, star rating and a Google review link where available. Preserve author wording and keep each review attached to its actual profile. Do not infer exact dates from relative dates without confirmation.
+- Main: Jada Denis and Peter Gilbert.
+- Oakville: Marcin Makowski and Tom Xu.
 
-`app/data/google-profiles.json` is the single manual content source. Each verified entry in a profile's `reviews` array uses:
+Excerpts are deliberately brief, labelled as selected excerpts, and preserve the original wording. Each profile contributes 18 quoted words. Reviewer photos are not copied or invented; cards use initials. Links lead to the user-supplied corresponding Google listing. There is no combined rating and no Review/AggregateRating structured data.
 
-```json
-{
-  "id": "unique-reference",
-  "author": "Exact displayed reviewer name",
-  "text": "Exact verified review wording",
-  "publishedDate": "YYYY-MM-DD",
-  "rating": 5,
-  "sourceUrl": "Google review URL",
-  "verified": true
-}
-```
+Google displayed relative publication dates (Jada: a month ago; Peter: 3 weeks ago; Marcin: 3 months ago; Tom: 2 months ago). Do not invent exact publication dates. The visible date is explicitly the **check date**, not the review publication date.
 
-Only verified, attributed, dated entries render. Review cards include a manually-updated disclosure. There is no Review or AggregateRating structured data added to the business's own website. Reviewer photos are not invented or copied: cards use the author's initial.
+## Manual updates
+
+`app/data/google-profiles.json` is the content source. Profile fields include `rating`, `reviewCount`, `verifiedOn` (ISO check date). Review entries include `id`, `author`, `text`, `rating`, `verifiedOn`, `sourceUrl` and `verified: true`.
+
+Only verified, attributed and check-dated entries render. Recheck figures and text against Google when updating, retain each review's correct profile, and preserve author wording. The website discloses that this is manually updated; no automatic refresh or subscription is implied.
 
 ## Responsive design
 

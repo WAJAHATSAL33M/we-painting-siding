@@ -4,13 +4,57 @@
     "label": "Main Google profile",
     "url": "https://maps.app.goo.gl/6XL7bj2AhuF3Mf1j9",
     "description": "Read customer feedback on our main Google Business Profile.",
-    "reviews": []
+    "reviews": [
+      {
+        "id": "jada-denis",
+        "author": "Jada Denis",
+        "text": "Great experience working with Shawn and the team.",
+        "rating": 5,
+        "verifiedOn": "2026-11-06",
+        "sourceUrl": "https://maps.app.goo.gl/6XL7bj2AhuF3Mf1j9",
+        "verified": true
+      },
+      {
+        "id": "peter-gilbert",
+        "author": "Peter Gilbert",
+        "text": "Great service, communication, planning, team, quality and a competitive price.",
+        "rating": 5,
+        "verifiedOn": "2026-11-06",
+        "sourceUrl": "https://maps.app.goo.gl/6XL7bj2AhuF3Mf1j9",
+        "verified": true
+      }
+    ],
+    "rating": 4.9,
+    "reviewCount": 54,
+    "verifiedOn": "2026-11-06"
   },
   "oakville": {
     "name": "We Paint Siding Oakville",
     "label": "Oakville Google profile",
     "url": "https://maps.app.goo.gl/v5gkLXhfxVoAtqZY7",
     "description": "Explore reviews on our separate Oakville Google Business Profile.",
-    "reviews": []
+    "reviews": [
+      {
+        "id": "marcin-makowski",
+        "author": "Marcin Makowski",
+        "text": "they are professional in every aspect.",
+        "rating": 5,
+        "verifiedOn": "2026-11-06",
+        "sourceUrl": "https://maps.app.goo.gl/v5gkLXhfxVoAtqZY7",
+        "verified": true
+      },
+      {
+        "id": "tom-xu",
+        "author": "Tom Xu",
+        "text": "Shawn and his team did an amazing job repainting our aluminum siding.",
+        "rating": 5,
+        "verifiedOn": "2026-11-06",
+        "sourceUrl": "https://maps.app.goo.gl/v5gkLXhfxVoAtqZY7",
+        "verified": true
+      }
+    ],
+    "rating": 5.0,
+    "reviewCount": 11,
+    "verifiedOn": "2026-11-06"
   }
 }
