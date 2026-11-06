@@ -1,0 +1,16 @@
+{
+  "main": {
+    "name": "We Paint Siding",
+    "label": "Main Google profile",
+    "url": "https://maps.app.goo.gl/6XL7bj2AhuF3Mf1j9",
+    "description": "Read customer feedback on our main Google Business Profile.",
+    "reviews": []
+  },
+  "oakville": {
+    "name": "We Paint Siding Oakville",
+    "label": "Oakville Google profile",
+    "url": "https://maps.app.goo.gl/v5gkLXhfxVoAtqZY7",
+    "description": "Explore reviews on our separate Oakville Google Business Profile.",
+    "reviews": []
+  }
+}
