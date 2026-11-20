@@ -26,7 +26,11 @@ Keep current photographs, service image assignments, company-photo metadata and 
 
 ## Forms
 
-Project forms validate input and export a local draft ZIP with photos. They do not send enquiries online. Preserve the visible draft notices unless a real delivery backend is implemented.
+The homepage, contact, location and service enquiry forms submit to `/api/enquiries`, which emails the business inbox. The attachment limit is 10 project photos, 10 MB per photo and 15 MB combined. The receiving mailbox acts as the record of submissions.
+
+Set the five server-side variables listed in `.env.example` in Hostinger's Node.js Environment variables settings before deploying this version. `SMTP_USER` is the full sending mailbox address, `SMTP_PASSWORD` is that mailbox's password, and `ENQUIRY_TO_EMAIL` is the business inbox that receives enquiries. The sender and recipient can be the same mailbox. Use SMTP over TLS on port 465 or STARTTLS on port 587. No database setup is needed.
+
+After deploying, submit a test from each form type. Check the inbox for the request, its photos where applicable, and the visitor's address in Reply-To.
 
 ## Verification
 
