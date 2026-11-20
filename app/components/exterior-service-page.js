@@ -15,7 +15,7 @@ const faqs=[
  ['What preparation does vinyl need?','Remove dirt, chalk and other contamination, rinse as appropriate and allow the siding to dry. The existing finish, adhesion and exact product instructions determine any additional preparation or priming. Damaged panels need separate assessment.'],
  ['What affects the price of a siding repaint?','The elevations, surface area, condition, access, protection and included details all shape the scope. Photos of each side of your property help define the work. A property-specific assessment is more useful than a standard price.'],
  ['Can trim and doors be included?','Suitable trim, windows, doors and roofline details can be discussed alongside the siding. They may need different preparation and coatings. The quote should identify those components separately so the included work is clear.'],
- ['How do I confirm service in my community?','Explore our directory of 25 Southern Ontario communities, then include your city or postal code in your project draft. Availability and access need to be confirmed for the individual property before scheduling.']
+ ['How do I confirm service in my community?','Explore our directory of 25 Southern Ontario communities, then include your city or postal code in your project enquiry. Availability and access need to be confirmed for the individual property before scheduling.']
 ];
 function Arrow(){return <svg className="vp-arrow" viewBox="0 0 28 16" fill="none" aria-hidden="true"><path d="M1 8h24M19 2l6 6-6 6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/></svg>}
 function Link({href='#quote',children}){return <a className="vp-link" href={href}>{children}<Arrow/></a>}

@@ -1,0 +1,95 @@
+.wps-admin {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-columns: 246px minmax(0, 1fr);
+  background: radial-gradient(ellipse at 75% 0, #e4edff 0, transparent 45%), #f1f5fc;
+  color: #182848;
+  font: 15px/1.5 system-ui, sans-serif;
+}
+.wps-admin *, .wps-admin *::before, .wps-admin *::after { box-sizing: border-box; }
+.wps-admin button, .wps-admin input, .wps-admin textarea, .wps-admin select { font: inherit; }
+.wps-admin button { cursor: pointer; }
+.wps-admin button:disabled { cursor: default; opacity: .65; }
+.wps-admin :focus-visible { outline: 3px solid #4585ff; outline-offset: 3px; }
+.wps-nav {
+  min-height: 100dvh; height: 100dvh; position: sticky; top: 0;
+  display: flex; flex-direction: column; gap: 28px; padding: 26px 16px;
+  background: radial-gradient(ellipse at 15% 0, #314b93 0, transparent 50%), linear-gradient(140deg, #172c60, #101a36 73%);
+  color: #f0f5ff; border-right: 1px solid #3e5894;
+}
+.wps-brand { display: flex; align-items: center; gap: 11px; color: inherit; text-decoration: none; font-weight: 750; padding: 3px 4px; }
+.wps-brand > span { display: grid; place-items: center; height: 38px; width: 38px; flex: none; border-radius: 11px; background: linear-gradient(#8dafff,#4366e5); box-shadow: inset 0 1px #b8caff, 0 5px 14px #11183c80; font-size: 20px; }
+.wps-brand small { display: block; color: #bac8e6; font-weight: 500; }
+.wps-nav nav { display: grid; gap: 6px; }
+.wps-nav nav button { display: flex; align-items: center; gap: 12px; text-align: left; border: 1px solid transparent; border-radius: 10px; padding: 12px; color: #dbe5fb; background: none; }
+.wps-nav nav button:hover, .wps-nav nav [aria-current] { border-color: #7892df55; background: linear-gradient(#7694e34a, #556cc63b); box-shadow: inset 0 1px #94aaff33; color: #fff; }
+.wps-nav nav span { font-size: 17px; width: 19px; }
+.wps-site { color: #c8d6f2; margin: auto 0 0; padding: 10px 12px; }
+.wps-main { width: min(100%, 1480px); padding: clamp(20px, 4vw, 56px); margin: 0 auto; min-width: 0; }
+.wps-admin h1, .wps-admin h2, .wps-admin p { margin: 0; }
+.wps-admin h1 { font-size: clamp(28px, 4vw, 44px); line-height: 1.1; letter-spacing: -.045em; }
+.wps-admin h2 { font-size: 19px; letter-spacing: -.02em; }
+.wps-hero { display: flex; align-items: center; justify-content: space-between; gap: 18px; border-radius: 23px; padding: clamp(20px, 4vw, 44px); margin: 0 0 22px; color: white; background: radial-gradient(ellipse at 86% 3%, #7195fb 0, transparent 50%), linear-gradient(125deg, #172c60, #304ba6 74%); box-shadow: inset 0 1px #a0b6ff, 0 12px 24px #203b782f; }
+.wps-hero p { margin-top: 12px; color: #e0e9ff; }
+.wps-stats, .wps-overview-grid, .wps-inbox, .wps-editor-grid { display: grid; gap: 16px; align-items: start; }
+.wps-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-bottom: 16px; }
+.wps-overview-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.wps-inbox { grid-template-columns: minmax(250px,.8fr) minmax(0,1.2fr); }
+.wps-editor-grid { grid-template-columns: minmax(0,1fr) minmax(230px,300px); }
+.wps-panel { min-width: 0; padding: clamp(15px, 2vw, 24px); border: 1px solid #d0dcf1; border-radius: 17px; color: #192b52; background: linear-gradient(165deg,#fff 40%,#f7faff); box-shadow: inset 0 1px #fff, 0 8px 22px #203b780d; }
+.wps-stats button { text-align: left; display: grid; gap: 2px; }
+.wps-stats button:hover, .wps-summary:hover, .wps-summary[aria-pressed=true] { background: #eef4ff; }
+.wps-stats strong { font-size: 31px; line-height: 1.35; color: #2c51b6; }
+.wps-title { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 16px; }
+.wps-summary { display: flex; width: 100%; gap: 10px; justify-content: space-between; align-items: center; border: 0; border-top: 1px solid #e1e8f6; padding: 10px 5px; background: transparent; color: inherit; text-align: left; overflow-wrap: anywhere; }
+.wps-summary span, .wps-muted { color: #526586; }
+.wps-summary span { font-size: 13px; }
+.wps-primary, .wps-secondary, .wps-danger, .wps-back { border-radius: 8px; padding: 7px 11px; font-weight: 650; text-decoration: none; }
+.wps-primary { color: white; border: 1px solid #294db7; background: linear-gradient(#4d72e2,#3459c3); box-shadow: inset 0 1px #8aa6ff,0 4px 9px #243c811f; }
+.wps-hero .wps-primary { background: #fff; color: #263f83; border-color: #c7d4ff; }
+.wps-secondary { color: #253e84; border: 1px solid #d0dcf3; background: #f4f7ff; display: inline-block; }
+.wps-back { color: #294baf; border: 0; background: none; padding-inline: 0; text-align: left; }
+.wps-danger { color: #9d2945; background: #fff5f8; border: 1px solid #f4d7e2; }
+.wps-admin input, .wps-admin textarea, .wps-admin select { min-width: 0; border: 1px solid #c8d5ee; border-radius: 8px; padding: 8px 10px; background: #fff; color: #192b52; }
+.wps-admin label { display: grid; gap: 5px; margin-bottom: 12px; font-weight: 650; }
+.wps-filters, .wps-tools, .wps-photos, .wps-tabs { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 14px; }
+.wps-filters input { flex: 1; }
+.wps-table { overflow-x: auto; }
+.wps-table table { width: 100%; border-collapse: collapse; text-align: left; }
+.wps-table th, .wps-table td { padding: 9px; border-bottom: 1px solid #e2e9f7; }
+.wps-table small { display: block; color: #576a90; overflow-wrap: anywhere; }
+.wps-badge { display: inline-block; white-space: nowrap; border-radius: 999px; padding: 3px 9px; text-transform: capitalize; font-size: 12px; font-weight: 700; background: #e8eefc; color: #34539e; }
+.wps-badge.published, .wps-badge.closed { background: #ddf7ec; color: #175941; }
+.wps-badge.draft, .wps-badge.progress { background: #fff0d4; color: #755005; }
+.wps-meta { display: grid; gap: 12px; }
+.wps-meta h2 { margin-bottom: 12px; }
+.wps-meta p, .wps-meta .wps-primary { margin-bottom: 8px; }
+.wps-meta .wps-primary, .wps-meta .wps-secondary { display: block; width: 100%; }
+.wps-meta img { display: block; width: 100%; border-radius: 8px; margin-bottom: 12px; }
+.wps-tabs button, .wps-tools button { padding: 6px 9px; border: 1px solid #c8d5ee; border-radius: 6px; color: #233c81; background: #fff; }
+.wps-tabs button[aria-pressed=true] { background: #e9efff; border-color: #9db5f3; }
+.wps-content, .wps-code { width: 100%; min-height: 340px; border: 1px solid #c8d5ee; background: #fff; border-radius: 10px; padding: 14px; margin-bottom: 16px; overflow-wrap: anywhere; }
+.wps-admin .wps-code { font-family: ui-monospace, monospace; }
+.wps-content h2, .wps-content h3 { margin: 14px 0 8px; }
+.wps-content p { margin: 0 0 9px; }
+.wps-content ul, .wps-content ol { padding-left: 24px; }
+.wps-content ul { list-style: disc; }
+.wps-content ol { list-style: decimal; }
+.wps-message pre { white-space: pre-wrap; overflow-wrap: anywhere; font: inherit; padding: 13px; background: #edf2fd; border-radius: 8px; }
+.wps-empty { color: #526586; min-height: 150px; display: grid; place-items: center; }
+.wps-admin .wps-notice, .wps-admin .wps-error { padding: 11px; margin-bottom: 14px; border-radius: 9px; }
+.wps-notice { background: #dcf7eb; color: #18513d; }
+.wps-error { background: #ffe9f0; color: #962945; }
+@media (max-width: 850px) {
+  .wps-admin { grid-template-columns: 1fr; }
+  .wps-nav { position: static; min-height: 0; height: auto; padding: 12px; flex-direction: row; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .wps-nav nav { display: flex; flex-wrap: wrap; }
+  .wps-nav nav button { padding: 6px 8px; gap: 5px; }
+  .wps-site { margin: 0 0 0 auto; }
+}
+@media (max-width: 630px) {
+  .wps-overview-grid, .wps-inbox, .wps-editor-grid { grid-template-columns: 1fr; }
+  .wps-stats { gap: 6px; }
+  .wps-stats .wps-panel { padding: 9px; font-size: 12px; }
+  .wps-hero { flex-direction: column; align-items: flex-start; }
+}

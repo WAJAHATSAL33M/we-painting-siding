@@ -4,7 +4,7 @@ Next.js company website for exterior and interior painting across Southern Ontar
 
 ## Development
 
-Use Node.js 24. Install dependencies with `npm ci`, start development with `npm run dev`, and build production with `npm run build -- --webpack`. Run production locally with `npm start`. The GitHub main branch deploys to Vercel.
+Use Node.js 24. Install dependencies with `npm ci`, start development with `npm run dev`, and build production with `npm run build -- --webpack`. Run production locally with `npm start`. The GitHub main branch deploys to Hostinger.
 
 ## Current design and source
 
@@ -26,12 +26,22 @@ Keep current photographs, service image assignments, company-photo metadata and 
 
 ## Forms
 
-Project forms validate input and export a local draft ZIP with photos. They do not send enquiries online. Preserve the visible draft notices unless a real delivery backend is implemented.
+The homepage, contact, location and service enquiry forms submit to `/api/enquiries`, which emails the business inbox. The attachment limit is 10 project photos, 10 MB per photo and 15 MB combined. The admin inbox records submissions. Email delivery is optional.
+
+For email delivery, set the five server-side variables listed in `.env.example` in Hostinger's Node.js Environment variables settings. `SMTP_USER` is the full sending mailbox address, `SMTP_PASSWORD` is that mailbox's password, and `ENQUIRY_TO_EMAIL` is the business inbox that receives enquiries. The sender and recipient can be the same mailbox. Use SMTP over TLS on port 465 or STARTTLS on port 587. The app creates its SQLite tables automatically.
+
+After deploying, submit a test from each form type. Check the inbox for the request, its photos where applicable, and the visitor's address in Reply-To.
 
 ## Verification
 
-Run `npm run build -- --webpack`, followed by `python scripts/check-service-pages.py`. The audit checks the current sub-service routes, headings, metadata, structured data, form labels, image files, links, FAQs and sitemap coverage. Build and source checks do not replace browser or real-device testing.
+Run `npm run build -- --webpack` and start the production app. Run `WPS_AUDIT_ORIGIN=http://127.0.0.1:3000 python scripts/check-service-pages.py` against that running instance. The audit checks the current sub-service routes, headings, metadata, structured data, form labels, image files, links, FAQs and sitemap coverage. Build and source checks do not replace browser or real-device testing.
 
 ## Maintenance
 
 Keep shared CSS until all consuming routes have been checked: several global stylesheets still support active pages. Retired design components, unimported stylesheets, obsolete mockup assets and superseded design notes have been removed. Previous versions remain recoverable through Git history.
+
+## Admin dashboard
+
+Open `/admin-wps` over HTTPS and sign in as `admin` with the separately supplied password. The same credentials protect the dashboard API and enquiry photo downloads. To rotate the password, use a new random value and set `WPS_ADMIN_PASSWORD_HASH` in Hostinger to its SHA-256 digest (64 hexadecimal characters), then restart the app. Keep the override configured after rotating. The dashboard seeds the existing articles into SQLite. Publishing makes an article appear in the public blog and sitemap immediately. The enquiry inbox receives new submissions from the five website form types, including photos, even when SMTP is unset. When SMTP is configured, email is an additional notification channel.
+
+The app creates `.wps-data/site.sqlite` locally. In production it defaults to `~/.wps-data/wepaintsiding.com/site.sqlite`, outside the Git checkout. Set `WPS_DATABASE_PATH` to an absolute writable path to override it. Back up the SQLite database with SQLite's backup facilities. Existing submissions from earlier website versions are not imported automatically.

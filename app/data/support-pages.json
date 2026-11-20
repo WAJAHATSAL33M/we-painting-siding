@@ -7,14 +7,14 @@
       {
         "title": "About this notice",
         "paragraphs": [
-          "This Privacy Policy explains the current We Paint Siding website, including quote drafts, hosting and embedded services. Details shared in a separate business relationship or through another provider may be handled under the notices and arrangements supplied for that channel."
+          "This Privacy Policy explains the current We Paint Siding website, including project enquiries, hosting and embedded services. Details shared in a separate business relationship or through another provider may be handled under the notices and arrangements supplied for that channel."
         ]
       },
       {
-        "title": "Quote request drafts",
+        "title": "Project enquiries",
         "paragraphs": [
-          "The quote tools collect the project details you enter, such as name, contact information, location and surfaces to be painted. Those values are processed in your browser to create a downloadable text draft. The tools do not transmit the entries to We Paint Siding or submit an enquiry.",
-          "A downloaded draft stays on your device until you delete it. Form values can remain in the open page or be remembered by your browser\u2019s autofill. Include only useful project information; avoid payment details, identification records or other sensitive material in the description."
+          "The quote tools collect the project details you enter, such as name, contact information, location and surfaces to be painted. When you submit the form, your details and any attached photos are stored in We Paint Siding’s enquiry inbox so the team can review and respond to your request.",
+          "Form values can remain in the open page or be remembered by your browser\u2019s autofill. Include only useful project information; avoid payment details, identification records or other sensitive material in the description."
         ]
       },
       {
@@ -26,13 +26,13 @@
       {
         "title": "Technical information and hosting",
         "paragraphs": [
-          "Vercel hosts the website. Serving and protecting pages can involve technical request information, including IP addresses and browser or request details, being processed by the hosting provider. The application itself has no configured advertising tracker or analytics integration.",
+          "Hostinger hosts the website. Serving and protecting pages can involve technical request information, including IP addresses and browser or request details, being processed by the hosting provider. The application itself has no configured advertising tracker or analytics integration.",
           "Provider records and retention depend on the service and its configuration. This policy does not specify a guaranteed retention period or processing location for the hosting provider\u2019s information."
         ],
         "links": [
           [
-            "Vercel Privacy Notice",
-            "https://vercel.com/legal/privacy-notice"
+            "Hostinger Privacy Policy",
+            "https://www.hostinger.com/legal/privacy-policy"
           ]
         ]
       },
@@ -56,14 +56,14 @@
       {
         "title": "Your choices",
         "paragraphs": [
-          "You can avoid entering details in quote tools, delete downloaded drafts and manage autofill or cookies through your browser. Browser controls may also restrict third-party content, including maps; choosing a page without an embed avoids loading that map.",
+          "You can avoid entering details in quote tools and manage autofill or cookies through your browser. Browser controls may also restrict third-party content, including maps; choosing a page without an embed avoids loading that map.",
           "If you share information through an established business contact channel, ask about the purpose and handling through that channel, including any available options to access or correct your details."
         ]
       },
       {
         "title": "Privacy enquiries",
         "paragraphs": [
-          "Send privacy questions through an established We Paint Siding contact channel supplied to you separately. The website quote tool only downloads a local draft; it does not transmit a privacy request or confirm that the business has received one."
+          "Send privacy questions through an established We Paint Siding contact channel supplied to you separately."
         ],
         "links": [
           [
@@ -95,7 +95,7 @@
         "title": "Current website features",
         "paragraphs": [
           "The website application does not currently set advertising cookies, use an analytics integration or store marketing preferences in local storage. Menu panels, article filters and comparison sliders keep their current state within the open page.",
-          "Quote tools produce a downloaded draft, and newsletter registration is inactive. These application features do not create an advertising profile or register you on a mailing list."
+          "Project enquiry forms send the information you submit to the business’s enquiry inbox. Newsletter registration is inactive."
         ]
       },
       {
@@ -106,8 +106,8 @@
         ],
         "links": [
           [
-            "Vercel Privacy Notice",
-            "https://vercel.com/legal/privacy-notice"
+            "Hostinger Privacy Policy",
+            "https://www.hostinger.com/legal/privacy-policy"
           ],
           [
             "Google Privacy Policy",
@@ -119,7 +119,7 @@
         "title": "Managing browser settings",
         "paragraphs": [
           "Review your browser\u2019s privacy or site settings to inspect, remove or restrict stored data and third-party cookies. The available options vary by device and browser. Blocking third-party services may prevent embedded maps from working as expected.",
-          "Browser cookie controls do not delete quote drafts already downloaded to your device. Remove those files separately if you no longer want to keep them."
+          "Browser cookie controls do not remove information you have already submitted through a project enquiry form."
         ]
       },
       {
@@ -220,7 +220,7 @@
       {
         "title": "Enquiries and service agreements",
         "paragraphs": [
-          "The quote tool generates a draft file on your device. It does not submit an enquiry, book work or create a service contract. Newsletter registration is also not active.",
+          "The quote form sends an enquiry for review. Work and service agreements are arranged separately. Newsletter registration is inactive.",
           "Painting work requires separately agreed scope, preparation, products, access, timing, pricing and applicable terms. General descriptions on the website do not substitute for those project-specific details."
         ]
       },

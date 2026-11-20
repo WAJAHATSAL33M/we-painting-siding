@@ -1,8 +1,10 @@
-"""Check rendered sub-service pages after `npm run build`; no preview server needed."""
+"""Check rendered sub-service pages and the sitemap after a production build."""
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
-import json, subprocess, sys
+from urllib.error import HTTPError
+from urllib.request import urlopen
+import json, os, subprocess, sys
 
 ROOT = Path(__file__).resolve().parents[1]
 class Node:
@@ -33,13 +35,22 @@ services=json.loads(subprocess.check_output(['node','--input-type=module','-e',s
 inventory=Path(sys.argv[1]) if len(sys.argv)>1 else None
 known=set(json.loads(inventory.read_text())) if inventory else set()
 errors=[];titles=set();descriptions=set();images=set();links=0
+audit_origin = os.environ.get('WPS_AUDIT_ORIGIN')
 cache={};exterior_pattern=None;exterior_heroes=set();exterior_copy=set()
 def check(condition,message):
     if not condition:errors.append(message)
 def page(path):
     if path not in cache:
         file=ROOT/'.next/server/app'/('index.html' if path=='/' else path.lstrip('/')+'.html')
-        cache[path]=Document(file.read_text()).root if file.exists() else None
+        html = file.read_text() if file.exists() else None
+        if html is None and audit_origin:
+            try:
+                with urlopen(audit_origin.rstrip('/') + path, timeout=10) as response:
+                    html = response.read().decode('utf-8')
+            except HTTPError as error:
+                if error.code != 404:
+                    raise
+        cache[path] = Document(html).root if html else None
     return cache[path]
 for service in services:
     route=service['path']; pilot=service['category']=='exterior'; doc=page(route)
@@ -97,7 +108,14 @@ for service in services:
 
 check(len(services)==16,'Expected 16 distinct service pages')
 check(len({s['path'] for s in services})==len(services),'Duplicate service paths')
-xml=(ROOT/'.next/server/app/sitemap.xml.body').read_text() if (ROOT/'.next/server/app/sitemap.xml.body').exists() else ''
+sitemap_file = ROOT / '.next/server/app/sitemap.xml.body'
+if audit_origin:
+    with urlopen(audit_origin.rstrip('/') + '/sitemap.xml', timeout=10) as response:
+        xml = response.read().decode('utf-8')
+else:
+    xml = sitemap_file.read_text() if sitemap_file.exists() else ''
+    if not xml:
+        print('Start the production app and set WPS_AUDIT_ORIGIN to its local URL to check the dynamic sitemap.')
 check(all('https://we-painting-siding.vercel.app'+s['path'] in xml for s in services),'XML sitemap missing services')
 if errors:
     print('\n'.join(errors));sys.exit(1)

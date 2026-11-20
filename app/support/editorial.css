@@ -82,3 +82,10 @@
 .editorial-site .sitemap-grid a{font-size:14px;color:#0073bc;line-height:1.7}
 @media(max-width:999px){.editorial-site .sitemap-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:599px){.editorial-site .sitemap-grid{grid-template-columns:1fr}}
+
+.ed-managed-content :is(ul, ol) { padding-inline-start: 1.5rem; margin-block: 1rem; }
+.ed-managed-content ul { list-style: disc; }
+.ed-managed-content ol { list-style: decimal; }
+.ed-managed-content blockquote { border-inline-start: 3px solid currentColor; margin-inline: 0; padding-inline-start: 1rem; }
+.ed-managed-content pre { overflow-x: auto; }
+.ed-managed-content a { text-decoration: underline; }
