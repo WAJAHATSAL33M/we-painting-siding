@@ -3,9 +3,14 @@ import { adminCookie, adminCookieOptions, checkAdminPassword, endAdminSession, s
 
 const attempts = new Map();
 const route = '/admin-wps';
-const back = (suffix = '') => new Response(null, { status: 303, headers: {
-  Location: route + suffix, 'Cache-Control': 'private, no-store',
-} });
+const back = (jar, error = '') => {
+  jar.set('wps_admin_login_error', error, {
+    ...adminCookieOptions, path: route, maxAge: error ? 90 : 0,
+  });
+  return new Response(null, { status: 303, headers: {
+    Location: route, 'Cache-Control': 'private, no-store',
+  } });
+};
 
 export async function POST(request) {
   const origin = request.headers.get('origin');
@@ -15,8 +20,9 @@ export async function POST(request) {
       !request.headers.get('content-type')?.startsWith('application/x-www-form-urlencoded')) {
     return new Response('Invalid request.', { status: 403 });
   }
+  const jar = await cookies();
   const reader = request.body?.getReader();
-  if (!reader) return back('?error=credentials');
+  if (!reader) return back(jar, 'credentials');
   const decoder = new TextDecoder();
   let encoded = '';
   for (;;) {
@@ -29,12 +35,11 @@ export async function POST(request) {
     }
   }
   const form = new URLSearchParams(encoded + decoder.decode());
-  const jar = await cookies();
   const token = jar.get(adminCookie)?.value;
   if (form.get('action') === 'logout') {
     endAdminSession(token);
     jar.set(adminCookie, '', { ...adminCookieOptions, maxAge: 0 });
-    return back();
+    return back(jar);
   }
   const now = Date.now();
   for (const [key, entry] of attempts) {
@@ -42,14 +47,14 @@ export async function POST(request) {
   }
   const ip = request.headers.get('x-forwarded-for')?.split(',').at(-1)?.trim() || 'unknown';
   const attempt = attempts.get(ip) || { count: 0, expires: now + 10 * 60 * 1000 };
-  if (attempt.count >= 10 || (!attempts.has(ip) && attempts.size >= 2000)) return back('?error=limit');
+  if (attempt.count >= 10 || (!attempts.has(ip) && attempts.size >= 2000)) return back(jar, 'limit');
   if (!checkAdminPassword(form.get('username')?.trim(), form.get('password'))) {
     attempt.count++;
     attempts.set(ip, attempt);
-    return back('?error=credentials');
+    return back(jar, 'credentials');
   }
   attempts.delete(ip);
   endAdminSession(token);
   jar.set(adminCookie, startAdminSession(), adminCookieOptions);
-  return back();
+  return back(jar);
 }

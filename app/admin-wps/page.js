@@ -4,12 +4,12 @@ import Dashboard from './dashboard';
 import './dashboard.css';
 import './login.css';
 
-export const metadata = { title: 'WPS Admin', robots: { index: false, follow: false } };
+export const metadata = { title: 'WPS Admin', robots: { index: false, follow: false, noarchive: true, noimageindex: true } };
 
-export default async function AdminPage({ searchParams }) {
+export default async function AdminPage() {
   const jar = await cookies();
   if (isWpsAdmin(jar.get(adminCookie)?.value)) return <Dashboard />;
-  const { error } = await searchParams;
+  const error = jar.get('wps_admin_login_error')?.value;
   const message = error === 'credentials' ? 'The username or password is incorrect.'
     : error === 'limit' ? 'Too many sign-in attempts. Try again in a few minutes.' : '';
 
