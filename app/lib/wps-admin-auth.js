@@ -1,28 +1,48 @@
-import { createHash, timingSafeEqual } from 'node:crypto';
+import { createHash, randomBytes, timingSafeEqual } from 'node:crypto';
+import { wpsStore } from './wps-store';
 
 const initialPasswordHash = '0a82e44e30a5cce1c5ee34da9ced136ad17e8c65c5f7e68262c3269d8b423146';
+const passwordHash = () => process.env.WPS_ADMIN_PASSWORD_HASH ?? initialPasswordHash;
+const digest = value => createHash('sha256').update(value).digest();
+const sessionKey = token => digest(passwordHash() + ':' + token).toString('hex');
+const lifetime = 8 * 60 * 60;
+export const adminCookie = 'wps_admin_session';
 
-export function isWpsAdmin(headers) {
-  const authorization = headers.get('authorization') || '';
-  const token = /^Basic ([A-Za-z0-9+/]{1,400}={0,2})$/i.exec(authorization)?.[1];
-  if (!token) return false;
-
-  const credentials = Buffer.from(token, 'base64').toString('utf8');
-  if (!credentials.startsWith('admin:')) return false;
-
-  const digest = process.env.WPS_ADMIN_PASSWORD_HASH ?? initialPasswordHash;
-  if (!/^[a-f0-9]{64}$/i.test(digest)) return false;
-  const actual = createHash('sha256').update(credentials.slice('admin:'.length)).digest();
-  return timingSafeEqual(actual, Buffer.from(digest, 'hex'));
+export function checkAdminPassword(username, password) {
+  const expected = passwordHash();
+  return username === 'admin' && typeof password === 'string' && password.length <= 256 &&
+    /^[a-f0-9]{64}$/i.test(expected) &&
+    timingSafeEqual(digest(password), Buffer.from(expected, 'hex'));
 }
 
-export function wpsAdminChallenge() {
-  return new Response('Admin sign-in required.', {
-    status: 401,
-    headers: {
-      'WWW-Authenticate': 'Basic realm="We Paint Siding Admin", charset="UTF-8"',
-      'Cache-Control': 'private, no-store',
-      'X-Robots-Tag': 'noindex, nofollow',
-    },
-  });
+function sessions() {
+  const db = wpsStore();
+  db.exec('CREATE TABLE IF NOT EXISTS admin_sessions (token TEXT PRIMARY KEY, expires INTEGER NOT NULL)');
+  return db;
 }
+
+export function startAdminSession() {
+  const token = randomBytes(32).toString('base64url');
+  const now = Date.now();
+  const db = sessions();
+  db.prepare('DELETE FROM admin_sessions WHERE expires <= ?').run(now);
+  db.prepare('INSERT INTO admin_sessions VALUES (?, ?)').run(sessionKey(token), now + lifetime * 1000);
+  return token;
+}
+
+export function isWpsAdmin(token) {
+  return /^[a-zA-Z0-9_-]{43}$/.test(token || '') && Boolean(
+    sessions().prepare('SELECT 1 FROM admin_sessions WHERE token = ? AND expires > ?').get(sessionKey(token), Date.now())
+  );
+}
+
+export function endAdminSession(token) {
+  if (/^[a-zA-Z0-9_-]{43}$/.test(token || '')) {
+    sessions().prepare('DELETE FROM admin_sessions WHERE token = ?').run(sessionKey(token));
+  }
+}
+
+export const adminCookieOptions = {
+  httpOnly: true, secure: process.env.NODE_ENV === 'production',
+  sameSite: 'strict', path: '/', maxAge: lifetime,
+};

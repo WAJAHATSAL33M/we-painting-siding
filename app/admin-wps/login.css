@@ -1,0 +1,60 @@
+.wps-login {
+  min-height: 100svh;
+  display: grid;
+  align-items: center;
+  justify-items: end;
+  padding: 86px clamp(28px, 8vw, 124px) 54px;
+  position: relative;
+  color: #f4f8ff;
+  font: 16px/1.5 system-ui, sans-serif;
+  background: linear-gradient(105deg, #06243622 12%, #071c30a6 70%, #07182ad9),
+    url('/images/company/035-stunning-house-with-fresh-white-siding.webp') 42% center / cover no-repeat #122c3e;
+}
+.wps-login *, .wps-login *::before, .wps-login *::after { box-sizing: border-box; }
+.wps-login :focus-visible { outline: 3px solid #90d5ff; outline-offset: 4px; }
+.wps-login-back {
+  position: absolute; top: 26px; left: clamp(20px, 4vw, 58px);
+  padding: 9px 14px; border-radius: 999px; color: #fff;
+  border: 1px solid #ffffff55; background: #101f32ac; text-decoration: none;
+}
+.wps-login-back:hover { background: #192f49; }
+.wps-login-card {
+  width: min(100%, 438px); padding: clamp(24px, 5vw, 48px);
+  border-radius: 26px; border: 1px solid #e4efff55;
+  background: linear-gradient(145deg, #193448e6, #122339d9);
+  backdrop-filter: blur(16px);
+  box-shadow: inset 0 1px #ffffff38, 0 24px 75px #020e27a3;
+}
+.wps-login-brand { display: flex; align-items: center; gap: 12px; color: #e2f1ff; font-weight: 650; }
+.wps-login-brand span {
+  display: grid; place-items: center; width: 43px; height: 43px; border-radius: 12px;
+  color: #072844; background: linear-gradient(145deg,#e3f5ff,#80c5f2);
+  box-shadow: inset 0 1px #fff, 0 5px 16px #06172a85; font-size: 22px; font-weight: 800;
+}
+.wps-login-card h1 { margin: 24px 0 22px; font-size: clamp(32px, 5vw, 44px); line-height: 1.05; letter-spacing: -.045em; color: white; }
+.wps-login-card label { display: block; font-weight: 600; font-size: 14px; margin-bottom: 7px; }
+.wps-login-card input {
+  display: block; width: 100%; min-height: 50px; margin-bottom: 16px;
+  border: 1px solid #c1def278; border-radius: 10px; padding: 10px 13px;
+  color: #fff; background: #071b2c82; font: inherit;
+}
+.wps-login-card button {
+  display: flex; align-items: center; justify-content: space-between; width: 100%;
+  min-height: 50px; padding: 10px 15px; border-radius: 10px; margin-top: 24px;
+  border: 1px solid #cbecff; color: #092944; background: linear-gradient(#ceefff,#94cef6);
+  box-shadow: 0 7px 18px #040f2870; font: inherit; font-weight: 750; cursor: pointer;
+}
+.wps-login-card button:hover { background: #dcf4ff; }
+.wps-login-error { margin: 0; color: #ffe1e2; font-size: 14px; }
+.wps-nav-footer { margin-top: auto; display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+.wps-nav-footer .wps-site { margin: 0; }
+.wps-signout { border: 1px solid #7892df88; border-radius: 8px; padding: 7px 10px; color: #f0f5ff; background: #314b895e; }
+@media (max-width: 700px) {
+  .wps-login {
+    justify-items: center; align-items: end; padding: max(190px, 29svh) 17px 24px;
+    background: linear-gradient(180deg, #05162538 0%, #091c2c48 32%, #0c2139ed 75%),
+      url('/images/company/035-stunning-house-with-fresh-white-siding.webp') center top / auto max(460px, 67svh) no-repeat #122c3e;
+  }
+  .wps-login-back { top: 16px; }
+  .wps-nav-footer { margin: 0 0 0 auto; }
+}

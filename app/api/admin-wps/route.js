@@ -1,5 +1,5 @@
 import sanitizeHtml from 'sanitize-html';
-import { isWpsAdmin, wpsAdminChallenge } from '../../lib/wps-admin-auth';
+import { adminCookie, isWpsAdmin } from '../../lib/wps-admin-auth';
 import { getPosts, wpsStore } from '../../lib/wps-store';
 
 export const runtime = 'nodejs';
@@ -9,7 +9,7 @@ const reply = (body) => Response.json(body, { headers: { 'Cache-Control': 'priva
 const enquiryStates = ['new', 'in progress', 'closed'];
 
 export function GET(request) {
-  if (!isWpsAdmin(request.headers)) return wpsAdminChallenge();
+  if (!isWpsAdmin(request.cookies.get(adminCookie)?.value)) return fail('Sign in to continue.', 401);
   const db = wpsStore();
   const photoId = new URL(request.url).searchParams.get('photo');
   if (photoId) {
@@ -27,7 +27,7 @@ export function GET(request) {
 }
 
 export async function POST(request) {
-  if (!isWpsAdmin(request.headers)) return wpsAdminChallenge();
+  if (!isWpsAdmin(request.cookies.get(adminCookie)?.value)) return fail('Sign in to continue.', 401);
   if (request.headers.get('sec-fetch-site') === 'cross-site' ||
       request.headers.get('content-type')?.split(';')[0].trim() !== 'application/json') {
     return fail('Invalid request format.', 415);

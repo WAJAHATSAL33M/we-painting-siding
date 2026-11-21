@@ -143,7 +143,12 @@ export default function Dashboard() {
     <aside className="wps-nav">
       <a className="wps-brand" href="/admin-wps"><span>W</span><div>We Paint Siding<small>Site administration</small></div></a>
       <nav aria-label="Administration">{[['overview','Overview','◈'],['enquiries','Enquiries','✉'],['posts','Blog posts','▤']].map(([value,label,icon])=><button key={value} aria-current={(panel===value||panel==='editor'&&value==='posts')?'page':undefined} onClick={()=>go(value)}><span aria-hidden="true">{icon}</span>{label}</button>)}</nav>
-      <a className="wps-site" href="/" target="_blank" rel="noreferrer">View website ↗</a>
+      <div className="wps-nav-footer">
+        <a className="wps-site" href="/" target="_blank" rel="noreferrer">View website ↗</a>
+        <form action="/api/admin-wps/session" method="post">
+          <button className="wps-signout" type="submit" name="action" value="logout">Sign out</button>
+        </form>
+      </div>
     </aside>
     <main className="wps-main">
       {notice&&<p role="status" className="wps-notice">{notice}</p>}{error&&<p role="alert" className="wps-error">{error}</p>}

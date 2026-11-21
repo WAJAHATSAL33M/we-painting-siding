@@ -1,8 +1,6 @@
 import { NextResponse } from 'next/server';
-import { isWpsAdmin, wpsAdminChallenge } from './app/lib/wps-admin-auth';
 
-export function proxy(request) {
-  if (!isWpsAdmin(request.headers)) return wpsAdminChallenge();
+export function proxy() {
   const response = NextResponse.next();
   response.headers.set('Cache-Control', 'private, no-store');
   response.headers.set('X-Robots-Tag', 'noindex, nofollow');
