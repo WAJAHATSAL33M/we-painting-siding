@@ -121,11 +121,21 @@ export default function Dashboard() {
   const [notice,setNotice] = useState('');
   const [error,setError] = useState('');
   const [busy,setBusy] = useState(false);
+  const [refreshing,setRefreshing] = useState(false);
+  const [limit,setLimit] = useState(20);
   const refresh = useCallback(async () => setData(await api()),[]);
   useEffect(()=>{refresh().catch(error=>setError(error.message))},[refresh]);
 
-  function go(next) { setPanel(next); setEditing(null); setMessageId(null); setQuery(''); setFilter('all'); setNotice(''); setError(''); }
+  function go(next) { window.scrollTo(0, 0); setLimit(20); setPanel(next); setEditing(null); setMessageId(null); setQuery(''); setFilter('all'); setNotice(''); setError(''); }
   function edit(post) { go('editor'); setEditing(post); }
+  async function reloadDashboard() {
+    setRefreshing(true);
+    setError('');
+    try { await refresh(); }
+    catch (error) { setError(error.message); }
+    finally { setRefreshing(false); }
+  }
+
   async function mutate(payload, success) {
     setBusy(true); setError(''); setNotice('');
     try { const result=await api(payload); await refresh(); success?.(result); setNotice('Changes saved.'); }
@@ -151,10 +161,17 @@ export default function Dashboard() {
       </div>
     </aside>
     <main className="wps-main">
+      <header className="wps-section-bar">
+        <strong>{({overview:'Overview', enquiries:'Enquiries', posts:'Blog posts', editor:'Blog editor'})[panel]}</strong>
+        <div className="wps-section-tools">
+          {panel!=='editor'&&<button className="wps-secondary" type="button" disabled={busy||refreshing} onClick={reloadDashboard}>{refreshing?'Refreshing…':'Refresh'}</button>}
+          {data&&panel!=='editor'&&<button className="wps-primary" type="button" onClick={()=>edit({...emptyPost})}>+ New post</button>}
+        </div>
+      </header>
       {notice&&<p role="status" className="wps-notice">{notice}</p>}{error&&<p role="alert" className="wps-error">{error}</p>}
       {!data&&!error&&<p role="status">Loading dashboard…</p>}
       {data&&panel==='overview'&&<>
-        <div className="wps-hero"><div><h1>Site overview</h1><p>Manage painting enquiries and articles from one place.</p></div><button className="wps-primary" onClick={()=>edit({...emptyPost})}>+ New post</button></div>
+        <div className="wps-hero"><div><h1>Site overview</h1><p>Manage painting enquiries and articles from one place.</p></div></div>
         <div className="wps-stats">
           {[['New enquiries',enquiries.filter(x=>x.status==='new').length,'enquiries'],['Published posts',posts.filter(x=>x.status==='published').length,'posts'],['Drafts',posts.filter(x=>x.status==='draft').length,'posts']].map(([label,count,target])=><button className="wps-panel" key={label} onClick={()=>{go(target);setFilter(label==='New enquiries'?'new':label==='Drafts'?'draft':'published')}}><span>{label}</span><strong>{count}</strong></button>)}
         </div>
@@ -164,21 +181,21 @@ export default function Dashboard() {
         </div>
       </>}
       {data&&panel==='posts'&&<>
-        <header className="wps-title"><h1>Blog posts</h1><button className="wps-primary" onClick={()=>edit({...emptyPost})}>+ New post</button></header>
+        <header className="wps-title"><h1>Blog posts</h1></header>
         <div className="wps-panel">
-          <div className="wps-filters"><input aria-label="Search posts" placeholder="Search posts" value={query} onChange={e=>setQuery(e.target.value)}/><select aria-label="Publication status" value={filter} onChange={e=>setFilter(e.target.value)}><option value="all">All statuses</option><option value="published">Published</option><option value="draft">Draft</option></select></div>
-          <div className="wps-table"><table><thead><tr><th>Title</th><th>Category</th><th>Status</th><th>Actions</th></tr></thead><tbody>{visiblePosts.map(post=><tr key={post.id}><td><button className="wps-back" onClick={()=>edit(post)}>{post.title}</button><small>/blog/{post.slug}</small></td><td>{post.category||'—'}</td><td><span className={'wps-badge '+post.status}>{post.status}</span></td><td><button className="wps-danger" disabled={busy} onClick={()=>{if(window.confirm('Permanently delete this post?'))mutate({action:'delete-post',id:post.id})}}>Delete</button></td></tr>)}</tbody></table></div>
-          {!visiblePosts.length&&<p className="wps-muted">No matching posts.</p>}
+          <div className="wps-filters"><input aria-label="Search posts" placeholder="Search posts" value={query} onChange={e=>{setQuery(e.target.value);setLimit(20)}}/><select aria-label="Publication status" value={filter} onChange={e=>{setFilter(e.target.value);setLimit(20)}}><option value="all">All statuses</option><option value="published">Published</option><option value="draft">Draft</option></select></div>
+          <div className="wps-table"><table><thead><tr><th>Title</th><th>Category</th><th>Status</th><th>Actions</th></tr></thead><tbody>{visiblePosts.slice(0,limit).map(post=><tr key={post.id}><td><button className="wps-back" onClick={()=>edit(post)}>{post.title}</button><small>/blog/{post.slug}</small></td><td>{post.category||'—'}</td><td><span className={'wps-badge '+post.status}>{post.status}</span></td><td><button className="wps-danger" disabled={busy} onClick={()=>{if(window.confirm('Permanently delete this post?'))mutate({action:'delete-post',id:post.id})}}>Delete</button></td></tr>)}</tbody></table></div>
+          {visiblePosts.length>limit&&<button type="button" className="wps-secondary wps-more" onClick={()=>setLimit(value=>value+20)}>Show more posts</button>}{!visiblePosts.length&&<p className="wps-muted">No matching posts.</p>}
         </div>
       </>}
       {data&&panel==='editor'&&editing&&<Editor key={editing.id||'new'} post={editing} onBack={()=>go('posts')} busy={busy} onSave={post=>mutate({action:'save-post',...post},result=>{setEditing(result);setPanel('posts')})}/>}
       {data&&panel==='enquiries'&&<>
         <header className="wps-title"><h1>Enquiries</h1></header>
         <div className="wps-inbox">
-          <section className="wps-panel">
-            <div className="wps-filters"><input aria-label="Search enquiries" placeholder="Search enquiries" value={query} onChange={e=>setQuery(e.target.value)}/><select aria-label="Enquiry status" value={filter} onChange={e=>setFilter(e.target.value)}><option value="all">All statuses</option>{statusOptions.map(value=><option key={value}>{value}</option>)}</select></div>
-            {visibleEnquiries.map(item=><button className="wps-summary" aria-pressed={messageId===item.id} key={item.id} onClick={()=>setMessageId(item.id)}><strong>{item.email}</strong><span>{item.status}</span></button>)}
-            {!visibleEnquiries.length&&<p className="wps-muted">No matching enquiries.</p>}
+          <section className="wps-panel wps-inbox-list">
+            <div className="wps-filters"><input aria-label="Search enquiries" placeholder="Search enquiries" value={query} onChange={e=>{setQuery(e.target.value);setLimit(20)}}/><select aria-label="Enquiry status" value={filter} onChange={e=>{setFilter(e.target.value);setLimit(20)}}><option value="all">All statuses</option>{statusOptions.map(value=><option key={value}>{value}</option>)}</select></div>
+            {visibleEnquiries.slice(0,limit).map(item=><button className="wps-summary" aria-pressed={messageId===item.id} key={item.id} onClick={()=>setMessageId(item.id)}><strong>{item.email}</strong><span>{item.status}</span></button>)}
+            {visibleEnquiries.length>limit&&<button type="button" className="wps-secondary wps-more" onClick={()=>setLimit(value=>value+20)}>Show more enquiries</button>}{!visibleEnquiries.length&&<p className="wps-muted">No matching enquiries.</p>}
           </section>
           {selected?<Enquiry key={selected.id} enquiry={selected} photos={data.photos.filter(photo=>photo.enquiry_id===selected.id)} busy={busy} onSave={mutate}/>:<section className="wps-panel wps-empty"><p>Select an enquiry to view its details and photos.</p></section>}
         </div>
