@@ -1,60 +1,123 @@
+.wps-login, .wps-admin {
+  --wps-background: url('/images/admin/wps-blue-hour.webp');
+  --wps-ink: #edf7ff;
+  --wps-accent: #bfe8ff;
+}
+
 .wps-login {
+  position: relative;
+  isolation: isolate;
   min-height: 100svh;
   display: grid;
-  align-items: center;
-  justify-items: end;
-  padding: 86px clamp(28px, 8vw, 124px) 54px;
-  position: relative;
-  color: #f4f8ff;
+  place-items: center;
+  padding: 74px clamp(16px, 5vw, 56px);
+  color: var(--wps-ink);
+  background: #102435;
   font: 16px/1.5 system-ui, sans-serif;
-  background: linear-gradient(105deg, #06243622 12%, #071c30a6 70%, #07182ad9),
-    url('/images/company/035-stunning-house-with-fresh-white-siding.webp') 42% center / cover no-repeat #122c3e;
 }
+
+.wps-login::before, .wps-admin::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: var(--wps-overlay), var(--wps-background) 50% 50% / cover no-repeat #102435;
+  pointer-events: none;
+}
+
+.wps-login { --wps-overlay: radial-gradient(ellipse at center, #07172d48, #061121a8); }
 .wps-login *, .wps-login *::before, .wps-login *::after { box-sizing: border-box; }
-.wps-login :focus-visible { outline: 3px solid #90d5ff; outline-offset: 4px; }
+.wps-login :focus-visible { outline: 3px solid #a4ddff; outline-offset: 4px; }
 .wps-login-back {
-  position: absolute; top: 26px; left: clamp(20px, 4vw, 58px);
-  padding: 9px 14px; border-radius: 999px; color: #fff;
-  border: 1px solid #ffffff55; background: #101f32ac; text-decoration: none;
+  position: absolute;
+  top: clamp(16px, 3vw, 32px);
+  left: clamp(16px, 4vw, 60px);
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #fff5;
+  color: #fff;
+  background: #081a2ba3;
+  backdrop-filter: blur(12px);
+  text-decoration: none;
+  font-size: 14px;
 }
-.wps-login-back:hover { background: #192f49; }
+.wps-login-back:hover { background: #14334c; }
+
 .wps-login-card {
-  width: min(100%, 438px); padding: clamp(24px, 5vw, 48px);
-  border-radius: 26px; border: 1px solid #e4efff55;
-  background: linear-gradient(145deg, #193448e6, #122339d9);
-  backdrop-filter: blur(16px);
-  box-shadow: inset 0 1px #ffffff38, 0 24px 75px #020e27a3;
+  width: min(100%, 430px);
+  padding: clamp(23px, 6vw, 42px);
+  border-radius: 28px;
+  border: 1px solid #dcefff62;
+  background: linear-gradient(140deg, #244862bd, #0d1f32d9 76%);
+  -webkit-backdrop-filter: blur(20px) saturate(145%);
+  backdrop-filter: blur(20px) saturate(145%);
+  box-shadow: inset 0 1px #e8f8ff66, inset 0 0 38px #86caff0c, 0 26px 88px #020b1a9e;
 }
-.wps-login-brand { display: flex; align-items: center; gap: 12px; color: #e2f1ff; font-weight: 650; }
-.wps-login-brand span {
-  display: grid; place-items: center; width: 43px; height: 43px; border-radius: 12px;
-  color: #072844; background: linear-gradient(145deg,#e3f5ff,#80c5f2);
-  box-shadow: inset 0 1px #fff, 0 5px 16px #06172a85; font-size: 22px; font-weight: 800;
+
+.wps-login-brand { display: flex; align-items: center; justify-content: center; gap: 10px; color: #eef8ff; font-weight: 650; }
+.wps-login-brand span, .wps-admin .wps-brand > span {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  color: #0c3150;
+  background: linear-gradient(155deg, #f0faff, #8bd3f6);
+  box-shadow: inset 0 1px #fff, 0 5px 14px #050e2466;
+  font-size: 22px;
+  font-weight: 800;
 }
-.wps-login-card h1 { margin: 24px 0 22px; font-size: clamp(32px, 5vw, 44px); line-height: 1.05; letter-spacing: -.045em; color: white; }
-.wps-login-card label { display: block; font-weight: 600; font-size: 14px; margin-bottom: 7px; }
+.wps-login-card h1 {
+  margin: 20px 0 25px;
+  color: #fff;
+  font-size: clamp(32px, 6vw, 44px);
+  line-height: 1.08;
+  letter-spacing: -.045em;
+  text-align: center;
+}
+.wps-login-card label { display: block; margin-bottom: 6px; font-size: 14px; font-weight: 650; }
 .wps-login-card input {
-  display: block; width: 100%; min-height: 50px; margin-bottom: 16px;
-  border: 1px solid #c1def278; border-radius: 10px; padding: 10px 13px;
-  color: #fff; background: #071b2c82; font: inherit;
+  display: block;
+  width: 100%;
+  min-height: 50px;
+  margin-bottom: 15px;
+  padding: 10px 14px;
+  border: 1px solid #c3e5fc66;
+  border-radius: 12px;
+  color: #fff;
+  background: #081a2b90;
+  box-shadow: inset 0 1px 5px #0003;
+  font: inherit;
 }
 .wps-login-card button {
-  display: flex; align-items: center; justify-content: space-between; width: 100%;
-  min-height: 50px; padding: 10px 15px; border-radius: 10px; margin-top: 24px;
-  border: 1px solid #cbecff; color: #092944; background: linear-gradient(#ceefff,#94cef6);
-  box-shadow: 0 7px 18px #040f2870; font: inherit; font-weight: 750; cursor: pointer;
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 50px;
+  margin-top: 22px;
+  padding: 10px 38px;
+  border: 1px solid #e7f7ff;
+  border-radius: 12px;
+  color: #0a2941;
+  background: linear-gradient(#e8f8ff,#a0d9fa);
+  box-shadow: inset 0 1px #fff, 0 6px 17px #040e2455;
+  font: inherit;
+  font-weight: 750;
+  cursor: pointer;
 }
-.wps-login-card button:hover { background: #dcf4ff; }
+.wps-login-card button > span { position: absolute; right: 14px; }
+.wps-login-card button:hover { background: #e7f7ff; }
 .wps-login-error { margin: 0; color: #ffe1e2; font-size: 14px; }
+
 .wps-nav-footer { margin-top: auto; display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
 .wps-nav-footer .wps-site { margin: 0; }
-.wps-signout { border: 1px solid #7892df88; border-radius: 8px; padding: 7px 10px; color: #f0f5ff; background: #314b895e; }
-@media (max-width: 700px) {
-  .wps-login {
-    justify-items: center; align-items: end; padding: max(190px, 29svh) 17px 24px;
-    background: linear-gradient(180deg, #05162538 0%, #091c2c48 32%, #0c2139ed 75%),
-      url('/images/company/035-stunning-house-with-fresh-white-siding.webp') center top / auto max(460px, 67svh) no-repeat #122c3e;
-  }
-  .wps-login-back { top: 16px; }
+.wps-signout { border: 1px solid #d7edff5c; border-radius: 8px; padding: 7px 10px; color: #f0f5ff; background: #a2d6ff20; }
+
+@media (max-width: 600px) {
+  .wps-login { --wps-overlay: linear-gradient(#0615243b, #061524a0); padding-block: 66px; }
+  .wps-login::before { background-position: center, 56% center; }
+  .wps-login-card { border-radius: 23px; }
+}
+@media (max-width: 850px) {
   .wps-nav-footer { margin: 0 0 0 auto; }
 }
