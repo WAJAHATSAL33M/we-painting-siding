@@ -1,0 +1,35 @@
+.wps-thanks {
+  display: grid;
+  place-items: center;
+  min-height: 55svh;
+  padding: clamp(32px, 7vw, 96px) 20px;
+  background: #edf5fb;
+}
+.wps-thanks-card {
+  width: min(100%, 670px);
+  padding: clamp(24px, 6vw, 62px);
+  border: 1px solid #cfdfeb;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 12px 36px #10395912;
+  text-align: center;
+}
+.wps-thanks-check {
+  display: grid;
+  place-items: center;
+  width: 54px;
+  height: 54px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: #e0f2ff;
+  color: #005a99;
+  font-size: 27px;
+  font-weight: 700;
+}
+.wps-thanks .wps-thanks-card h1 {
+  font-size: clamp(29px, 5vw, 47px);
+  line-height: 1.12;
+}
+.wps-thanks-card p { margin: 16px auto 0; max-width: 43ch; }
+.wps-thanks-actions { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 14px 20px; margin-top: 26px; }
+.wps-thanks-phone { color: #005a99; text-decoration: underline; font-weight: 600; }

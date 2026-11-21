@@ -15,4 +15,5 @@ export async function submitEnquiry(form, kind, photos = []) {
     const result = await response.json().catch(() => null);
     throw new Error(result?.error || 'We couldn’t send your request. Please try again.');
   }
+  window.location.assign('/thank-you');
 }
