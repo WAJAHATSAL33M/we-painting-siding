@@ -1,1 +1,1 @@
-export const officePhone = { label: '(905) 703-1221', href: 'tel:+19057031221' };
+export const officePhone = { label: '(647) 699-8228', href: 'tel:+16476998228' };
