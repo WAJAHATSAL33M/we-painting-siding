@@ -1,6 +1,6 @@
 /** A real geographic map; city labels do not imply a business address or boundary. */
-export default function AreaMap({area='Southern Ontario',zoom=8,className=''}){
- const query=area==='Southern Ontario'?'Southern Ontario, Canada':area+', Ontario, Canada';
+export default function AreaMap({area='Ontario',zoom=8,className=''}){
+ const query=area==='Ontario'?'Ontario, Canada':area+', Ontario, Canada';
  const encoded=encodeURIComponent(query);
  return <figure className={'wps-area-map '+className}>
   <div className="wps-map-heading"><span className="wps-map-pin" aria-hidden="true">⌖</span><div><strong>{area}</strong><span>Explore the local area</span></div><a href={'https://www.google.com/maps/search/?api=1&query='+encoded} target="_blank" rel="noopener noreferrer">Open map <span aria-hidden="true">↗</span></a></div>

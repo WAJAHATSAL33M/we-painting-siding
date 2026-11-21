@@ -1,0 +1,47 @@
+.project-site h1 { font-size: clamp(45px, 6vw, 92px); line-height: 1.05; }
+.project-site h2 { font-size: clamp(27px, 4vw, 49px); line-height: 1.12; }
+.project-intro { background: #f0f6fb; }
+.project-hero { display: grid; grid-template-columns: .8fr 1.2fr; align-items: center; gap: clamp(23px, 6vw, 90px); padding-block: clamp(30px, 6vw, 82px); }
+.project-hero nav { color: #476278; margin-bottom: 15px; }
+.project-hero p, .project-gallery-title p, .project-compare-section h2 + p { margin-block: 12px 0; }
+.project-hero figure, .project-comparison { margin: 0; }
+.project-hero figure img { width: 100%; height: auto; display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; }
+.project-hero figcaption { padding-top: 8px; color: #435c70; font-size: 13px; }
+.project-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-top: 24px; }
+.project-gallery, .project-compare-section, .project-cta { padding-block: clamp(36px, 5vw, 74px); scroll-margin-top: 14px; }
+.project-gallery-title { display: flex; align-items: end; justify-content: space-between; flex-wrap: wrap; gap: 18px; }
+.project-gallery-title label { display: grid; gap: 5px; font-weight: 600; }
+.project-gallery-title select { border: 1px solid #b9cfdf; border-radius: 5px; background: white; color: #173a54; padding: 8px 12px; font: inherit; }
+.project-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-block: 22px 12px; }
+.project-filters button { border: 1px solid #c5d8e8; border-radius: 999px; background: white; color: #163c59; padding: 8px 14px; font: inherit; cursor: pointer; }
+.project-filters button[aria-pressed=true] { background: #0766aa; border-color: #0766aa; color: white; }
+.project-result { margin-bottom: 14px; font-size: .9rem; }
+.project-grid, .project-compare-grid { display: grid; gap: clamp(12px, 2vw, 23px); }
+.project-grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
+.project-compare-grid { grid-template-columns: repeat(2, minmax(0,1fr)); margin-top: 22px; }
+.project-grid article, .project-compare-grid article { border: 1px solid #d6e2eb; border-radius: 8px; overflow: hidden; background: white; }
+.project-grid article a { display: block; }
+.project-grid article img { width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; display: block; }
+.project-card-copy { padding: 13px 15px 15px; }
+.project-card-copy h3 { font-size: clamp(15px, 2vw, 19px); line-height: 1.25; }
+.project-card-copy p { font-size: 13px; margin-top: 5px; }
+.project-more { margin: 20px auto 0; cursor: pointer; }
+.project-compare-section { background: #edf5fb; }
+.project-comparison-stage { position: relative; overflow: hidden; aspect-ratio: 4/3; background: #d7e4ec; }
+.project-comparison-stage img { width: 100%; height: 100%; position: absolute; inset: 0; object-fit: cover; }
+.project-comparison-stage .project-after { clip-path: inset(0 0 0 var(--position)); }
+.project-comparison-handle { position: absolute; left: var(--position); top: 0; bottom: 0; width: 2px; background: #fff; display: grid; align-items: center; }
+.project-comparison-handle span { display: grid; place-items: center; width: 38px; height: 38px; transform: translateX(-50%); border-radius: 50%; background: white; color: #092b47; }
+.project-comparison-stage input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: ew-resize; }
+.project-comparison-stage:focus-within { outline: 3px solid #0072bd; outline-offset: -4px; }
+.project-before-tag, .project-after-tag { position: absolute; top: 12px; background: #102c43ed; color: white; padding: 4px 9px; border-radius: 4px; font-size: 13px; pointer-events: none; }
+.project-before-tag { left: 12px; }
+.project-after-tag { right: 12px; }
+.project-cta .ah-container { display: flex; gap: 18px; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+@media (max-width: 760px) {
+  .project-hero, .project-compare-grid { grid-template-columns: 1fr; }
+  .project-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+@media (max-width: 380px) {
+  .project-grid { grid-template-columns: 1fr; }
+}

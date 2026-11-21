@@ -7,19 +7,16 @@
   {
     "slug": "aluminum-painting",
     "title": "Aluminum Siding Painting",
-    "parent": "siding-painting",
     "icon": "layers"
   },
   {
     "slug": "vinyl-siding-painting",
     "title": "Vinyl Siding Painting",
-    "parent": "siding-painting",
     "icon": "home"
   },
   {
     "slug": "wood-siding-painting",
     "title": "Wood Siding Painting",
-    "parent": "siding-painting",
     "icon": "wood"
   },
   {

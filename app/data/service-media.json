@@ -9,7 +9,7 @@
       "alt": "Surface detail for aluminum siding painting"
     },
     "related": {
-      "/exterior-painting/siding-painting": {
+      "/siding-painting": {
         "src": "/images/subservices/siding-painting/hero.webp",
         "alt": "Illustrative siding painting finish"
       },
@@ -67,7 +67,7 @@
       "alt": "Illustrative exterior finish and coordinated property details"
     }
   },
-  "/exterior-painting/siding-painting": {
+  "/siding-painting": {
     "hero": {
       "src": "/images/subservices/siding-painting/hero.webp",
       "alt": "Illustrative siding painting finish"
@@ -149,7 +149,7 @@
         "src": "/images/subservices/aluminum-painting/hero.webp",
         "alt": "Illustrative aluminum siding painting finish"
       },
-      "/exterior-painting/siding-painting": {
+      "/siding-painting": {
         "src": "/images/subservices/siding-painting/hero.webp",
         "alt": "Illustrative siding painting finish"
       },
@@ -353,7 +353,7 @@
         "src": "/images/subservices/aluminum-painting/hero.webp",
         "alt": "Illustrative aluminum siding painting finish"
       },
-      "/exterior-painting/siding-painting": {
+      "/siding-painting": {
         "src": "/images/subservices/siding-painting/hero.webp",
         "alt": "Illustrative siding painting finish"
       },
@@ -417,7 +417,7 @@
       "alt": "Surface detail for eavestrough & fascia painting"
     },
     "related": {
-      "/exterior-painting/siding-painting": {
+      "/siding-painting": {
         "src": "/images/subservices/siding-painting/hero.webp",
         "alt": "Illustrative siding painting finish"
       },
@@ -489,7 +489,7 @@
       "height": 1024
     },
     "related": {
-      "/exterior-painting/siding-painting": {
+      "/siding-painting": {
         "src": "/images/subservices/siding-painting/hero.webp",
         "alt": "Illustrative siding painting finish"
       },
@@ -893,7 +893,7 @@
       "alt": "Sage dining room walls"
     }
   },
-  "/cabinet-painting": {
+  "/interior-painting/cabinet-painting": {
     "hero": {
       "src": "/images/approved-home/cabinet-feature.webp",
       "alt": "Slate blue painted kitchen cabinets with brass handles"
@@ -1028,7 +1028,7 @@
       "alt": "Illustrative close detail of paint applied to an exterior door beside protected hardware"
     },
     "related": {
-      "/exterior-painting/siding-painting": {
+      "/siding-painting": {
         "src": "/images/subservices/siding-painting/hero.webp",
         "alt": "Illustrative siding painting finish"
       },

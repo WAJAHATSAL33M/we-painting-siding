@@ -62,7 +62,13 @@ export function getPosts(status) {
   const rows = status
     ? db.prepare(sql + ' WHERE status = ? ORDER BY id DESC').all(status)
     : db.prepare(sql + ' ORDER BY id DESC').all();
-  return rows.map(({ id, status, data }) => ({ ...JSON.parse(data), id, status }));
+  return rows.map(({ id, status, data }) => {
+    const post = JSON.parse(data
+      .replace(/the GTA, Golden Horseshoe and/gi, 'the GTA and')
+      .replace(/Southern Ontario/gi, 'Ontario')
+      .replace(/"service":"\/cabinet-painting"/g, '"service":"/interior-painting/cabinet-painting"'));
+    return { ...post, id, status };
+  });
 }
 
 export function recordEnquiry({ kind, page, email, details, attachments }) {

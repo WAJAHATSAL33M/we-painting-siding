@@ -1,0 +1,590 @@
+{
+  "featured": [
+    96,
+    94,
+    184,
+    51,
+    64
+  ],
+  "gallery": [
+    {
+      "id": 94,
+      "title": "Maibec siding stain",
+      "category": "Siding",
+      "location": "Halton Hills",
+      "src": "/images/company/094-halton-hills-maibec-siding-staining-front-after.webp",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "id": 31,
+      "title": "Aluminum siding repaint",
+      "category": "Siding",
+      "location": "Burlington",
+      "src": "/images/company/031-after-house-painting-burlington-exterior.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 166,
+      "title": "Siding and window trim",
+      "category": "Siding",
+      "location": "St. Catharines",
+      "src": "/images/company/166-large-exterior-painting-siding-st-catharines.webp",
+      "width": 1024,
+      "height": 771
+    },
+    {
+      "id": 35,
+      "title": "White aluminum siding",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/035-stunning-house-with-fresh-white-siding.webp",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": 21,
+      "title": "Olive siding and white trim",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/021-img-4925.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 25,
+      "title": "Neutral siding with dark accents",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/025-img-5523.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 33,
+      "title": "Grey siding and white trim",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/033-grey-house.webp",
+      "width": 800,
+      "height": 530
+    },
+    {
+      "id": 128,
+      "title": "Charcoal siding",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/128-img-0545.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 130,
+      "title": "Light grey siding",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/130-img-0546.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 132,
+      "title": "Blue-grey vinyl and brick",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/132-img-0760.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 134,
+      "title": "Siding above a brick garage",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/134-img-0894.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 136,
+      "title": "Two-storey siding repaint",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/136-img-0913.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 140,
+      "title": "Blue vinyl siding",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/140-img-5402.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 142,
+      "title": "Dark siding on a bungalow",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/142-img-5583.webp",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "id": 144,
+      "title": "Charcoal rear siding",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/144-img-5584.webp",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "id": 146,
+      "title": "Dark siding around a deck",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/146-img-5585.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 150,
+      "title": "Grey siding and back deck",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/150-img-6872.webp",
+      "width": 964,
+      "height": 1024
+    },
+    {
+      "id": 152,
+      "title": "Two-tone vinyl exterior",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/152-img-6873.webp",
+      "width": 1024,
+      "height": 886
+    },
+    {
+      "id": 154,
+      "title": "Slate blue siding",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/154-img-6874.webp",
+      "width": 960,
+      "height": 821
+    },
+    {
+      "id": 161,
+      "title": "Siding and garage trim",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/161-img-9097s.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 162,
+      "title": "Dark siding with white trim",
+      "category": "Siding",
+      "location": "Etobicoke",
+      "src": "/images/company/162-after-exterior-siding-painting.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 165,
+      "title": "Grey siding on a split-level home",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/165-house-rear-spray-painted-grey-1024x768-1.webp",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "id": 168,
+      "title": "Olive vinyl siding",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/168-vinyl-siding-olive-coloured-exterior-1024x768-1.webp",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "id": 212,
+      "title": "Dark wood siding and garage doors",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/212-img-1065.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 225,
+      "title": "Timber siding and porch trim",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/225-img-9337.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 229,
+      "title": "Blue wood-sided garage",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/229-blue-garage.webp",
+      "width": 1024,
+      "height": 634
+    },
+    {
+      "id": 230,
+      "title": "Blue wood siding with natural deck",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/230-fresh-blue-siding-job-1536x1152-1-768x576.webp",
+      "width": 768,
+      "height": 576
+    },
+    {
+      "id": 231,
+      "title": "Green wood siding",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/231-green-house-4.webp",
+      "width": 1024,
+      "height": 680
+    },
+    {
+      "id": 232,
+      "title": "Green siding and dark garage doors",
+      "category": "Siding",
+      "location": "",
+      "src": "/images/company/232-green-siding-painted.webp",
+      "width": 1024,
+      "height": 682
+    },
+    {
+      "id": 96,
+      "title": "Exterior repaint with white porch",
+      "category": "Windows, Doors & Trim",
+      "location": "Orangeville",
+      "src": "/images/company/096-orangeville-exterior-painting-front-after.webp",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "id": 51,
+      "title": "Dark painted brick exterior",
+      "category": "Brick & Stucco",
+      "location": "",
+      "src": "/images/company/051-huge-house-after-brick-painting.webp",
+      "width": 1002,
+      "height": 752
+    },
+    {
+      "id": 37,
+      "title": "Painted brick and garage doors",
+      "category": "Brick & Stucco",
+      "location": "",
+      "src": "/images/company/037-brick-painting.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 38,
+      "title": "Grey painted masonry",
+      "category": "Brick & Stucco",
+      "location": "",
+      "src": "/images/company/038-brick-painting-1.webp",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "id": 45,
+      "title": "White masonry finish",
+      "category": "Brick & Stucco",
+      "location": "",
+      "src": "/images/company/045-img-2441-1.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 46,
+      "title": "Light painted brick with dark trim",
+      "category": "Brick & Stucco",
+      "location": "",
+      "src": "/images/company/046-img-6425.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 107,
+      "title": "Stucco exterior with white trim",
+      "category": "Brick & Stucco",
+      "location": "",
+      "src": "/images/company/107-img-0983.webp",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": 116,
+      "title": "Two-tone stucco and timber details",
+      "category": "Brick & Stucco",
+      "location": "",
+      "src": "/images/company/116-img-5460.webp",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "id": 118,
+      "title": "Stucco bungalow exterior",
+      "category": "Brick & Stucco",
+      "location": "",
+      "src": "/images/company/118-img-5692.webp",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": 122,
+      "title": "White stucco with black trim",
+      "category": "Brick & Stucco",
+      "location": "",
+      "src": "/images/company/122-after-house-stucco-painting-white.webp",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "id": 124,
+      "title": "Painted church exterior",
+      "category": "Brick & Stucco",
+      "location": "",
+      "src": "/images/company/124-church-with-white-paint.webp",
+      "width": 1024,
+      "height": 686
+    },
+    {
+      "id": 184,
+      "title": "Black front door on brick",
+      "category": "Windows, Doors & Trim",
+      "location": "",
+      "src": "/images/company/184-img-0229.webp",
+      "width": 720,
+      "height": 960
+    },
+    {
+      "id": 70,
+      "title": "Black eaves and fascia",
+      "category": "Windows, Doors & Trim",
+      "location": "Oakville",
+      "src": "/images/company/070-eavestroughs-spray-painting-black-oakville-1024x768-1-scaled.webp",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "id": 72,
+      "title": "White soffits and fascia",
+      "category": "Windows, Doors & Trim",
+      "location": "",
+      "src": "/images/company/072-white-eavestrough-soffits-spray-painter.webp",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "id": 171,
+      "title": "Dark window and exterior trim",
+      "category": "Windows, Doors & Trim",
+      "location": "",
+      "src": "/images/company/171-img-0123.webp",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": 191,
+      "title": "Side door and surrounding trim",
+      "category": "Windows, Doors & Trim",
+      "location": "",
+      "src": "/images/company/191-img-0681.webp",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "id": 196,
+      "title": "Painted entrance and window trim",
+      "category": "Windows, Doors & Trim",
+      "location": "",
+      "src": "/images/company/196-img-5430.webp",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": 197,
+      "title": "Dark trim on upper windows",
+      "category": "Windows, Doors & Trim",
+      "location": "",
+      "src": "/images/company/197-img-5556.webp",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "id": 200,
+      "title": "Garage door and exterior trim",
+      "category": "Windows, Doors & Trim",
+      "location": "",
+      "src": "/images/company/200-img-6941.webp",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "id": 201,
+      "title": "Dark double garage doors",
+      "category": "Windows, Doors & Trim",
+      "location": "",
+      "src": "/images/company/201-img-9336.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 205,
+      "title": "Garage door repaint",
+      "category": "Windows, Doors & Trim",
+      "location": "Milton",
+      "src": "/images/company/205-milton-garage-painting.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 208,
+      "title": "Painted eaves, soffits and windows",
+      "category": "Windows, Doors & Trim",
+      "location": "Hamilton",
+      "src": "/images/company/208-eaves-soffits-windows-painted-hamilton.webp",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": 209,
+      "title": "Black-painted vinyl windows",
+      "category": "Windows, Doors & Trim",
+      "location": "",
+      "src": "/images/company/209-exterior-vinyl-windows-painted-black.webp",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "id": 64,
+      "title": "Commercial masonry repaint",
+      "category": "Commercial",
+      "location": "",
+      "src": "/images/company/064-after-masonry-painting-commercial.webp",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "id": 66,
+      "title": "Commercial exterior repaint",
+      "category": "Commercial",
+      "location": "Georgetown",
+      "src": "/images/company/066-commercial-painting-inc-georgetown-1536x1152-1.webp",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "id": 67,
+      "title": "Metal exterior spray painting",
+      "category": "Commercial",
+      "location": "Mississauga",
+      "src": "/images/company/067-spray-paint-painting-mississauga.webp",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "id": 83,
+      "title": "Commercial storefront repaint",
+      "category": "Commercial",
+      "location": "",
+      "src": "/images/company/083-img-5131-1024x768.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 87,
+      "title": "Exterior finish with contrasting trim",
+      "category": "Siding",
+      "location": "Nobleton",
+      "src": "/images/company/087-pics-12-stokes-drive-nobleton-on2026-07-30-pictures-4.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": 125,
+      "title": "Commercial façade repaint",
+      "category": "Commercial",
+      "location": "",
+      "src": "/images/company/125-commercial-job-4-1536x1024.webp",
+      "width": 1024,
+      "height": 682
+    }
+  ],
+  "comparisons": [
+    {
+      "title": "Maibec siding stain",
+      "location": "Halton Hills",
+      "before": {
+        "src": "/images/projects/halton-hills-maibec-siding-staining-front-before.webp",
+        "width": 1080,
+        "height": 810
+      },
+      "after": {
+        "src": "/images/company/094-halton-hills-maibec-siding-staining-front-after.webp",
+        "width": 1200,
+        "height": 900
+      }
+    },
+    {
+      "title": "Exterior and porch repaint",
+      "location": "Orangeville",
+      "before": {
+        "src": "/images/projects/orangeville-exterior-painting-front-before.webp",
+        "width": 1080,
+        "height": 810
+      },
+      "after": {
+        "src": "/images/company/096-orangeville-exterior-painting-front-after.webp",
+        "width": 960,
+        "height": 720
+      }
+    },
+    {
+      "title": "Stucco and exterior trim",
+      "before": {
+        "src": "/images/company/123-before-stucco-painting-dirty-house.webp",
+        "width": 1280,
+        "height": 960
+      },
+      "after": {
+        "src": "/images/company/122-after-house-stucco-painting-white.webp",
+        "width": 1280,
+        "height": 960
+      }
+    },
+    {
+      "title": "Garage door repaint",
+      "location": "Milton",
+      "before": {
+        "src": "/images/company/206-milton-garage-paintings.webp",
+        "width": 800,
+        "height": 600
+      },
+      "after": {
+        "src": "/images/company/205-milton-garage-painting.webp",
+        "width": 1024,
+        "height": 768
+      }
+    }
+  ]
+}

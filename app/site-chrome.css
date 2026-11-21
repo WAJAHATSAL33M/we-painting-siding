@@ -130,3 +130,12 @@
  .wps-footer-v2 .wps-footer-bottom nav{justify-content:flex-start;gap:4px 18px;margin-top:12px}
  .wps-footer-v2 .wps-footer-bottom nav>a{min-height:36px;font-size:10px;padding:8px 0}
 }
+
+.wps-footer-v2 .wps-wordmark { display: inline-flex; align-items: center; justify-content: center; background: #fff; padding: 9px 12px; }
+.wps-footer-v2 .wps-footer-phone { color: #fff; font-weight: 600; }
+.wps-footer-v2 .wps-footer-siding { color: #b9e2ff; }
+.wps-menu-bottom > a:first-child { margin-left: 0; }
+#quote-form, .rc-form#quote { scroll-margin-top: 20px; }
+@media (max-width: 1199px) {
+  .wps-header .wps-menu-bottom { display: flex; flex-wrap: wrap; gap: 10px 18px; }
+}

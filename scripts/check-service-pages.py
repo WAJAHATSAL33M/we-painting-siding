@@ -30,7 +30,7 @@ class Document(HTMLParser):
             if self.stack[i].tag==tag:self.stack=self.stack[:i];break
     def handle_data(self,data):self.stack[-1].children.append(data)
 
-script="""import fs from 'node:fs';let src=fs.readFileSync('app/data/service-pages.js','utf8');for(const [name,file] of [['exterior','exterior-subservices'],['metaTitles','service-meta-titles'],['interiorTemplate','interior-template-content']])src=src.replace(new RegExp('import '+name+\" from '[^']+';\"),'const '+name+'='+fs.readFileSync('app/data/'+file+'.json','utf8')+';');const m=await import('data:text/javascript;base64,'+Buffer.from(src).toString('base64'));console.log(JSON.stringify(m.allServices.map(s=>({path:s.path,title:s.title,category:s.category,related:m.relatedServices(s).map(p=>p.path)}))));"""
+script="""import fs from 'node:fs';let src=fs.readFileSync('app/data/service-pages.js','utf8').replace('./exterior-service-path',new URL('./app/data/exterior-service-path.js',import.meta.url).href);for(const [name,file] of [['exterior','exterior-subservices'],['metaTitles','service-meta-titles'],['interiorTemplate','interior-template-content']])src=src.replace(new RegExp('import '+name+\" from '[^']+';\"),'const '+name+'='+fs.readFileSync('app/data/'+file+'.json','utf8')+';');const m=await import('data:text/javascript;base64,'+Buffer.from(src).toString('base64'));console.log(JSON.stringify(m.allServices.map(s=>({path:s.path,title:s.title,category:s.category,related:m.relatedServices(s).map(p=>p.path)}))));"""
 services=json.loads(subprocess.check_output(['node','--input-type=module','-e',script],cwd=ROOT,text=True))
 inventory=Path(sys.argv[1]) if len(sys.argv)>1 else None
 known=set(json.loads(inventory.read_text())) if inventory else set()
@@ -72,7 +72,7 @@ for service in services:
     title=doc.find('title')[0].text();description=doc.find('meta',name='description')[0].attrs['content']
     check(title not in titles,route+': duplicate title');titles.add(title)
     check(description not in descriptions,route+': duplicate description');descriptions.add(description)
-    check(doc.find('link',rel='canonical')[0].attrs['href']=='https://we-painting-siding.vercel.app'+route,route+': incorrect canonical')
+    check(doc.find('link',rel='canonical')[0].attrs['href']=='https://wepaintsiding.com'+route,route+': incorrect canonical')
     schema=json.loads(doc.find('script',type='application/ld+json')[0].text())['@graph']
     check(schema[0]['name']==service['title'],route+': wrong service schema')
     check(schema[1]['itemListElement'][-1]['item'].endswith(route),route+': incorrect breadcrumb schema')
@@ -86,7 +86,7 @@ for service in services:
     if not pilot:
         image_paths=[n.attrs['src'] for n in main.find('img')]
         check(len(image_paths)==7 and len(image_paths)==len(set(image_paths)),route+': expected seven non-repeating content images')
-        if route=='/cabinet-painting':
+        if route=='/interior-painting/cabinet-painting':
             approved={'/images/approved-home/cabinet-feature.webp','/images/cabinet/kitchen.webp','/images/cabinet/builtins.webp','/images/approved-home/vanity.webp','/images/interior-design/cabinet-protection.webp','/images/interior-design/cabinet-detail.webp','/images/interior-design/cabinet-room.webp'}
             check(set(image_paths)==approved,'Cabinet page uses only visually approved installed-cabinet images')
     for img in main.find('img'):
@@ -116,7 +116,7 @@ else:
     xml = sitemap_file.read_text() if sitemap_file.exists() else ''
     if not xml:
         print('Start the production app and set WPS_AUDIT_ORIGIN to its local URL to check the dynamic sitemap.')
-check(all('https://we-painting-siding.vercel.app'+s['path'] in xml for s in services),'XML sitemap missing services')
+check(all('https://wepaintsiding.com'+s['path'] in xml for s in services),'XML sitemap missing services')
 if errors:
     print('\n'.join(errors));sys.exit(1)
 print(json.dumps({'exterior_pages_using_shared_layout':len(exterior_heroes),'unique_exterior_hero_images':len(exterior_heroes),'service_pages':len(services),'sections_per_page':'10 on every service page','unique_titles':len(titles),'unique_descriptions':len(descriptions),'referenced_images':len(images),'validated_internal_links':links,'faq_answers':len(services)*6,'interior_images':'seven unique content images per page; cabinet images approved','sitemap':'all service routes present','result':'passed'},indent=2))

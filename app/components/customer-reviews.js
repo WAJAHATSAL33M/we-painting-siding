@@ -13,7 +13,7 @@ export default function CustomerReviews({profile='both',context='general'}){
  const id='google-reviews-'+context;
  return <section className={'gr-section'+(selected.length===1?' gr-single':'')} aria-labelledby={id}>
   <div className="ah-container">
-   <div className="gr-heading"><div><p className="ah-eyebrow">Customer feedback</p><h2 id={id}>Hear from customers.<br/><em>Explore our Google reviews.</em></h2></div><p>{selected.length===2?'Find customer feedback on our main and Oakville Google Business Profiles. Each listing has its own reviews.':profile==='oakville'?'Read customer experiences on our Oakville Google Business Profile.':'Explore customer feedback on our main Google Business Profile.'}</p></div>
+   <div className="gr-heading"><div><p className="ah-eyebrow">Customer feedback</p><h2 id={id}>Hear from customers.<br/>{' '}<em>Explore our Google reviews.</em></h2></div><p>{selected.length===2?'Find customer feedback on our main and Oakville Google Business Profiles. Each listing has its own reviews.':profile==='oakville'?'Read customer experiences on our Oakville Google Business Profile.':'Explore customer feedback on our main Google Business Profile.'}</p></div>
    <div className="gr-profiles">{selected.map(p=><article className="gr-profile" key={p.key}>
     <div className="gr-profile-icon"><ProfileIcon/></div>
     <div className="gr-profile-copy"><p className="gr-profile-label">{p.label}</p><h3>{p.name}</h3>{Number.isFinite(p.rating)&&Number.isInteger(p.reviewCount)?<p className="gr-rating"><span aria-hidden="true">★</span><strong>{p.rating.toFixed(1)}</strong><span>/ 5 · {p.reviewCount} Google reviews</span></p>:null}<p>{p.description}</p></div>
