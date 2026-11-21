@@ -141,3 +141,39 @@
 @media (max-width: 850px) {
   .wps-admin .wps-nav { border-right: 0; border-bottom: 1px solid #b9e2ff44; }
 }
+
+.wps-admin .wps-nav { z-index: 3; align-self: start; }
+.wps-admin .wps-nav nav button { width: 100%; min-height: 44px; }
+.wps-admin .wps-main { padding: clamp(18px, 3.2vw, 46px); }
+.wps-section-bar {
+  position: sticky; top: 0; z-index: 2; margin-bottom: 20px;
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  min-height: 58px; padding: 8px 14px; border: 1px solid #b9e2ff50;
+  border-radius: 13px; background: #102941f5; box-shadow: 0 6px 18px #050e2240;
+}
+.wps-section-tools { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.wps-section-tools button { min-height: 38px; }
+.wps-admin .wps-panel { backdrop-filter: none; background: linear-gradient(145deg,#f8fcfff5,#e2f0f9ed); }
+.wps-admin .wps-stats button { width: 100%; min-height: 96px; }
+.wps-admin .wps-summary { min-height: 44px; }
+.wps-admin .wps-inbox-list { max-height: min(66svh,680px); overflow: auto; }
+.wps-admin .wps-inbox-list .wps-filters { position: sticky; top: 0; z-index: 1; background: #f4f9fd; padding-block: 5px; }
+.wps-admin .wps-table thead { background: #e5f0f9; }
+.wps-admin .wps-table tbody tr:hover { background: #f7fbff; }
+.wps-admin .wps-more { margin-top: 12px; }
+@media (min-width: 851px) {
+  .wps-admin .wps-edit .wps-meta { position: sticky; top: 78px; max-height: calc(100svh - 96px); overflow: auto; }
+}
+@media (max-width: 850px) {
+  .wps-admin .wps-nav { position: sticky; top: 0; height: auto; min-height: 0; padding: 8px 12px; gap: 6px 12px; background: #102941fa; backdrop-filter: none; }
+  .wps-admin .wps-nav nav { order: 3; width: 100%; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); }
+  .wps-admin .wps-nav nav button { justify-content: center; }
+  .wps-admin .wps-section-bar { position: static; }
+  .wps-admin .wps-inbox-list { max-height: 41svh; }
+}
+@media (max-width: 420px) {
+  .wps-admin .wps-nav { padding-inline: 8px; }
+  .wps-admin .wps-brand small { display: none; }
+  .wps-admin .wps-nav nav button { gap: 5px; font-size: 13px; }
+  .wps-admin .wps-main { padding: 14px; }
+}
