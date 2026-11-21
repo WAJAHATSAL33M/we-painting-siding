@@ -101,7 +101,7 @@
       {
         "title": "Hosting and embedded maps",
         "paragraphs": [
-          "Vercel can process technical requests while delivering and protecting the site. Embedded Google Maps connects to Google when loaded and may involve cookies or similar technologies. Existing provider cookies can also accompany requests according to your browser\u2019s settings.",
+          "Hostinger can process technical requests while delivering and protecting the site. Embedded Google Maps connects to Google when loaded and may involve cookies or similar technologies. Existing provider cookies can also accompany requests according to your browser\u2019s settings.",
           "Third-party behaviour can depend on account sessions, browser settings, location and provider changes. This notice does not state that the site can never involve third-party cookies."
         ],
         "links": [
