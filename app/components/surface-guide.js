@@ -11,7 +11,7 @@ function Arrow(){return <svg viewBox="0 0 24 16" fill="none" aria-hidden="true">
 function Markers({surfaces,active,onSelect,panelId}){
  return <>
   <svg className="sg-leaders" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-   {surfaces.map(s=><g key={s.id} className={active===s.id?'is-active':''}><line x1={s.lx} y1={s.ly} x2={s.x} y2={s.y}/><circle cx={s.x} cy={s.y} r=".65"/></g>)}
+   {surfaces.map(s=><g key={s.id} className={active===s.id?'is-active':''}><line x1={s.lx} y1={s.ly} x2={s.x} y2={s.y}/><circle cx={s.x} cy={s.y} r=".65"/>{s.extraTarget&&<><line x1={s.lx} y1={s.ly} x2={s.extraTarget.x} y2={s.extraTarget.y}/><circle cx={s.extraTarget.x} cy={s.extraTarget.y} r=".65"/></>}</g>)}
   </svg>
   {surfaces.map(s=><button key={s.id} type="button" className={'sg-pin'+(active===s.id?' is-active':'')} style={{'--sg-x':s.x+'%','--sg-y':s.y+'%','--sg-lx':s.lx+'%','--sg-ly':s.ly+'%'}} aria-label={'Show '+s.name.toLowerCase()} aria-pressed={active===s.id} aria-controls={panelId} onClick={()=>onSelect(s.id)}><span className="sg-pin-number">{s.number}</span><span className="sg-pin-label">{s.name}</span></button>)}
  </>;
