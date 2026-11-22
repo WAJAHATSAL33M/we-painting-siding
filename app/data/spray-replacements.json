@@ -11,24 +11,6 @@
     "width": 1536,
     "height": 1024
   },
-  "/images/interior-reference/painter.webp": {
-    "src": "/images/spray/installed-interior-door-spray.webp",
-    "alt": "Illustrative spray finishing of an interior door attached to its hinges and frame",
-    "width": 1536,
-    "height": 1024
-  },
-  "/images/subservice-reference/interior-application.webp": {
-    "src": "/images/spray/interior-wall-spray.webp",
-    "alt": "Illustrative airless spray application on an interior wall with windows and floors protected",
-    "width": 1536,
-    "height": 1024
-  },
-  "/images/subservice-reference/interior-protection.webp": {
-    "src": "/images/spray/interior-spray-preparation.webp",
-    "alt": "Illustrative protected interior room prepared for spraying with airless equipment",
-    "width": 1536,
-    "height": 1024
-  },
   "/images/approved-home/painter.webp": {
     "src": "/images/spray/siding-spray.webp",
     "alt": "Illustrative professional airless spray painting on protected blue-gray exterior siding",
