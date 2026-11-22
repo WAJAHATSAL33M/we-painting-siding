@@ -23,3 +23,36 @@
 @media(max-width:380px){.ra-services article{grid-template-columns:1fr}.ra-services article>img{height:210px;min-height:0}.ra-community-card ul{grid-template-columns:1fr 1fr;grid-template-rows:repeat(5,auto);font-size:14.1px}.ra-step-grid{grid-template-columns:1fr}.ra-step-grid article{padding:20px 0!important;border:0!important;border-bottom:1px solid #c3d6e6!important}.ra-step-grid svg{width:40px;height:40px}.ra-about .ra-step-grid h3{font-size:18.48px}.ra-about .ra-step-grid p{font-size:14.1px}.ra-close .ah-actions{grid-template-columns:1fr}.ra-newsletter form{flex-wrap:wrap;gap:10px}.ra-newsletter input,.ra-newsletter .ah-button{border-radius:4px}.ra-newsletter input{flex-basis:100%}.ra-footer-grid{column-gap:18px}.ra-about .ra-values-motto{font-size:15.04px}.ra-story-media>img:first-child{height:350px}}
 .ra-socials button svg{width:24px;height:24px}
 @media(min-width:1101px){.ra-about .ra-hero h1{font-size:clamp(33.6px,2.96vw,49.6px)}}
+
+/* Let the portrait project photo size the hero without clipping the house or van. */
+.ra-about .ra-hero-grid {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.95fr);
+  align-items: center;
+  gap: clamp(18px, 4vw, 72px);
+  padding: clamp(24px, 4vw, 66px) var(--ah-gutter);
+  background: radial-gradient(ellipse at 78% 46%, #174561, var(--ra-navy) 70%);
+}
+.ra-about .ra-hero-copy { padding: 0; width: min(100%, 640px); justify-self: end; }
+.ra-about .ra-hero-media {
+  margin: 0;
+  width: min(100%, 565px);
+  justify-self: start;
+  border: 1px solid #a0cbe452;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 14px 35px #03142166;
+  background: #10314a;
+}
+.ra-about .ra-hero-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  aspect-ratio: 898 / 1024;
+  object-fit: contain;
+}
+@media (max-width: 767px) {
+  .ra-about .ra-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .ra-about .ra-hero-copy, .ra-about .ra-hero-media { justify-self: center; }
+  .ra-about .ra-hero-media { width: min(100%, 440px); }
+}
