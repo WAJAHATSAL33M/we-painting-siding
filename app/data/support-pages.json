@@ -26,7 +26,7 @@
       {
         "title": "Technical information and hosting",
         "paragraphs": [
-          "Hostinger hosts the website. Serving and protecting pages can involve technical request information, including IP addresses and browser or request details, being processed by the hosting provider. The application itself has no configured advertising tracker or analytics integration.",
+          "Hostinger hosts the website. Serving and protecting pages can involve technical request information, including IP addresses and browser or request details, being processed by the hosting provider. The public website uses Google Tag Manager to load tags configured for the site.",
           "Provider records and retention depend on the service and its configuration. This policy does not specify a guaranteed retention period or processing location for the hosting provider\u2019s information."
         ],
         "links": [
@@ -94,7 +94,7 @@
       {
         "title": "Current website features",
         "paragraphs": [
-          "The website application does not currently set advertising cookies, use an analytics integration or store marketing preferences in local storage. Menu panels, article filters and comparison sliders keep their current state within the open page.",
+          "The public website uses Google Tag Manager. Cookies and similar technologies depend on the tags configured for the site. Menu panels, article filters and comparison sliders keep their current state within the open page.",
           "Project enquiry forms send the information you submit to the business’s enquiry inbox. Newsletter registration is inactive."
         ]
       },
