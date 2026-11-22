@@ -1,27 +1,5 @@
-'use client';
-import {useRef,useState} from 'react';
-import {submitEnquiry} from '../lib/submit-enquiry';
+import QuoteForm from './quote-form';
 
-export default function ServiceRequest({title,path,category,services=[],showHeading=false}){
- const [files,setFiles]=useState([]),[error,setError]=useState(''),[status,setStatus]=useState(''),[busy,setBusy]=useState(false);const input=useRef(null);
- function addFiles(event){const selected=Array.from(event.target.files||[]),next=[...files],errors=[];for(const file of selected){if(!/\.(jpe?g|png|heic|heif|webp)$/i.test(file.name)){errors.push(file.name+': choose a JPG, PNG, WebP or HEIC photo.');continue}if(file.size>10*1024*1024){errors.push(file.name+': maximum size is 10 MB.');continue}if(next.some(f=>f.name===file.name&&f.size===file.size&&f.lastModified===file.lastModified))continue;if(next.length>=10){errors.push('Choose up to 10 photos.');break}next.push(file)}setFiles(next);setError(errors.join(' '));setStatus('');event.target.value='';}
- async function submit(event) {
-  event.preventDefault();
-  if (busy) return;
-  const form = event.currentTarget;
-  setError('');
-  setStatus('');
-  setBusy(true);
-  try {
-    await submitEnquiry(form, 'service', files);
-    form.reset();
-    setFiles([]);
-    setStatus('Your project enquiry has been sent.');
-  } catch (error) {
-    setError(error.message);
-  } finally {
-    setBusy(false);
-  }
-}
-return <form method="post" className="sp-form" onSubmit={submit} aria-label={title+' project request'}>{showHeading&&<header className="sp-request-heading"><h3>Plan your {title.toLowerCase()} project</h3><p>Tell us what you have in mind. Required fields are marked *.</p></header>}<div className="sp-field-grid"><label htmlFor="sp-name">Full Name <span aria-hidden="true">*</span><input placeholder="Your full name" id="sp-name" name="Full Name" autoComplete="name" required maxLength={100}/></label><label htmlFor="sp-email">Email Address <span aria-hidden="true">*</span><input placeholder="you@example.com" id="sp-email" name="Email Address" type="email" autoComplete="email" required maxLength={200}/></label><label htmlFor="sp-phone">Phone <small>(optional)</small><input placeholder="Your phone number" id="sp-phone" name="Phone" type="tel" autoComplete="tel" maxLength={30}/></label><label htmlFor="sp-city">City / Postal Code <span aria-hidden="true">*</span><input placeholder="City or postal code" id="sp-city" name="City / Postal Code" required maxLength={100}/></label></div><label htmlFor="sp-service">Service *<select id="sp-service" name="Service" defaultValue={title} required>{services.map(s=><option key={s.path} value={s.title}>{s.title}</option>)}</select></label><label htmlFor="sp-details">Project Details <span aria-hidden="true">*</span><textarea id="sp-details" name="Project Details" rows={4} required maxLength={5000} placeholder="Surfaces, current condition, colour ideas and your preferred timing…"/></label><div className="sp-upload"><label htmlFor="sp-photos">Add Photos <small>(optional)</small></label><input id="sp-photos" ref={input} type="file" accept=".jpg,.jpeg,.png,.webp,.heic,.heif" multiple onChange={addFiles} aria-describedby="sp-photo-help"/><p id="sp-photo-help">Up to 10 photos, 10 MB each, 15 MB total.</p>{files.length>0&&<ul>{files.map((f,i)=><li key={f.name+'-'+f.lastModified}><span>{f.name}</span><button type="button" onClick={()=>setFiles(files.filter((_,n)=>n!==i))} aria-label={'Remove '+f.name}>Remove</button></li>)}</ul>}</div><label className="sp-consent" htmlFor="sp-consent"><input id="sp-consent" type="checkbox" name="Contact Consent" value="Yes" required/><span>You may contact me about this painting enquiry. Read our <a href="/privacy-policy">Privacy Policy</a>.</span></label><label className="ah-honeypot" aria-hidden="true">Website<input name="website" tabIndex={-1} autoComplete="off"/></label>{error&&<p className="sp-error" role="alert">{error}</p>}<button className="ah-button" disabled={busy} type="submit">{busy?'Sending…':showHeading?'Send My Project Request':'Request a Quote'}<span aria-hidden="true">→</span></button><p className="sp-form-status" role="status">{status}</p></form>
+export default function ServiceRequest() {
+  return <QuoteForm kind="service"/>;
 }

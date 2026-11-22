@@ -1,4 +1,5 @@
 import nodemailer from 'nodemailer';
+import { projectTypes, quoteFields, quoteServices } from '../../lib/quote-fields.js';
 import { recordEnquiry } from '../../lib/wps-store';
 import { maxPhotos, maxPhotoBytes, maxTotalPhotoBytes } from '../../lib/enquiry-limits.js';
 
@@ -80,16 +81,22 @@ export async function POST(request) {
 
   const kind = data.get('kind');
   if (typeof kind !== 'string' || !Object.hasOwn(forms, kind)) return reject('Invalid form.');
+  const uniform = data.get('formVersion') === 'quote-v2' || data.has('Full Address');
+  const fields = uniform ? quoteFields : forms[kind];
   const lines = [];
   let email;
-  for (const [field, limit] of Object.entries(forms[kind])) {
+  for (const [field, limit] of Object.entries(fields)) {
     const values = data.getAll(field);
-    const optional = field === 'Phone' || field === 'Additional Details';
+    const optional = (!uniform && field === 'Phone') || field === 'Additional Details';
     const maxValues = field === 'Painting Services' ? 2 : 1;
     if ((!optional && !values.length) || values.length > maxValues ||
         values.some(value => typeof value !== 'string' || value.length > limit ||
           (!optional && !value.trim()) || (field.endsWith('Consent') && value !== 'Yes'))) {
       return reject('Please check the ' + field.toLowerCase() + ' field.');
+    }
+    if (uniform && ((field === 'Service' && !quoteServices.includes(values[0])) ||
+        (field === 'Project Type' && !projectTypes.includes(values[0])))) {
+      return reject('Please select a valid ' + field.toLowerCase() + '.');
     }
     if (field.startsWith('Email')) {
       email = values[0].trim();
