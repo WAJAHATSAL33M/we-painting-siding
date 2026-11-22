@@ -79,7 +79,7 @@
       [
         "paint",
         "Apply & allow to cure",
-        "Apply the agreed interior finishes with suitable ventilation, drying intervals and clear edges around included rooms and surfaces."
+        "Roll the agreed wall finish, brush the edges as needed, and follow the coating’s drying and recoat instructions."
       ]
     ],
     "faqs": [
@@ -120,10 +120,10 @@
         "alt": "Coordinated walls and trim in a finished interior"
       },
       "process": {
-        "src": "/images/spray/interior-wall-spray.webp",
-        "alt": "Illustrative professional airless spray painting in a protected interior room",
-        "width": 1536,
-        "height": 1024
+        "src": "/images/subservice-reference/interior-application.webp",
+        "alt": "Painter rolling an interior wall over protected flooring",
+        "width": 1440,
+        "height": 960
       },
       "colour": {
         "src": "/images/interior-reference/dining.webp",
@@ -223,7 +223,7 @@
       [
         "paint",
         "Apply & allow to cure",
-        "Apply an interior wall finish suited to the room and surface, following coverage and drying instructions."
+        "Roll the agreed wall finish, brush the edges as needed, and follow the coating’s drying and recoat instructions."
       ]
     ],
     "faqs": [
@@ -262,10 +262,10 @@
         "alt": "Interior finish detail for wall painting"
       },
       "process": {
-        "src": "/images/spray/interior-wall-spray.webp",
-        "alt": "Illustrative professional airless spray painting in a protected interior room",
-        "width": 1536,
-        "height": 1024
+        "src": "/images/subservice-reference/interior-application.webp",
+        "alt": "Painter rolling an interior wall over protected flooring",
+        "width": 1440,
+        "height": 960
       },
       "colour": {
         "src": "/images/interior-reference/dining.webp",
@@ -544,8 +544,10 @@
         "alt": "Interior finish detail for trim & baseboard painting"
       },
       "process": {
-        "src": "/images/subservice-reference/interior-protection.webp",
-        "alt": "Illustrative painting finish and surface detail"
+        "src": "/images/spray/exterior-spray-equipment.webp",
+        "alt": "Paint spray machine and hose set down on a protected work surface",
+        "width": 1536,
+        "height": 1024
       },
       "colour": {
         "src": "/images/about/office.webp",
@@ -645,7 +647,7 @@
       [
         "paint",
         "Apply & allow to cure",
-        "Apply a suitable door coating and plan drying time so faces, edges and hardware can return to use appropriately."
+        "Apply the door finish with a roller and brush where needed, then allow the coating to dry before returning the door to use."
       ]
     ],
     "faqs": [
@@ -684,10 +686,10 @@
         "alt": "Interior finish detail for interior door painting"
       },
       "process": {
-        "src": "/images/spray/installed-interior-door-spray.webp",
-        "alt": "Illustrative spray finishing of an interior door attached to its hinges and frame",
-        "width": 1536,
-        "height": 1024
+        "src": "/images/subservice-reference/interior-protection.webp",
+        "alt": "Protected interior surfaces with a paint roller and tray",
+        "width": 1440,
+        "height": 960
       },
       "colour": {
         "src": "/images/cabinet/builtins.webp",
