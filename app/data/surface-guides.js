@@ -27,7 +27,7 @@ export const surfaceGuides = {
   surfaces:[
    {id:'walls',name:'Walls',number:'01',x:15,y:48,lx:14,ly:35,crop:'15% 48%',description:'The main painted surfaces around a room. Ceilings, baseboards, doors and cabinetry are listed separately in your quote.',href:interiorPath+'wall-painting',link:'Explore wall painting'},
    {id:'ceilings',name:'Ceilings',number:'02',x:65,y:12,lx:55,ly:10,crop:'65% 12%',description:'The overhead surface of a room. Its texture, height and any staining are assessed before preparation and painting are agreed.',href:interiorPath+'ceiling-painting',link:'Explore ceiling painting'},
-   {id:'trim',name:'Trim',number:'03',x:21,y:89,lx:17,ly:76,crop:'21% 89%',description:'Baseboards, door casings and other agreed mouldings. Walls and doors are listed separately in your quote.',href:interiorPath+'trim-painting',link:'Explore trim painting'},
+   {id:'trim',name:'Trim',number:'03',x:21,y:89,lx:17,ly:76,extraTarget:{x:34,y:51},crop:'21% 89%',description:'Trim includes the white casing around the door and the white baseboards along the floor. The door itself is a separate surface.',href:interiorPath+'trim-painting',link:'Explore trim painting'},
    {id:'doors',name:'Doors',number:'04',x:43,y:58,lx:45,ly:45,crop:'43% 58%',description:'The installed door panel within its frame. We confirm the faces and edges to include; frames and casings are agreed separately.',href:interiorPath+'door-painting',link:'Explore door painting'},
    {id:'cabinets',name:'Cabinets',number:'05',x:80,y:43,lx:77,ly:29,crop:'80% 43%',description:'Installed kitchen cabinets, vanities and built-ins. Doors, drawer fronts, frames and panels are defined in the agreed scope.',href:'/interior-painting/cabinet-painting',link:'Explore cabinet painting'},
   ],
