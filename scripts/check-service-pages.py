@@ -108,16 +108,20 @@ for service in services:
 
 check(len(services)==16,'Expected 16 distinct service pages')
 check(len({s['path'] for s in services})==len(services),'Duplicate service paths')
-sitemap_file = ROOT / '.next/server/app/sitemap.xml.body'
 if audit_origin:
-    with urlopen(audit_origin.rstrip('/') + '/sitemap.xml', timeout=10) as response:
-        xml = response.read().decode('utf-8')
+    origin = audit_origin.rstrip('/')
+    with urlopen(origin + '/sitemap.xml', timeout=10) as response:
+        index = response.read().decode('utf-8')
+    xml = ''
+    for category in ('exterior', 'interior'):
+        path = '/sitemap-' + category + '.xml'
+        check('https://wepaintsiding.com' + path in index, 'Missing sitemap category ' + category)
+        with urlopen(origin + path, timeout=10) as response:
+            xml += response.read().decode('utf-8')
+    check(all('https://wepaintsiding.com'+s['path']+'</loc>' in xml for s in services),'XML sitemap missing services')
 else:
-    xml = sitemap_file.read_text() if sitemap_file.exists() else ''
-    if not xml:
-        print('Start the production app and set WPS_AUDIT_ORIGIN to its local URL to check the dynamic sitemap.')
-check(all('https://wepaintsiding.com'+s['path'] in xml for s in services),'XML sitemap missing services')
+    print('Start the production app and set WPS_AUDIT_ORIGIN to its local URL to check the category sitemaps.')
 if errors:
     print('\n'.join(errors));sys.exit(1)
-print(json.dumps({'exterior_pages_using_shared_layout':len(exterior_heroes),'unique_exterior_hero_images':len(exterior_heroes),'service_pages':len(services),'sections_per_page':'10 on every service page','unique_titles':len(titles),'unique_descriptions':len(descriptions),'referenced_images':len(images),'validated_internal_links':links,'faq_answers':len(services)*6,'interior_images':'seven unique content images per page; cabinet images approved','sitemap':'all service routes present','result':'passed'},indent=2))
+print(json.dumps({'exterior_pages_using_shared_layout':len(exterior_heroes),'unique_exterior_hero_images':len(exterior_heroes),'service_pages':len(services),'sections_per_page':'10 on every service page','unique_titles':len(titles),'unique_descriptions':len(descriptions),'referenced_images':len(images),'validated_internal_links':links,'faq_answers':len(services)*6,'interior_images':'seven unique content images per page; cabinet images approved','sitemap':'all service routes present' if audit_origin else 'not checked','result':'passed'},indent=2))
 
