@@ -1,9 +1,40 @@
 import { randomUUID } from 'node:crypto';
+import sanitizeHtml from 'sanitize-html';
 import sharp from 'sharp';
 import { adminCookie, isWpsAdmin } from '../../../lib/wps-admin-auth';
-import { wpsStore } from '../../../lib/wps-store';
+import { getPosts, wpsStore } from '../../../lib/wps-store';
 
 const maxBytes = 8 * 1024 * 1024;
+
+export function GET(request) {
+  if (!isWpsAdmin(request.cookies.get(adminCookie)?.value)) return Response.json({ error: 'Sign in first.' }, { status: 401 });
+  const media = new Map();
+  const allowed = /^\/(?:blog-media\/[a-f0-9-]{36}|images\/[a-z0-9_./-]+\.(?:png|jpe?g|webp|avif))$/i;
+  for (const { id } of wpsStore().prepare('SELECT id FROM blog_media ORDER BY rowid DESC').all()) {
+    const src = '/blog-media/' + id;
+    media.set(src, { src, alt: '', posts: [], uploaded: true });
+  }
+  for (const post of getPosts()) {
+    function collect(src, alt) {
+      if (typeof src !== 'string' || !allowed.test(src) || src.includes('..')) return;
+      const item = media.get(src) ?? { src, alt: '', posts: [], uploaded: false };
+      if (!item.alt && typeof alt === 'string') item.alt = alt;
+      if (!item.posts.some(entry => entry.id === post.id)) {
+        item.posts.push({ id: post.id, title: post.title, status: post.status });
+      }
+      media.set(src, item);
+    }
+    collect(post.image, post.alt);
+    if (post.html) sanitizeHtml(post.html, {
+      allowedTags: ['img'],
+      transformTags: { img: (tagName, attribs) => {
+        collect(attribs.src, attribs.alt);
+        return { tagName, attribs };
+      } },
+    });
+  }
+  return Response.json({ media: [...media.values()] }, { headers: { 'Cache-Control': 'private, no-store' } });
+}
 
 export async function POST(request) {
   if (!isWpsAdmin(request.cookies.get(adminCookie)?.value)) return Response.json({ error: 'Sign in first.' }, { status: 401 });
