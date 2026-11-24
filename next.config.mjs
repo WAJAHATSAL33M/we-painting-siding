@@ -1,3 +1,32 @@
+const tagManager = 'https://www.googletagmanager.com';
+const measurementEndpoints = [
+  tagManager,
+  'https://analytics.google.com',
+  'https://*.google-analytics.com',
+  'https://www.google.com',
+  'https://www.google.ca',
+  'https://*.g.doubleclick.net',
+  'https://www.googleadservices.com',
+  'https://pagead2.googlesyndication.com',
+].join(' ');
+
+function contentSecurityPolicy(measurementEnabled) {
+  return [
+    "default-src 'self'",
+    "script-src 'self' 'unsafe-inline' " + tagManager +
+      (measurementEnabled ? ' https://www.googleadservices.com https://www.google.com' : ''),
+    "style-src 'self' 'unsafe-inline'",
+    "img-src 'self' data:" + (measurementEnabled ? ' ' + measurementEndpoints : ''),
+    "font-src 'self'",
+    "connect-src 'self'" + (measurementEnabled ? ' ' + measurementEndpoints + ' https://ad.doubleclick.net' : ''),
+    "frame-src 'self' https://www.google.com" + (measurementEnabled ? ' ' + tagManager : ''),
+    "frame-ancestors 'none'",
+    "base-uri 'self'",
+    "form-action 'self'",
+    "object-src 'none'",
+  ].join('; ');
+}
+
 export default {
   poweredByHeader: false,
   async redirects() {
@@ -63,9 +92,13 @@ export default {
           { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
           { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
           { key: 'Strict-Transport-Security', value: 'max-age=31536000' },
-          { key: 'Content-Security-Policy', value: "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src 'self' https://www.google.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'" },
+          { key: 'Content-Security-Policy', value: contentSecurityPolicy(true) },
         ],
       },
+      ...['/admin-wps/:path*', '/api/:path*'].map(source => ({
+        source,
+        headers: [{ key: 'Content-Security-Policy', value: contentSecurityPolicy(false) }],
+      })),
     ];
   },
 };
