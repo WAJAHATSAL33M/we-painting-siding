@@ -250,3 +250,6 @@
   .wps-admin .wps-stats { grid-template-columns: minmax(0, 1fr); }
   .wps-admin .wps-stats button { min-height: 55px; display: flex; justify-content: space-between; align-items: center; padding-inline: 12px; }
 }
+
+.wps-admin .wps-content img { max-width: 100%; height: auto; }
+.wps-admin .wps-meta img { display: block; max-width: 100%; height: auto; border-radius: 6px; }

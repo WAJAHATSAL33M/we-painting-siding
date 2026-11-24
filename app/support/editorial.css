@@ -89,3 +89,5 @@
 .ed-managed-content blockquote { border-inline-start: 3px solid currentColor; margin-inline: 0; padding-inline-start: 1rem; }
 .ed-managed-content pre { overflow-x: auto; }
 .ed-managed-content a { text-decoration: underline; }
+
+.ed-managed-content img { max-width: 100%; height: auto; }

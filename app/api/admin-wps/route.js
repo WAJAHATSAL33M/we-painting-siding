@@ -1,3 +1,4 @@
+import { termSlug } from '../../lib/blog-taxonomy';
 import sanitizeHtml from 'sanitize-html';
 import { adminCookie, isWpsAdmin } from '../../lib/wps-admin-auth';
 import { getPosts, wpsStore } from '../../lib/wps-store';
@@ -57,14 +58,25 @@ export async function POST(request) {
     if (typeof value !== 'string' || value.length > limit) return fail('Check the ' + key + ' field.');
     post[key] = value.trim();
   }
+  const tags = data.tags ?? [];
+  if (!Array.isArray(tags) || tags.length > 20 || tags.some(tag => typeof tag !== 'string' || tag.length > 50 || !termSlug(tag))) {
+    return fail('Enter up to 20 tags of 50 characters each.');
+  }
+  post.tags = [...new Map(tags.map(tag => [termSlug(tag), tag.trim()])).values()];
+  if (post.category && !termSlug(post.category)) return fail('Enter a valid category.');
   if (!post.title || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(post.slug)) return fail('Enter a title and a valid URL slug.');
   if (!['draft', 'published'].includes(data.status)) return fail('Choose a valid publication status.');
-  if (post.image && !/^\/images\/[a-z0-9_./-]+\.(?:png|jpe?g|webp|avif)$/i.test(post.image)) return fail('Use an existing site image path under /images/.');
+  if (post.image && !/^\/blog-media\/[a-f0-9-]{36}$/.test(post.image) && !/^\/images\/[a-z0-9_./-]+\.(?:png|jpe?g|webp|avif)$/i.test(post.image)) return fail('Upload a featured image or use an existing site image.');
+  if (post.image && !post.alt) return fail('Enter alt text for the featured image.');
   if (post.image.includes('..')) return fail('Use an existing site image path.');
   if (post.service && !/^\/[a-z0-9/-]+$/i.test(post.service)) return fail('Enter a site path for the related service.');
   post.html = sanitizeHtml(post.html, {
-    allowedTags: ['p','br','div','h2','h3','h4','strong','b','em','i','u','s','ul','ol','li','blockquote','pre','code','a','hr'],
-    allowedAttributes: { a: ['href'] },
+    allowedTags: ['p','br','div','h2','h3','h4','strong','b','em','i','u','s','ul','ol','li','blockquote','pre','code','a','hr','img'],
+    allowedAttributes: { a: ['href'], img: ['src','alt','loading'] },
+    exclusiveFilter: frame => frame.tag === 'img' &&
+      (!/^\/(?:blog-media\/[a-f0-9-]{36}|images\/[a-z0-9_./-]+\.(?:png|jpe?g|webp|avif))$/i.test(frame.attribs.src || '') ||
+       frame.attribs.src.includes('..') || !frame.attribs.alt?.trim()),
+    transformTags: { img: (tagName, attribs) => ({ tagName, attribs: { ...attribs, loading: 'lazy' } }) },
     allowedSchemes: ['http','https','mailto','tel'],
     allowProtocolRelative: false,
   });

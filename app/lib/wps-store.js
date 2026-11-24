@@ -22,6 +22,7 @@ export function wpsStore() {
       status TEXT NOT NULL CHECK(status IN ('draft', 'published')),
       data TEXT NOT NULL
     );
+    CREATE TABLE IF NOT EXISTS blog_media (id TEXT PRIMARY KEY, content BLOB NOT NULL);
     CREATE TABLE IF NOT EXISTS settings (key TEXT PRIMARY KEY);
     CREATE TABLE IF NOT EXISTS enquiries (
       id INTEGER PRIMARY KEY,
