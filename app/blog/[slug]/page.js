@@ -1,10 +1,102 @@
-import { termSlug } from '../../lib/blog-taxonomy';
+import { notFound } from 'next/navigation';
 import CompanyImage from '../../components/company-image';
-import {notFound} from 'next/navigation';
-import {getPosts} from '../../lib/wps-store';
+import { ArticleSchema } from '../../components/seo-jsonld';
+import { SiteFooter } from '../../components/site-chrome';
+import { termSlug } from '../../lib/blog-taxonomy';
+import { getPosts } from '../../lib/wps-store';
+import { readingTime } from '../shared';
+import '../../approved-homepage.css';
+import './article.css';
+
 export const dynamic = 'force-dynamic';
-import {readingTime,PostCard,BlogCTA} from '../shared';
-import {ArticleSchema} from '../../components/seo-jsonld';
-import PageShell,{Breadcrumb} from '../../support/page-shell';
+
 export async function generateMetadata({params}){const {slug}=await params;const post=getPosts('published').find(p=>p.slug===slug);return post?{title:post.seoTitle || post.title, description:post.seoDescription || post.excerpt,alternates:{canonical:'https://wepaintsiding.com/blog/'+slug},openGraph:{type:'article',title:post.seoTitle || post.title,description:post.seoDescription || post.excerpt,url:'https://wepaintsiding.com/blog/'+slug,images:post.image?[{url:'https://wepaintsiding.com'+post.image,alt:post.alt||post.title}]:undefined}}:{}}
-export default async function BlogPost({params}){const {slug}=await params;const posts=getPosts('published');const p=posts.find(p=>p.slug===slug);if(!p)notFound();return <PageShell><ArticleSchema post={p}/><article><header className="ed-hero ed-post-heading"><div className="ah-container"><Breadcrumb title={p.title} blog/><div className="ed-intro"><p className="ah-eyebrow"><a href={'/blog/category/'+termSlug(p.category)}>{p.category}</a></p><h1>{p.title}</h1><p>{p.excerpt}</p><div className="ed-byline"><span className="ed-author-mark" aria-hidden="true">WP</span><div><strong>We Paint Siding</strong><span><time dateTime={p.updated}>{new Date(p.updated+'T12:00:00Z').toLocaleDateString('en-CA',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'})}</time> · {readingTime(p)} min read</span></div></div></div>{p.image&&<CompanyImage className="ed-post-image" src={p.image} alt={p.alt} width="1536" height="1024" fetchPriority="high"/>}</div></header><div className="ed-section ah-container"><div className="ed-reading-layout"><div className="ed-prose">{p.html?<div className="ed-managed-content" dangerouslySetInnerHTML={{__html:p.html}}/>:p.sections?.map((s,i)=><section key={s.title} id={'part-'+(i+1)}><h2>{s.title}</h2>{s.paragraphs.map(t=><p key={t}>{t}</p>)}</section>)}{p.tags?.length>0&&<p>Tags: {p.tags.map(tag=><a key={tag} href={'/blog/tag/'+termSlug(tag)} style={{marginInlineEnd:'1em'}}>{tag}</a>)}</p>}<div className="ed-note">Every property is different. Confirm the surface, preparation and coating requirements for your own project before work begins.</div><a className="ah-text-link" href="/blog">← Back to painting guides</a></div><aside className="ed-sidebar">{p.sections?.length>0&&<p className="support-kicker">In this guide</p>}<nav aria-label="Article contents">{p.sections?.map((s,i)=><a key={s.title} href={'#part-'+(i+1)}>{s.title}</a>)}</nav><div className="ed-sidebar-cta"><h3>Make your next step a confident one.</h3><p>Explore the service that suits your project.</p><a className="ah-text-link" href={p.service}>Explore services →</a></div></aside></div><section className="blog-related"><p className="ah-eyebrow">Keep exploring</p><h2>More helpful <em>guides.</em></h2><div className="blog-grid">{posts.filter(x=>x.slug!==p.slug).slice(0,3).map(post=><PostCard key={post.slug} post={post}/>)}</div></section><BlogCTA/></div></article></PageShell>}
+
+function ArticleNavigation({ className }) {
+  return (
+    <nav className={className} aria-label="Main navigation">
+      <a href="/exterior-painting">Services</a>
+      <a href="/our-work">Our Work</a>
+      <a href="/blog">Blog</a>
+    </nav>
+  );
+}
+
+export default async function BlogPost({ params }) {
+  const { slug } = await params;
+  const posts = getPosts('published');
+  const post = posts.find(item => item.slug === slug);
+  if (!post) notFound();
+
+  const related = posts.filter(item => item.slug !== slug).slice(0, 3);
+
+  return (
+    <div className="approved-site wps-article-page">
+      <a className="ah-skip" href="#main-content">Skip to content</a>
+      <header className="wps-article-header">
+        <div className="wps-article-header-inner">
+          <a className="wps-article-brand" href="/">We Paint <span>Siding</span></a>
+          <ArticleNavigation className="wps-article-desktop-nav" />
+          <details className="wps-article-mobile-menu">
+            <summary aria-label="Menu"><span aria-hidden="true" /></summary>
+            <ArticleNavigation />
+          </details>
+        </div>
+      </header>
+      <main id="main-content" className="wps-article-main">
+        <ArticleSchema post={post} />
+        <article>
+          <header className="wps-article-intro">
+            <nav className="wps-article-breadcrumb" aria-label="Breadcrumb">
+              <a href="/blog">Blog</a>
+              {post.category && <>
+                <span aria-hidden="true">/</span>
+                <a href={'/blog/category/' + termSlug(post.category)}>{post.category}</a>
+              </>}
+            </nav>
+            <h1>{post.title}</h1>
+            {post.excerpt && <p className="wps-article-excerpt">{post.excerpt}</p>}
+            <p className="wps-article-byline">We Paint Siding <span aria-hidden="true">·</span> {readingTime(post)} min read</p>
+          </header>
+          {post.image && (
+            <CompanyImage
+              className="wps-article-cover"
+              src={post.image}
+              alt={post.alt}
+              width="1536"
+              height="1024"
+              fetchPriority="high"
+            />
+          )}
+          <div className="wps-article-prose">
+            {post.html ? (
+              <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            ) : post.sections?.map((section, index) => (
+              <section key={section.title} id={'part-' + (index + 1)}>
+                <h2>{section.title}</h2>
+                {section.paragraphs.map((paragraph, paragraphIndex) => (
+                  <p key={paragraphIndex}>{paragraph}</p>
+                ))}
+              </section>
+            ))}
+          </div>
+          {post.tags?.length > 0 && (
+            <ul className="wps-article-tags" aria-label="Article tags">
+              {post.tags.map(tag => <li key={tag}><a href={'/blog/tag/' + termSlug(tag)}>{tag}</a></li>)}
+            </ul>
+          )}
+        </article>
+        {related.length > 0 && (
+          <nav className="wps-article-related" aria-labelledby="related-guides">
+            <h2 id="related-guides">More painting guides</h2>
+            <ul>
+              {related.map(item => <li key={item.slug}><a href={'/blog/' + item.slug}>{item.title}</a></li>)}
+            </ul>
+          </nav>
+        )}
+        <a className="wps-article-back" href="/blog">← Back to the blog</a>
+      </main>
+      <SiteFooter />
+    </div>
+  );
+}
