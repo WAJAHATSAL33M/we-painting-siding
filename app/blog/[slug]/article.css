@@ -190,3 +190,7 @@
   }
   .wps-article-mobile-menu nav a { padding-block: 12px; }
 }
+
+.wps-article-prose img {
+  margin-block: 18px 22px;
+}

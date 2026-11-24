@@ -1,4 +1,5 @@
 import { DatabaseSync } from 'node:sqlite';
+import { refreshBlogImages } from './blog-image-refresh.js';
 import { mkdirSync } from 'node:fs';
 import { homedir } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
@@ -46,6 +47,9 @@ export function wpsStore() {
     if (db.prepare("INSERT OR IGNORE INTO settings VALUES ('imported-posts')").run().changes) {
       const insert = db.prepare("INSERT INTO posts (slug, status, data) VALUES (?, 'published', ?)");
       for (const post of [...initialPosts].reverse()) insert.run(post.slug, JSON.stringify(post));
+    }
+    if (db.prepare("INSERT OR IGNORE INTO settings VALUES ('blog-editorial-images-v1')").run().changes) {
+      refreshBlogImages(db);
     }
     db.exec('COMMIT');
   } catch (error) {

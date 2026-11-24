@@ -91,3 +91,7 @@
 .ed-managed-content a { text-decoration: underline; }
 
 .ed-managed-content img { max-width: 100%; height: auto; }
+
+.editorial-site img[src^="/images/blog-editorial/"][src$="-cover.webp"] {
+  object-position: center bottom;
+}

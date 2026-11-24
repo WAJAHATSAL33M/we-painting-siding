@@ -1,0 +1,47 @@
+{
+  "planning-an-exterior-painting-project": {
+    "image": "/images/blog-editorial/exterior-cover.webp",
+    "alt": "Blue-gray sided house with white trim and a We Paint Siding wordmark",
+    "images": [
+      { "section": 1, "src": "/images/company/166-large-exterior-painting-siding-st-catharines.webp", "alt": "Two-storey sided house showing upper walls and gables" },
+      { "section": 3, "src": "/images/company/034-masking-preparation-painting-contractor-exterior.webp", "alt": "Exterior trim and siding protected with masking before painting" },
+      { "section": 4, "src": "/images/company/031-after-house-painting-burlington-exterior.webp", "alt": "Two-storey house exterior showing the driveway and access around the front" }
+    ]
+  },
+  "cabinet-painting-or-replacement": {
+    "image": "/images/blog-editorial/cabinet-cover.webp",
+    "alt": "Sage-green kitchen cabinetry with a We Paint Siding wordmark",
+    "images": [
+      { "section": 1, "src": "/images/cabinet/before-kitchen.webp", "alt": "Kitchen cabinets before and after refinishing with the same layout" },
+      { "section": 2, "src": "/images/cabinet/doors.webp", "alt": "Removed cabinet doors and drawer fronts showing the panel profiles" },
+      { "section": 4, "src": "/images/cabinet-subservices/preparation.webp", "alt": "Cabinet door being sanded flat on a workbench before painting" }
+    ]
+  },
+  "why-surface-preparation-matters": {
+    "image": "/images/blog-editorial/preparation-cover.webp",
+    "alt": "Masked exterior window and prepared trim with a We Paint Siding wordmark",
+    "images": [
+      { "section": 2, "src": "/images/subservice-reference/surface-assessment.webp", "alt": "Hand checking the condition of painted siding before work begins" },
+      { "section": 3, "src": "/images/company/104-grey-aluminum-siding-painting-front.webp", "alt": "Gray aluminum siding meeting brick and trim on a house exterior" },
+      { "section": 4, "src": "/images/subservice-reference/interior-protection.webp", "alt": "Interior floors and furniture covered before preparation and painting" }
+    ]
+  },
+  "choosing-a-colour-for-your-home": {
+    "image": "/images/blog-editorial/colour-cover.webp",
+    "alt": "Exterior paint swatches in muted colours with a We Paint Siding wordmark",
+    "images": [
+      { "section": 2, "src": "/images/company/052-painted-grey-brick-black-trim.webp", "alt": "Gray exterior brick paired with black trim" },
+      { "section": 3, "src": "/images/interior-design/cabinet-detail.webp", "alt": "Muted green cabinet doors paired with brass hardware and warm flooring" },
+      { "section": 4, "src": "/images/blog-editorial/samples.webp", "alt": "Paint colour swatches compared together in daylight against exterior siding" }
+    ]
+  },
+  "caring-for-a-fresh-paint-finish": {
+    "image": "/images/blog-editorial/care-cover.webp",
+    "alt": "Freshly painted blue-gray exterior door with a We Paint Siding wordmark",
+    "images": [
+      { "section": 1, "src": "/images/blog-editorial/curing.webp", "alt": "A freshly painted window sill left clear while the finish cures" },
+      { "section": 2, "src": "/images/blog-editorial/records.webp", "alt": "Sealed paint can kept with a matching colour swatch and paint record" },
+      { "section": 3, "src": "/images/blog-editorial/cleaning.webp", "alt": "Hand gently wiping a painted door with a microfiber cloth" }
+    ]
+  }
+}
