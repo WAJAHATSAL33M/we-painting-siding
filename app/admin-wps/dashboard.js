@@ -3,10 +3,10 @@
 import DOMPurify from 'dompurify';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
-const emptyPost = { title:'', slug:'', category:'', excerpt:'', seoTitle:'', image:'', alt:'', service:'', html:'', status:'draft' };
+const emptyPost = { title:'', slug:'', category:'', excerpt:'', seoTitle:'', seoDescription:'', image:'', alt:'', service:'', html:'', status:'draft' };
 const statusOptions = ['new', 'in progress', 'closed'];
 const controls = [
-  ['bold','Bold','B'], ['italic','Italic','I'], ['underline','Underline','U'],
+  ['bold','Bold','B'], ['italic','Italic','I'], ['underline','Underline','U'], ['strikeThrough','Strikethrough','S'],
   ['insertUnorderedList','Bulleted list','• List'], ['insertOrderedList','Numbered list','1. List'],
   ['undo','Undo','↶'], ['redo','Redo','↷'],
 ];
@@ -27,7 +27,7 @@ async function api(data) {
 }
 
 function Editor({ post, onSave, onBack, busy }) {
-  const [form,setForm] = useState(post);
+  const [form,setForm] = useState(() => ({...emptyPost,...post}));
   const [mode,setMode] = useState('visual');
   const [link,setLink] = useState('');
   const editor = useRef(null);
@@ -84,15 +84,25 @@ function Editor({ post, onSave, onBack, busy }) {
         </>:mode==='preview'?<div className="wps-content" aria-label="Article preview" ref={preview}/>:<textarea className="wps-code" aria-label="Article HTML" value={html} onChange={e=>setHtml(e.target.value)}/>}
         <label>Excerpt<textarea rows={3} value={form.excerpt} maxLength={500} onChange={e=>update('excerpt',e.target.value)}/></label>
       </div>
-      <div className="wps-meta">
-        <section className="wps-panel"><h2>Publish</h2><p><span className={'wps-badge '+form.status}>{form.status}</span></p>
+      <aside className="wps-meta" aria-label="Post settings">
+        <section className="wps-panel"><h2>Publish</h2><p><span className={'wps-badge '+post.status}>{post.status}</span></p>
           {post.status==='published'
             ? <><button type="button" className="wps-primary" disabled={busy} onClick={()=>onSave({...form,html,status:'published'})}>Update published post</button><button type="button" className="wps-secondary" disabled={busy} onClick={()=>onSave({...form,html,status:'draft'})}>Unpublish to draft</button></>
             : <><button type="button" className="wps-primary" disabled={busy} onClick={()=>onSave({...form,html,status:'published'})}>Publish post</button><button type="button" className="wps-secondary" disabled={busy} onClick={()=>onSave({...form,html,status:'draft'})}>Save draft</button></>}
         </section>
-        <section className="wps-panel"><h2>Post details</h2>{field('Category','category','Interior Painting')}{field('SEO title','seoTitle','Defaults to the post title')}{field('Related service path','service','/interior-painting')}</section>
+        <section className="wps-panel"><h2>Post details</h2>{field('Category','category','Interior Painting')}{field('Related service path','service','/interior-painting')}</section>
+        <section className="wps-panel wps-seo">
+          <h2>Search appearance</h2>
+          <label>SEO title<input value={form.seoTitle} maxLength={180} placeholder="Uses the post title when blank" onChange={e=>update('seoTitle',e.target.value)}/><small>{form.seoTitle.length} / 180 characters</small></label>
+          <label>SEO description<textarea rows={3} value={form.seoDescription} maxLength={320} placeholder="Uses the excerpt when blank" onChange={e=>update('seoDescription',e.target.value)}/><small>{form.seoDescription.length} / 320 characters</small></label>
+          <div className="wps-search-preview" aria-label="Search result preview">
+            <small>wepaintsiding.com / blog / {form.slug || 'post-slug'}</small>
+            <strong>{form.seoTitle.trim() || form.title.trim() || 'Post title'}</strong>
+            <p>{form.seoDescription.trim() || form.excerpt.trim() || 'Post description'}</p>
+          </div>
+        </section>
         <section className="wps-panel"><h2>Featured image</h2>{form.image.startsWith('/images/')&&<img src={form.image} alt={form.alt}/>}{field('Existing image path','image','/images/company/photo.webp')}{field('Image alt text','alt','Describe the image')}</section>
-      </div>
+      </aside>
     </div>
   </form>;
 }
@@ -103,7 +113,7 @@ function Enquiry({ enquiry, photos, onSave, busy }) {
   return <section className="wps-panel wps-message">
     <div className="wps-title"><div><h2>Enquiry #{enquiry.id}</h2><a href={'mailto:'+enquiry.email}>{enquiry.email}</a></div><span className={'wps-badge '+enquiry.status}>{enquiry.status}</span></div>
     <p className="wps-muted">{enquiry.created_at} UTC · {enquiry.kind} · {enquiry.page}</p>
-    <pre>{enquiry.details}</pre>
+    <h3>Request details</h3><pre>{enquiry.details}</pre>
     {photos.length>0&&<div className="wps-photos">{photos.map(photo=><a className="wps-secondary" key={photo.id} href={'/api/admin-wps?photo='+photo.id}>{photo.name} ↓</a>)}</div>}
     <label>Status<select value={status} onChange={event=>setStatus(event.target.value)}>{statusOptions.map(value=><option key={value}>{value}</option>)}</select></label>
     <label>Internal notes<textarea rows={3} maxLength={5000} value={notes} onChange={event=>setNotes(event.target.value)}/></label>
@@ -171,30 +181,30 @@ export default function Dashboard() {
       {notice&&<p role="status" className="wps-notice">{notice}</p>}{error&&<p role="alert" className="wps-error">{error}</p>}
       {!data&&!error&&<p role="status">Loading dashboard…</p>}
       {data&&panel==='overview'&&<>
-        <div className="wps-hero"><div><h1>Site overview</h1><p>Manage painting enquiries and articles from one place.</p></div></div>
+        <h1 className="wps-overview-heading">Overview</h1>
         <div className="wps-stats">
           {[['New enquiries',enquiries.filter(x=>x.status==='new').length,'enquiries'],['Published posts',posts.filter(x=>x.status==='published').length,'posts'],['Drafts',posts.filter(x=>x.status==='draft').length,'posts']].map(([label,count,target])=><button className="wps-panel" key={label} onClick={()=>{go(target);setFilter(label==='New enquiries'?'new':label==='Drafts'?'draft':'published')}}><span>{label}</span><strong>{count}</strong></button>)}
         </div>
         <div className="wps-overview-grid">
-          <section className="wps-panel"><div className="wps-title"><h2>Recent enquiries</h2><button className="wps-back" onClick={()=>go('enquiries')}>View inbox →</button></div>{enquiries.length?enquiries.slice(0,5).map(item=><button className="wps-summary" key={item.id} onClick={()=>{go('enquiries');setMessageId(item.id)}}><strong>{item.email}</strong><span>{item.status}</span></button>):<p className="wps-muted">New submissions will appear here.</p>}</section>
-          <section className="wps-panel"><div className="wps-title"><h2>Blog posts</h2><button className="wps-back" onClick={()=>go('posts')}>View posts →</button></div>{posts.length?posts.slice(0,5).map(post=><button key={post.id} className="wps-summary" onClick={()=>edit(post)}><strong>{post.title}</strong><span>{post.status}</span></button>):<p className="wps-muted">Create your first post.</p>}</section>
+          <section className="wps-panel"><div className="wps-title"><h2>Recent enquiries</h2><button className="wps-back" onClick={()=>go('enquiries')}>View inbox →</button></div>{enquiries.length?enquiries.slice(0,5).map(item=><button className="wps-summary" key={item.id} onClick={()=>{go('enquiries');setMessageId(item.id)}}><strong>{item.email}</strong><span className={'wps-badge '+item.status}>{item.status}</span></button>):<p className="wps-muted">New submissions will appear here.</p>}</section>
+          <section className="wps-panel"><div className="wps-title"><h2>Blog posts</h2><button className="wps-back" onClick={()=>go('posts')}>View posts →</button></div>{posts.length?posts.slice(0,5).map(post=><button key={post.id} className="wps-summary" onClick={()=>edit(post)}><strong>{post.title}</strong><span className={'wps-badge '+post.status}>{post.status}</span></button>):<p className="wps-muted">Create your first post.</p>}</section>
         </div>
       </>}
       {data&&panel==='posts'&&<>
         <header className="wps-title"><h1>Blog posts</h1></header>
         <div className="wps-panel">
           <div className="wps-filters"><input aria-label="Search posts" placeholder="Search posts" value={query} onChange={e=>{setQuery(e.target.value);setLimit(20)}}/><select aria-label="Publication status" value={filter} onChange={e=>{setFilter(e.target.value);setLimit(20)}}><option value="all">All statuses</option><option value="published">Published</option><option value="draft">Draft</option></select></div>
-          <div className="wps-table"><table><thead><tr><th>Title</th><th>Category</th><th>Status</th><th>Actions</th></tr></thead><tbody>{visiblePosts.slice(0,limit).map(post=><tr key={post.id}><td><button className="wps-back" onClick={()=>edit(post)}>{post.title}</button><small>/blog/{post.slug}</small></td><td>{post.category||'—'}</td><td><span className={'wps-badge '+post.status}>{post.status}</span></td><td><button className="wps-danger" disabled={busy} onClick={()=>{if(window.confirm('Permanently delete this post?'))mutate({action:'delete-post',id:post.id})}}>Delete</button></td></tr>)}</tbody></table></div>
+          <div className="wps-table"><table><thead><tr><th>Title</th><th>Category</th><th>Status</th><th>Actions</th></tr></thead><tbody>{visiblePosts.slice(0,limit).map(post=><tr key={post.id}><td><button className="wps-back" onClick={()=>edit(post)}>{post.title}</button><small>/blog/{post.slug}</small></td><td className="wps-post-category">{post.category||'—'}</td><td className="wps-post-status"><span className={'wps-badge '+post.status}>{post.status}</span></td><td className="wps-post-actions"><button className="wps-secondary" type="button" onClick={()=>edit(post)}>Edit</button> <button className="wps-danger" disabled={busy} onClick={()=>{if(window.confirm('Permanently delete this post?'))mutate({action:'delete-post',id:post.id})}}>Delete</button></td></tr>)}</tbody></table></div>
           {visiblePosts.length>limit&&<button type="button" className="wps-secondary wps-more" onClick={()=>setLimit(value=>value+20)}>Show more posts</button>}{!visiblePosts.length&&<p className="wps-muted">No matching posts.</p>}
         </div>
       </>}
-      {data&&panel==='editor'&&editing&&<Editor key={editing.id||'new'} post={editing} onBack={()=>go('posts')} busy={busy} onSave={post=>mutate({action:'save-post',...post},result=>{setEditing(result);setPanel('posts')})}/>}
+      {data&&panel==='editor'&&editing&&<Editor key={editing.id||'new'} post={editing} onBack={()=>go('posts')} busy={busy} onSave={post=>mutate({action:'save-post',...post},result=>setEditing(result))}/>}
       {data&&panel==='enquiries'&&<>
         <header className="wps-title"><h1>Enquiries</h1></header>
         <div className="wps-inbox">
           <section className="wps-panel wps-inbox-list">
             <div className="wps-filters"><input aria-label="Search enquiries" placeholder="Search enquiries" value={query} onChange={e=>{setQuery(e.target.value);setLimit(20)}}/><select aria-label="Enquiry status" value={filter} onChange={e=>{setFilter(e.target.value);setLimit(20)}}><option value="all">All statuses</option>{statusOptions.map(value=><option key={value}>{value}</option>)}</select></div>
-            {visibleEnquiries.slice(0,limit).map(item=><button className="wps-summary" aria-pressed={messageId===item.id} key={item.id} onClick={()=>setMessageId(item.id)}><strong>{item.email}</strong><span>{item.status}</span></button>)}
+            {visibleEnquiries.slice(0,limit).map(item=><button className="wps-summary" aria-pressed={messageId===item.id} key={item.id} onClick={()=>setMessageId(item.id)}><strong>{item.email}</strong><span className={'wps-badge '+item.status}>{item.status}</span></button>)}
             {visibleEnquiries.length>limit&&<button type="button" className="wps-secondary wps-more" onClick={()=>setLimit(value=>value+20)}>Show more enquiries</button>}{!visibleEnquiries.length&&<p className="wps-muted">No matching enquiries.</p>}
           </section>
           {selected?<Enquiry key={selected.id} enquiry={selected} photos={data.photos.filter(photo=>photo.enquiry_id===selected.id)} busy={busy} onSave={mutate}/>:<section className="wps-panel wps-empty"><p>Select an enquiry to view its details and photos.</p></section>}

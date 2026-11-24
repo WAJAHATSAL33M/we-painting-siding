@@ -50,11 +50,12 @@ export async function POST(request) {
   }
   if (data.action !== 'save-post') return fail('Unknown action.');
 
-  const fields = { title: 180, slug: 150, category: 100, excerpt: 500, seoTitle: 180, image: 400, alt: 250, service: 150, html: 200000 };
+  const fields = { title: 180, slug: 150, category: 100, excerpt: 500, seoTitle: 180, seoDescription: 320, image: 400, alt: 250, service: 150, html: 200000 };
   const post = {};
   for (const [key, limit] of Object.entries(fields)) {
-    if (typeof data[key] !== 'string' || data[key].length > limit) return fail('Check the ' + key + ' field.');
-    post[key] = data[key].trim();
+    const value = key === 'seoDescription' ? data[key] ?? '' : data[key];
+    if (typeof value !== 'string' || value.length > limit) return fail('Check the ' + key + ' field.');
+    post[key] = value.trim();
   }
   if (!post.title || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(post.slug)) return fail('Enter a title and a valid URL slug.');
   if (!['draft', 'published'].includes(data.status)) return fail('Choose a valid publication status.');
@@ -72,7 +73,6 @@ export async function POST(request) {
   }
   if (db.prepare('SELECT id FROM posts WHERE slug = ? AND id != ?').get(post.slug, id || 0)) return fail('That URL slug is already in use.', 409);
   post.updated = new Date().toISOString().slice(0, 10);
-  post.seoTitle ||= post.title;
   post.service ||= '/contact';
   const json = JSON.stringify(post);
   if (id) {
