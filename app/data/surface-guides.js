@@ -22,7 +22,7 @@ export const surfaceGuides = {
   eyebrow:'Know your interior',heading:'Every room.',accent:'Every finishing detail.',
   intro:'Explore the surfaces and spaces in your painting plan.',
   image:'/images/surface-guide/interior.webp',
-  alt:'Illustrative room showing sage walls, a white ceiling and trim, an installed charcoal door and fitted navy cabinets',
+  alt:'Room with sage walls, a white ceiling and trim, an installed charcoal door and fitted navy cabinets in Ontario',
   initial:'trim',
   surfaces:[
    {id:'walls',name:'Walls',number:'01',x:15,y:48,lx:14,ly:35,crop:'15% 48%',description:'The main painted surfaces around a room. Ceilings, baseboards, doors and cabinetry are listed separately in your quote.',href:interiorPath+'wall-painting',link:'Explore wall painting'},
