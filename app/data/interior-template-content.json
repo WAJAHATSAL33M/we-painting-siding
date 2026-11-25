@@ -712,12 +712,12 @@
   "cabinet-painting": {
     "accent": "Cabinet",
     "rest": " Painting",
-    "lead": "A fresh finish for the cabinetry that already works for you.",
+    "lead": "Yes, sound kitchen cabinets can be painted.",
     "heading": [
-      "Keep the layout. ",
-      "Reconsider the finish."
+      "Kitchen cabinet painting that keeps ",
+      "the layout you love."
     ],
-    "overview": "Sound kitchen cabinets, bathroom vanities and built-in storage can be considered for a new colour. Review the material, existing finish and components before planning a cabinet coating.",
+    "overview": "Sound kitchen cabinets, bathroom vanities and built-in storage can be considered for a new colour. Kitchen cabinet painting starts with the material and the existing finish.",
     "good": [
       "The cabinetry is sound and still meets your storage needs.",
       "The material and existing finish suit a compatible coating.",
@@ -742,17 +742,17 @@
         "Agree on doors, drawer fronts, exposed frames, end panels and built-ins. Cabinet interiors are discussed separately."
       ]
     ],
-    "local": "Share your Ontario community and photos of the installed cabinetry, full room and worn areas. Identify kitchens, vanities and built-ins so the components and room access can be discussed.",
+    "local": "Our kitchen cabinet painters work across the GTA. Small 1950s kitchens in Willowdale, Bayview Village and Don Mills, and Etobicoke’s Humber Bay Shores condo galleys, are the common cabinet painting Toronto jobs. In Mississauga, Erin Mills and Meadowvale family kitchens. In Oakville, Glen Abbey and River Oaks kitchens pair white cabinets with a navy island. Hamilton Mountain bungalows, Durand and Kirkendall homes, Burlington’s Millcroft and Orchard kitchens, and Milton’s Beaty, Dempsey and Clarke kitchens suit the same sprayed approach.",
     "cost": "The number of doors and drawer fronts, exposed frame and panel area, condition and room protection affect the work.",
     "timing": "Discuss room access, ventilation and the coating’s drying and curing guidance before returning the cabinetry to everyday use.",
     "photoPrompt": "Installed cabinets, visible frames and panels, complete room views and worn areas.",
     "scopeNote": "Cabinet interiors, shelves, repairs and hardware changes are discussed separately.",
     "title": "Cabinet Painting",
     "surface": "cabinetry",
-    "intro": "Refresh suitable kitchen cabinets, bathroom vanities and built-in storage with a coordinated painted finish. Cabinet painting is part of our interior painting service, with preparation and coverage defined for the cabinetry you have.",
+    "intro": "Refresh suitable kitchen cabinets, bathroom vanities and built-in storage with a coordinated painted finish. Cabinet painting is part of our interior painting service, with preparation and coverage defined for the cabinetry you have. Our cabinet work carries a 5-year warranty, with a 4.9 out of 5 Google rating from 54 reviews and 5.0 out of 5 on HomeStars from 96 reviews.",
     "paragraphs": [
-      "Compare colour samples with flooring, worktops and other fixed materials before choosing a cabinet finish. A suitable coating can update the appearance while retaining sound existing storage.",
-      "Doors, drawer fronts, frames and exposed panels need a clear scope. Cabinet interiors, shelves, repairs and hardware changes are discussed separately."
+      "Compare colour samples with flooring, worktops and other fixed materials before choosing a cabinet finish. How kitchen cabinets are painted — degreased, sanded, bond-primed and sprayed — decides how the finish holds up.",
+      "Doors, drawer fronts, frames and exposed panels need a clear scope. Cabinet interiors, shelves, repairs and hardware changes are discussed separately. Cabinet refinishing is a different job from painting."
     ],
     "condition": "Peeling films, swelling, moisture damage and structural problems may need repair or replacement before painting is considered.",
     "material": "Wood, MDF, laminate and factory finishes need individual assessment for adhesion and coating compatibility.",
@@ -784,12 +784,12 @@
       [
         "shield",
         "Protect the room & prepare",
-        "Agree on access and protect floors, worktops and adjoining finishes. Clean and prepare suitable surfaces, with priming specified for the existing material and coating system."
+        "Agree on access and protect floors, worktops and adjoining finishes. Doors and drawer fronts come off to be sprayed; boxes are degreased, sanded and bond-primed in place, with the primer matched to the material."
       ],
       [
         "paint",
         "Finish & follow curing guidance",
-        "Use a compatible cabinetry coating on the agreed surfaces. Follow the system’s drying, curing and cleaning guidance before everyday handling."
+        "Spray a compatible cabinetry coating in thin coats for a smooth finish, then reinstall the doors and drawer fronts. Follow the system’s drying, curing and cleaning guidance before everyday handling."
       ]
     ],
     "faqs": [
@@ -816,50 +816,65 @@
       [
         "Do you serve my Ontario community?",
         "Explore the 25-community directory across the GTA and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ],
+      [
+        "Should I spray or brush my cabinets?",
+        "For cabinet painting, spraying gives the smoothest finish on doors and drawer fronts; brushes suit small touch-ups."
+      ],
+      [
+        "Can you paint thermofoil cabinets?",
+        "Firmly attached thermofoil can be painted with a bonding primer. Peeling thermofoil cannot be saved by paint and needs repair or replacement first."
       ]
     ],
     "images": {
       "hero": {
         "src": "/images/approved-home/cabinet-feature.webp",
-        "alt": "Installed blue-grey kitchen cabinetry and island",
+        "alt": "Painted blue-grey kitchen cabinetry with island in Ontario",
         "width": 1672,
-        "height": 941
+        "height": 941,
+        "title": "Painted kitchen cabinets with navy island in Ontario"
       },
       "overview": {
         "src": "/images/cabinet/kitchen.webp",
-        "alt": "Complete installed white kitchen cabinets with navy island",
+        "alt": "White painted kitchen cabinets with navy island in Ontario",
         "width": 1440,
-        "height": 960
+        "height": 960,
+        "title": "White painted kitchen cabinets with navy island in Ontario"
       },
       "process": {
         "src": "/images/interior-design/cabinet-protection.webp",
-        "alt": "Illustrative protection around complete installed cabinetry with doors attached",
+        "alt": "Protection around installed cabinetry with doors attached before painting in Ontario",
         "width": 1536,
-        "height": 1024
+        "height": 1024,
+        "title": "Protecting kitchen cabinets and worktops before painting in Ontario"
       },
       "colour": {
         "src": "/images/interior-design/cabinet-detail.webp",
-        "alt": "Illustrative finish detail on an attached, closed cabinet door",
+        "alt": "Smooth sprayed finish detail on a painted cabinet door in Ontario",
         "width": 1536,
-        "height": 1024
+        "height": 1024,
+        "title": "Smooth sprayed finish on a painted cabinet door in Ontario"
       },
       "galleryA": {
         "src": "/images/cabinet/builtins.webp",
-        "alt": "Complete installed white built-in storage and shelving",
+        "alt": "Painted white built-in storage and shelving in Ontario",
         "width": 1440,
-        "height": 960
+        "height": 960,
+        "title": "Painted white built-in storage and shelving in Ontario"
       },
       "galleryB": {
         "src": "/images/approved-home/vanity.webp",
-        "alt": "Complete navy bathroom vanity with attached doors and drawers",
+        "alt": "Painted navy bathroom vanity with attached doors and drawers in Ontario",
         "width": 1536,
-        "height": 1024
+        "height": 1024,
+        "title": "Painted navy bathroom vanity with drawers in Ontario"
       },
       "quote": {
         "src": "/images/interior-design/cabinet-room.webp",
-        "alt": "Illustrative finished kitchen with all cabinet fronts attached",
+        "alt": "Freshly painted kitchen with all cabinet fronts attached in Ontario",
         "width": 1536,
-        "height": 1024
+        "height": 1024,
+        "title": "Freshly painted kitchen with all cabinet fronts attached in Ontario"
       }
     }
   }
