@@ -24,7 +24,12 @@ export function GET(request) {
   }
   const enquiries = db.prepare('SELECT * FROM enquiries ORDER BY id DESC').all();
   const photos = db.prepare('SELECT id, enquiry_id, name FROM photos ORDER BY id').all();
-  return reply({ posts: getPosts(), enquiries, photos });
+  const comments = db.prepare(`
+    SELECT blog_comments.*, posts.slug, json_extract(posts.data, '$.title') AS post_title
+    FROM blog_comments JOIN posts ON posts.id = blog_comments.post_id
+    ORDER BY blog_comments.id DESC
+  `).all();
+  return reply({ posts: getPosts(), enquiries, photos, comments });
 }
 
 export async function POST(request) {
@@ -40,6 +45,15 @@ export async function POST(request) {
   if (!data || typeof data !== 'object') return fail('Invalid request.');
   const db = wpsStore();
   const id = Number.isSafeInteger(data.id) && data.id > 0 ? data.id : null;
+  if (data.action === 'moderate-comment') {
+    if (!id || !['pending', 'approved', 'hidden'].includes(data.status)) return fail('Invalid comment status.');
+    const result = db.prepare('UPDATE blog_comments SET status = ? WHERE id = ?').run(data.status, id);
+    return result.changes ? reply({ id }) : fail('Comment not found.', 404);
+  }
+  if (data.action === 'delete-comment') {
+    const result = db.prepare('DELETE FROM blog_comments WHERE id = ?').run(id);
+    return result.changes ? reply({ id }) : fail('Comment not found.', 404);
+  }
   if (data.action === 'update-enquiry') {
     if (!id || !enquiryStates.includes(data.status) || typeof data.notes !== 'string' || data.notes.length > 5000) return fail('Invalid enquiry details.');
     const result = db.prepare('UPDATE enquiries SET status = ?, notes = ? WHERE id = ?').run(data.status, data.notes, id);

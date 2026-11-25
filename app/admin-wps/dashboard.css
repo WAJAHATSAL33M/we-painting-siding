@@ -275,3 +275,7 @@
   .wps-admin .wps-nav nav { grid-template-columns: repeat(4,minmax(0,1fr)); }
   .wps-admin .wps-nav nav button { flex-direction: column; gap: 2px; padding-inline: 2px; font-size: 12px; }
 }
+
+.wps-comment-row { padding-block: 16px; border-bottom: 1px solid #dbe4ed; overflow-wrap: anywhere; }
+.wps-comment-row p { white-space: pre-wrap; }
+.wps-comment-controls { display: flex; flex-wrap: wrap; gap: 8px; }

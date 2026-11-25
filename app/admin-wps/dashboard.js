@@ -207,14 +207,17 @@ export default function Dashboard() {
 
   const posts=data?.posts || [];
   const enquiries=data?.enquiries || [];
+  const comments=data?.comments || [];
   const selected=enquiries.find(message=>message.id===messageId);
   const search=query.toLowerCase().trim();
   const visiblePosts=posts.filter(post=>(filter==='all'||post.status===filter)&&[post.title,post.category,post.slug].some(value=>value.toLowerCase().includes(search)));
   const visibleEnquiries=enquiries.filter(message=>(filter==='all'||message.status===filter)&&[message.email,message.details,message.kind].some(value=>value.toLowerCase().includes(search)));
+  const visibleComments=comments.filter(comment=>(filter==='all'||comment.status===filter)&&
+    [comment.name,comment.body,comment.post_title].some(value=>value?.toLowerCase().includes(search)));
   return <div className="wps-admin">
     <aside className="wps-nav">
       <a className="wps-brand" href="/admin-wps"><span>W</span><div>We Paint Siding<small>Site administration</small></div></a>
-      <nav aria-label="Administration">{[['overview','Overview','◈'],['enquiries','Enquiries','✉'],['posts','Blog posts','▤'],['media','Media','▧']].map(([value,label,icon])=><button key={value} aria-current={(panel===value||panel==='editor'&&value==='posts')?'page':undefined} onClick={()=>go(value)}><span aria-hidden="true">{icon}</span>{label}</button>)}</nav>
+      <nav aria-label="Administration">{[['overview','Overview','◈'],['enquiries','Enquiries','✉'],['posts','Blog posts','▤'],['comments','Comments','◉'],['media','Media','▧']].map(([value,label,icon])=><button key={value} aria-current={(panel===value||panel==='editor'&&value==='posts')?'page':undefined} onClick={()=>go(value)}><span aria-hidden="true">{icon}</span>{label}</button>)}</nav>
       <div className="wps-nav-footer">
         <a className="wps-site" href="/" target="_blank" rel="noreferrer">View website ↗</a>
         <form action="/api/admin-wps/session" method="post">
@@ -224,7 +227,7 @@ export default function Dashboard() {
     </aside>
     <main className="wps-main">
       <header className="wps-section-bar">
-        <strong>{({overview:'Overview', enquiries:'Enquiries', posts:'Blog posts', media:'Media library', editor:'Blog editor'})[panel]}</strong>
+        <strong>{({overview:'Overview', enquiries:'Enquiries', posts:'Blog posts', comments:'Comments', media:'Media library', editor:'Blog editor'})[panel]}</strong>
         <div className="wps-section-tools">
           {panel!=='editor'&&<button className="wps-secondary" type="button" disabled={busy||refreshing} onClick={reloadDashboard}>{refreshing?'Refreshing…':'Refresh'}</button>}
           {data&&panel!=='editor'&&<button className="wps-primary" type="button" onClick={()=>edit({...emptyPost})}>+ New post</button>}
@@ -249,6 +252,37 @@ export default function Dashboard() {
           <div className="wps-filters"><input aria-label="Search posts" placeholder="Search posts" value={query} onChange={e=>{setQuery(e.target.value);setLimit(20)}}/><select aria-label="Publication status" value={filter} onChange={e=>{setFilter(e.target.value);setLimit(20)}}><option value="all">All statuses</option><option value="published">Published</option><option value="draft">Draft</option></select></div>
           <div className="wps-table"><table><thead><tr><th>Title</th><th>Category</th><th>Status</th><th>Actions</th></tr></thead><tbody>{visiblePosts.slice(0,limit).map(post=><tr key={post.id}><td><button className="wps-back" onClick={()=>edit(post)}>{post.title}</button><small>/blog/{post.slug}</small></td><td className="wps-post-category">{post.category||'—'}</td><td className="wps-post-status"><span className={'wps-badge '+post.status}>{post.status}</span></td><td className="wps-post-actions"><button className="wps-secondary" type="button" onClick={()=>edit(post)}>Edit</button> <button className="wps-danger" disabled={busy} onClick={()=>{if(window.confirm('Permanently delete this post?'))mutate({action:'delete-post',id:post.id})}}>Delete</button></td></tr>)}</tbody></table></div>
           {visiblePosts.length>limit&&<button type="button" className="wps-secondary wps-more" onClick={()=>setLimit(value=>value+20)}>Show more posts</button>}{!visiblePosts.length&&<p className="wps-muted">No matching posts.</p>}
+        </div>
+      </>}
+      {data&&panel==='comments'&&<>
+        <header className="wps-title"><h1>Comments</h1></header>
+        <div className="wps-panel">
+          <div className="wps-filters">
+            <input aria-label="Search comments" placeholder="Search comments" value={query} onChange={e=>{setQuery(e.target.value);setLimit(20)}}/>
+            <select aria-label="Comment status" value={filter} onChange={e=>{setFilter(e.target.value);setLimit(20)}}>
+              <option value="all">All statuses</option>
+              <option value="pending">Pending</option>
+              <option value="approved">Approved</option>
+              <option value="hidden">Hidden</option>
+            </select>
+          </div>
+          {visibleComments.slice(0,limit).map(comment=>(
+            <article className="wps-comment-row" key={comment.id}>
+              <div><strong>{comment.name}</strong> <span className={'wps-badge '+comment.status}>{comment.status}</span></div>
+              <a href={'/blog/'+comment.slug} target="_blank" rel="noreferrer">{comment.post_title || comment.slug}</a>
+              <p>{comment.body}</p>
+              <div className="wps-comment-controls">
+                {comment.status!=='approved'&&<button className="wps-primary" type="button" disabled={busy}
+                  onClick={()=>mutate({action:'moderate-comment',id:comment.id,status:'approved'})}>Approve</button>}
+                {comment.status!=='hidden'&&<button className="wps-secondary" type="button" disabled={busy}
+                  onClick={()=>mutate({action:'moderate-comment',id:comment.id,status:'hidden'})}>Hide</button>}
+                <button className="wps-danger" type="button" disabled={busy}
+                  onClick={()=>{if(window.confirm('Permanently delete this comment?'))mutate({action:'delete-comment',id:comment.id})}}>Delete</button>
+              </div>
+            </article>
+          ))}
+          {visibleComments.length>limit&&<button type="button" className="wps-secondary wps-more" onClick={()=>setLimit(value=>value+20)}>Show more comments</button>}
+          {!visibleComments.length&&<p className="wps-muted">No matching comments.</p>}
         </div>
       </>}
       {data&&panel==='editor'&&editing&&<Editor key={editing.id||'new'} post={editing} categories={[...new Set(posts.map(post=>post.category).filter(Boolean))].sort()} tags={[...new Set(posts.flatMap(post=>post.tags??[]))].sort()} onBack={()=>go('posts')} busy={busy} onSave={post=>mutate({action:'save-post',...post},result=>setEditing(result))}/>}

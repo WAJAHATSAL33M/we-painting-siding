@@ -1,28 +1,18 @@
 import { notFound } from 'next/navigation';
 import CompanyImage from '../../components/company-image';
 import { ArticleSchema } from '../../components/seo-jsonld';
-import { SiteFooter } from '../../components/site-chrome';
+import { SiteHeader, SiteFooter } from '../../components/site-chrome';
 import { termSlug } from '../../lib/blog-taxonomy';
-import { getPosts } from '../../lib/wps-store';
+import { getPosts, wpsStore } from '../../lib/wps-store';
 import { readingTime } from '../shared';
 import '../../approved-homepage.css';
 import './article.css';
 import ArticleGuide from './article-guide';
+import ArticleActions from './article-actions';
 
 export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({params}){const {slug}=await params;const post=getPosts('published').find(p=>p.slug===slug);return post?{title:post.seoTitle || post.title, description:post.seoDescription || post.excerpt,alternates:{canonical:'https://wepaintsiding.com/blog/'+slug},openGraph:{type:'article',title:post.seoTitle || post.title,description:post.seoDescription || post.excerpt,url:'https://wepaintsiding.com/blog/'+slug,images:post.image?[{url:'https://wepaintsiding.com'+post.image,alt:post.alt||post.title}]:undefined}}:{}}
-
-function ArticleNavigation({ className }) {
-  return (
-    <nav className={className} aria-label="Main navigation">
-      <a href="/exterior-painting">Services</a>
-      <a href="/our-work">Our Work</a>
-      <a href="/blog">Blog</a>
-      <a className="wps-article-quote" href="/contact#quote">Get a Quote</a>
-    </nav>
-  );
-}
 
 export default async function BlogPost({ params }) {
   const { slug } = await params;
@@ -30,21 +20,15 @@ export default async function BlogPost({ params }) {
   const post = posts.find(item => item.slug === slug);
   if (!post) notFound();
 
+  const comments = wpsStore().prepare(
+    "SELECT id, name, body FROM blog_comments WHERE post_id = ? AND status = 'approved' ORDER BY id"
+  ).all(post.id).map(comment => ({ ...comment }));
   const related = posts.filter(item => item.slug !== slug).slice(0, 3);
 
   return (
     <div className="approved-site wps-article-page">
       <a className="ah-skip" href="#main-content">Skip to content</a>
-      <header className="wps-article-header">
-        <div className="wps-article-header-inner">
-          <a className="wps-article-brand" href="/">We Paint <span>Siding</span></a>
-          <ArticleNavigation className="wps-article-desktop-nav" />
-          <details className="wps-article-mobile-menu">
-            <summary aria-label="Menu"><span aria-hidden="true" /></summary>
-            <ArticleNavigation />
-          </details>
-        </div>
-      </header>
+      <SiteHeader />
       <main id="main-content" className="wps-article-main">
         <ArticleSchema post={post} />
         <article>
@@ -88,11 +72,14 @@ export default async function BlogPost({ params }) {
                 </section>
               ))}
             </div>
-            {post.tags?.length > 0 && (
-              <ul className="wps-article-tags" aria-label="Article tags">
-                {post.tags.map(tag => <li key={tag}><a href={'/blog/tag/' + termSlug(tag)}>{tag}</a></li>)}
-              </ul>
-            )}
+            <div>
+              {post.tags?.length > 0 && (
+                <ul className="wps-article-tags" aria-label="Article tags">
+                  {post.tags.map(tag => <li key={tag}><a href={'/blog/tag/' + termSlug(tag)}>{tag}</a></li>)}
+                </ul>
+              )}
+              <ArticleActions key={slug} slug={slug} title={post.title} comments={comments} />
+            </div>
           </div>
         </article>
         <div className="wps-article-frame wps-article-more">

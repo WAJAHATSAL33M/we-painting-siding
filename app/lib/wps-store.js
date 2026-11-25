@@ -23,6 +23,15 @@ export function wpsStore() {
       status TEXT NOT NULL CHECK(status IN ('draft', 'published')),
       data TEXT NOT NULL
     );
+    CREATE TABLE IF NOT EXISTS blog_comments (
+      id INTEGER PRIMARY KEY,
+      post_id INTEGER NOT NULL REFERENCES posts(id) ON DELETE CASCADE,
+      name TEXT NOT NULL,
+      body TEXT NOT NULL,
+      status TEXT NOT NULL DEFAULT 'pending' CHECK(status IN ('pending', 'approved', 'hidden')),
+      created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+    );
+    CREATE INDEX IF NOT EXISTS blog_comments_visibility ON blog_comments (post_id, status, id);
     CREATE TABLE IF NOT EXISTS blog_media (id TEXT PRIMARY KEY, content BLOB NOT NULL);
     CREATE TABLE IF NOT EXISTS settings (key TEXT PRIMARY KEY);
     CREATE TABLE IF NOT EXISTS enquiries (
