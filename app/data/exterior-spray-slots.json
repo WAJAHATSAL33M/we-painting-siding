@@ -2,39 +2,45 @@
   "siding-painting": {
     "overview": {
       "src": "/images/spray/siding-spray.webp",
-      "alt": "Illustrative professional airless spray painting on protected blue-gray exterior siding",
+      "alt": "Airless spray painting on protected blue-grey exterior siding in Ontario",
       "width": 1536,
-      "height": 1024
+      "height": 1024,
+      "title": "Spray painting vinyl siding on a home exterior in Ontario"
     },
     "scope-0": {
       "src": "/images/vinyl-design/vinyl-detail.webp",
-      "alt": "Illustrative finished siding painting surface and architectural details",
+      "alt": "Finished vinyl siding painting surface with architectural details in Ontario",
       "width": 1536,
-      "height": 1024
+      "height": 1024,
+      "title": "Finished vinyl siding painting surface in Ontario"
     },
     "scope-1": {
       "src": "/images/spray/exterior-spray-equipment.webp",
-      "alt": "Illustrative airless paint sprayer, hose and spray gun on a protected porch",
+      "alt": "Airless paint sprayer, hose and spray gun on a protected porch",
       "width": 1536,
-      "height": 1024
+      "height": 1024,
+      "title": "Airless paint sprayer for siding painting in Ontario"
     },
     "coordinate": {
       "src": "/images/spray/window-trim-spray.webp",
-      "alt": "Illustrative professional spray finishing of white exterior window trim with surrounding surfaces masked",
+      "alt": "Spray finishing white exterior window trim with surrounding surfaces masked",
       "width": 1536,
-      "height": 1024
+      "height": 1024,
+      "title": "Spray finishing white exterior window trim in Ontario"
     },
     "process": {
       "src": "/images/spray/exterior-spray-team.webp",
-      "alt": "Illustrative spray-painting team working on carefully masked exterior siding",
+      "alt": "Spray painting team working on carefully masked exterior siding in Ontario",
       "width": 1536,
-      "height": 1024
+      "height": 1024,
+      "title": "Spray painting team working on masked exterior siding in Ontario"
     },
     "faq": {
-      "src": "/images/subservices/aluminum-painting/hero.webp",
-      "alt": "Illustrative finished siding painting surface and architectural details",
-      "width": 1440,
-      "height": 810
+      "src": "/images/company/071-masking-exterior-house-spray-painter.webp",
+      "alt": "Masking and preparation before spray painting a house exterior in Ontario",
+      "title": "Masking and preparation before spray painting a house exterior in Ontario",
+      "width": 1024,
+      "height": 768
     }
   },
   "aluminum-painting": {

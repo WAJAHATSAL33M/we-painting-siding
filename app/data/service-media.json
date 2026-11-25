@@ -70,7 +70,8 @@
   "/siding-painting": {
     "hero": {
       "src": "/images/subservices/siding-painting/hero.webp",
-      "alt": "Illustrative siding painting finish"
+      "alt": "Freshly painted siding on a house exterior in Ontario",
+      "title": "Siding painting in Ontario — freshly painted house exterior"
     },
     "overview": {
       "src": "/images/subservices/siding-painting/detail.webp",
@@ -97,7 +98,8 @@
     "scope": [
       {
         "src": "/images/company/162-after-exterior-siding-painting.webp",
-        "alt": "Painted vinyl siding project"
+        "alt": "Painted vinyl siding project",
+        "title": "Painted vinyl siding on a house exterior in Ontario"
       },
       {
         "src": "/images/company/071-masking-exterior-house-spray-painter.webp",
@@ -109,21 +111,25 @@
       },
       {
         "src": "/images/company/165-house-rear-spray-painted-grey-1024x768-1.webp",
-        "alt": "Painted vinyl siding project"
+        "alt": "Painted vinyl siding project",
+        "title": "Painted grey siding on the rear of a house in Ontario"
       }
     ],
     "gallery": [
       {
         "src": "/images/company/166-large-exterior-painting-siding-st-catharines.webp",
-        "alt": "Painted vinyl siding project"
+        "alt": "Painted vinyl siding project",
+        "title": "Painted vinyl siding on a house in St. Catharines Ontario"
       },
       {
         "src": "/images/company/167-side-house-vinyl-siding-exterior.webp",
-        "alt": "Painted vinyl siding project"
+        "alt": "Painted vinyl siding project",
+        "title": "Painted vinyl siding on a two-storey home in Ontario"
       },
       {
         "src": "/images/company/168-vinyl-siding-olive-coloured-exterior-1024x768-1.webp",
-        "alt": "Painted vinyl siding project"
+        "alt": "Painted vinyl siding project",
+        "title": "Olive green painted vinyl siding on a house exterior in Ontario"
       }
     ],
     "area": {
@@ -132,7 +138,8 @@
     },
     "quote": {
       "src": "/images/contact/house.webp",
-      "alt": "Illustrative exterior finish and coordinated property details"
+      "alt": "House exterior with painted siding and coordinated trim in Ontario",
+      "title": "House exterior with painted siding and coordinated trim in Ontario"
     }
   },
   "/exterior-painting/vinyl-siding-painting": {
