@@ -157,3 +157,29 @@ body .approved-site main :is(.ah-field-row, .lm-form-two, .lm-form-three, .vp-fi
 body .approved-site.lc-location main > .lm-section { padding-block: clamp(30px, 3vw, 40px); }
 body .approved-site.ra-about .ra-story-media { align-self: center; height: auto; max-height: none; }
 body .approved-site.vp-page .vp-scope-grid { align-items: start; }
+
+/* Section headings share a compact scale across the public site. */
+main:not(.wps-main, .wps-login) {
+  --section-h2-size: clamp(24px, 2.5vw, 34px);
+  --section-h3-size: clamp(18px, 1.7vw, 23px);
+  --section-h4-size: clamp(16px, 1.4vw, 19px);
+  --section-h5-size: 15px;
+}
+
+main.wps-article-main .wps-article-prose {
+  --section-h2-size: clamp(23px, 2.3vw, 29px);
+  --section-h3-size: clamp(19px, 1.8vw, 22px);
+  --section-h4-size: 17px;
+  --section-h5-size: 15px;
+}
+
+/* Page-specific styles load in separate bundles, so apply the shared scale at the heading itself. */
+main:not(.wps-main, .wps-login) h2 { font-size: var(--section-h2-size) !important; }
+main:not(.wps-main, .wps-login) h3 { font-size: var(--section-h3-size) !important; }
+main:not(.wps-main, .wps-login) h4 { font-size: var(--section-h4-size) !important; }
+main:not(.wps-main, .wps-login) h5 { font-size: var(--section-h5-size) !important; }
+
+.wps-article-prose :is(h2, h3, h4, h5) {
+  overflow-wrap: anywhere;
+  line-height: 1.3;
+}

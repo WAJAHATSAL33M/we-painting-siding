@@ -85,7 +85,7 @@ export async function POST(request) {
   if (post.image.includes('..')) return fail('Use an existing site image path.');
   if (post.service && !/^\/[a-z0-9/-]+$/i.test(post.service)) return fail('Enter a site path for the related service.');
   post.html = sanitizeHtml(post.html, {
-    allowedTags: ['p','br','div','h2','h3','h4','strong','b','em','i','u','s','ul','ol','li','blockquote','pre','code','a','hr','img'],
+    allowedTags: ['p','br','div','h2','h3','h4','h5','strong','b','em','i','u','s','ul','ol','li','blockquote','pre','code','a','hr','img'],
     allowedAttributes: { a: ['href'], img: ['src','alt','loading'] },
     exclusiveFilter: frame => frame.tag === 'img' &&
       (!/^\/(?:blog-media\/[a-f0-9-]{36}|images\/[a-z0-9_./-]+\.(?:png|jpe?g|webp|avif))$/i.test(frame.attribs.src || '') ||

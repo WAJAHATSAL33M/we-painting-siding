@@ -120,7 +120,7 @@ function Editor({ post, onSave, onBack, busy, categories, tags }) {
               setSelectedImage(null);
               setInlineAlt('');
             }}>Update selected image alt text</button>}
-            <select aria-label="Text style" value="" onMouseDown={rememberSelection} onChange={e=>format('formatBlock',e.target.value)}><option value="" disabled>Text style</option><option value="p">Paragraph</option><option value="h2">Heading 2</option><option value="h3">Heading 3</option><option value="blockquote">Quote</option><option value="pre">Code block</option></select>
+            <select aria-label="Text style" value="" onMouseDown={rememberSelection} onChange={e=>format('formatBlock',e.target.value)}><option value="" disabled>Text style</option><option value="p">Paragraph</option><option value="h2">Heading 2</option><option value="h3">Heading 3</option><option value="h4">Heading 4</option><option value="h5">Heading 5</option><option value="blockquote">Quote</option><option value="pre">Code block</option></select>
             {controls.map(([command,label,text])=><button key={command} type="button" title={label} aria-label={label} onMouseDown={e=>{rememberSelection();e.preventDefault()}} onClick={()=>format(command)}>{text}</button>)}
             <input aria-label="Link URL" placeholder="Link URL" value={link} onChange={e=>setLink(e.target.value)}/><button type="button" onClick={insertLink} disabled={!link}>Add link</button>
           </div>
