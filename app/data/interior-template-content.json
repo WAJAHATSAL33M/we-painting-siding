@@ -146,12 +146,12 @@
   "wall-painting": {
     "accent": "Wall",
     "rest": " Painting",
-    "lead": "Yes, sound interior walls can be painted. Interior wall painting refreshes a room, a feature wall or the walls.",
+    "lead": "Yes, sound interior walls can be painted.",
     "heading": [
       "Interior wall painting, planned around ",
       "your rooms."
     ],
-    "overview": "Interior house painting changes a room through its walls. A living room, kitchen, bathroom or bedroom can change with a considered finish. Our work carries 4.9 out of 5 from 54 Google reviews. The light, existing surface and everyday use guide the preparation and sheen.",
+    "overview": "Interior house painting changes a room through its walls. The light, existing surface and everyday use guide the preparation and sheen.",
     "good": [
       "Walls have a sound, suitable existing finish.",
       "You want to refresh a room or coordinate connected spaces.",
@@ -183,9 +183,9 @@
     "scopeNote": "Ceilings, doors and trim can be coordinated, but each included surface is listed separately.",
     "title": "Wall Painting",
     "surface": "interior walls",
-    "intro": "House painting inside starts with the walls. We paint interior walls in living rooms, kitchens, bathrooms and bedrooms, planning colours, preparation and sheen around the light, wall condition and everyday use of each room.",
+    "intro": "House painting inside starts with the walls. We paint interior walls in living rooms, kitchens, bathrooms and bedrooms, planning colours, preparation and sheen around the light, wall condition and everyday use of each room. Interior wall painting refreshes a room, a feature wall or the walls.",
     "paragraphs": [
-      "Plaster, drywall and previously painted surfaces can need different preparation, so we fill, sand, caulk and prime before any colour goes on. We review the existing coating and agree on a suitable primer and finish for each room.",
+      "A living room, kitchen, bathroom or bedroom can change with a considered finish. Our work carries 4.9 out of 5 from 54 Google reviews. Plaster, drywall and previously painted surfaces can need different preparation, so we fill, sand, caulk and prime before any colour goes on. We review the existing coating and agree on a suitable primer and finish for each room.",
       "Identify rooms, feature walls and colour transitions, and note where the existing trim and ceiling colour will remain."
     ],
     "condition": "Dents, nail holes, loose coatings and stains affect preparation. Larger cracks or signs of active moisture need assessment before a new finish is applied.",
@@ -728,7 +728,7 @@
       "Kitchen cabinet painting that keeps ",
       "the layout you love."
     ],
-    "overview": "Sound kitchen cabinets, bathroom vanities and built-in storage can be considered for a new colour. Kitchen cabinet painting starts with the material and the existing finish.",
+    "overview": "Kitchen cabinet painting starts with the material and the existing finish.",
     "good": [
       "The cabinetry is sound and still meets your storage needs.",
       "The material and existing finish suit a compatible coating.",
@@ -762,7 +762,7 @@
     "surface": "cabinetry",
     "intro": "Refresh suitable kitchen cabinets, bathroom vanities and built-in storage with a coordinated painted finish. Cabinet painting is part of our interior painting service, with preparation and coverage defined for the cabinetry you have. Our cabinet work carries a 5-year warranty, with a 4.9 out of 5 Google rating from 54 reviews and 5.0 out of 5 on HomeStars from 96 reviews.",
     "paragraphs": [
-      "Compare colour samples with flooring, worktops and other fixed materials before choosing a cabinet finish. How kitchen cabinets are painted — degreased, sanded, bond-primed and sprayed — decides how the finish holds up.",
+      "Sound kitchen cabinets, bathroom vanities and built-in storage can be considered for a new colour. Compare colour samples with flooring, worktops and other fixed materials before choosing a cabinet finish. How kitchen cabinets are painted — degreased, sanded, bond-primed and sprayed — decides how the finish holds up.",
       "Doors, drawer fronts, frames and exposed panels need a clear scope. Cabinet interiors, shelves, repairs and hardware changes are discussed separately. Cabinet refinishing is a different job from painting."
     ],
     "condition": "Peeling films, swelling, moisture damage and structural problems may need repair or replacement before painting is considered.",
