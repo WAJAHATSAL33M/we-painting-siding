@@ -18,7 +18,6 @@ export function LocalBusinessSchema() {
     address: {'@type': 'PostalAddress', streetAddress: '53 Churchill Rd N', addressLocality: 'Acton', addressRegion: 'ON', postalCode: 'L7J 2H8', addressCountry: 'CA'},
     openingHoursSpecification: {'@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], opens: '08:00', closes: '21:00'},
     areaServed: cities.map(name => ({'@type': 'City', name: name + ', Ontario'})),
-    aggregateRating: {'@type': 'AggregateRating', ratingValue: '4.9', reviewCount: '54'},
     sameAs: [
       'https://www.facebook.com/wepaintsiding',
       'https://www.homestars.com/profile/2928012-we-paint-siding',
