@@ -146,12 +146,12 @@
   "wall-painting": {
     "accent": "Wall",
     "rest": " Painting",
-    "lead": "Yes, sound interior walls can be painted.",
+    "lead": "Bring rooms together with colour chosen for the way you live.",
     "heading": [
-      "Interior wall painting, planned around ",
-      "your rooms."
+      "Fresh colour, planned around ",
+      "your walls."
     ],
-    "overview": "Interior house painting changes a room through its walls. The light, existing surface and everyday use guide the preparation and sheen.",
+    "overview": "A single room, feature wall or connected living area can change with a considered finish. The light, existing surface and everyday use guide the preparation and sheen.",
     "good": [
       "Walls have a sound, suitable existing finish.",
       "You want to refresh a room or coordinate connected spaces.",
@@ -169,23 +169,23 @@
       ],
       [
         "Choose sheen for daily use",
-        "Flat suits ceilings, matte or eggshell suits living room and bedroom walls, and satin or semi-gloss suits trim and doors. Kitchens and bathrooms take washable satin for grease and humidity."
+        "Compare the product’s appearance and care guidance with room use, light and existing imperfections."
       ],
       [
         "Plan edges and colour transitions",
         "Agree which walls change colour and how they meet ceilings, trim, stairwells and adjoining rooms."
       ]
     ],
-    "local": "In Toronto, wall painting means pre-1960 plaster walls and trim in the Annex and Cabbagetown, and downtown condos where low-odour finishes suit small rooms. North York brings 1950s bungalows in Willowdale and Don Mills, Etobicoke brings Humber Bay Shores condos, and Mississauga, Oakville and Hamilton bring family homes.",
+    "local": "Share your Ontario community, room list and photos showing furniture, ceiling height and existing wall condition. Include any feature-wall or colour-transition ideas.",
     "cost": "Room sizes, colour changes, wall condition and the amount of protection shape a wall-painting scope.",
     "timing": "Discuss room access, ventilation, drying intervals and furniture arrangements before work begins.",
     "photoPrompt": "Room views, feature walls, colour transitions and close-ups of dents or stains.",
     "scopeNote": "Ceilings, doors and trim can be coordinated, but each included surface is listed separately.",
     "title": "Wall Painting",
     "surface": "interior walls",
-    "intro": "House painting inside starts with the walls. We paint interior walls in living rooms, kitchens, bathrooms and bedrooms, planning colours, preparation and sheen around the light, wall condition and everyday use of each room. Interior wall painting refreshes a room, a feature wall or the walls.",
+    "intro": "Refresh a single room, a feature wall or the walls throughout your home. We plan colours, preparation and sheen around the light, wall condition and everyday use of each space.",
     "paragraphs": [
-      "A living room, kitchen, bathroom or bedroom can change with a considered finish. Our work carries 4.9 out of 5 from 54 Google reviews. Plaster, drywall and previously painted surfaces can need different preparation, so we fill, sand, caulk and prime before any colour goes on. We review the existing coating and agree on a suitable primer and finish for each room.",
+      "Plaster, drywall and previously painted surfaces can need different preparation. We review the existing coating and agree on a suitable primer and finish.",
       "Identify rooms, feature walls and colour transitions, and note where the existing trim and ceiling colour will remain."
     ],
     "condition": "Dents, nail holes, loose coatings and stains affect preparation. Larger cracks or signs of active moisture need assessment before a new finish is applied.",
@@ -194,11 +194,11 @@
     "scope": [
       [
         "Room walls",
-        "Include the room walls and colour changes listed in your quote, finished for each room's use."
+        "Include the room walls and colour changes listed in your quote."
       ],
       [
         "Feature walls",
-        "Plan a feature wall, or accent wall, in a contrasting colour. Deep colours need a tinted primer, and sometimes a third coat."
+        "Plan a contrasting colour with clear stopping points and transitions."
       ],
       [
         "Hallways & connecting spaces",
@@ -218,7 +218,7 @@
       [
         "shield",
         "Protect & prepare",
-        "Protect floors and furnishings, fill agreed minor imperfections, sand and caulk edges, and prime as required — this is how a room is painted before colour goes on."
+        "Protect floors and furnishings, fill agreed minor imperfections, prepare edges and prime areas as required by the coating system."
       ],
       [
         "paint",
@@ -233,7 +233,7 @@
       ],
       [
         "Which sheen is right for interior walls?",
-        "Flat suits ceilings. Matte or eggshell suits living room and bedroom walls, satin suits kitchens and bathrooms because it washes well, and semi-gloss suits trim and doors. Room use, light and the product system guide the choice, so compare samples before choosing."
+        "Room use, light and the product system guide the choice. A more washable finish may suit busy spaces, while lower sheens can change how imperfections appear. Compare samples and product care guidance before choosing."
       ],
       [
         "What preparation is included?",
@@ -250,10 +250,6 @@
       [
         "Do you serve my Ontario community?",
         "Explore the 25-community directory across the GTA and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
-      ],
-      [
-        "How long does it take to paint a room?",
-        "It depends on the work — rooms and square feet, the condition of the walls, and how much preparation the rooms need. We agree the scope with you before work begins."
       ]
     ],
     "images": {
@@ -723,12 +719,12 @@
   "cabinet-painting": {
     "accent": "Cabinet",
     "rest": " Painting",
-    "lead": "Yes, sound kitchen cabinets can be painted.",
+    "lead": "A fresh finish for the cabinetry that already works for you.",
     "heading": [
-      "Kitchen cabinet painting that keeps ",
-      "the layout you love."
+      "Keep the layout. ",
+      "Reconsider the finish."
     ],
-    "overview": "Kitchen cabinet painting starts with the material and the existing finish.",
+    "overview": "Sound kitchen cabinets, bathroom vanities and built-in storage can be considered for a new colour. Review the material, existing finish and components before planning a cabinet coating.",
     "good": [
       "The cabinetry is sound and still meets your storage needs.",
       "The material and existing finish suit a compatible coating.",
@@ -753,17 +749,17 @@
         "Agree on doors, drawer fronts, exposed frames, end panels and built-ins. Cabinet interiors are discussed separately."
       ]
     ],
-    "local": "Our kitchen cabinet painters work across the GTA. Small 1950s kitchens in Willowdale, Bayview Village and Don Mills, and Etobicoke’s Humber Bay Shores condo galleys, are the common cabinet painting Toronto jobs. In Mississauga, Erin Mills and Meadowvale family kitchens. In Oakville, Glen Abbey and River Oaks kitchens pair white cabinets with a navy island. Hamilton Mountain bungalows, Durand and Kirkendall homes, Burlington’s Millcroft and Orchard kitchens, and Milton’s Beaty, Dempsey and Clarke kitchens suit the same sprayed approach.",
+    "local": "Share your Ontario community and photos of the installed cabinetry, full room and worn areas. Identify kitchens, vanities and built-ins so the components and room access can be discussed.",
     "cost": "The number of doors and drawer fronts, exposed frame and panel area, condition and room protection affect the work.",
     "timing": "Discuss room access, ventilation and the coating’s drying and curing guidance before returning the cabinetry to everyday use.",
     "photoPrompt": "Installed cabinets, visible frames and panels, complete room views and worn areas.",
     "scopeNote": "Cabinet interiors, shelves, repairs and hardware changes are discussed separately.",
     "title": "Cabinet Painting",
     "surface": "cabinetry",
-    "intro": "Refresh suitable kitchen cabinets, bathroom vanities and built-in storage with a coordinated painted finish. Cabinet painting is part of our interior painting service, with preparation and coverage defined for the cabinetry you have. Our cabinet work carries a 5-year warranty, with a 4.9 out of 5 Google rating from 54 reviews and 5.0 out of 5 on HomeStars from 96 reviews.",
+    "intro": "Refresh suitable kitchen cabinets, bathroom vanities and built-in storage with a coordinated painted finish. Cabinet painting is part of our interior painting service, with preparation and coverage defined for the cabinetry you have.",
     "paragraphs": [
-      "Sound kitchen cabinets, bathroom vanities and built-in storage can be considered for a new colour. Compare colour samples with flooring, worktops and other fixed materials before choosing a cabinet finish. How kitchen cabinets are painted — degreased, sanded, bond-primed and sprayed — decides how the finish holds up.",
-      "Doors, drawer fronts, frames and exposed panels need a clear scope. Cabinet interiors, shelves, repairs and hardware changes are discussed separately. Cabinet refinishing is a different job from painting."
+      "Compare colour samples with flooring, worktops and other fixed materials before choosing a cabinet finish. A suitable coating can update the appearance while retaining sound existing storage.",
+      "Doors, drawer fronts, frames and exposed panels need a clear scope. Cabinet interiors, shelves, repairs and hardware changes are discussed separately."
     ],
     "condition": "Peeling films, swelling, moisture damage and structural problems may need repair or replacement before painting is considered.",
     "material": "Wood, MDF, laminate and factory finishes need individual assessment for adhesion and coating compatibility.",
@@ -795,12 +791,12 @@
       [
         "shield",
         "Protect the room & prepare",
-        "Agree on access and protect floors, worktops and adjoining finishes. Doors and drawer fronts come off to be sprayed; boxes are degreased, sanded and bond-primed in place, with the primer matched to the material."
+        "Agree on access and protect floors, worktops and adjoining finishes. Clean and prepare suitable surfaces, with priming specified for the existing material and coating system."
       ],
       [
         "paint",
         "Finish & follow curing guidance",
-        "Spray a compatible cabinetry coating in thin coats for a smooth finish, then reinstall the doors and drawer fronts. Follow the system’s drying, curing and cleaning guidance before everyday handling."
+        "Use a compatible cabinetry coating on the agreed surfaces. Follow the system’s drying, curing and cleaning guidance before everyday handling."
       ]
     ],
     "faqs": [
@@ -827,14 +823,6 @@
       [
         "Do you serve my Ontario community?",
         "Explore the 25-community directory across the GTA and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
-      ],
-      [
-        "Should I spray or brush my cabinets?",
-        "For cabinet painting, spraying gives the smoothest finish on doors and drawer fronts; brushes suit small touch-ups."
-      ],
-      [
-        "Can you paint thermofoil cabinets?",
-        "Firmly attached thermofoil can be painted with a bonding primer. Peeling thermofoil cannot be saved by paint and needs repair or replacement first."
       ]
     ],
     "images": {
