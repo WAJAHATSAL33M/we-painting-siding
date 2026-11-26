@@ -30,4 +30,4 @@ All prompts request photorealistic architectural photography, with no labels, UI
 - JS/JSX and CSS parse checks; asset dimensions and marker coordinates checked.
 - All 12 selections exercised against the rendered React component to check selected states, content and service links.
 - Local full build is blocked by the environment's `uv_resident_set_memory` error. Managed browser preview is unavailable because its preview daemon mailbox is absent. Do not report a visual device/browser pass from this environment.
-- Production compilation and deployed page/image checks are performed through the normal GitHub/Vercel workflow.
+- Production compilation and deployed page/image checks are performed through the normal GitHub-to-Hostinger workflow.
