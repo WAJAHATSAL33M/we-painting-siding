@@ -146,12 +146,12 @@
   "wall-painting": {
     "accent": "Wall",
     "rest": " Painting",
-    "lead": "Bring rooms together with colour chosen for the way you live.",
+    "lead": "Yes, sound interior walls can be painted. Interior wall painting refreshes a room, a feature wall or the walls.",
     "heading": [
-      "Fresh colour, planned around ",
-      "your walls."
+      "Interior wall painting, planned around ",
+      "your rooms."
     ],
-    "overview": "A single room, feature wall or connected living area can change with a considered finish. The light, existing surface and everyday use guide the preparation and sheen.",
+    "overview": "Interior house painting changes a room through its walls. A living room, kitchen, bathroom or bedroom can change with a considered finish. Our work carries 4.9 out of 5 from 54 Google reviews. The light, existing surface and everyday use guide the preparation and sheen.",
     "good": [
       "Walls have a sound, suitable existing finish.",
       "You want to refresh a room or coordinate connected spaces.",
@@ -169,23 +169,23 @@
       ],
       [
         "Choose sheen for daily use",
-        "Compare the product’s appearance and care guidance with room use, light and existing imperfections."
+        "Flat suits ceilings, matte or eggshell suits living room and bedroom walls, and satin or semi-gloss suits trim and doors. Kitchens and bathrooms take washable satin for grease and humidity."
       ],
       [
         "Plan edges and colour transitions",
         "Agree which walls change colour and how they meet ceilings, trim, stairwells and adjoining rooms."
       ]
     ],
-    "local": "Share your Ontario community, room list and photos showing furniture, ceiling height and existing wall condition. Include any feature-wall or colour-transition ideas.",
+    "local": "In Toronto, wall painting means pre-1960 plaster walls and trim in the Annex and Cabbagetown, and downtown condos where low-odour finishes suit small rooms. North York brings 1950s bungalows in Willowdale and Don Mills, Etobicoke brings Humber Bay Shores condos, and Mississauga, Oakville and Hamilton bring family homes.",
     "cost": "Room sizes, colour changes, wall condition and the amount of protection shape a wall-painting scope.",
     "timing": "Discuss room access, ventilation, drying intervals and furniture arrangements before work begins.",
     "photoPrompt": "Room views, feature walls, colour transitions and close-ups of dents or stains.",
     "scopeNote": "Ceilings, doors and trim can be coordinated, but each included surface is listed separately.",
     "title": "Wall Painting",
     "surface": "interior walls",
-    "intro": "Refresh a single room, a feature wall or the walls throughout your home. We plan colours, preparation and sheen around the light, wall condition and everyday use of each space.",
+    "intro": "House painting inside starts with the walls. We paint interior walls in living rooms, kitchens, bathrooms and bedrooms, planning colours, preparation and sheen around the light, wall condition and everyday use of each room.",
     "paragraphs": [
-      "Plaster, drywall and previously painted surfaces can need different preparation. We review the existing coating and agree on a suitable primer and finish.",
+      "Plaster, drywall and previously painted surfaces can need different preparation, so we fill, sand, caulk and prime before any colour goes on. We review the existing coating and agree on a suitable primer and finish for each room.",
       "Identify rooms, feature walls and colour transitions, and note where the existing trim and ceiling colour will remain."
     ],
     "condition": "Dents, nail holes, loose coatings and stains affect preparation. Larger cracks or signs of active moisture need assessment before a new finish is applied.",
@@ -194,11 +194,11 @@
     "scope": [
       [
         "Room walls",
-        "Include the room walls and colour changes listed in your quote."
+        "Include the room walls and colour changes listed in your quote, finished for each room's use."
       ],
       [
         "Feature walls",
-        "Plan a contrasting colour with clear stopping points and transitions."
+        "Plan a feature wall, or accent wall, in a contrasting colour. Deep colours need a tinted primer, and sometimes a third coat."
       ],
       [
         "Hallways & connecting spaces",
@@ -218,7 +218,7 @@
       [
         "shield",
         "Protect & prepare",
-        "Protect floors and furnishings, fill agreed minor imperfections, prepare edges and prime areas as required by the coating system."
+        "Protect floors and furnishings, fill agreed minor imperfections, sand and caulk edges, and prime as required — this is how a room is painted before colour goes on."
       ],
       [
         "paint",
@@ -233,7 +233,7 @@
       ],
       [
         "Which sheen is right for interior walls?",
-        "Room use, light and the product system guide the choice. A more washable finish may suit busy spaces, while lower sheens can change how imperfections appear. Compare samples and product care guidance before choosing."
+        "Flat suits ceilings. Matte or eggshell suits living room and bedroom walls, satin suits kitchens and bathrooms because it washes well, and semi-gloss suits trim and doors. Room use, light and the product system guide the choice, so compare samples before choosing."
       ],
       [
         "What preparation is included?",
@@ -250,38 +250,49 @@
       [
         "Do you serve my Ontario community?",
         "Explore the 25-community directory across the GTA and surrounding areas. Include your city or postal code and project details to confirm property-specific availability."
+      ],
+      [
+        "How long does it take to paint a room?",
+        "It depends on the work — rooms and square feet, the condition of the walls, and how much preparation the rooms need. We agree the scope with you before work begins."
       ]
     ],
     "images": {
       "hero": {
         "src": "/images/home-v3/interior-overview.webp",
-        "alt": "Illustrative wall painting finish"
+        "alt": "Freshly painted soft blue walls in a living room in Ontario",
+        "title": "Freshly painted soft blue walls in a living room in Ontario"
       },
       "overview": {
         "src": "/images/home-v3/interior.webp",
-        "alt": "Interior finish detail for wall painting"
+        "alt": "Interior wall painting finish detail in a living room in Ontario",
+        "title": "Interior wall painting finish detail in a living room in Ontario"
       },
       "process": {
         "src": "/images/subservice-reference/interior-application.webp",
-        "alt": "Painter rolling an interior wall over protected flooring",
+        "alt": "Painter rolling an interior wall over protected flooring in Ontario",
         "width": 1440,
-        "height": 960
+        "height": 960,
+        "title": "Painter rolling an interior wall over protected flooring in Ontario"
       },
       "colour": {
         "src": "/images/interior-reference/dining.webp",
-        "alt": "Coordinated interior colour inspiration"
+        "alt": "Muted sage dining room walls with white trim in Ontario",
+        "title": "Muted sage dining room walls with white trim in Ontario"
       },
       "galleryA": {
         "src": "/images/cabinet/builtins.webp",
-        "alt": "Painted built-ins and room trim"
+        "alt": "Painted built-in shelving and room trim in Ontario",
+        "title": "Painted built-in shelving and room trim in Ontario"
       },
       "galleryB": {
         "src": "/images/approved-home/living.webp",
-        "alt": "Bright painted living room"
+        "alt": "Bright freshly painted living room walls with white trim in Ontario",
+        "title": "Bright freshly painted living room walls with white trim in Ontario"
       },
       "quote": {
         "src": "/images/v2/living.webp",
-        "alt": "White fireplace and room trim"
+        "alt": "White fireplace and freshly painted room trim in Ontario",
+        "title": "White fireplace and freshly painted room trim in Ontario"
       }
     }
   },
