@@ -1,0 +1,32 @@
+.warranty-hero { background: #e2f2fc; padding-block: clamp(24px, 4vw, 52px); }
+.warranty-hero .warranty-hero-inner { display: flex; justify-content: space-between; align-items: center; gap: 32px; }
+.warranty-hero h1 { margin: 0 0 12px; }
+.warranty-hero .ed-breadcrumb { padding: 0; margin-bottom: 14px; }
+.warranty-shield { flex: 0 0 auto; width: clamp(84px, 12vw, 150px); color: #0865a6; }
+.warranty-content { display: grid; gap: clamp(24px, 3vw, 40px); padding-block: clamp(24px, 3vw, 44px) clamp(40px, 6vw, 80px); }
+.warranty-content h2 { margin: 0 0 14px; }
+.warranty-notice { display: flex; align-items: flex-start; gap: 14px; padding: 16px 20px; border: 1px solid #85b7dd; border-radius: 9px; background: #edf7fd; }
+.warranty-notice > span { flex: 0 0 auto; color: #0865a6; font-size: 21px; line-height: 1.2; }
+.warranty-notice p { margin: 4px 0 0; }
+.warranty-coverage { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; list-style: none; margin: 0; padding: 0; }
+.warranty-coverage li { display: grid; align-content: start; gap: 4px; padding: clamp(12px, 2vw, 24px); border: 1px solid #c4d5e2; border-radius: 9px; }
+.warranty-coverage strong { color: #0865a6; font-size: clamp(22px, 3vw, 40px); line-height: 1.15; }
+.warranty-disclosure { margin-bottom: 8px; border: 1px solid #c4d5e2; border-radius: 8px; overflow: hidden; }
+.warranty-disclosure summary { display: flex; align-items: center; justify-content: space-between; gap: 12px; cursor: pointer; padding: 12px 16px; font-weight: 700; list-style: none; }
+.warranty-disclosure summary::-webkit-details-marker { display: none; }
+.warranty-disclosure summary::after { content: ''; flex: 0 0 auto; width: 8px; height: 8px; border-right: 2px solid; border-bottom: 2px solid; transform: rotate(45deg); }
+.warranty-disclosure[open] summary { background: #e2f2fc; }
+.warranty-disclosure[open] summary::after { transform: rotate(225deg); }
+.warranty-disclosure summary:focus-visible { outline-offset: -3px; }
+.warranty-disclosure > div { display: grid; gap: 10px; padding: 14px 16px; }
+.warranty-disclosure p, .warranty-disclosure ul { margin: 0; }
+.warranty-disclosure ul { list-style: disc; padding-inline-start: 1.25em; }
+.warranty-bottom { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(24px, 4vw, 56px); }
+.warranty-bottom a { color: #0865a6; text-decoration: underline; }
+.warranty-bottom .warranty-notice { margin-top: 16px; }
+
+@media (max-width: 767px) {
+  .warranty-shield { display: none; }
+  .warranty-coverage { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .warranty-bottom { grid-template-columns: minmax(0, 1fr); }
+}
